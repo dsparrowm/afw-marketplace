@@ -1,0 +1,359 @@
+<frame id="2:1734" name="Order Confirmation" x="7600" y="0" width="1440" height="1704">
+    <frame id="18:440" name="Background" x="0" y="0" width="1440" height="40">
+      <text id="18:441" name="FREE SHIPPING ON ORDERS OVER $150" x="587.283203125" y="10" width="265.4336242675781" height="20" />
+    </frame>
+    <frame id="18:442" name="Header" x="0" y="40" width="1440" height="123">
+      <frame id="18:443" name="Container" x="0" y="0" width="1440" height="80">
+        <frame id="18:444" name="Container" x="40" y="9" width="628.010009765625" height="62">
+          <frame id="18:445" name="Link" x="0" y="0" width="159" height="62">
+            <rounded-rectangle id="18:446" name="image 2" x="0" y="0" width="105" height="62" />
+          </frame>
+          <frame id="18:447" name="Nav" x="191" y="21" width="437.010009765625" height="20">
+            <frame id="18:448" name="Link" x="0" y="0" width="35" height="20">
+              <text id="18:449" name="Shop" x="0" y="0" width="35" height="20" />
+            </frame>
+            <frame id="18:450" name="Link" x="59" y="0" width="89.01000213623047" height="20">
+              <text id="18:451" name="Categories" x="0" y="0" width="75" height="20" />
+              <frame id="18:452" name="Img" x="79.01000213623047" y="5" width="10" height="10" />
+            </frame>
+            <frame id="18:454" name="Link" x="172.010009765625" y="0" width="38" height="20">
+              <text id="18:455" name="Deals" x="0" y="0" width="38" height="20" />
+            </frame>
+            <frame id="18:456" name="Link" x="234.010009765625" y="0" width="83" height="20">
+              <text id="18:457" name="New Arrivals" x="0" y="0" width="83" height="20" />
+            </frame>
+            <frame id="18:458" name="Link" x="341.010009765625" y="0" width="96" height="20">
+              <text id="18:459" name="Wholesale" x="25" y="0" width="71" height="20" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="18:460" name="Container" x="668.010009765625" y="7.5" width="233.489990234375" height="65">
+          <frame id="18:461" name="Container" x="0" y="0" width="233.489990234375" height="65">
+            <frame id="18:462" name="Input" x="0" y="0" width="233.489990234375" height="65">
+              <frame id="18:463" name="Container" x="45" y="13" width="171.489990234375" height="38">
+                <text id="18:464" name="Search products, categories, or brands..." x="0" y="0" width="171.489990234375" height="38" />
+              </frame>
+            </frame>
+            <frame id="18:465" name="Container" x="0" y="0" width="32" height="65">
+              <frame id="18:466" name="Img" x="16" y="24.5" width="16" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="18:468" name="Container" x="901.5" y="16" width="498.5" height="48">
+          <frame id="18:469" name="Container" x="0" y="6" width="99" height="36">
+            <frame id="18:470" name="Canada" x="12" y="13" width="20" height="10">
+              <frame id="18:471" name="Flag_of_Canada_%28Pantone%29.svg" x="0" y="0" width="20" height="10" />
+            </frame>
+            <frame id="18:474" name="Container" x="40" y="8" width="29" height="20">
+              <text id="18:475" name="CAD" x="0" y="0" width="29" height="20" />
+            </frame>
+            <frame id="18:476" name="Img" x="77" y="13" width="10" height="10" />
+          </frame>
+          <frame id="18:478" name="Container" x="119" y="0" width="247.5" height="48">
+            <frame id="18:479" name="Img" x="12" y="17" width="10.5" height="14" />
+            <frame id="18:501" name="Container" x="30.5" y="8" width="205" height="32">
+              <frame id="18:502" name="Link" x="0" y="6" width="69" height="20">
+                <text id="18:503" name="My Orders" x="0" y="0" width="69" height="20" />
+              </frame>
+              <frame id="18:504" name="Link" x="93" y="6" width="56" height="20">
+                <text id="18:505" name="Support" x="0" y="0" width="56" height="20" />
+              </frame>
+              <frame id="18:506" name="Border" x="173" y="0" width="32" height="32">
+                <frame id="18:507" name="User" x="1" y="1" width="30" height="30" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="18:483" name="Container" x="386.5" y="2" width="112" height="44">
+            <frame id="18:487" name="Button" x="0" y="0" width="112" height="44">
+              <frame id="18:488" name="Img" x="20" y="14" width="18" height="16" />
+              <frame id="18:490" name="i class=&quot;fa-solid fa-cart-shopping&quot;&gt;&lt;/i&gt; Font Awesome fontawesome.com" x="46" y="10" width="46" height="24">
+                <text id="18:491" name="$0.00" x="0" y="0" width="46" height="24" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="18:492" name="category-row" x="0" y="80" width="1440" height="42">
+        <text id="18:493" name="Shop All" x="80" y="12" width="57" height="18" />
+        <text id="18:494" name="Grains &amp; Flours" x="169" y="12" width="99" height="18" />
+        <text id="18:495" name="Spices &amp; Seasonings" x="300" y="12" width="137" height="18" />
+        <text id="18:496" name="Oils &amp; Sauces" x="469" y="12" width="90" height="18" />
+        <text id="18:497" name="Snacks" x="591" y="12" width="49" height="18" />
+        <text id="18:498" name="Beverages" x="672" y="12" width="70" height="18" />
+        <text id="18:499" name="Fresh Produce" x="774" y="12" width="95" height="18" />
+      </frame>
+    </frame>
+    <frame id="2:1748" name="Main" x="120" y="163" width="1200" height="1433">
+      <frame id="2:1749" name="Container" x="24" y="64" width="1152" height="274">
+        <frame id="2:1750" name="Background" x="536" y="0" width="80" height="80">
+          <frame id="2:1751" name="Img" x="24.25" y="22" width="31.5" height="36" />
+        </frame>
+        <frame id="2:1753" name="Heading 1" x="0" y="88" width="1152" height="56">
+          <text id="2:1754" name="Order Confirmed!" x="426.5" y="16" width="299" height="40" />
+        </frame>
+        <frame id="2:1755" name="Container" x="0" y="152" width="1152" height="28">
+          <text id="2:1756" name="Order #AFW-10482" x="482" y="0" width="188" height="28" />
+        </frame>
+        <frame id="2:1757" name="Paragraph" x="352" y="188" width="448" height="86">
+          <text id="2:1758" name="Thank you for your order! We&#39;ve sent a confirmation email to" x="0.5" y="8" width="447" height="26" />
+          <text id="2:1759" name="customer@email.com. We&#39;ll let you know once your items
+are on their way." x="8" y="34" width="432" height="52" />
+        </frame>
+      </frame>
+      <frame id="2:1760" name="Container" x="216" y="402" width="768" height="72">
+        <rounded-rectangle id="2:1761" name="Background" x="0" y="34" width="768" height="4" />
+        <rounded-rectangle id="2:1762" name="Background" x="0" y="34" width="192" height="4" />
+        <frame id="2:1763" name="Container" x="0" y="0" width="116" height="72">
+          <frame id="2:1764" name="Background" x="38" y="0" width="40" height="40">
+            <rounded-rectangle id="2:1765" name="Overlay+Shadow" x="0" y="0" width="40" height="40" />
+            <frame id="2:1766" name="Img" x="13.875" y="13" width="12.25" height="14" />
+          </frame>
+          <frame id="2:1768" name="Margin" x="0" y="40" width="116" height="32">
+            <text id="2:1769" name="Order Confirmed" x="0" y="12" width="116" height="20" />
+          </frame>
+        </frame>
+        <frame id="2:1770" name="Container" x="267.33331298828125" y="0" width="76" height="72">
+          <frame id="2:1771" name="Background+Border" x="18" y="0" width="40" height="40">
+            <rounded-rectangle id="2:1772" name="Background" x="15" y="15" width="10" height="10" />
+          </frame>
+          <frame id="2:1773" name="Margin" x="0" y="40" width="76" height="32">
+            <text id="2:1774" name="Processing" x="0" y="12" width="76" height="20" />
+          </frame>
+        </frame>
+        <frame id="2:1775" name="Container" x="494.6666259765625" y="0" width="57" height="72">
+          <frame id="2:1776" name="Background+Border" x="8.5" y="0" width="40" height="40">
+            <rounded-rectangle id="2:1777" name="Background" x="15" y="15" width="10" height="10" />
+          </frame>
+          <frame id="2:1778" name="Margin" x="0" y="40" width="57" height="32">
+            <text id="2:1779" name="Shipped" x="0" y="12" width="57" height="20" />
+          </frame>
+        </frame>
+        <frame id="2:1780" name="Container" x="702.9999389648438" y="0" width="65" height="72">
+          <frame id="2:1781" name="Background+Border" x="12.5" y="0" width="40" height="40">
+            <rounded-rectangle id="2:1782" name="Background" x="15" y="15" width="10" height="10" />
+          </frame>
+          <frame id="2:1783" name="Margin" x="0" y="40" width="65" height="32">
+            <text id="2:1784" name="Delivered" x="0" y="12" width="65" height="20" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2:1785" name="Container" x="24" y="538" width="1152" height="783">
+        <frame id="2:1786" name="Container" x="0" y="16" width="704" height="597">
+          <frame id="2:1787" name="Background+Border+Shadow" x="0" y="0" width="704" height="270">
+            <frame id="2:1788" name="Container" x="33" y="33" width="638" height="40">
+              <frame id="2:1789" name="Background" x="0" y="0" width="40" height="40">
+                <frame id="2:1790" name="Img" x="10" y="12" width="20" height="16" />
+              </frame>
+              <frame id="2:1792" name="Heading 3" x="52" y="6" width="202" height="28">
+                <text id="2:1793" name="Delivery Information" x="0" y="0" width="202" height="28" />
+              </frame>
+            </frame>
+            <frame id="2:1794" name="Container" x="33" y="97" width="638" height="140">
+              <frame id="2:1795" name="Container" x="0" y="0" width="303" height="140">
+                <frame id="2:1796" name="Container" x="0" y="0" width="303" height="16">
+                  <text id="2:1797" name="Shipping Address" x="0" y="0" width="303" height="16" />
+                </frame>
+                <frame id="2:1798" name="Container" x="0" y="16" width="303" height="32">
+                  <text id="2:1799" name="John Doe" x="0" y="8" width="303" height="24" />
+                </frame>
+                <frame id="2:1800" name="Container" x="0" y="48" width="303" height="78">
+                  <text id="2:1801" name="123 Front St W
+Toronto, ON M5V 2L7
+Canada" x="0" y="0" width="303" height="78" />
+                </frame>
+              </frame>
+              <frame id="2:1802" name="Container" x="335" y="0" width="303" height="140">
+                <frame id="2:1803" name="Container" x="0" y="0" width="303" height="68">
+                  <frame id="2:1804" name="Container" x="0" y="0" width="303" height="16">
+                    <text id="2:1805" name="Delivery Method" x="0" y="0" width="303" height="16" />
+                  </frame>
+                  <frame id="2:1806" name="Container" x="0" y="16" width="303" height="32">
+                    <text id="2:1807" name="Ship (Courier)" x="0" y="8" width="303" height="24" />
+                  </frame>
+                  <frame id="2:1808" name="Container" x="0" y="48" width="303" height="20">
+                    <text id="2:1809" name="Standard Ground Shipping" x="0" y="0" width="303" height="20" />
+                  </frame>
+                </frame>
+                <frame id="2:1810" name="Container" x="0" y="92" width="303" height="48">
+                  <frame id="2:1811" name="Container" x="0" y="0" width="303" height="16">
+                    <text id="2:1812" name="Estimated Arrival" x="0" y="0" width="303" height="16" />
+                  </frame>
+                  <frame id="2:1813" name="Container" x="0" y="24" width="303" height="24">
+                    <frame id="2:1814" name="Img" x="0" y="4" width="14" height="16" />
+                    <text id="2:1816" name="Sep 2 – 5, 2024" x="22" y="0" width="116" height="24" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="2:1817" name="Background+Border+Shadow" x="0" y="302" width="704" height="175">
+            <frame id="2:1818" name="Container" x="33" y="33" width="638" height="40">
+              <frame id="2:1819" name="Background" x="0" y="0" width="40" height="40">
+                <frame id="2:1820" name="Img" x="11" y="12" width="18" height="16" />
+              </frame>
+              <frame id="2:1822" name="Heading 3" x="52" y="6" width="208" height="28">
+                <text id="2:1823" name="Payment Information" x="0" y="0" width="208" height="28" />
+              </frame>
+            </frame>
+            <frame id="2:1824" name="Container" x="33" y="97" width="638" height="45">
+              <frame id="2:1825" name="Border" x="0" y="0" width="53" height="45">
+                <frame id="2:1826" name="Img" x="13" y="9" width="27" height="24" />
+              </frame>
+              <frame id="2:1828" name="Container" x="69" y="2.5" width="215" height="40">
+                <frame id="2:1829" name="Container" x="0" y="0" width="215" height="20">
+                  <text id="2:1830" name="Visa ending in 4242" x="0" y="0" width="140" height="20" />
+                </frame>
+                <frame id="2:1831" name="Container" x="0" y="20" width="215" height="20">
+                  <text id="2:1832" name="Billing matches shipping address" x="0" y="0" width="215" height="20" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="2:1833" name="Container" x="0" y="509" width="704" height="88">
+            <frame id="2:1834" name="Button" x="0" y="16" width="342" height="72">
+              <rounded-rectangle id="2:1835" name="Button:shadow" x="0" y="0" width="342" height="72" />
+              <frame id="2:1836" name="Img" x="88.875" y="27" width="20.25" height="18" />
+              <text id="2:1838" name="Track My Order" x="121.125" y="22" width="132" height="28" />
+            </frame>
+            <frame id="2:1839" name="Button" x="358" y="16" width="346" height="72">
+              <text id="2:1840" name="Continue Shopping" x="86.5" y="22" width="173" height="28" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="2:1841" name="Container" x="752" y="16" width="400" height="767">
+          <frame id="2:1842" name="Background+Border" x="0" y="0" width="400" height="767">
+            <rounded-rectangle id="2:1843" name="Overlay+Shadow" x="0" y="0" width="400" height="767" />
+            <frame id="2:1844" name="Heading 2" x="33" y="33" width="334" height="28">
+              <text id="2:1845" name="Items in Order" x="0" y="0" width="334" height="28" />
+            </frame>
+            <frame id="2:1846" name="Container" x="33" y="93" width="334" height="240">
+              <frame id="2:1847" name="Container" x="0" y="0" width="334" height="64">
+                <frame id="2:1848" name="Background+Border" x="0" y="0" width="64" height="64">
+                  <frame id="2:1849" name="organic Nigerian palm oil in clear bottle, african grocery product" x="8" y="8" width="48" height="48" />
+                </frame>
+                <frame id="2:1850" name="Container" x="80" y="0" width="254" height="64">
+                  <frame id="2:1851" name="Container" x="0" y="0" width="254" height="18">
+                    <text id="2:1852" name="Organic Nigerian Palm Oil" x="0" y="0" width="254" height="18" />
+                  </frame>
+                  <frame id="2:1853" name="Container" x="0" y="22" width="254" height="16">
+                    <text id="2:1854" name="1L • Qty: 1" x="0" y="0" width="254" height="16" />
+                  </frame>
+                  <frame id="2:1855" name="Container" x="0" y="42" width="254" height="20">
+                    <text id="2:1856" name="$18.99" x="0" y="0" width="254" height="20" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="2:1857" name="Container" x="0" y="88" width="334" height="64">
+                <frame id="2:1858" name="Background+Border" x="0" y="0" width="64" height="64">
+                  <frame id="2:1859" name="honey beans in burlap sack or bag, african grocery product" x="8" y="8" width="48" height="48" />
+                </frame>
+                <frame id="2:1860" name="Container" x="80" y="0" width="254" height="64">
+                  <frame id="2:1861" name="Container" x="0" y="0" width="254" height="18">
+                    <text id="2:1862" name="Honey Beans (Oloyin)" x="0" y="0" width="254" height="18" />
+                  </frame>
+                  <frame id="2:1863" name="Container" x="0" y="22" width="254" height="16">
+                    <text id="2:1864" name="1kg • Qty: 2" x="0" y="0" width="254" height="16" />
+                  </frame>
+                  <frame id="2:1865" name="Container" x="0" y="42" width="254" height="20">
+                    <text id="2:1866" name="$29.98" x="0" y="0" width="254" height="20" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="2:1867" name="Container" x="0" y="176" width="334" height="64">
+                <frame id="2:1868" name="Background+Border" x="0" y="0" width="64" height="64">
+                  <frame id="2:1869" name="yellow garri in bag, West African food product" x="8" y="8" width="48" height="48" />
+                </frame>
+                <frame id="2:1870" name="Container" x="80" y="0" width="254" height="64">
+                  <frame id="2:1871" name="Container" x="0" y="0" width="254" height="18">
+                    <text id="2:1872" name="Premium Yellow Garri" x="0" y="0" width="254" height="18" />
+                  </frame>
+                  <frame id="2:1873" name="Container" x="0" y="22" width="254" height="16">
+                    <text id="2:1874" name="2kg • Qty: 4" x="0" y="0" width="254" height="16" />
+                  </frame>
+                  <frame id="2:1875" name="Container" x="0" y="42" width="254" height="20">
+                    <text id="2:1876" name="$75.96" x="0" y="0" width="254" height="20" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="2:1877" name="HorizontalBorder" x="33" y="365" width="334" height="246">
+              <frame id="2:1878" name="Container" x="0" y="25" width="334" height="20">
+                <frame id="2:1879" name="Container" x="0" y="0" width="60" height="20">
+                  <text id="2:1880" name="Subtotal" x="0" y="0" width="60" height="20" />
+                </frame>
+                <frame id="2:1881" name="Container" x="281" y="0" width="53" height="20">
+                  <text id="2:1882" name="$148.73" x="0" y="0" width="53" height="20" />
+                </frame>
+              </frame>
+              <frame id="2:1883" name="Container" x="0" y="61" width="334" height="20">
+                <frame id="2:1884" name="Container" x="0" y="0" width="94" height="20">
+                  <text id="2:1885" name="Bulk Discount" x="0" y="0" width="94" height="20" />
+                </frame>
+                <frame id="2:1886" name="Container" x="281" y="0" width="53" height="20">
+                  <text id="2:1887" name="-$18.00" x="0" y="0" width="53" height="20" />
+                </frame>
+              </frame>
+              <frame id="2:1888" name="Container" x="0" y="97" width="334" height="20">
+                <frame id="2:1889" name="Container" x="0" y="0" width="61" height="20">
+                  <text id="2:1890" name="Shipping" x="0" y="0" width="61" height="20" />
+                </frame>
+                <frame id="2:1891" name="Container" x="288" y="0" width="46" height="20">
+                  <text id="2:1892" name="$12.50" x="0" y="0" width="46" height="20" />
+                </frame>
+              </frame>
+              <frame id="2:1893" name="Container" x="0" y="133" width="334" height="20">
+                <frame id="2:1894" name="Container" x="0" y="0" width="96" height="20">
+                  <text id="2:1895" name="Estimated Tax" x="0" y="0" width="96" height="20" />
+                </frame>
+                <frame id="2:1896" name="Container" x="296" y="0" width="38" height="20">
+                  <text id="2:1897" name="$5.37" x="0" y="0" width="38" height="20" />
+                </frame>
+              </frame>
+              <frame id="2:1898" name="HorizontalBorder" x="0" y="169" width="334" height="77">
+                <text id="2:1899" name="Paid Total" x="0" y="36" width="98.57377624511719" height="24" />
+                <frame id="2:1900" name="Container" x="215.52000427246094" y="25" width="119" height="52.5">
+                  <text id="2:1901" name="$148.60" x="0" y="0" width="119" height="36" />
+                  <frame id="2:1902" name="Container" x="0" y="36.5" width="119" height="16">
+                    <text id="2:1903" name="CAD" x="95" y="0" width="24" height="16" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="2:1904" name="Overlay" x="33" y="643" width="334" height="91">
+              <frame id="2:1905" name="Img:margin" x="16" y="16" width="16" height="20">
+                <frame id="2:1906" name="Img" x="0" y="4" width="16" height="16" />
+              </frame>
+              <frame id="2:1908" name="i class=&quot;fa-solid fa-circle-info text-brand-organic mt-1&quot;&gt;&lt;/i&gt; Font Awesome fontawesome.com" x="44" y="16" width="275.0299987792969" height="59">
+                <text id="2:1909" name="Need to make changes? You can modify or
+cancel your order within the next 2 hours from
+your account dashboard." x="0" y="0" width="258" height="59" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="2:1910" name="Footer" x="0" y="1596" width="1440" height="108">
+      <frame id="2:1911" name="Container" x="120" y="40" width="1200" height="28">
+        <frame id="2:1912" name="Container" x="24" y="0" width="44" height="28">
+          <frame id="2:1915" name="i class=&quot;fa-solid fa-leaf text-brand-organic&quot;&gt;&lt;/i&gt; Font Awesome fontawesome.com" x="0" y="0" width="44" height="28">
+            <text id="2:1916" name="AFW" x="0" y="0" width="44" height="28" />
+          </frame>
+        </frame>
+        <frame id="2:1917" name="Container" x="269.5" y="4" width="352" height="20">
+          <text id="2:1918" name="© 2024 African Food Warehouse. All rights reserved." x="0" y="0" width="352" height="20" />
+        </frame>
+        <frame id="2:1919" name="Container" x="823" y="4" width="353" height="20">
+          <frame id="2:1920" name="Link" x="0" y="0" width="94" height="20">
+            <text id="2:1921" name="Privacy Policy" x="0" y="0" width="94" height="20" />
+          </frame>
+          <frame id="2:1922" name="Link" x="126" y="0" width="113" height="20">
+            <text id="2:1923" name="Terms of Service" x="0" y="0" width="113" height="20" />
+          </frame>
+          <frame id="2:1924" name="Link" x="271" y="0" width="82" height="20">
+            <text id="2:1925" name="Help Center" x="0" y="0" width="82" height="20" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>

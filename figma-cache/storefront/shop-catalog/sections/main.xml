@@ -1,0 +1,788 @@
+<frame id="2:242" name="Main" x="0" y="164" width="1440" height="1774">
+      <frame id="2:243" name="Nav" x="40" y="32" width="1360" height="20">
+        <frame id="2:244" name="Link" x="0" y="0" width="39" height="20">
+          <text id="2:245" name="Home" x="0" y="0" width="39" height="20" />
+        </frame>
+        <frame id="2:246" name="Img" x="47" y="5" width="6.25" height="10" />
+        <frame id="2:248" name="i class=&quot;fa-solid fa-chevron-right text-[10px]&quot;&gt;&lt;/i&gt; Font Awesome fontawesome.com" x="61.25" y="0" width="35" height="20">
+          <text id="2:249" name="Shop" x="0" y="0" width="35" height="20" />
+        </frame>
+      </frame>
+      <frame id="2:250" name="Container" x="40" y="76" width="1360" height="124">
+        <frame id="2:251" name="Heading 1" x="0" y="0" width="1360" height="40">
+          <text id="2:252" name="Shop African Food" x="0" y="0" width="1360" height="40" />
+        </frame>
+        <frame id="2:253" name="Container" x="0" y="52" width="768" height="56">
+          <text id="2:254" name="Explore 100% organic foods sourced from farms and producers across Nigeria and Africa.
+Fresh, authentic, and delivered to your door." x="0" y="0" width="741" height="56" />
+        </frame>
+      </frame>
+      <frame id="2:255" name="Background" x="40" y="224" width="1360" height="56">
+        <frame id="2:256" name="Background" x="389.2740478515625" y="18.5" width="40.451873779296875" height="19">
+          <text id="2:257" name="NEW" x="8" y="2" width="24.451873779296875" height="15" />
+        </frame>
+        <frame id="2:258" name="Container" x="445.7259216308594" y="16" width="423" height="24">
+          <text id="2:259" name="FRESH FROM AFRICA — Discover our latest organic arrivals" x="0" y="0" width="423" height="24" />
+        </frame>
+        <frame id="2:260" name="Link" x="884.7259521484375" y="16" width="86" height="24">
+          <text id="2:261" name="Learn more" x="0" y="0" width="86" height="24" />
+        </frame>
+        <frame id="2:262" name="Container" x="1264" y="0" width="96" height="96">
+          <frame id="2:263" name="Img" x="0" y="0" width="96" height="96" />
+        </frame>
+      </frame>
+      <frame id="2:265" name="Container" x="40" y="304" width="1360" height="152">
+        <frame id="2:266" name="Container" x="0" y="16" width="1360" height="62">
+          <frame id="2:267" name="Input - i class=&quot;fa-solid fa-search absolute left-5 top-1/2 -translate-y-1/2 text-gray-400 text-lg&quot;&gt;&lt;/i&gt; Fon..." x="0" y="0" width="1360" height="62">
+            <frame id="2:268" name="Container" x="57" y="19" width="1278" height="24">
+              <text id="2:269" name="Search African foods, ingredients and more..." x="0" y="0" width="1278" height="24" />
+            </frame>
+          </frame>
+          <frame id="2:270" name="Img" x="20" y="22" width="18" height="18" />
+        </frame>
+        <frame id="2:272" name="Container" x="0" y="102" width="1360" height="50">
+          <frame id="2:273" name="Button" x="0" y="1" width="131" height="40">
+            <text id="2:274" name="All Products" x="24" y="10" width="83" height="20" />
+          </frame>
+          <frame id="2:275" name="Button" x="143" y="0" width="148" height="42">
+            <text id="2:276" name="Fresh Produce" x="25" y="11" width="98" height="20" />
+          </frame>
+          <frame id="2:277" name="Button" x="303" y="0" width="156" height="42">
+            <text id="2:278" name="Frozen Proteins" x="25" y="11" width="106" height="20" />
+          </frame>
+          <frame id="2:279" name="Button" x="471" y="0" width="144" height="42">
+            <text id="2:280" name="Grains &amp; Flour" x="25" y="11" width="94" height="20" />
+          </frame>
+          <frame id="2:281" name="Button" x="627" y="0" width="137" height="42">
+            <text id="2:282" name="Spices &amp; Oils" x="25" y="11" width="87" height="20" />
+          </frame>
+          <frame id="2:283" name="Button" x="776" y="0" width="158" height="42">
+            <text id="2:284" name="Snacks &amp; Drinks" x="25" y="11" width="108" height="20" />
+          </frame>
+          <frame id="2:285" name="Button" x="946" y="0" width="175" height="42">
+            <text id="2:286" name="Beauty &amp; Wellness" x="25" y="11" width="125" height="20" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2:287" name="Container" x="40" y="480" width="1360" height="1262">
+        <frame id="2:288" name="Aside" x="0" y="8" width="288" height="1254">
+          <frame id="2:289" name="Background+Border" x="0" y="0" width="288" height="800">
+            <frame id="2:290" name="Container" x="25" y="25" width="238" height="156">
+              <frame id="2:291" name="Heading 4" x="0" y="0" width="238" height="24">
+                <text id="2:292" name="Categories" x="0" y="0" width="87" height="24" />
+                <frame id="2:293" name="Img" x="228" y="7" width="10" height="10" />
+              </frame>
+              <frame id="2:295" name="Container" x="0" y="40" width="238" height="116">
+                <frame id="2:296" name="Label" x="0" y="0" width="238" height="20">
+                  <rounded-rectangle id="2:297" name="Input" x="0" y="0" width="20" height="20" />
+                  <frame id="2:298" name="Container" x="32" y="0" width="95" height="20">
+                    <text id="2:299" name="Fresh Produce" x="0" y="0" width="95" height="20" />
+                  </frame>
+                </frame>
+                <frame id="2:300" name="Label" x="0" y="32" width="238" height="20">
+                  <rounded-rectangle id="2:301" name="Input" x="0" y="0" width="20" height="20" />
+                  <frame id="2:302" name="Container" x="32" y="0" width="100" height="20">
+                    <text id="2:303" name="Tubers &amp; Roots" x="0" y="0" width="100" height="20" />
+                  </frame>
+                </frame>
+                <frame id="2:304" name="Label" x="0" y="64" width="238" height="20">
+                  <rounded-rectangle id="2:305" name="Input" x="0" y="0" width="20" height="20" />
+                  <frame id="2:306" name="Container" x="32" y="0" width="90" height="20">
+                    <text id="2:307" name="Grains &amp; Flour" x="0" y="0" width="90" height="20" />
+                  </frame>
+                </frame>
+                <frame id="2:308" name="Label" x="0" y="96" width="238" height="20">
+                  <rounded-rectangle id="2:309" name="Input" x="0" y="0" width="20" height="20" />
+                  <frame id="2:310" name="Container" x="32" y="0" width="96" height="20">
+                    <text id="2:311" name="Meat &amp; Poultry" x="0" y="0" width="96" height="20" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="2:312" name="Container" x="25" y="213" width="238" height="78">
+              <frame id="2:313" name="Heading 4" x="0" y="0" width="238" height="24">
+                <text id="2:314" name="Price Range" x="0" y="0" width="238" height="24" />
+              </frame>
+              <frame id="2:315" name="Container" x="0" y="40" width="238" height="38">
+                <frame id="2:316" name="Input" x="0" y="0" width="100.7699966430664" height="38">
+                  <frame id="2:317" name="Container" x="13" y="9" width="74.7699966430664" height="19">
+                    <text id="2:318" name="$ Min" x="0" y="0" width="74.7699966430664" height="19" />
+                  </frame>
+                </frame>
+                <frame id="2:319" name="Container" x="112.7699966430664" y="7" width="13" height="24">
+                  <text id="2:320" name="—" x="0" y="0" width="13" height="24" />
+                </frame>
+                <frame id="2:321" name="Input" x="137.76998901367188" y="0" width="100.75" height="38">
+                  <frame id="2:322" name="Container" x="13" y="9" width="74.75" height="19">
+                    <text id="2:323" name="$ Max" x="0" y="0" width="74.75" height="19" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="2:324" name="Container" x="25" y="323" width="238" height="92">
+              <frame id="2:325" name="Heading 4" x="0" y="0" width="238" height="24">
+                <text id="2:326" name="Availability" x="0" y="0" width="238" height="24" />
+              </frame>
+              <frame id="2:327" name="Container" x="0" y="40" width="238" height="52">
+                <frame id="2:328" name="Label" x="0" y="0" width="238" height="20">
+                  <rounded-rectangle id="2:329" name="Input" x="0" y="0" width="20" height="20" />
+                  <frame id="2:330" name="Container" x="32" y="0" width="53" height="20">
+                    <text id="2:331" name="In Stock" x="0" y="0" width="53" height="20" />
+                  </frame>
+                </frame>
+                <frame id="2:332" name="Label" x="0" y="32" width="238" height="20">
+                  <rounded-rectangle id="2:333" name="Input" x="0" y="0" width="20" height="20" />
+                  <frame id="2:334" name="Container" x="32" y="0" width="67" height="20">
+                    <text id="2:335" name="Low Stock" x="0" y="0" width="67" height="20" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="2:336" name="Container" x="25" y="447" width="238" height="124">
+              <frame id="2:337" name="Heading 4" x="0" y="0" width="238" height="24">
+                <text id="2:338" name="Purchase Type" x="0" y="0" width="238" height="24" />
+              </frame>
+              <frame id="2:339" name="Container" x="0" y="40" width="238" height="84">
+                <frame id="2:340" name="Button" x="0" y="0" width="238" height="38">
+                  <text id="2:341" name="Retail" x="17" y="9" width="40" height="20" />
+                </frame>
+                <frame id="2:342" name="Button" x="0" y="46" width="238" height="38">
+                  <text id="2:343" name="Bulk / Wholesale" x="17" y="9" width="113" height="20" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="2:344" name="Container" x="25" y="603" width="238" height="92">
+              <frame id="2:345" name="Heading 4" x="0" y="0" width="238" height="24">
+                <text id="2:346" name="Origin" x="0" y="0" width="238" height="24" />
+              </frame>
+              <frame id="2:347" name="Container" x="0" y="40" width="238" height="52">
+                <frame id="2:348" name="Label" x="0" y="0" width="238" height="20">
+                  <rounded-rectangle id="2:349" name="Input" x="0" y="0" width="20" height="20" />
+                  <frame id="2:350" name="Container" x="32" y="0" width="47" height="20">
+                    <text id="2:351" name="Nigeria" x="0" y="0" width="47" height="20" />
+                  </frame>
+                </frame>
+                <frame id="2:352" name="Label" x="0" y="32" width="238" height="20">
+                  <rounded-rectangle id="2:353" name="Input" x="0" y="0" width="20" height="20" />
+                  <frame id="2:354" name="Container" x="32" y="0" width="43" height="20">
+                    <text id="2:355" name="Ghana" x="0" y="0" width="43" height="20" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="2:356" name="Button" x="25" y="727" width="238" height="48">
+              <text id="2:357" name="Apply Filters" x="71" y="12" width="96" height="24" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="2:358" name="Container" x="328" y="8" width="1032" height="1254">
+          <frame id="2:359" name="Background+Border+Shadow" x="0" y="0" width="1032" height="76">
+            <frame id="2:360" name="Container" x="17" y="28" width="256" height="20">
+              <frame id="2:361" name="Container" x="0" y="0" width="88" height="20">
+                <text id="2:362" name="124 Products" x="0" y="0" width="88" height="20" />
+              </frame>
+              <frame id="2:363" name="Container" x="96" y="0" width="160" height="20">
+                <text id="2:364" name="showing in Grains &amp; Flour" x="0" y="0" width="160" height="20" />
+              </frame>
+            </frame>
+            <frame id="2:365" name="Container" x="739.010009765625" y="17" width="275.989990234375" height="42">
+              <frame id="2:366" name="Container" x="0" y="11" width="177.99000549316406" height="20">
+                <frame id="2:367" name="Container" x="0" y="0" width="54" height="20">
+                  <text id="2:368" name="Sort by:" x="0" y="0" width="54" height="20" />
+                </frame>
+                <frame id="2:369" name="Container" x="61.98999786376953" y="0" width="116" height="20">
+                  <text id="2:370" name="Recommended" x="0" y="0" width="102" height="20" />
+                  <frame id="2:371" name="Img" x="106" y="5" width="10" height="10" />
+                </frame>
+              </frame>
+              <frame id="2:373" name="Background+Border" x="201.99000549316406" y="0" width="74" height="42">
+                <frame id="2:374" name="Button" x="5" y="5" width="32" height="32">
+                  <frame id="2:375" name="Img" x="11" y="8" width="10" height="16" />
+                </frame>
+                <frame id="2:377" name="Button" x="37" y="5" width="32" height="32">
+                  <frame id="2:378" name="Img" x="8" y="8" width="16" height="16" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="2:380" name="Container" x="0" y="108" width="1032" height="1042">
+            <frame id="2:381" name="Background+Border+Shadow" x="0" y="0" width="240" height="509.5">
+              <frame id="2:382" name="Margin" x="21" y="21" width="198" height="216">
+                <frame id="2:383" name="Container" x="0" y="0" width="198" height="192">
+                  <frame id="2:384" name="premium quality bag of brown honey beans from nigeria isolated on white background" x="0" y="0" width="198" height="192" />
+                </frame>
+              </frame>
+              <frame id="2:385" name="Container" x="21" y="237" width="198" height="251.5">
+                <frame id="2:386" name="Margin" x="0" y="0" width="198" height="19">
+                  <frame id="2:387" name="Container" x="0" y="0" width="198" height="15">
+                    <frame id="2:388" name="Container" x="0" y="0" width="20.92999839782715" height="15">
+                      <text id="2:389" name="1kg" x="0" y="0" width="20.92999839782715" height="15" />
+                    </frame>
+                    <frame id="2:390" name="Container" x="24.92999839782715" y="0" width="8.150625228881836" height="15">
+                      <text id="2:391" name="•" x="0" y="0" width="8.150625228881836" height="15" />
+                    </frame>
+                    <frame id="2:392" name="Container" x="37.080623626708984" y="0" width="46.424625396728516" height="15">
+                      <text id="2:393" name="Nigeria" x="0" y="0" width="46.424625396728516" height="15" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:394" name="Heading 3:margin" x="0" y="19" width="198" height="31">
+                  <frame id="2:395" name="Heading 3" x="0" y="0" width="198" height="23">
+                    <text id="2:396" name="Honey Beans (Oloyin)" x="0" y="0" width="198" height="23" />
+                  </frame>
+                </frame>
+                <frame id="2:397" name="Margin" x="0" y="50" width="198" height="32">
+                  <frame id="2:398" name="Container" x="0" y="0" width="198" height="16">
+                    <rounded-rectangle id="2:399" name="Background" x="0" y="4" width="8" height="8" />
+                    <frame id="2:400" name="Container" x="14" y="0" width="48" height="16">
+                      <text id="2:401" name="In Stock" x="0" y="0" width="48" height="16" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:402" name="Margin" x="0" y="82" width="198" height="99">
+                  <frame id="2:403" name="Overlay" x="0" y="0" width="198" height="75">
+                    <frame id="2:404" name="Container" x="12" y="12" width="174" height="26">
+                      <frame id="2:405" name="Container" x="0" y="5" width="64" height="16">
+                        <text id="2:406" name="Retail Price" x="0" y="0" width="64" height="16" />
+                      </frame>
+                      <frame id="2:407" name="Paragraph" x="98.72000122070312" y="0" width="75.27999877929688" height="26">
+                        <text id="2:408" name="$14.99" x="0" y="0" width="55.442718505859375" height="24" />
+                        <text id="2:409" name="CAD" x="55.2599983215332" y="2" width="21" height="24" />
+                      </frame>
+                    </frame>
+                    <frame id="2:410" name="Container" x="12" y="42" width="174" height="21">
+                      <frame id="2:411" name="Container" x="0" y="2.5" width="59" height="16">
+                        <text id="2:412" name="Bulk (10+)" x="0" y="0" width="59" height="16" />
+                      </frame>
+                      <frame id="2:413" name="Paragraph" x="104.16000366210938" y="0" width="69.83999633789062" height="21">
+                        <text id="2:414" name="$12.50" x="0" y="-0.5" width="47.879154205322266" height="20" />
+                        <text id="2:415" name="/unit" x="47.72999954223633" y="1" width="23" height="20" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:416" name="Button" x="0" y="181" width="198" height="48">
+                  <frame id="2:417" name="Img" x="44" y="16" width="14" height="16" />
+                  <text id="2:419" name="Add to Cart" x="66" y="12" width="88" height="24" />
+                </frame>
+              </frame>
+              <frame id="2:420" name="Overlay" x="17" y="17" width="75.19702911376953" height="23">
+                <frame id="2:421" name="Img" x="8" y="7.5" width="8" height="8" />
+                <text id="2:423" name="Organic" x="20" y="4" width="47.19702911376953" height="15" />
+              </frame>
+              <frame id="2:424" name="Button" x="191" y="17" width="32" height="32">
+                <frame id="2:425" name="Img" x="8" y="8" width="16" height="16" />
+              </frame>
+            </frame>
+            <frame id="2:427" name="Background+Border+Shadow" x="264" y="0" width="240" height="509.5">
+              <frame id="2:428" name="Margin" x="21" y="21" width="198" height="216">
+                <frame id="2:429" name="Container" x="0" y="0" width="198" height="192">
+                  <frame id="2:430" name="box of yellow garri ijebu 2kg from nigeria authentic african food isolated" x="0" y="0" width="198" height="192" />
+                </frame>
+              </frame>
+              <frame id="2:431" name="Container" x="21" y="237" width="198" height="251.5">
+                <frame id="2:432" name="Margin" x="0" y="0" width="198" height="19">
+                  <frame id="2:433" name="Container" x="0" y="0" width="198" height="15">
+                    <frame id="2:434" name="Container" x="0" y="0" width="22.519874572753906" height="15">
+                      <text id="2:435" name="2kg" x="0" y="0" width="22.519874572753906" height="15" />
+                    </frame>
+                    <frame id="2:436" name="Container" x="26.519874572753906" y="0" width="8.150625228881836" height="15">
+                      <text id="2:437" name="•" x="0" y="0" width="8.150625228881836" height="15" />
+                    </frame>
+                    <frame id="2:438" name="Container" x="38.670501708984375" y="0" width="46.424625396728516" height="15">
+                      <text id="2:439" name="Nigeria" x="0" y="0" width="46.424625396728516" height="15" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:440" name="Heading 3:margin" x="0" y="19" width="198" height="31">
+                  <frame id="2:441" name="Heading 3" x="0" y="0" width="198" height="23">
+                    <text id="2:442" name="Premium Yellow Garri" x="0" y="0" width="198" height="23" />
+                  </frame>
+                </frame>
+                <frame id="2:443" name="Margin" x="0" y="50" width="198" height="32">
+                  <frame id="2:444" name="Container" x="0" y="0" width="198" height="16">
+                    <rounded-rectangle id="2:445" name="Background" x="0" y="4" width="8" height="8" />
+                    <frame id="2:446" name="Container" x="14" y="0" width="48" height="16">
+                      <text id="2:447" name="In Stock" x="0" y="0" width="48" height="16" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:448" name="Margin" x="0" y="82" width="198" height="99">
+                  <frame id="2:449" name="Overlay" x="0" y="0" width="198" height="75">
+                    <frame id="2:450" name="Container" x="12" y="12" width="174" height="26">
+                      <frame id="2:451" name="Container" x="0" y="5" width="64" height="16">
+                        <text id="2:452" name="Retail Price" x="0" y="0" width="64" height="16" />
+                      </frame>
+                      <frame id="2:453" name="Paragraph" x="98.2699966430664" y="0" width="75.7300033569336" height="26">
+                        <text id="2:454" name="$18.99" x="0" y="0" width="55.894126892089844" height="24" />
+                        <text id="2:455" name="CAD" x="55.709999084472656" y="2" width="21" height="24" />
+                      </frame>
+                    </frame>
+                    <frame id="2:456" name="Container" x="12" y="42" width="174" height="21">
+                      <frame id="2:457" name="Container" x="0" y="2.5" width="53" height="16">
+                        <text id="2:458" name="Bulk (5+)" x="0" y="0" width="53" height="16" />
+                      </frame>
+                      <frame id="2:459" name="Paragraph" x="103.80999755859375" y="0" width="70.19000244140625" height="21">
+                        <text id="2:460" name="$16.99" x="0" y="-0.5" width="48.23025131225586" height="20" />
+                        <text id="2:461" name="/unit" x="48.08000183105469" y="1" width="23" height="20" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:462" name="Button" x="0" y="181" width="198" height="48">
+                  <frame id="2:463" name="Img" x="44" y="16" width="14" height="16" />
+                  <text id="2:465" name="Add to Cart" x="66" y="12" width="88" height="24" />
+                </frame>
+              </frame>
+              <frame id="2:466" name="Overlay" x="17" y="17" width="75.19702911376953" height="23">
+                <frame id="2:467" name="Img" x="8" y="7.5" width="8" height="8" />
+                <text id="2:469" name="Organic" x="20" y="4" width="47.19702911376953" height="15" />
+              </frame>
+              <frame id="2:470" name="Button" x="191" y="17" width="32" height="32">
+                <frame id="2:471" name="Img" x="8" y="8" width="16" height="16" />
+              </frame>
+            </frame>
+            <frame id="2:473" name="Background+Border+Shadow" x="528" y="0" width="240" height="509">
+              <frame id="2:474" name="Margin" x="21" y="21" width="198" height="216">
+                <frame id="2:475" name="Container" x="0" y="0" width="198" height="192">
+                  <frame id="2:476" name="premium white puna yam tuber large nigeria origin isolated on white" x="0" y="0" width="198" height="192" />
+                </frame>
+              </frame>
+              <frame id="2:477" name="Container" x="21" y="237" width="198" height="251">
+                <frame id="2:478" name="Margin" x="0" y="0" width="198" height="19">
+                  <frame id="2:479" name="Container" x="0" y="0" width="198" height="15">
+                    <frame id="2:480" name="Container" x="0" y="0" width="76.9600601196289" height="15">
+                      <text id="2:481" name="Large Tuber" x="0" y="0" width="76.9600601196289" height="15" />
+                    </frame>
+                    <frame id="2:482" name="Container" x="80.9600601196289" y="0" width="8.150625228881836" height="15">
+                      <text id="2:483" name="•" x="0" y="0" width="8.150625228881836" height="15" />
+                    </frame>
+                    <frame id="2:484" name="Container" x="93.11068725585938" y="0" width="40.265438079833984" height="15">
+                      <text id="2:485" name="Ghana" x="0" y="0" width="40.265438079833984" height="15" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:486" name="Heading 3:margin" x="0" y="19" width="198" height="53">
+                  <frame id="2:487" name="Heading 3" x="0" y="0" width="198" height="45">
+                    <text id="2:488" name="Premium White Puna
+Yam" x="0" y="0" width="198" height="45" />
+                  </frame>
+                </frame>
+                <frame id="2:489" name="Margin" x="0" y="72" width="198" height="32">
+                  <frame id="2:490" name="Container" x="0" y="0" width="198" height="16">
+                    <rounded-rectangle id="2:491" name="Background" x="0" y="4" width="8" height="8" />
+                    <frame id="2:492" name="Container" x="14" y="0" width="103" height="16">
+                      <text id="2:493" name="Low Stock (3 left)" x="0" y="0" width="103" height="16" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:494" name="Margin" x="0" y="104" width="198" height="99">
+                  <frame id="2:495" name="Overlay" x="0" y="0" width="198" height="75">
+                    <frame id="2:496" name="Container" x="12" y="12" width="174" height="26">
+                      <frame id="2:497" name="Container" x="0" y="5" width="64" height="16">
+                        <text id="2:498" name="Retail Price" x="0" y="0" width="64" height="16" />
+                      </frame>
+                      <frame id="2:499" name="Paragraph" x="96.16999816894531" y="0" width="77.83000183105469" height="26">
+                        <text id="2:500" name="$22.99" x="0" y="0" width="57.990657806396484" height="24" />
+                        <text id="2:501" name="CAD" x="57.810001373291016" y="2" width="21" height="24" />
+                      </frame>
+                    </frame>
+                    <frame id="2:502" name="Container" x="12" y="42" width="174" height="21">
+                      <frame id="2:503" name="Container" x="0" y="2.5" width="53" height="16">
+                        <text id="2:504" name="Bulk (3+)" x="0" y="0" width="53" height="16" />
+                      </frame>
+                      <frame id="2:505" name="Paragraph" x="100.05999755859375" y="0" width="73.94000244140625" height="21">
+                        <text id="2:506" name="$20.00" x="0" y="-0.5" width="51.99197006225586" height="20" />
+                        <text id="2:507" name="/unit" x="51.83000183105469" y="1" width="23" height="20" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:508" name="Button" x="0" y="203" width="198" height="48">
+                  <frame id="2:509" name="Img" x="44" y="16" width="14" height="16" />
+                  <text id="2:511" name="Add to Cart" x="66" y="12" width="88" height="24" />
+                </frame>
+              </frame>
+              <frame id="2:512" name="Container" x="17" y="17" width="81" height="54">
+                <frame id="2:513" name="Background" x="0" y="0" width="81" height="23">
+                  <text id="2:514" name="Best Seller" x="8" y="4" width="65" height="15" />
+                </frame>
+                <frame id="2:515" name="Overlay" x="0" y="31" width="81" height="23">
+                  <frame id="2:516" name="Img" x="8" y="7.5" width="8" height="8" />
+                  <text id="2:518" name="Organic" x="20" y="4" width="47.19702911376953" height="15" />
+                </frame>
+              </frame>
+              <frame id="2:519" name="Button" x="191" y="17" width="32" height="32">
+                <frame id="2:520" name="Img" x="8" y="8" width="16" height="16" />
+              </frame>
+            </frame>
+            <frame id="2:522" name="Background+Border+Shadow" x="792" y="0" width="240" height="509.5">
+              <frame id="2:523" name="Margin" x="21" y="21" width="198" height="216">
+                <frame id="2:524" name="Container" x="0" y="0" width="198" height="192">
+                  <frame id="2:525" name="red palm oil bottle 1L premium organic african cooking oil isolated white background" x="0" y="0" width="198" height="192" />
+                </frame>
+              </frame>
+              <frame id="2:526" name="Container" x="21" y="237" width="198" height="251.5">
+                <frame id="2:527" name="Margin" x="0" y="0" width="198" height="19">
+                  <frame id="2:528" name="Container" x="0" y="0" width="198" height="15">
+                    <frame id="2:529" name="Container" x="0" y="0" width="57.93046951293945" height="15">
+                      <text id="2:530" name="1L Bottle" x="0" y="0" width="57.93046951293945" height="15" />
+                    </frame>
+                    <frame id="2:531" name="Container" x="61.93046951293945" y="0" width="8.150625228881836" height="15">
+                      <text id="2:532" name="•" x="0" y="0" width="8.150625228881836" height="15" />
+                    </frame>
+                    <frame id="2:533" name="Container" x="74.08109283447266" y="0" width="46.424625396728516" height="15">
+                      <text id="2:534" name="Nigeria" x="0" y="0" width="46.424625396728516" height="15" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:535" name="Heading 3:margin" x="0" y="19" width="198" height="31">
+                  <frame id="2:536" name="Heading 3" x="0" y="0" width="198" height="23">
+                    <text id="2:537" name="Grade A Red Palm Oil" x="0" y="0" width="198" height="23" />
+                  </frame>
+                </frame>
+                <frame id="2:538" name="Margin" x="0" y="50" width="198" height="32">
+                  <frame id="2:539" name="Container" x="0" y="0" width="198" height="16">
+                    <rounded-rectangle id="2:540" name="Background" x="0" y="4" width="8" height="8" />
+                    <frame id="2:541" name="Container" x="14" y="0" width="48" height="16">
+                      <text id="2:542" name="In Stock" x="0" y="0" width="48" height="16" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:543" name="Margin" x="0" y="82" width="198" height="99">
+                  <frame id="2:544" name="Overlay" x="0" y="0" width="198" height="75">
+                    <frame id="2:545" name="Container" x="12" y="12" width="174" height="26">
+                      <frame id="2:546" name="Container" x="0" y="5" width="64" height="16">
+                        <text id="2:547" name="Retail Price" x="0" y="0" width="64" height="16" />
+                      </frame>
+                      <frame id="2:548" name="Paragraph" x="97.9800033569336" y="0" width="76.0199966430664" height="26">
+                        <text id="2:549" name="$16.50" x="0" y="0" width="56.17499923706055" height="24" />
+                        <text id="2:550" name="CAD" x="56" y="2" width="21" height="24" />
+                      </frame>
+                    </frame>
+                    <frame id="2:551" name="Container" x="12" y="42" width="174" height="21">
+                      <frame id="2:552" name="Container" x="0" y="2.5" width="58" height="16">
+                        <text id="2:553" name="Bulk (12+)" x="0" y="0" width="58" height="16" />
+                      </frame>
+                      <frame id="2:554" name="Paragraph" x="103.25" y="0" width="70.75" height="21">
+                        <text id="2:555" name="$14.00" x="0" y="-0.5" width="48.79199981689453" height="20" />
+                        <text id="2:556" name="/unit" x="48.63999938964844" y="1" width="23" height="20" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:557" name="Button" x="0" y="181" width="198" height="48">
+                  <frame id="2:558" name="Img" x="44" y="16" width="14" height="16" />
+                  <text id="2:560" name="Add to Cart" x="66" y="12" width="88" height="24" />
+                </frame>
+              </frame>
+              <frame id="2:561" name="Overlay" x="17" y="17" width="75.19702911376953" height="23">
+                <frame id="2:562" name="Img" x="8" y="7.5" width="8" height="8" />
+                <text id="2:564" name="Organic" x="20" y="4" width="47.19702911376953" height="15" />
+              </frame>
+              <frame id="2:565" name="Button" x="191" y="17" width="32" height="32">
+                <frame id="2:566" name="Img" x="8" y="8" width="16" height="16" />
+              </frame>
+            </frame>
+            <frame id="2:568" name="Background+Border+Shadow" x="0" y="533" width="240" height="509">
+              <frame id="2:569" name="Margin" x="21" y="21" width="198" height="216">
+                <frame id="2:570" name="Container" x="0" y="0" width="198" height="192">
+                  <frame id="2:571" name="ground egusi melon seeds bag african spices isolated white" x="0" y="0" width="198" height="192" />
+                </frame>
+              </frame>
+              <frame id="2:572" name="Container" x="21" y="237" width="198" height="251">
+                <frame id="2:573" name="Margin" x="0" y="0" width="198" height="19">
+                  <frame id="2:574" name="Container" x="0" y="0" width="198" height="15">
+                    <frame id="2:575" name="Container" x="0" y="0" width="30.529624938964844" height="15">
+                      <text id="2:576" name="500g" x="0" y="0" width="30.529624938964844" height="15" />
+                    </frame>
+                    <frame id="2:577" name="Container" x="34.529624938964844" y="0" width="8.150625228881836" height="15">
+                      <text id="2:578" name="•" x="0" y="0" width="8.150625228881836" height="15" />
+                    </frame>
+                    <frame id="2:579" name="Container" x="46.68025207519531" y="0" width="46.424625396728516" height="15">
+                      <text id="2:580" name="Nigeria" x="0" y="0" width="46.424625396728516" height="15" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:581" name="Heading 3:margin" x="0" y="19" width="198" height="53">
+                  <frame id="2:582" name="Heading 3" x="0" y="0" width="198" height="45">
+                    <text id="2:583" name="Premium Ground
+Egusi" x="0" y="0" width="198" height="45" />
+                  </frame>
+                </frame>
+                <frame id="2:584" name="Margin" x="0" y="72" width="198" height="32">
+                  <frame id="2:585" name="Container" x="0" y="0" width="198" height="16">
+                    <rounded-rectangle id="2:586" name="Background" x="0" y="4" width="8" height="8" />
+                    <frame id="2:587" name="Container" x="14" y="0" width="48" height="16">
+                      <text id="2:588" name="In Stock" x="0" y="0" width="48" height="16" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:589" name="Margin" x="0" y="104" width="198" height="99">
+                  <frame id="2:590" name="Overlay" x="0" y="0" width="198" height="75">
+                    <frame id="2:591" name="Container" x="12" y="12" width="174" height="26">
+                      <frame id="2:592" name="Container" x="0" y="5" width="64" height="16">
+                        <text id="2:593" name="Retail Price" x="0" y="0" width="64" height="16" />
+                      </frame>
+                      <frame id="2:594" name="Paragraph" x="105.55000305175781" y="0" width="68.44999694824219" height="26">
+                        <text id="2:595" name="$9.99" x="0" y="0" width="48.591373443603516" height="24" />
+                        <text id="2:596" name="CAD" x="48.43000030517578" y="2" width="21" height="24" />
+                      </frame>
+                    </frame>
+                    <frame id="2:597" name="Container" x="12" y="42" width="174" height="21">
+                      <frame id="2:598" name="Container" x="0" y="2.5" width="61" height="16">
+                        <text id="2:599" name="Bulk (20+)" x="0" y="0" width="61" height="16" />
+                      </frame>
+                      <frame id="2:600" name="Paragraph" x="111.38999938964844" y="0" width="62.61000061035156" height="21">
+                        <text id="2:601" name="$7.50" x="0" y="-0.5" width="40.626564025878906" height="20" />
+                        <text id="2:602" name="/unit" x="40.5" y="1" width="23" height="20" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:603" name="Button" x="0" y="203" width="198" height="48">
+                  <frame id="2:604" name="Img" x="44" y="16" width="14" height="16" />
+                  <text id="2:606" name="Add to Cart" x="66" y="12" width="88" height="24" />
+                </frame>
+              </frame>
+              <frame id="2:607" name="Overlay" x="17" y="17" width="75.19702911376953" height="23">
+                <frame id="2:608" name="Img" x="8" y="7.5" width="8" height="8" />
+                <text id="2:610" name="Organic" x="20" y="4" width="47.19702911376953" height="15" />
+              </frame>
+              <frame id="2:611" name="Button" x="191" y="17" width="32" height="32">
+                <frame id="2:612" name="Img" x="8" y="8" width="16" height="16" />
+              </frame>
+            </frame>
+            <frame id="2:614" name="Background+Border+Shadow" x="264" y="533" width="240" height="509">
+              <frame id="2:615" name="Margin" x="21" y="21" width="198" height="216">
+                <frame id="2:616" name="Container" x="0" y="0" width="198" height="192">
+                  <frame id="2:617" name="authentic african chin chin snacks bag isolated white" x="0" y="0" width="198" height="192" />
+                </frame>
+              </frame>
+              <frame id="2:618" name="Container" x="21" y="237" width="198" height="251">
+                <frame id="2:619" name="Margin" x="0" y="0" width="198" height="19">
+                  <frame id="2:620" name="Container" x="0" y="0" width="198" height="15">
+                    <frame id="2:621" name="Container" x="0" y="0" width="30.4893741607666" height="15">
+                      <text id="2:622" name="300g" x="0" y="0" width="30.4893741607666" height="15" />
+                    </frame>
+                    <frame id="2:623" name="Container" x="34.48937225341797" y="0" width="8.150625228881836" height="15">
+                      <text id="2:624" name="•" x="0" y="0" width="8.150625228881836" height="15" />
+                    </frame>
+                    <frame id="2:625" name="Container" x="46.63999938964844" y="0" width="46.424625396728516" height="15">
+                      <text id="2:626" name="Nigeria" x="0" y="0" width="46.424625396728516" height="15" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:627" name="Heading 3:margin" x="0" y="19" width="198" height="53">
+                  <frame id="2:628" name="Heading 3" x="0" y="0" width="198" height="45">
+                    <text id="2:629" name="Crunchy Vanilla Chin
+Chin" x="0" y="0" width="198" height="45" />
+                  </frame>
+                </frame>
+                <frame id="2:630" name="Margin" x="0" y="72" width="198" height="32">
+                  <frame id="2:631" name="Container" x="0" y="0" width="198" height="16">
+                    <rounded-rectangle id="2:632" name="Background" x="0" y="4" width="8" height="8" />
+                    <frame id="2:633" name="Container" x="14" y="0" width="48" height="16">
+                      <text id="2:634" name="In Stock" x="0" y="0" width="48" height="16" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:635" name="Margin" x="0" y="104" width="198" height="99">
+                  <frame id="2:636" name="Overlay" x="0" y="0" width="198" height="75">
+                    <frame id="2:637" name="Container" x="12" y="12" width="174" height="26">
+                      <frame id="2:638" name="Container" x="0" y="5" width="64" height="16">
+                        <text id="2:639" name="Retail Price" x="0" y="0" width="64" height="16" />
+                      </frame>
+                      <frame id="2:640" name="Paragraph" x="106.08000183105469" y="0" width="67.91999816894531" height="26">
+                        <text id="2:641" name="$5.99" x="0" y="0" width="48.05971908569336" height="24" />
+                        <text id="2:642" name="CAD" x="47.900001525878906" y="2" width="21" height="24" />
+                      </frame>
+                    </frame>
+                    <frame id="2:643" name="Container" x="12" y="42" width="174" height="21">
+                      <frame id="2:644" name="Container" x="0" y="2.5" width="60" height="16">
+                        <text id="2:645" name="Bulk (24+)" x="0" y="0" width="60" height="16" />
+                      </frame>
+                      <frame id="2:646" name="Paragraph" x="110.38999938964844" y="0" width="63.61000061035156" height="21">
+                        <text id="2:647" name="$4.50" x="0" y="-0.5" width="41.62968826293945" height="20" />
+                        <text id="2:648" name="/unit" x="41.5" y="1" width="23" height="20" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:649" name="Button" x="0" y="203" width="198" height="48">
+                  <frame id="2:650" name="Img" x="44" y="16" width="14" height="16" />
+                  <text id="2:652" name="Add to Cart" x="66" y="12" width="88" height="24" />
+                </frame>
+              </frame>
+              <frame id="2:653" name="Overlay" x="17" y="17" width="75.19702911376953" height="23">
+                <frame id="2:654" name="Img" x="8" y="7.5" width="8" height="8" />
+                <text id="2:656" name="Organic" x="20" y="4" width="47.19702911376953" height="15" />
+              </frame>
+              <frame id="2:657" name="Button" x="191" y="17" width="32" height="32">
+                <frame id="2:658" name="Img" x="8" y="8" width="16" height="16" />
+              </frame>
+            </frame>
+            <frame id="2:660" name="Background+Border+Shadow" x="528" y="533" width="240" height="509.5">
+              <frame id="2:661" name="Margin" x="21" y="21" width="198" height="216">
+                <frame id="2:662" name="Container" x="0" y="0" width="198" height="192">
+                  <frame id="2:663" name="frozen whole tilapia fish pack 2kg isolated white background" x="0" y="0" width="198" height="192" />
+                </frame>
+              </frame>
+              <frame id="2:664" name="Container" x="21" y="237" width="198" height="251.5">
+                <frame id="2:665" name="Margin" x="0" y="0" width="198" height="19">
+                  <frame id="2:666" name="Container" x="0" y="0" width="198" height="15">
+                    <frame id="2:667" name="Container" x="0" y="0" width="22.519874572753906" height="15">
+                      <text id="2:668" name="2kg" x="0" y="0" width="22.519874572753906" height="15" />
+                    </frame>
+                    <frame id="2:669" name="Container" x="26.519874572753906" y="0" width="8.150625228881836" height="15">
+                      <text id="2:670" name="•" x="0" y="0" width="8.150625228881836" height="15" />
+                    </frame>
+                    <frame id="2:671" name="Container" x="38.670501708984375" y="0" width="111.39378356933594" height="15">
+                      <text id="2:672" name="Canada Packaged" x="0" y="0" width="111.39378356933594" height="15" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:673" name="Heading 3:margin" x="0" y="19" width="198" height="31">
+                  <frame id="2:674" name="Heading 3" x="0" y="0" width="198" height="23">
+                    <text id="2:675" name="Frozen Whole Tilapia" x="0" y="0" width="198" height="23" />
+                  </frame>
+                </frame>
+                <frame id="2:676" name="Margin" x="0" y="50" width="198" height="32">
+                  <frame id="2:677" name="Container" x="0" y="0" width="198" height="16">
+                    <rounded-rectangle id="2:678" name="Background" x="0" y="4" width="8" height="8" />
+                    <frame id="2:679" name="Container" x="14" y="0" width="48" height="16">
+                      <text id="2:680" name="In Stock" x="0" y="0" width="48" height="16" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:681" name="Margin" x="0" y="82" width="198" height="99">
+                  <frame id="2:682" name="Overlay" x="0" y="0" width="198" height="75">
+                    <frame id="2:683" name="Container" x="12" y="12" width="174" height="26">
+                      <frame id="2:684" name="Container" x="0" y="5" width="64" height="16">
+                        <text id="2:685" name="Retail Price" x="0" y="0" width="64" height="16" />
+                      </frame>
+                      <frame id="2:686" name="Paragraph" x="96.63999938964844" y="0" width="77.36000061035156" height="26">
+                        <text id="2:687" name="$24.99" x="0" y="0" width="57.519187927246094" height="24" />
+                        <text id="2:688" name="CAD" x="57.34000015258789" y="2" width="21" height="24" />
+                      </frame>
+                    </frame>
+                    <frame id="2:689" name="Container" x="12" y="42" width="174" height="21">
+                      <frame id="2:690" name="Container" x="0" y="2.5" width="59" height="16">
+                        <text id="2:691" name="Bulk (10+)" x="0" y="0" width="59" height="16" />
+                      </frame>
+                      <frame id="2:692" name="Paragraph" x="104.72000122070312" y="0" width="69.27999877929688" height="21">
+                        <text id="2:693" name="$21.50" x="0" y="-0.5" width="47.317405700683594" height="20" />
+                        <text id="2:694" name="/unit" x="47.16999816894531" y="1" width="23" height="20" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:695" name="Button" x="0" y="181" width="198" height="48">
+                  <frame id="2:696" name="Img" x="44" y="16" width="14" height="16" />
+                  <text id="2:698" name="Add to Cart" x="66" y="12" width="88" height="24" />
+                </frame>
+              </frame>
+              <frame id="2:699" name="Overlay" x="17" y="17" width="75.19702911376953" height="23">
+                <frame id="2:700" name="Img" x="8" y="7.5" width="8" height="8" />
+                <text id="2:702" name="Organic" x="20" y="4" width="47.19702911376953" height="15" />
+              </frame>
+              <frame id="2:703" name="Button" x="191" y="17" width="32" height="32">
+                <frame id="2:704" name="Img" x="8" y="8" width="16" height="16" />
+              </frame>
+            </frame>
+            <frame id="2:706" name="Background+Border+Shadow" x="792" y="533" width="240" height="509">
+              <frame id="2:707" name="Margin" x="21" y="21" width="198" height="216">
+                <frame id="2:708" name="Container" x="0" y="0" width="198" height="192">
+                  <frame id="2:709" name="bag of pounded yam flour iyan 5kg brand africa isolated white" x="0" y="0" width="198" height="192" />
+                </frame>
+              </frame>
+              <frame id="2:710" name="Container" x="21" y="237" width="198" height="251">
+                <frame id="2:711" name="Margin" x="0" y="0" width="198" height="19">
+                  <frame id="2:712" name="Container" x="0" y="0" width="198" height="15">
+                    <frame id="2:713" name="Container" x="0" y="0" width="48.561279296875" height="15">
+                      <text id="2:714" name="5kg Bag" x="0" y="0" width="48.561279296875" height="15" />
+                    </frame>
+                    <frame id="2:715" name="Container" x="52.561279296875" y="0" width="8.150625228881836" height="15">
+                      <text id="2:716" name="•" x="0" y="0" width="8.150625228881836" height="15" />
+                    </frame>
+                    <frame id="2:717" name="Container" x="64.71190643310547" y="0" width="46.424625396728516" height="15">
+                      <text id="2:718" name="Nigeria" x="0" y="0" width="46.424625396728516" height="15" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:719" name="Heading 3:margin" x="0" y="19" width="198" height="53">
+                  <frame id="2:720" name="Heading 3" x="0" y="0" width="198" height="45">
+                    <text id="2:721" name="Premium Pounded
+Yam Flour" x="0" y="0" width="198" height="45" />
+                  </frame>
+                </frame>
+                <frame id="2:722" name="Margin" x="0" y="72" width="198" height="32">
+                  <frame id="2:723" name="Container" x="0" y="0" width="198" height="16">
+                    <rounded-rectangle id="2:724" name="Background" x="0" y="4" width="8" height="8" />
+                    <frame id="2:725" name="Container" x="14" y="0" width="48" height="16">
+                      <text id="2:726" name="In Stock" x="0" y="0" width="48" height="16" />
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:727" name="Margin" x="0" y="104" width="198" height="99">
+                  <frame id="2:728" name="Overlay" x="0" y="0" width="198" height="75">
+                    <frame id="2:729" name="Container" x="12" y="12" width="174" height="26">
+                      <frame id="2:730" name="Container" x="0" y="5" width="64" height="16">
+                        <text id="2:731" name="Retail Price" x="0" y="0" width="64" height="16" />
+                      </frame>
+                      <frame id="2:732" name="Paragraph" x="95.86000061035156" y="0" width="78.13999938964844" height="26">
+                        <text id="2:733" name="$28.99" x="0" y="0" width="58.3116569519043" height="24" />
+                        <text id="2:734" name="CAD" x="58.119998931884766" y="2" width="21" height="24" />
+                      </frame>
+                    </frame>
+                    <frame id="2:735" name="Container" x="12" y="42" width="174" height="21">
+                      <frame id="2:736" name="Container" x="0" y="2.5" width="53" height="16">
+                        <text id="2:737" name="Bulk (4+)" x="0" y="0" width="53" height="16" />
+                      </frame>
+                      <frame id="2:738" name="Paragraph" x="100.58000183105469" y="0" width="73.41999816894531" height="21">
+                        <text id="2:739" name="$26.00" x="0" y="-0.5" width="51.47034454345703" height="20" />
+                        <text id="2:740" name="/unit" x="51.310001373291016" y="1" width="23" height="20" />
+                      </frame>
+                    </frame>
+                  </frame>
+                </frame>
+                <frame id="2:741" name="Button" x="0" y="203" width="198" height="48">
+                  <frame id="2:742" name="Img" x="44" y="16" width="14" height="16" />
+                  <text id="2:744" name="Add to Cart" x="66" y="12" width="88" height="24" />
+                </frame>
+              </frame>
+              <frame id="2:745" name="Overlay" x="17" y="17" width="75.19702911376953" height="23">
+                <frame id="2:746" name="Img" x="8" y="7.5" width="8" height="8" />
+                <text id="2:748" name="Organic" x="20" y="4" width="47.19702911376953" height="15" />
+              </frame>
+              <frame id="2:749" name="Button" x="191" y="17" width="32" height="32">
+                <frame id="2:750" name="Img" x="8" y="8" width="16" height="16" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="2:752" name="Container" x="0" y="1182" width="1032" height="72">
+            <frame id="2:753" name="Button" x="341.5" y="32" width="40" height="40">
+              <frame id="2:754" name="Img" x="15" y="12" width="10" height="16" />
+            </frame>
+            <frame id="2:756" name="Button" x="397.5" y="32" width="40" height="40">
+              <text id="2:757" name="1" x="16.402250289916992" y="8" width="7.195499897003174" height="24" />
+            </frame>
+            <frame id="2:758" name="Button" x="453.5" y="32" width="40" height="40">
+              <text id="2:759" name="2" x="15" y="8" width="10" height="24" />
+            </frame>
+            <frame id="2:760" name="Button" x="509.5" y="32" width="40" height="40">
+              <text id="2:761" name="3" x="15" y="8" width="10" height="24" />
+            </frame>
+            <frame id="2:762" name="Container" x="565.5" y="40" width="13" height="24">
+              <text id="2:763" name="..." x="0" y="0" width="13" height="24" />
+            </frame>
+            <frame id="2:764" name="Button" x="594.5" y="32" width="40" height="40">
+              <text id="2:765" name="12" x="11.5" y="8" width="17" height="24" />
+            </frame>
+            <frame id="2:766" name="Button" x="650.5" y="32" width="40" height="40">
+              <frame id="2:767" name="Img" x="15" y="12" width="10" height="16" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>

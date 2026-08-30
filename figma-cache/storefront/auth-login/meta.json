@@ -1,0 +1,10 @@
+{
+  "nodeId": "29:15",
+  "name": "auth-login-signup",
+  "variant": "login",
+  "platform": "account",
+  "width": 1200,
+  "height": 1000,
+  "status": "metadata-only",
+  "slug": "auth-login"
+}

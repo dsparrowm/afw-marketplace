@@ -1,0 +1,332 @@
+{
+  "fileKey": "TRHpdrWtpLm06UPtgHYDgB",
+  "figmaUrl": "https://www.figma.com/design/TRHpdrWtpLm06UPtgHYDgB/AFW-Marketplace",
+  "exportedAt": null,
+  "exportBlocker": {
+    "status": "partial",
+    "reason": "Figma MCP Starter plan rate limit — export one asset per session or upgrade plan",
+    "blockedAt": "2026-08-30",
+    "lastExportAt": "2026-08-30",
+    "blockedTool": "get_screenshot",
+    "pendingCount": 24,
+    "exportedCount": 1,
+    "retryInstructions": "figma-cache/assets/EXPORT.md"
+  },
+  "notes": "Export via Figma MCP get_screenshot per nodeId only \u2014 never crop from screenshots. Then: python3 figma-cache/fetch-assets.py apply <slug> <mcp-asset-url>",
+  "assets": [
+    {
+      "slug": "logo",
+      "nodeId": "16:3",
+      "name": "AFW logo",
+      "path": "public/brand/logo.png",
+      "width": 105,
+      "height": 62,
+      "aliases": [
+        "18:75",
+        "28:1159",
+        "28:1164",
+        "31:1277",
+        "32:1289",
+        "32:1293",
+        "32:1297",
+        "32:1301"
+      ],
+      "usedIn": [
+        "StorefrontHeader",
+        "StorefrontFooter",
+        "AccountShell",
+        "AuthCard"
+      ],
+      "status": "exported",
+      "sourceUrl": "https://www.figma.com/api/mcp/asset/fad92c3e-4677-4e90-ae20-f422f0b94b46.png"
+    },
+    {
+      "slug": "icon-search",
+      "nodeId": "2:211",
+      "name": "Search",
+      "path": "public/icons/header/search.png",
+      "width": 16,
+      "height": 16,
+      "usedIn": [
+        "StorefrontHeader"
+      ],
+      "status": "pending"
+    },
+    {
+      "slug": "icon-chevron-down",
+      "nodeId": "2:197",
+      "name": "Chevron down",
+      "path": "public/icons/header/chevron-down.png",
+      "width": 10,
+      "height": 10,
+      "aliases": [
+        "2:221"
+      ],
+      "usedIn": [
+        "StorefrontHeader"
+      ],
+      "status": "pending"
+    },
+    {
+      "slug": "icon-flag-canada",
+      "nodeId": "2:216",
+      "name": "Canada flag",
+      "path": "public/icons/header/flag-canada.png",
+      "width": 20,
+      "height": 10,
+      "aliases": [
+        "18:227",
+        "18:288",
+        "18:349",
+        "18:410",
+        "18:471"
+      ],
+      "usedIn": [
+        "StorefrontHeader"
+      ],
+      "status": "pending"
+    },
+    {
+      "slug": "icon-location",
+      "nodeId": "2:224",
+      "name": "Location pin",
+      "path": "public/icons/header/location.png",
+      "width": 11,
+      "height": 14,
+      "usedIn": [
+        "StorefrontHeader"
+      ],
+      "status": "pending"
+    },
+    {
+      "slug": "icon-user",
+      "nodeId": "2:230",
+      "name": "Account / user",
+      "path": "public/icons/header/user.png",
+      "width": 16,
+      "height": 18,
+      "usedIn": [
+        "StorefrontHeader"
+      ],
+      "status": "pending"
+    },
+    {
+      "slug": "icon-cart",
+      "nodeId": "2:233",
+      "name": "Shopping cart",
+      "path": "public/icons/header/cart.png",
+      "width": 18,
+      "height": 16,
+      "usedIn": [
+        "StorefrontHeader"
+      ],
+      "status": "pending"
+    },
+    {
+      "slug": "icon-social-facebook",
+      "nodeId": "18:80",
+      "name": "Facebook",
+      "path": "public/icons/social/facebook.png",
+      "width": 10,
+      "height": 16,
+      "usedIn": [
+        "StorefrontFooter"
+      ],
+      "status": "pending"
+    },
+    {
+      "slug": "icon-social-instagram",
+      "nodeId": "18:83",
+      "name": "Instagram",
+      "path": "public/icons/social/instagram.png",
+      "width": 14,
+      "height": 16,
+      "usedIn": [
+        "StorefrontFooter"
+      ],
+      "status": "pending"
+    },
+    {
+      "slug": "icon-social-twitter",
+      "nodeId": "18:86",
+      "name": "Twitter / X",
+      "path": "public/icons/social/twitter.png",
+      "width": 16,
+      "height": 16,
+      "usedIn": [
+        "StorefrontFooter"
+      ],
+      "status": "pending"
+    },
+    {
+      "slug": "icon-auth-apple",
+      "nodeId": "31:1250",
+      "name": "Apple",
+      "path": "public/icons/auth/apple.png",
+      "width": 14,
+      "height": 18,
+      "usedIn": [
+        "AuthLogin",
+        "AuthSignup"
+      ],
+      "status": "pending"
+    },
+    {
+      "slug": "icon-auth-google",
+      "nodeId": "31:1255",
+      "name": "Google",
+      "path": "public/icons/auth/google.png",
+      "width": 17,
+      "height": 18,
+      "usedIn": [
+        "AuthLogin",
+        "AuthSignup"
+      ],
+      "status": "pending"
+    },
+    {
+      "slug": "icon-logout",
+      "nodeId": "29:544",
+      "name": "Log out",
+      "path": "public/icons/account/logout.png",
+      "width": 16,
+      "height": 16,
+      "usedIn": [
+        "AccountHeader"
+      ],
+      "status": "pending"
+    },
+    {
+      "slug": "hero-background",
+      "nodeId": "2:9",
+      "name": "Hero editorial photography",
+      "path": "public/brand/hero_bg_image.png",
+      "width": 2880,
+      "height": 1200,
+      "usedIn": [
+        "HeroSection"
+      ],
+      "status": "exported"
+    },
+    {
+      "slug": "icon-trust-leaf",
+      "nodeId": "6:2694",
+      "name": "Trust bar leaf",
+      "path": "public/icons/trust/leaf.png",
+      "width": 19,
+      "height": 19,
+      "usedIn": ["TrustBar"],
+      "status": "pending"
+    },
+    {
+      "slug": "icon-trust-tractor",
+      "nodeId": "6:2702",
+      "name": "Trust bar tractor",
+      "path": "public/icons/trust/tractor.png",
+      "width": 19,
+      "height": 19,
+      "usedIn": ["TrustBar"],
+      "status": "pending"
+    },
+    {
+      "slug": "icon-trust-truck",
+      "nodeId": "6:2710",
+      "name": "Trust bar truck",
+      "path": "public/icons/trust/truck.png",
+      "width": 19,
+      "height": 19,
+      "usedIn": ["TrustBar"],
+      "status": "pending"
+    },
+    {
+      "slug": "icon-trust-shield-check",
+      "nodeId": "6:2718",
+      "name": "Trust bar shield check",
+      "path": "public/icons/trust/shield-check.png",
+      "width": 19,
+      "height": 19,
+      "usedIn": ["TrustBar"],
+      "status": "pending"
+    },
+    {
+      "slug": "icon-carousel-prev",
+      "nodeId": "2:47",
+      "name": "Carousel previous",
+      "path": "public/icons/carousel/chevron-left.png",
+      "width": 10,
+      "height": 16,
+      "usedIn": ["CategoryCarousel"],
+      "status": "pending"
+    },
+    {
+      "slug": "icon-carousel-next",
+      "nodeId": "2:50",
+      "name": "Carousel next",
+      "path": "public/icons/carousel/chevron-right.png",
+      "width": 10,
+      "height": 16,
+      "usedIn": ["CategoryCarousel"],
+      "status": "pending"
+    },
+    {
+      "slug": "category-fresh-produce",
+      "nodeId": "2:55",
+      "name": "Fresh Produce category",
+      "path": "public/images/categories/fresh-produce.png",
+      "width": 157,
+      "height": 157,
+      "usedIn": ["CategoryCarousel"],
+      "status": "pending"
+    },
+    {
+      "slug": "category-frozen-proteins",
+      "nodeId": "2:60",
+      "name": "Frozen Proteins category",
+      "path": "public/images/categories/frozen-proteins.png",
+      "width": 157,
+      "height": 157,
+      "usedIn": ["CategoryCarousel"],
+      "status": "pending"
+    },
+    {
+      "slug": "category-grains-flour",
+      "nodeId": "2:65",
+      "name": "Grains & Flour category",
+      "path": "public/images/categories/grains-flour.png",
+      "width": 157,
+      "height": 157,
+      "usedIn": ["CategoryCarousel"],
+      "status": "pending"
+    },
+    {
+      "slug": "category-condiments-spices",
+      "nodeId": "2:70",
+      "name": "Condiments & Spices category",
+      "path": "public/images/categories/condiments-spices.png",
+      "width": 157,
+      "height": 157,
+      "usedIn": ["CategoryCarousel"],
+      "status": "pending"
+    },
+    {
+      "slug": "category-snacks-drinks",
+      "nodeId": "2:75",
+      "name": "Snacks & Drinks category",
+      "path": "public/images/categories/snacks-drinks.png",
+      "width": 157,
+      "height": 157,
+      "usedIn": ["CategoryCarousel"],
+      "status": "pending"
+    },
+    {
+      "slug": "category-beauty",
+      "nodeId": "2:80",
+      "name": "Beauty category",
+      "path": "public/images/categories/beauty.png",
+      "width": 157,
+      "height": 157,
+      "usedIn": ["CategoryCarousel"],
+      "status": "pending"
+    }
+  ]
+}

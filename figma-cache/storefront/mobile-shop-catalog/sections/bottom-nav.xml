@@ -1,0 +1,18 @@
+<frame id="3:2376" name="Nav" x="0" y="1881.5" width="375" height="78">
+      <frame id="3:2377" name="Button" x="24" y="9" width="29" height="37">
+        <frame id="3:2378" name="Img" x="4.375" y="0" width="20.25" height="18" />
+        <text id="3:2380" name="i class=&quot;fa-solid fa-house text-lg&quot;&gt;&lt;/i&gt; Font Awesome fontawesome.com → Home" x="0" y="22" width="29" height="15" />
+      </frame>
+      <frame id="3:2381" name="Button" x="116.33332824707031" y="9" width="26" height="37">
+        <frame id="3:2382" name="Img" x="5.125" y="0" width="15.75" height="18" />
+        <text id="3:2384" name="i class=&quot;fa-solid fa-grip text-lg&quot;&gt;&lt;/i&gt; Font Awesome fontawesome.com → Shop" x="0" y="22" width="26" height="15" />
+      </frame>
+      <frame id="3:2385" name="Button" x="205.66665649414062" y="9" width="40" height="37">
+        <frame id="3:2386" name="Img" x="11" y="0" width="18" height="18" />
+        <text id="3:2388" name="i class=&quot;fa-solid fa-heart text-lg&quot;&gt;&lt;/i&gt; Font Awesome fontawesome.com → Wishlist" x="0" y="22" width="40" height="15" />
+      </frame>
+      <frame id="3:2389" name="Button" x="309" y="9" width="42" height="37">
+        <frame id="3:2390" name="Img" x="13.125" y="0" width="15.75" height="18" />
+        <text id="3:2392" name="i class=&quot;fa-solid fa-user text-lg&quot;&gt;&lt;/i&gt; Font Awesome fontawesome.com → Account" x="0" y="22" width="42" height="15" />
+      </frame>
+    </frame>

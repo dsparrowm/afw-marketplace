@@ -1,0 +1,10 @@
+<frame id="7:3954" name="Frame" x="113" y="3128" width="1236" height="55">
+      <frame id="7:3955" name="Frame" x="0" y="0" width="600" height="55">
+        <text id="7:3958" name="Recently Added" x="0" y="0" width="600" height="55" />
+      </frame>
+      <frame id="7:3959" name="Frame" x="1070" y="13" width="166" height="42">
+        <frame id="7:3960" name="button" x="0" y="0" width="166" height="42">
+          <text id="7:3961" name="button-label" x="24" y="12" width="118" height="18" />
+        </frame>
+      </frame>
+    </frame>

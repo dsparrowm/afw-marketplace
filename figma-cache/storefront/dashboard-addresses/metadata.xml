@@ -1,0 +1,77 @@
+<frame id="29:279" name="dashboard-addresses" x="5869" y="11430" width="1200" height="900">
+    <frame id="29:280" name="header-container" x="0" y="0" width="1200" height="154">
+      <frame id="29:281" name="brand-row" x="0" y="0" width="1200" height="102">
+        <frame id="29:282" name="brand" x="64" y="20" width="330" height="62">
+          <frame id="32:1292" name="brand" x="0" y="0" width="330" height="62">
+            <rounded-rectangle id="32:1293" name="image 2" x="0" y="0" width="105" height="62" />
+            <text id="32:1294" name="brand-text" x="113" y="21" width="217" height="20" />
+          </frame>
+        </frame>
+        <frame id="29:285" name="user-controls" x="980" y="42" width="156" height="18">
+          <text id="29:286" name="user-greeting" x="0" y="0" width="69" height="18" />
+          <frame id="29:287" name="logout-button" x="85" y="0" width="71" height="18">
+            <frame id="29:550" name="log-out" x="0" y="1" width="16" height="16" />
+            <text id="29:289" name="logout-text" x="22" y="0" width="49" height="18" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="29:290" name="tabs-row" x="0" y="102" width="1200" height="52">
+        <frame id="29:291" name="tab-Orders" x="64" y="0" width="49" height="52">
+          <text id="29:292" name="tab-label" x="0" y="16" width="49" height="20" />
+        </frame>
+        <frame id="29:295" name="tab-Profile" x="145" y="0" width="85" height="52">
+          <text id="29:296" name="tab-label" x="0" y="16" width="85" height="20" />
+        </frame>
+        <frame id="29:293" name="tab-Addresses" x="262" y="0" width="77" height="52">
+          <text id="29:294" name="tab-label" x="0" y="16" width="77" height="20" />
+        </frame>
+        <frame id="31:1285" name="tab-Profile" x="371" y="0" width="45" height="52">
+          <text id="31:1286" name="tab-label" x="0" y="16" width="45" height="20" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="29:297" name="content" x="0" y="154" width="1200" height="395">
+      <frame id="29:298" name="title-bar" x="64" y="64" width="1072" height="42">
+        <text id="29:299" name="title" x="0" y="5" width="236" height="32" />
+        <frame id="29:300" name="add-address-btn" x="888" y="0" width="184" height="42">
+          <frame id="29:586" name="plus" x="20" y="13" width="16" height="16" />
+          <text id="29:302" name="Add New Address" x="44" y="12" width="120" height="18" />
+        </frame>
+      </frame>
+      <frame id="29:303" name="addresses-grid" x="64" y="138" width="1072" height="193">
+        <frame id="29:304" name="address-card-1" x="0" y="0" width="520" height="193">
+          <frame id="29:305" name="card-top" x="24" y="24" width="472" height="87">
+            <frame id="29:306" name="details" x="0" y="0" width="409" height="87">
+              <text id="29:307" name="Adaeze Okafor" x="0" y="0" width="409" height="21" />
+              <text id="29:308" name="458 Spadina Ave, Apt 302" x="0" y="25" width="409" height="18" />
+              <text id="29:309" name="Toronto, ON M5S 2G8" x="0" y="47" width="409" height="18" />
+              <text id="29:310" name="Canada" x="0" y="69" width="409" height="18" />
+            </frame>
+            <frame id="29:311" name="default-badge" x="409" y="0" width="63" height="24">
+              <text id="29:312" name="Default" x="10" y="4" width="43" height="16" />
+            </frame>
+          </frame>
+          <line id="29:313" name="divider" x="24" y="131" width="472" height="0" />
+          <frame id="29:314" name="card-actions" x="24" y="151" width="147" height="18">
+            <text id="29:315" name="Edit Address" x="0" y="0" width="87" height="18" />
+            <text id="29:316" name="Delete" x="103" y="0" width="44" height="18" />
+          </frame>
+        </frame>
+        <frame id="29:317" name="address-card-2" x="552" y="0" width="520" height="193">
+          <frame id="29:318" name="card-top" x="24" y="24" width="472" height="87">
+            <frame id="29:319" name="details" x="0" y="0" width="472" height="87">
+              <text id="29:320" name="Okafor Foods &amp; Catering" x="0" y="0" width="472" height="21" />
+              <text id="29:321" name="1280 Finch Ave West, Unit 12" x="0" y="25" width="472" height="18" />
+              <text id="29:322" name="North York, ON M3J 3K9" x="0" y="47" width="472" height="18" />
+              <text id="29:323" name="Canada" x="0" y="69" width="472" height="18" />
+            </frame>
+          </frame>
+          <line id="29:324" name="divider" x="24" y="131" width="472" height="0" />
+          <frame id="29:325" name="card-actions" x="24" y="151" width="147" height="18">
+            <text id="29:326" name="Edit Address" x="0" y="0" width="87" height="18" />
+            <text id="29:327" name="Delete" x="103" y="0" width="44" height="18" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>

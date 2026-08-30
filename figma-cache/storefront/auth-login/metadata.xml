@@ -1,0 +1,62 @@
+<frame id="29:15" name="auth-login-signup" x="146" y="11430" width="1200" height="1000">
+    <frame id="29:16" name="auth-card" x="360" y="110.5" width="480" height="779">
+      <frame id="29:17" name="card-header" x="40" y="40" width="400" height="88">
+        <rounded-rectangle id="28:1159" name="image 2" x="147.5" y="0" width="105" height="62" />
+        <text id="29:19" name="brand-subtitle" x="0" y="70" width="400" height="18" />
+      </frame>
+      <frame id="29:20" name="auth-tabs" x="40" y="160" width="400" height="44">
+        <frame id="29:21" name="tab-login" x="0" y="0" width="200" height="44">
+          <text id="29:22" name="Log In" x="78.5" y="12" width="43" height="20" />
+        </frame>
+        <frame id="29:23" name="tab-signup" x="200" y="0" width="200" height="44">
+          <text id="29:24" name="Sign Up" x="72.5" y="12" width="55" height="20" />
+        </frame>
+      </frame>
+      <frame id="29:25" name="social-auth" x="40" y="236" width="400" height="100">
+        <frame id="29:26" name="btn-apple" x="0" y="0" width="400" height="44">
+          <frame id="29:523" name="apple" x="119" y="14" width="16" height="16">
+            <frame id="31:1249" name="i" x="2" y="-5.5" width="13.5" height="28">
+              <frame id="31:1250" name="svg" x="0" y="4.25" width="13.5" height="18">
+                <frame id="31:1251" name="Frame" x="0" y="0" width="13.5" height="18" />
+              </frame>
+            </frame>
+          </frame>
+          <text id="29:28" name="Continue with Apple" x="143" y="13" width="138" height="18" />
+        </frame>
+        <frame id="29:29" name="btn-google" x="0" y="56" width="400" height="44">
+          <frame id="29:589" name="circle-x" x="115" y="14" width="16" height="16">
+            <frame id="31:1254" name="svg" x="0" y="2.5" width="13" height="14">
+              <frame id="31:1255" name="Frame" x="-2.078125" y="-2" width="17.15625" height="18" />
+            </frame>
+          </frame>
+          <text id="29:31" name="Continue with Google" x="139" y="13" width="146" height="18" />
+        </frame>
+      </frame>
+      <frame id="29:32" name="divider-row" x="40" y="368" width="400" height="16">
+        <line id="29:33" name="line" x="0" y="8" width="178" height="0" />
+        <text id="29:34" name="or" x="194" y="0" width="12" height="16" />
+        <line id="29:35" name="line" x="222" y="8" width="178" height="0" />
+      </frame>
+      <frame id="29:36" name="form-fields" x="40" y="416" width="400" height="191">
+        <frame id="29:41" name="field-email" x="0" y="0" width="400" height="67">
+          <text id="29:42" name="Email Address" x="0" y="0" width="89" height="17" />
+          <frame id="29:43" name="input" x="0" y="23" width="400" height="44">
+            <text id="29:44" name="adaeze@okaforfoods.ca" x="14" y="13" width="157" height="18" />
+          </frame>
+        </frame>
+        <frame id="29:45" name="field-password" x="0" y="83" width="400" height="67">
+          <text id="29:46" name="Password" x="0" y="0" width="61" height="17" />
+          <frame id="29:47" name="input" x="0" y="23" width="400" height="44">
+            <text id="29:48" name="••••••••••••" x="14" y="13" width="61" height="18" />
+          </frame>
+        </frame>
+        <frame id="29:78" name="consent-row" x="0" y="166" width="400" height="25">
+          <text id="29:81" name="Forgot password" x="0" y="8" width="400" height="17" />
+        </frame>
+      </frame>
+      <frame id="29:82" name="submit-btn" x="40" y="639" width="400" height="50">
+        <text id="29:83" name="Login" x="179.5" y="14.5" width="41" height="21" />
+      </frame>
+      <text id="29:84" name="bottom-switch" x="40" y="721" width="400" height="18" />
+    </frame>
+  </frame>

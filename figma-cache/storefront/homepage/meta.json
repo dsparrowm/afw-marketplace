@@ -1,0 +1,10 @@
+{
+  "nodeId": "2:4",
+  "name": "Homepage",
+  "platform": "desktop",
+  "width": 1440,
+  "height": 5423,
+  "status": "partial",
+  "screenshot": "storefront/homepage/screenshot.png",
+  "slug": "homepage"
+}

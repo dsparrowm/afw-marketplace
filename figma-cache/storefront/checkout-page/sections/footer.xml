@@ -1,0 +1,18 @@
+<frame id="2:1721" name="Footer" x="0" y="1583" width="1440" height="100">
+      <frame id="2:1722" name="Container" x="120" y="40" width="1200" height="20">
+        <frame id="2:1723" name="Container" x="24" y="0" width="352" height="20">
+          <text id="2:1724" name="© 2024 African Food Warehouse. All rights reserved." x="0" y="0" width="352" height="20" />
+        </frame>
+        <frame id="2:1725" name="Container" x="849" y="0" width="327" height="20">
+          <frame id="2:1726" name="Link" x="0" y="0" width="94" height="20">
+            <text id="2:1727" name="Privacy Policy" x="0" y="0" width="94" height="20" />
+          </frame>
+          <frame id="2:1728" name="Link" x="126" y="0" width="113" height="20">
+            <text id="2:1729" name="Terms of Service" x="0" y="0" width="113" height="20" />
+          </frame>
+          <frame id="2:1730" name="Link" x="271" y="0" width="56" height="20">
+            <text id="2:1731" name="Support" x="0" y="0" width="56" height="20" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>

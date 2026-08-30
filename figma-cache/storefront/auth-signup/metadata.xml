@@ -1,0 +1,115 @@
+<frame id="28:1161" name="auth-login-signup" x="1496" y="11430" width="1200" height="1434">
+    <frame id="28:1162" name="auth-card" x="360" y="64" width="480" height="1306">
+      <frame id="28:1163" name="card-header" x="40" y="40" width="400" height="88">
+        <rounded-rectangle id="28:1164" name="image 2" x="147.5" y="0" width="105" height="62" />
+        <text id="28:1165" name="brand-subtitle" x="0" y="70" width="400" height="18" />
+      </frame>
+      <frame id="28:1166" name="auth-tabs" x="40" y="160" width="400" height="44">
+        <frame id="28:1167" name="tab-login" x="0" y="0" width="200" height="44">
+          <text id="28:1168" name="Log In" x="79" y="12" width="42" height="20" />
+        </frame>
+        <frame id="28:1169" name="tab-signup" x="200" y="0" width="200" height="44">
+          <text id="28:1170" name="Sign Up" x="72.5" y="12" width="55" height="20" />
+        </frame>
+      </frame>
+      <frame id="31:1258" name="social-auth" x="40" y="236" width="400" height="100">
+        <frame id="31:1259" name="btn-apple" x="0" y="0" width="400" height="44">
+          <frame id="31:1260" name="apple" x="119" y="14" width="16" height="16">
+            <frame id="31:1261" name="i" x="2" y="-5.5" width="13.5" height="28">
+              <frame id="31:1262" name="svg" x="0" y="4.25" width="13.5" height="18">
+                <frame id="31:1263" name="Frame" x="0" y="0" width="13.5" height="18" />
+              </frame>
+            </frame>
+          </frame>
+          <text id="31:1265" name="Continue with Apple" x="143" y="13" width="138" height="18" />
+        </frame>
+        <frame id="31:1266" name="btn-google" x="0" y="56" width="400" height="44">
+          <frame id="31:1267" name="circle-x" x="115" y="14" width="16" height="16">
+            <frame id="31:1268" name="svg" x="0" y="2.5" width="13" height="14">
+              <frame id="31:1269" name="Frame" x="-2.078125" y="-2" width="17.15625" height="18" />
+            </frame>
+          </frame>
+          <text id="31:1271" name="Continue with Google" x="139" y="13" width="146" height="18" />
+        </frame>
+      </frame>
+      <frame id="28:1180" name="divider-row" x="40" y="368" width="400" height="16">
+        <line id="28:1181" name="line" x="0" y="8" width="178" height="0" />
+        <text id="28:1182" name="or" x="194" y="0" width="12" height="16" />
+        <line id="28:1183" name="line" x="222" y="8" width="178" height="0" />
+      </frame>
+      <frame id="28:1184" name="form-fields" x="40" y="416" width="400" height="718">
+        <frame id="28:1185" name="field-name" x="0" y="0" width="400" height="67">
+          <text id="28:1186" name="Full Name" x="0" y="0" width="62" height="17" />
+          <frame id="28:1187" name="input" x="0" y="23" width="400" height="44">
+            <text id="28:1188" name="Adaeze Okafor" x="14" y="13" width="95" height="18" />
+          </frame>
+        </frame>
+        <frame id="28:1189" name="field-email" x="0" y="83" width="400" height="67">
+          <text id="28:1190" name="Email Address" x="0" y="0" width="89" height="17" />
+          <frame id="28:1191" name="input" x="0" y="23" width="400" height="44">
+            <text id="28:1192" name="adaeze@okaforfoods.ca" x="14" y="13" width="157" height="18" />
+          </frame>
+        </frame>
+        <frame id="28:1193" name="field-password" x="0" y="166" width="400" height="67">
+          <text id="28:1194" name="Password" x="0" y="0" width="61" height="17" />
+          <frame id="28:1195" name="input" x="0" y="23" width="400" height="44">
+            <text id="28:1196" name="••••••••••••" x="14" y="13" width="61" height="18" />
+          </frame>
+        </frame>
+        <frame id="28:1197" name="account-toggle-wrapper" x="0" y="249" width="400" height="74">
+          <text id="28:1198" name="Account Type" x="0" y="8" width="88" height="17" />
+          <frame id="28:1199" name="toggle-track" x="0" y="33" width="400" height="41">
+            <frame id="28:1200" name="toggle-personal" x="4" y="4" width="196" height="33">
+              <text id="28:1201" name="Personal" x="71.5" y="8" width="53" height="17" />
+            </frame>
+            <frame id="28:1202" name="toggle-business" x="200" y="4" width="196" height="33">
+              <text id="28:1203" name="Business / Wholesale" x="31.5" y="8" width="133" height="17" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="28:1204" name="business-details" x="0" y="339" width="400" height="337">
+          <frame id="28:1205" name="field-bizname" x="0" y="8" width="400" height="67">
+            <text id="28:1206" name="Business Name" x="0" y="0" width="96" height="17" />
+            <frame id="28:1207" name="input" x="0" y="23" width="400" height="44">
+              <text id="28:1208" name="Okafor Foods &amp; Catering" x="14" y="13" width="160" height="18" />
+            </frame>
+          </frame>
+          <frame id="28:1209" name="field-biztype" x="0" y="91" width="400" height="67">
+            <text id="28:1210" name="Business Type" x="0" y="0" width="90" height="17" />
+            <frame id="28:1211" name="dropdown" x="0" y="23" width="400" height="44">
+              <text id="28:1212" name="Restaurant / Catering" x="14" y="13" width="139" height="18" />
+              <frame id="28:1213" name="chevron-down" x="370" y="14" width="16" height="16" />
+            </frame>
+          </frame>
+          <frame id="28:1215" name="field-volume" x="0" y="174" width="400" height="61">
+            <text id="28:1216" name="Expected Monthly Order Volume" x="0" y="0" width="205" height="17" />
+            <frame id="28:1217" name="volume-selector" x="0" y="25" width="400" height="36">
+              <frame id="28:1218" name="vol-opt-0" x="0" y="0" width="128" height="36">
+                <text id="28:1219" name="Small (&lt; $500)" x="21.5" y="10" width="85" height="16" />
+              </frame>
+              <frame id="28:1220" name="vol-opt-1" x="136" y="0" width="128" height="36">
+                <text id="28:1221" name="Medium ($500-$2k)" x="4.5" y="10" width="119" height="16" />
+              </frame>
+              <frame id="28:1222" name="vol-opt-2" x="272" y="0" width="128" height="36">
+                <text id="28:1223" name="Large ($2k+)" x="27.5" y="10" width="73" height="16" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="28:1224" name="info-box" x="0" y="251" width="400" height="86">
+            <frame id="28:1225" name="alert-triangle" x="16" y="16" width="18" height="18" />
+            <text id="28:1227" name="Business accounts are reviewed and approved within 1 business day — you can keep shopping at retail pricing while you wait." x="46" y="16" width="338" height="54" />
+          </frame>
+        </frame>
+        <frame id="28:1228" name="consent-row" x="0" y="692" width="400" height="26">
+          <frame id="28:1229" name="checkbox" x="0" y="8" width="18" height="18">
+            <frame id="28:1230" name="check" x="3" y="3" width="12" height="12" />
+          </frame>
+          <text id="28:1232" name="I agree to the Terms &amp; Privacy Policy" x="28" y="8.5" width="372" height="17" />
+        </frame>
+      </frame>
+      <frame id="28:1233" name="submit-btn" x="40" y="1166" width="400" height="50">
+        <text id="28:1234" name="Submit Application" x="125.5" y="14.5" width="149" height="21" />
+      </frame>
+      <text id="28:1235" name="bottom-switch" x="40" y="1248" width="400" height="18" />
+    </frame>
+  </frame>

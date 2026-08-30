@@ -1,0 +1,255 @@
+<frame id="3:2192" name="Main" x="0" y="96" width="375" height="1735.5">
+      <frame id="3:2193" name="Heading 1" x="16" y="24" width="343" height="36">
+        <text id="3:2194" name="Shop African Food" x="0" y="0" width="255" height="36" />
+      </frame>
+      <frame id="3:2195" name="Container" x="16" y="60" width="343" height="70">
+        <frame id="3:2196" name="Input - i class=&quot;fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-gray-400&quot;&gt;&lt;/i&gt; F..." x="0" y="16" width="343" height="54">
+          <frame id="3:2197" name="Container" x="49" y="17" width="277" height="19">
+            <text id="3:2198" name="Search African foods..." x="0" y="0" width="277" height="19" />
+          </frame>
+        </frame>
+        <frame id="3:2199" name="Img" x="16" y="35" width="16" height="16" />
+      </frame>
+      <frame id="3:2201" name="Container" x="0" y="130" width="375" height="62">
+        <frame id="3:2202" name="Button" x="16" y="24" width="111" height="38">
+          <rounded-rectangle id="3:2203" name="Button:shadow" x="0" y="0" width="111" height="38" />
+          <text id="3:2204" name="All Products" x="20" y="10.5" width="71" height="16" />
+        </frame>
+        <frame id="3:2205" name="Button" x="138.44000244140625" y="24" width="123" height="38">
+          <text id="3:2206" name="Grains &amp; Flour" x="21" y="11" width="81" height="16" />
+        </frame>
+        <frame id="3:2207" name="Button" x="272.3299865722656" y="24" width="126" height="38">
+          <text id="3:2208" name="Fresh Produce" x="21" y="11" width="84" height="16" />
+        </frame>
+        <frame id="3:2209" name="Button" x="409.5199890136719" y="24" width="110" height="38">
+          <text id="3:2210" name="Spices &amp; Oil" x="21" y="11" width="68" height="16" />
+        </frame>
+        <frame id="3:2211" name="Button" x="531.1699829101562" y="24" width="85" height="38">
+          <text id="3:2212" name="Snacks" x="21" y="11" width="43" height="16" />
+        </frame>
+      </frame>
+      <frame id="3:2213" name="Container" x="0" y="192" width="375" height="62">
+        <frame id="3:2214" name="Container" x="16" y="33" width="88" height="20">
+          <text id="3:2215" name="124 Products" x="0" y="0" width="88" height="20" />
+        </frame>
+        <frame id="3:2216" name="Button" x="236" y="24" width="123" height="38">
+          <frame id="3:2217" name="Img" x="17" y="13" width="12" height="12" />
+          <text id="3:2219" name="Filter &amp; Sort" x="37" y="11" width="69" height="16" />
+        </frame>
+      </frame>
+      <frame id="3:2220" name="Container" x="0" y="254" width="375" height="819.5">
+        <frame id="3:2221" name="Background+Border+Shadow" x="16" y="24" width="163.5" height="254.5">
+          <frame id="3:2222" name="Margin" x="13" y="13" width="137.5" height="149.5">
+            <frame id="3:2223" name="Overlay" x="0" y="0" width="137.5" height="137.5">
+              <frame id="3:2224" name="fresh white puna yam tuber, clean white background, studio product photography" x="16" y="16" width="105.5" height="105.5" />
+              <frame id="3:2225" name="Overlay+Border" x="8" y="8" width="58" height="18">
+                <text id="3:2226" name="Organic" x="9" y="3" width="40" height="12" />
+              </frame>
+              <frame id="3:2227" name="Button" x="101.5" y="8" width="28" height="28">
+                <frame id="3:2228" name="Img" x="9" y="9" width="10" height="10" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="3:2230" name="Container" x="13" y="162.5" width="137.5" height="79">
+            <frame id="3:2231" name="Heading 3:margin" x="4" y="0" width="129.5" height="43">
+              <frame id="3:2232" name="Heading 3" x="0" y="0" width="129.5" height="35">
+                <text id="3:2233" name="Premium White
+Puna Yam (Large)" x="0" y="0" width="129.5" height="35" />
+              </frame>
+            </frame>
+            <frame id="3:2234" name="Container" x="4" y="43" width="129.5" height="36">
+              <frame id="3:2235" name="Container" x="0" y="6" width="53" height="24">
+                <text id="3:2236" name="$15.99" x="0" y="0" width="53" height="24" />
+              </frame>
+              <frame id="3:2237" name="Button" x="93.5" y="0" width="36" height="36">
+                <rounded-rectangle id="3:2238" name="Button:shadow" x="0" y="0" width="36" height="36" />
+                <frame id="3:2239" name="Img" x="12.75" y="12" width="10.5" height="12" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="3:2241" name="Background+Border+Shadow" x="195.5" y="24" width="163.5" height="254.5">
+          <frame id="3:2242" name="Margin" x="13" y="13" width="137.5" height="149.5">
+            <frame id="3:2243" name="Overlay" x="0" y="0" width="137.5" height="137.5">
+              <frame id="3:2244" name="bowl of fresh red scotch bonnet peppers, white background, studio food photography" x="16" y="16" width="105.5" height="105.5" />
+              <frame id="3:2245" name="Overlay+Border" x="8" y="8" width="58" height="18">
+                <text id="3:2246" name="Organic" x="9" y="3" width="40" height="12" />
+              </frame>
+              <frame id="3:2247" name="Button" x="101.5" y="8" width="28" height="28">
+                <frame id="3:2248" name="Img" x="9" y="9" width="10" height="10" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="3:2250" name="Container" x="13" y="162.5" width="137.5" height="79">
+            <frame id="3:2251" name="Heading 3:margin" x="4" y="0" width="129.5" height="43">
+              <frame id="3:2252" name="Heading 3" x="0" y="0" width="129.5" height="35">
+                <text id="3:2253" name="Scotch Bonnet
+Peppers (1lb)" x="0" y="0" width="129.5" height="35" />
+              </frame>
+            </frame>
+            <frame id="3:2254" name="Container" x="4" y="43" width="129.5" height="36">
+              <frame id="3:2255" name="Container" x="0" y="6" width="46" height="24">
+                <text id="3:2256" name="$6.99" x="0" y="0" width="46" height="24" />
+              </frame>
+              <frame id="3:2257" name="Button" x="93.5" y="0" width="36" height="36">
+                <rounded-rectangle id="3:2258" name="Button:shadow" x="0" y="0" width="36" height="36" />
+                <frame id="3:2259" name="Img" x="12.75" y="12" width="10.5" height="12" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="3:2261" name="Background+Border+Shadow" x="16" y="294.5" width="163.5" height="254.5">
+          <frame id="3:2262" name="Margin" x="13" y="13" width="137.5" height="149.5">
+            <frame id="3:2263" name="Overlay" x="0" y="0" width="137.5" height="137.5">
+              <frame id="3:2264" name="bottle of african red palm oil, golden label, white background, studio photography" x="16" y="16" width="105.5" height="105.5" />
+            </frame>
+          </frame>
+          <frame id="3:2265" name="Container" x="13" y="162.5" width="137.5" height="79">
+            <frame id="3:2266" name="Heading 3:margin" x="4" y="0" width="129.5" height="43">
+              <frame id="3:2267" name="Heading 3" x="0" y="0" width="129.5" height="35">
+                <text id="3:2268" name="Zomi Pure Red
+Palm Oil (1L)" x="0" y="0" width="129.5" height="35" />
+              </frame>
+            </frame>
+            <frame id="3:2269" name="Container" x="4" y="43" width="129.5" height="36">
+              <frame id="3:2270" name="Container" x="0" y="6" width="53" height="24">
+                <text id="3:2271" name="$12.50" x="0" y="0" width="53" height="24" />
+              </frame>
+              <frame id="3:2272" name="Button" x="93.5" y="0" width="36" height="36">
+                <rounded-rectangle id="3:2273" name="Button:shadow" x="0" y="0" width="36" height="36" />
+                <frame id="3:2274" name="Img" x="12.75" y="12" width="10.5" height="12" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="3:2276" name="Background+Border+Shadow" x="195.5" y="294.5" width="163.5" height="254.5">
+          <frame id="3:2277" name="Margin" x="13" y="13" width="137.5" height="149.5">
+            <frame id="3:2278" name="Overlay" x="0" y="0" width="137.5" height="137.5">
+              <frame id="3:2279" name="large bag of white gari, cassava flour, traditional packaging, white background" x="16" y="16" width="105.5" height="105.5" />
+            </frame>
+          </frame>
+          <frame id="3:2280" name="Container" x="13" y="162.5" width="137.5" height="79">
+            <frame id="3:2281" name="Heading 3:margin" x="4" y="0" width="129.5" height="43">
+              <frame id="3:2282" name="Heading 3" x="0" y="0" width="129.5" height="35">
+                <text id="3:2283" name="Premium Ijebu Gari
+(2kg Bag)" x="0" y="0" width="129.5" height="35" />
+              </frame>
+            </frame>
+            <frame id="3:2284" name="Container" x="4" y="43" width="129.5" height="36">
+              <frame id="3:2285" name="Container" x="0" y="6" width="54" height="24">
+                <text id="3:2286" name="$10.99" x="0" y="0" width="54" height="24" />
+              </frame>
+              <frame id="3:2287" name="Button" x="93.5" y="0" width="36" height="36">
+                <rounded-rectangle id="3:2288" name="Button:shadow" x="0" y="0" width="36" height="36" />
+                <frame id="3:2289" name="Img" x="12.75" y="12" width="10.5" height="12" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="3:2291" name="Background+Border+Shadow" x="16" y="565" width="163.5" height="254.5">
+          <frame id="3:2292" name="Margin" x="13" y="13" width="137.5" height="149.5">
+            <frame id="3:2293" name="Overlay" x="0" y="0" width="137.5" height="137.5">
+              <frame id="3:2294" name="dried smoked catfish, packaged in clear plastic, white background" x="16" y="16" width="105.5" height="105.5" />
+            </frame>
+          </frame>
+          <frame id="3:2295" name="Container" x="13" y="162.5" width="137.5" height="79">
+            <frame id="3:2296" name="Heading 3:margin" x="4" y="0" width="129.5" height="43">
+              <frame id="3:2297" name="Heading 3" x="0" y="0" width="129.5" height="35">
+                <text id="3:2298" name="Whole Smoked
+Catfish (3-pack)" x="0" y="0" width="129.5" height="35" />
+              </frame>
+            </frame>
+            <frame id="3:2299" name="Container" x="4" y="43" width="129.5" height="36">
+              <frame id="3:2300" name="Container" x="0" y="6" width="55" height="24">
+                <text id="3:2301" name="$24.99" x="0" y="0" width="55" height="24" />
+              </frame>
+              <frame id="3:2302" name="Button" x="93.5" y="0" width="36" height="36">
+                <rounded-rectangle id="3:2303" name="Button:shadow" x="0" y="0" width="36" height="36" />
+                <frame id="3:2304" name="Img" x="12.75" y="12" width="10.5" height="12" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="3:2306" name="Background+Border+Shadow" x="195.5" y="565" width="163.5" height="254.5">
+          <frame id="3:2307" name="Margin" x="13" y="13" width="137.5" height="149.5">
+            <frame id="3:2308" name="Overlay" x="0" y="0" width="137.5" height="137.5">
+              <frame id="3:2309" name="packet of ground crayfish, kitchen spices, white background" x="16" y="16" width="105.5" height="105.5" />
+            </frame>
+          </frame>
+          <frame id="3:2310" name="Container" x="13" y="162.5" width="137.5" height="79">
+            <frame id="3:2311" name="Heading 3:margin" x="4" y="0" width="129.5" height="43">
+              <frame id="3:2312" name="Heading 3" x="0" y="0" width="129.5" height="35">
+                <text id="3:2313" name="Ground Crayfish
+(100g)" x="0" y="0" width="129.5" height="35" />
+              </frame>
+            </frame>
+            <frame id="3:2314" name="Container" x="4" y="43" width="129.5" height="36">
+              <frame id="3:2315" name="Container" x="0" y="6" width="46" height="24">
+                <text id="3:2316" name="$8.50" x="0" y="0" width="46" height="24" />
+              </frame>
+              <frame id="3:2317" name="Button" x="93.5" y="0" width="36" height="36">
+                <rounded-rectangle id="3:2318" name="Button:shadow" x="0" y="0" width="36" height="36" />
+                <frame id="3:2319" name="Img" x="12.75" y="12" width="10.5" height="12" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="3:2321" name="Container" x="0" y="1073.5" width="375" height="220">
+        <frame id="3:2322" name="Margin" x="124.36000061035156" y="48" width="126.46729278564453" height="32">
+          <text id="3:2323" name="Showing 6 of 124" x="0" y="0" width="126.46729278564453" height="16" />
+        </frame>
+        <frame id="3:2324" name="Button" x="16" y="116" width="343" height="56">
+          <text id="3:2325" name="Load More Products" x="103.5" y="18" width="136" height="20" />
+        </frame>
+        <frame id="3:2326" name="Margin" x="16" y="80" width="343" height="36">
+          <frame id="3:2327" name="Background" x="0" y="0" width="343" height="4">
+            <rounded-rectangle id="3:2328" name="Background" x="0" y="0" width="17.139999389648438" height="4" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="3:2329" name="Footer" x="0" y="1293.5" width="375" height="442">
+        <frame id="3:2330" name="Container" x="16" y="40" width="343" height="152">
+          <frame id="3:2331" name="Margin" x="129.5" y="0" width="84" height="48">
+            <frame id="3:2332" name="Container" x="0" y="0" width="84" height="32">
+              <frame id="3:2333" name="Img" x="0" y="4" width="24" height="24" />
+              <text id="3:2335" name="AFW" x="32" y="0" width="52" height="32" />
+            </frame>
+          </frame>
+          <frame id="3:2336" name="Container" x="31.5" y="48" width="280" height="40">
+            <text id="3:2337" name="Bringing the true taste of home to your
+kitchen in Canada." x="15.5" y="0" width="249" height="40" />
+          </frame>
+          <frame id="3:2338" name="Margin" x="95.5" y="88" width="152" height="64">
+            <frame id="3:2339" name="Container" x="0" y="24" width="152" height="40">
+              <frame id="3:2340" name="Link" x="0" y="0" width="40" height="40">
+                <frame id="3:2341" name="Img" x="13" y="12" width="14" height="16" />
+              </frame>
+              <frame id="3:2343" name="Link" x="56" y="0" width="40" height="40">
+                <frame id="3:2344" name="Img" x="15" y="12" width="10" height="16" />
+              </frame>
+              <frame id="3:2346" name="Link" x="112" y="0" width="40" height="40">
+                <frame id="3:2347" name="Img" x="13" y="12" width="14" height="16" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="3:2349" name="HorizontalBorder" x="16" y="232" width="343" height="123">
+          <frame id="3:2350" name="HorizontalBorder" x="0" y="33" width="343" height="37">
+            <frame id="3:2351" name="Container" x="0" y="8" width="44.47856140136719" height="20">
+              <text id="3:2352" name="Shop" x="0" y="0" width="44.47856140136719" height="20" />
+            </frame>
+            <frame id="3:2353" name="Img" x="332.5" y="12" width="10.5" height="12" />
+          </frame>
+          <frame id="3:2355" name="HorizontalBorder" x="0" y="86" width="343" height="37">
+            <frame id="3:2356" name="Container" x="0" y="8" width="75.30748748779297" height="20">
+              <text id="3:2357" name="Support" x="0" y="0" width="75.30748748779297" height="20" />
+            </frame>
+            <frame id="3:2358" name="Img" x="332.5" y="12" width="10.5" height="12" />
+          </frame>
+        </frame>
+        <frame id="3:2360" name="Container" x="16" y="395" width="343" height="15">
+          <text id="3:2361" name="© 2024 African Food Warehouse. All Rights Reserved." x="50" y="0" width="243" height="15" />
+        </frame>
+      </frame>
+    </frame>

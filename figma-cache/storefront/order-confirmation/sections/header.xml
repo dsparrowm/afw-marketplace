@@ -1,0 +1,81 @@
+<frame id="18:442" name="Header" x="0" y="40" width="1440" height="123">
+      <frame id="18:443" name="Container" x="0" y="0" width="1440" height="80">
+        <frame id="18:444" name="Container" x="40" y="9" width="628.010009765625" height="62">
+          <frame id="18:445" name="Link" x="0" y="0" width="159" height="62">
+            <rounded-rectangle id="18:446" name="image 2" x="0" y="0" width="105" height="62" />
+          </frame>
+          <frame id="18:447" name="Nav" x="191" y="21" width="437.010009765625" height="20">
+            <frame id="18:448" name="Link" x="0" y="0" width="35" height="20">
+              <text id="18:449" name="Shop" x="0" y="0" width="35" height="20" />
+            </frame>
+            <frame id="18:450" name="Link" x="59" y="0" width="89.01000213623047" height="20">
+              <text id="18:451" name="Categories" x="0" y="0" width="75" height="20" />
+              <frame id="18:452" name="Img" x="79.01000213623047" y="5" width="10" height="10" />
+            </frame>
+            <frame id="18:454" name="Link" x="172.010009765625" y="0" width="38" height="20">
+              <text id="18:455" name="Deals" x="0" y="0" width="38" height="20" />
+            </frame>
+            <frame id="18:456" name="Link" x="234.010009765625" y="0" width="83" height="20">
+              <text id="18:457" name="New Arrivals" x="0" y="0" width="83" height="20" />
+            </frame>
+            <frame id="18:458" name="Link" x="341.010009765625" y="0" width="96" height="20">
+              <text id="18:459" name="Wholesale" x="25" y="0" width="71" height="20" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="18:460" name="Container" x="668.010009765625" y="7.5" width="233.489990234375" height="65">
+          <frame id="18:461" name="Container" x="0" y="0" width="233.489990234375" height="65">
+            <frame id="18:462" name="Input" x="0" y="0" width="233.489990234375" height="65">
+              <frame id="18:463" name="Container" x="45" y="13" width="171.489990234375" height="38">
+                <text id="18:464" name="Search products, categories, or brands..." x="0" y="0" width="171.489990234375" height="38" />
+              </frame>
+            </frame>
+            <frame id="18:465" name="Container" x="0" y="0" width="32" height="65">
+              <frame id="18:466" name="Img" x="16" y="24.5" width="16" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="18:468" name="Container" x="901.5" y="16" width="498.5" height="48">
+          <frame id="18:469" name="Container" x="0" y="6" width="99" height="36">
+            <frame id="18:470" name="Canada" x="12" y="13" width="20" height="10">
+              <frame id="18:471" name="Flag_of_Canada_%28Pantone%29.svg" x="0" y="0" width="20" height="10" />
+            </frame>
+            <frame id="18:474" name="Container" x="40" y="8" width="29" height="20">
+              <text id="18:475" name="CAD" x="0" y="0" width="29" height="20" />
+            </frame>
+            <frame id="18:476" name="Img" x="77" y="13" width="10" height="10" />
+          </frame>
+          <frame id="18:478" name="Container" x="119" y="0" width="247.5" height="48">
+            <frame id="18:479" name="Img" x="12" y="17" width="10.5" height="14" />
+            <frame id="18:501" name="Container" x="30.5" y="8" width="205" height="32">
+              <frame id="18:502" name="Link" x="0" y="6" width="69" height="20">
+                <text id="18:503" name="My Orders" x="0" y="0" width="69" height="20" />
+              </frame>
+              <frame id="18:504" name="Link" x="93" y="6" width="56" height="20">
+                <text id="18:505" name="Support" x="0" y="0" width="56" height="20" />
+              </frame>
+              <frame id="18:506" name="Border" x="173" y="0" width="32" height="32">
+                <frame id="18:507" name="User" x="1" y="1" width="30" height="30" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="18:483" name="Container" x="386.5" y="2" width="112" height="44">
+            <frame id="18:487" name="Button" x="0" y="0" width="112" height="44">
+              <frame id="18:488" name="Img" x="20" y="14" width="18" height="16" />
+              <frame id="18:490" name="i class=&quot;fa-solid fa-cart-shopping&quot;&gt;&lt;/i&gt; Font Awesome fontawesome.com" x="46" y="10" width="46" height="24">
+                <text id="18:491" name="$0.00" x="0" y="0" width="46" height="24" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="18:492" name="category-row" x="0" y="80" width="1440" height="42">
+        <text id="18:493" name="Shop All" x="80" y="12" width="57" height="18" />
+        <text id="18:494" name="Grains &amp; Flours" x="169" y="12" width="99" height="18" />
+        <text id="18:495" name="Spices &amp; Seasonings" x="300" y="12" width="137" height="18" />
+        <text id="18:496" name="Oils &amp; Sauces" x="469" y="12" width="90" height="18" />
+        <text id="18:497" name="Snacks" x="591" y="12" width="49" height="18" />
+        <text id="18:498" name="Beverages" x="672" y="12" width="70" height="18" />
+        <text id="18:499" name="Fresh Produce" x="774" y="12" width="95" height="18" />
+      </frame>
+    </frame>

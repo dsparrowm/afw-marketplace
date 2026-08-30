@@ -1,0 +1,65 @@
+<frame id="2:41" name="Section" x="0" y="691" width="1440" height="334.66998291015625">
+        <frame id="2:42" name="Container" x="40" y="16" width="1360" height="40">
+          <frame id="2:43" name="Heading 2" x="0" y="4" width="200" height="32">
+            <text id="2:44" name="Shop by Category" x="0" y="0" width="200" height="32" />
+          </frame>
+          <frame id="2:45" name="Container" x="1272" y="0" width="88" height="40">
+            <frame id="2:46" name="Button" x="0" y="0" width="40" height="40">
+              <frame id="2:47" name="Img" x="15" y="12" width="10" height="16" />
+            </frame>
+            <frame id="2:49" name="Button" x="48" y="0" width="40" height="40">
+              <frame id="2:50" name="Img" x="15" y="12" width="10" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="2:52" name="Container" x="40" y="88" width="1360" height="246.6699981689453">
+          <frame id="2:53" name="Container" x="0" y="0" width="206.66000366210938" height="246.66000366210938">
+            <frame id="2:54" name="Background+Border+Shadow" x="0" y="0" width="206.66000366210938" height="206.66000366210938">
+              <frame id="2:55" name="Fresh yams and plantains arrangement isolated on white" x="25" y="25" width="156.66000366210938" height="156.66000366210938" />
+            </frame>
+            <frame id="2:56" name="Heading 3" x="0" y="222.66000366210938" width="206.66000366210938" height="24">
+              <text id="2:57" name="Fresh Produce" x="47.33000183105469" y="0" width="112" height="24" />
+            </frame>
+          </frame>
+          <frame id="2:58" name="Container" x="230.66000366210938" y="0" width="206.6699981689453" height="246.6699981689453">
+            <frame id="2:59" name="Background+Border+Shadow" x="0" y="0" width="206.6699981689453" height="206.6699981689453">
+              <frame id="2:60" name="Assorted fresh fish and meat cuts for african cooking isolated on white" x="25" y="25" width="156.6699981689453" height="156.6699981689453" />
+            </frame>
+            <frame id="2:61" name="Heading 3" x="0" y="222.6699981689453" width="206.6699981689453" height="24">
+              <text id="2:62" name="Frozen Proteins" x="42.834999084472656" y="0" width="121" height="24" />
+            </frame>
+          </frame>
+          <frame id="2:63" name="Container" x="461.33001708984375" y="0" width="206.6699981689453" height="246.6699981689453">
+            <frame id="2:64" name="Background+Border+Shadow" x="0" y="0" width="206.6699981689453" height="206.6699981689453">
+              <frame id="2:65" name="Bags of garri, rice, and yam flour isolated on white" x="25" y="25" width="156.6699981689453" height="156.6699981689453" />
+            </frame>
+            <frame id="2:66" name="Heading 3" x="0" y="222.6699981689453" width="206.6699981689453" height="24">
+              <text id="2:67" name="Grains &amp; Flour" x="49.834999084472656" y="0" width="107" height="24" />
+            </frame>
+          </frame>
+          <frame id="2:68" name="Container" x="692" y="0" width="206.66000366210938" height="246.66000366210938">
+            <frame id="2:69" name="Background+Border+Shadow" x="0" y="0" width="206.66000366210938" height="206.66000366210938">
+              <frame id="2:70" name="Assorted african spices, peppers, egusi in small bowls isolated on white" x="25" y="25" width="156.66000366210938" height="156.66000366210938" />
+            </frame>
+            <frame id="2:71" name="Heading 3" x="0" y="222.66000366210938" width="206.66000366210938" height="24">
+              <text id="2:72" name="Condiments &amp; Spices" x="20.830001831054688" y="0" width="165" height="24" />
+            </frame>
+          </frame>
+          <frame id="2:73" name="Container" x="922.6600341796875" y="0" width="206.6699981689453" height="246.6699981689453">
+            <frame id="2:74" name="Background+Border+Shadow" x="0" y="0" width="206.6699981689453" height="206.6699981689453">
+              <frame id="2:75" name="African snacks chin chin, plantain chips and malt drinks isolated on white" x="25" y="25" width="156.6699981689453" height="156.6699981689453" />
+            </frame>
+            <frame id="2:76" name="Heading 3" x="0" y="222.6699981689453" width="206.6699981689453" height="24">
+              <text id="2:77" name="Snacks &amp; Drinks" x="41.834999084472656" y="0" width="123" height="24" />
+            </frame>
+          </frame>
+          <frame id="2:78" name="Container" x="1153.330078125" y="0" width="206.6699981689453" height="246.6699981689453">
+            <frame id="2:79" name="Background+Border+Shadow" x="0" y="0" width="206.6699981689453" height="206.6699981689453">
+              <frame id="2:80" name="Raw shea butter and black soap blocks isolated on white" x="25" y="25" width="156.6699981689453" height="156.6699981689453" />
+            </frame>
+            <frame id="2:81" name="Heading 3" x="0" y="222.6699981689453" width="206.6699981689453" height="24">
+              <text id="2:82" name="Beauty" x="75.83499908447266" y="0" width="55" height="24" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>

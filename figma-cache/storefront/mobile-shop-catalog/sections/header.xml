@@ -1,0 +1,17 @@
+<frame id="3:2362" name="Header" x="0" y="31" width="375" height="65">
+      <frame id="3:2363" name="Link" x="16" y="18" width="68" height="28">
+        <frame id="3:2364" name="Img" x="0" y="5" width="18" height="18" />
+        <text id="3:2366" name="AFW" x="24" y="0" width="44" height="28" />
+      </frame>
+      <frame id="3:2367" name="Container" x="263" y="12" width="96" height="40">
+        <frame id="3:2368" name="Button" x="0" y="0" width="40" height="40">
+          <frame id="3:2369" name="Img" x="9.875" y="11" width="20.25" height="18" />
+          <frame id="3:2371" name="i class=&quot;fa-solid fa-cart-shopping text-lg&quot;&gt;&lt;/i&gt; Font Awesome fontawesome.com" x="20" y="4" width="16" height="16">
+            <text id="3:2372" name="2" x="5" y="0" width="6" height="15" />
+          </frame>
+        </frame>
+        <frame id="3:2373" name="Button" x="56" y="0" width="40" height="40">
+          <frame id="3:2374" name="Img" x="10" y="10" width="20" height="20" />
+        </frame>
+      </frame>
+    </frame>

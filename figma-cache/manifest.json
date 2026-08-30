@@ -1,0 +1,214 @@
+{
+  "fileKey": "TRHpdrWtpLm06UPtgHYDgB",
+  "fileName": "AFW-Marketplace",
+  "figmaUrl": "https://www.figma.com/design/TRHpdrWtpLm06UPtgHYDgB/AFW-Marketplace",
+  "canvas": {
+    "nodeId": "0:1",
+    "name": "Storefront"
+  },
+  "cachedAt": "2026-08-30",
+  "buildOrder": [
+    "homepage",
+    "shop-catalog",
+    "product-detail",
+    "cart-page",
+    "checkout-page",
+    "order-confirmation",
+    "footer",
+    "mobile-homepage",
+    "mobile-shop-catalog",
+    "auth-login",
+    "auth-signup",
+    "dashboard-orders",
+    "order-detail",
+    "dashboard-addresses",
+    "dashboard-reorder-list",
+    "dashboard-profile"
+  ],
+  "frames": {
+    "homepage": {
+      "nodeId": "2:4",
+      "name": "Homepage",
+      "platform": "desktop",
+      "width": 1440,
+      "height": 5423,
+      "status": "partial",
+      "screenshot": "storefront/homepage/screenshot.png",
+      "shellStatus": "complete",
+      "sections": [
+        { "slug": "announcement-bar", "nodeId": "2:5", "name": "Background" },
+        { "slug": "header", "nodeId": "2:185", "name": "Header" },
+        { "slug": "hero", "nodeId": "2:8", "name": "Hero Section" },
+        { "slug": "trust-bar", "nodeId": "6:2690", "name": "Trust Bar" },
+        { "slug": "shop-by-category", "nodeId": "2:41", "name": "Shop by Category" },
+        { "slug": "featured-products", "nodeId": "6:3169", "name": "Featured Products Header" },
+        { "slug": "trending-products", "nodeId": "7:3466", "name": "Trending Products" },
+        { "slug": "recently-added", "nodeId": "7:3954", "name": "Recently Added" },
+        { "slug": "main-content", "nodeId": "2:7", "name": "Main" }
+      ]
+    },
+    "shop-catalog": {
+      "nodeId": "2:239",
+      "name": "Shop Catalog",
+      "platform": "desktop",
+      "width": 1440,
+      "height": 2462,
+      "status": "metadata-only",
+      "sections": [
+        { "slug": "header", "nodeId": "2:833", "name": "Header" },
+        { "slug": "main", "nodeId": "2:242", "name": "Main" },
+        { "slug": "footer", "nodeId": "18:7", "name": "Footer" }
+      ]
+    },
+    "product-detail": {
+      "nodeId": "2:870",
+      "name": "Product Detail",
+      "platform": "desktop",
+      "width": 1440,
+      "height": 2391,
+      "status": "partial",
+      "screenshot": "storefront/product-detail/screenshot.png",
+      "sections": [
+        { "slug": "announcement-bar", "nodeId": "18:257", "name": "Background" },
+        { "slug": "header", "nodeId": "18:259", "name": "Header" },
+        { "slug": "main", "nodeId": "2:873", "name": "Main" }
+      ]
+    },
+    "cart-page": {
+      "nodeId": "2:1184",
+      "name": "Cart Page",
+      "platform": "desktop",
+      "width": 1440,
+      "height": 1895,
+      "status": "metadata-only",
+      "sections": [
+        { "slug": "announcement-bar", "nodeId": "18:318", "name": "Background" },
+        { "slug": "header", "nodeId": "18:320", "name": "Header" },
+        { "slug": "main", "nodeId": "2:1187", "name": "Main" },
+        { "slug": "footer", "nodeId": "18:133", "name": "Footer" }
+      ]
+    },
+    "checkout-page": {
+      "nodeId": "2:1516",
+      "name": "Checkout Page",
+      "platform": "desktop",
+      "width": 1440,
+      "height": 1683,
+      "status": "metadata-only",
+      "sections": [
+        { "slug": "announcement-bar", "nodeId": "18:379", "name": "Background" },
+        { "slug": "header", "nodeId": "18:381", "name": "Header" },
+        { "slug": "main", "nodeId": "2:1527", "name": "Main" },
+        { "slug": "footer", "nodeId": "2:1721", "name": "Footer" }
+      ]
+    },
+    "order-confirmation": {
+      "nodeId": "2:1734",
+      "name": "Order Confirmation",
+      "platform": "desktop",
+      "width": 1440,
+      "height": 1704,
+      "status": "metadata-only",
+      "sections": [
+        { "slug": "announcement-bar", "nodeId": "18:440", "name": "Background" },
+        { "slug": "header", "nodeId": "18:442", "name": "Header" },
+        { "slug": "main", "nodeId": "2:1748", "name": "Main" },
+        { "slug": "footer", "nodeId": "2:1910", "name": "Footer" }
+      ]
+    },
+    "mobile-homepage": {
+      "nodeId": "2:1928",
+      "name": "Mobile Homepage",
+      "platform": "mobile",
+      "width": 375,
+      "height": 3093,
+      "status": "metadata-only",
+      "sections": [
+        { "slug": "announcement-bar", "nodeId": "2:1929", "name": "Background" },
+        { "slug": "header", "nodeId": "2:2148", "name": "Header" },
+        { "slug": "main", "nodeId": "2:1931", "name": "Main" },
+        { "slug": "bottom-nav", "nodeId": "2:2165", "name": "Nav" }
+      ]
+    },
+    "mobile-shop-catalog": {
+      "nodeId": "3:2189",
+      "name": "Mobile Shop Catalog",
+      "platform": "mobile",
+      "width": 375,
+      "height": 1960,
+      "status": "metadata-only",
+      "sections": [
+        { "slug": "announcement-bar", "nodeId": "3:2190", "name": "Background" },
+        { "slug": "header", "nodeId": "3:2362", "name": "Header" },
+        { "slug": "main", "nodeId": "3:2192", "name": "Main" },
+        { "slug": "bottom-nav", "nodeId": "3:2376", "name": "Nav" }
+      ]
+    },
+    "footer": {
+      "nodeId": "18:70",
+      "name": "Footer",
+      "platform": "shared",
+      "width": 1440,
+      "height": 471,
+      "status": "metadata-only"
+    },
+    "auth-login": {
+      "nodeId": "29:15",
+      "name": "auth-login-signup",
+      "variant": "login",
+      "platform": "account",
+      "width": 1200,
+      "height": 1000,
+      "status": "metadata-only"
+    },
+    "auth-signup": {
+      "nodeId": "28:1161",
+      "name": "auth-login-signup",
+      "variant": "signup",
+      "platform": "account",
+      "width": 1200,
+      "height": 1434,
+      "status": "metadata-only"
+    },
+    "dashboard-orders": {
+      "nodeId": "29:86",
+      "name": "dashboard-orders",
+      "platform": "account",
+      "width": 1200,
+      "height": 900,
+      "status": "metadata-only"
+    },
+    "order-detail": {
+      "nodeId": "29:192",
+      "name": "order-detail",
+      "platform": "account",
+      "width": 1200,
+      "height": 900,
+      "status": "metadata-only"
+    },
+    "dashboard-addresses": {
+      "nodeId": "29:279",
+      "name": "dashboard-addresses",
+      "platform": "account",
+      "width": 1200,
+      "height": 900,
+      "status": "metadata-only"
+    },
+    "dashboard-reorder-list": {
+      "nodeId": "29:329",
+      "name": "dashboard-reorder-list",
+      "platform": "account",
+      "width": 1200,
+      "height": 900,
+      "status": "metadata-only"
+    },
+    "dashboard-profile": {
+      "nodeId": "29:433",
+      "name": "dashboard-profile",
+      "platform": "account",
+      "width": 1200,
+      "height": 900,
+      "status": "metadata-only"
+    }
+  }
+}

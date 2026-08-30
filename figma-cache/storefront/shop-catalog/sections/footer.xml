@@ -1,0 +1,97 @@
+<frame id="18:7" name="Footer" x="-4" y="1991" width="1444" height="471">
+      <frame id="18:8" name="Container" x="0" y="80" width="1444" height="351">
+        <frame id="18:9" name="Container" x="40" y="0" width="1364" height="218">
+          <frame id="18:10" name="Container" x="0" y="0" width="519.1900024414062" height="244">
+            <frame id="18:11" name="Link" x="0" y="0" width="519.1900024414062" height="62">
+              <rounded-rectangle id="18:12" name="image 2" x="0" y="0" width="105" height="62" />
+            </frame>
+            <frame id="18:13" name="Container" x="0" y="94" width="384" height="78">
+              <text id="18:14" name="Bringing the authentic taste of Africa to your
+kitchen. We source 100% organic products directly
+from local farmers across the continent." x="0" y="0" width="371" height="78" />
+            </frame>
+            <frame id="18:15" name="Container" x="0" y="204" width="519.1900024414062" height="40">
+              <frame id="18:16" name="Link" x="0" y="0" width="40" height="40">
+                <frame id="18:17" name="Img" x="15" y="12" width="10" height="16" />
+              </frame>
+              <frame id="18:19" name="Link" x="56" y="0" width="40" height="40">
+                <frame id="18:20" name="Img" x="13" y="12" width="14" height="16" />
+              </frame>
+              <frame id="18:22" name="Link" x="112" y="0" width="40" height="40">
+                <frame id="18:23" name="Img" x="12" y="12" width="16" height="16" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="18:25" name="Container" x="563.1900024414062" y="0" width="237.61000061035156" height="218">
+            <frame id="18:26" name="Heading 5" x="0" y="0" width="237.61000061035156" height="28">
+              <text id="18:27" name="Shop" x="0" y="0" width="237.61000061035156" height="28" />
+            </frame>
+            <frame id="18:28" name="List" x="0" y="52" width="237.61000061035156" height="144">
+              <frame id="18:29" name="Item" x="0" y="0" width="237.61000061035156" height="24">
+                <text id="18:30" name="Link → All Products" x="0" y="0" width="237.61000061035156" height="24" />
+              </frame>
+              <frame id="18:31" name="Item" x="0" y="40" width="237.61000061035156" height="24">
+                <text id="18:32" name="Link → Fresh Produce" x="0" y="0" width="237.61000061035156" height="24" />
+              </frame>
+              <frame id="18:33" name="Item" x="0" y="80" width="237.61000061035156" height="24">
+                <text id="18:34" name="Link → Bulk Wholesale" x="0" y="0" width="237.61000061035156" height="24" />
+              </frame>
+              <frame id="18:35" name="Item" x="0" y="120" width="237.61000061035156" height="24">
+                <text id="18:36" name="Link → New Arrivals" x="0" y="0" width="237.61000061035156" height="24" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="18:37" name="Container" x="844.7999877929688" y="0" width="237.58999633789062" height="218">
+            <frame id="18:38" name="Heading 5" x="0" y="0" width="237.58999633789062" height="28">
+              <text id="18:39" name="Company" x="0" y="0" width="237.58999633789062" height="28" />
+            </frame>
+            <frame id="18:40" name="List" x="0" y="52" width="237.58999633789062" height="144">
+              <frame id="18:41" name="Item" x="0" y="0" width="237.58999633789062" height="24">
+                <text id="18:42" name="Link → About Us" x="0" y="0" width="237.58999633789062" height="24" />
+              </frame>
+              <frame id="18:43" name="Item" x="0" y="40" width="237.58999633789062" height="24">
+                <text id="18:44" name="Link → Our Farmers" x="0" y="0" width="237.58999633789062" height="24" />
+              </frame>
+              <frame id="18:45" name="Item" x="0" y="80" width="237.58999633789062" height="24">
+                <text id="18:46" name="Link → Contact Us" x="0" y="0" width="237.58999633789062" height="24" />
+              </frame>
+              <frame id="18:47" name="Item" x="0" y="120" width="237.58999633789062" height="24">
+                <text id="18:48" name="Link → Careers" x="0" y="0" width="237.58999633789062" height="24" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="18:49" name="Container" x="1126.3900146484375" y="0" width="237.61000061035156" height="218">
+            <frame id="18:50" name="Heading 5" x="0" y="0" width="237.61000061035156" height="28">
+              <text id="18:51" name="Support" x="0" y="0" width="237.61000061035156" height="28" />
+            </frame>
+            <frame id="18:52" name="List" x="0" y="52" width="237.61000061035156" height="144">
+              <frame id="18:53" name="Item" x="0" y="0" width="237.61000061035156" height="24">
+                <text id="18:54" name="Link → Shipping Policy" x="0" y="0" width="237.61000061035156" height="24" />
+              </frame>
+              <frame id="18:55" name="Item" x="0" y="40" width="237.61000061035156" height="24">
+                <text id="18:56" name="Link → Returns" x="0" y="0" width="237.61000061035156" height="24" />
+              </frame>
+              <frame id="18:57" name="Item" x="0" y="80" width="237.61000061035156" height="24">
+                <text id="18:58" name="Link → FAQs" x="0" y="0" width="237.61000061035156" height="24" />
+              </frame>
+              <frame id="18:59" name="Item" x="0" y="120" width="237.61000061035156" height="24">
+                <text id="18:60" name="Link → Store Locator" x="0" y="0" width="237.61000061035156" height="24" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="18:61" name="HorizontalBorder" x="40" y="298" width="1364" height="53">
+          <frame id="18:62" name="Container" x="0" y="33" width="332" height="20">
+            <text id="18:63" name="© 2024 African Food Warehouse. All rights reserved." x="0" y="0" width="332" height="20" />
+          </frame>
+          <frame id="18:64" name="Container" x="1145" y="33" width="219" height="20">
+            <frame id="18:65" name="Link" x="0" y="0" width="88" height="20">
+              <text id="18:66" name="Privacy Policy" x="0" y="0" width="88" height="20" />
+            </frame>
+            <frame id="18:67" name="Link" x="112" y="0" width="107" height="20">
+              <text id="18:68" name="Terms of Service" x="0" y="0" width="107" height="20" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>

@@ -1,0 +1,23 @@
+<frame id="2:1910" name="Footer" x="0" y="1596" width="1440" height="108">
+      <frame id="2:1911" name="Container" x="120" y="40" width="1200" height="28">
+        <frame id="2:1912" name="Container" x="24" y="0" width="44" height="28">
+          <frame id="2:1915" name="i class=&quot;fa-solid fa-leaf text-brand-organic&quot;&gt;&lt;/i&gt; Font Awesome fontawesome.com" x="0" y="0" width="44" height="28">
+            <text id="2:1916" name="AFW" x="0" y="0" width="44" height="28" />
+          </frame>
+        </frame>
+        <frame id="2:1917" name="Container" x="269.5" y="4" width="352" height="20">
+          <text id="2:1918" name="© 2024 African Food Warehouse. All rights reserved." x="0" y="0" width="352" height="20" />
+        </frame>
+        <frame id="2:1919" name="Container" x="823" y="4" width="353" height="20">
+          <frame id="2:1920" name="Link" x="0" y="0" width="94" height="20">
+            <text id="2:1921" name="Privacy Policy" x="0" y="0" width="94" height="20" />
+          </frame>
+          <frame id="2:1922" name="Link" x="126" y="0" width="113" height="20">
+            <text id="2:1923" name="Terms of Service" x="0" y="0" width="113" height="20" />
+          </frame>
+          <frame id="2:1924" name="Link" x="271" y="0" width="82" height="20">
+            <text id="2:1925" name="Help Center" x="0" y="0" width="82" height="20" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>

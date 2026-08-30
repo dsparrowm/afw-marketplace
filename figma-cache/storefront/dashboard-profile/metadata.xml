@@ -1,0 +1,109 @@
+<frame id="29:433" name="dashboard-profile" x="8829" y="11430" width="1200" height="900">
+    <frame id="29:434" name="header-container" x="0" y="0" width="1200" height="154">
+      <frame id="29:435" name="brand-row" x="0" y="0" width="1200" height="102">
+        <frame id="29:436" name="brand" x="64" y="20" width="330" height="62">
+          <frame id="32:1300" name="brand" x="0" y="0" width="330" height="62">
+            <rounded-rectangle id="32:1301" name="image 2" x="0" y="0" width="105" height="62" />
+            <text id="32:1302" name="brand-text" x="113" y="21" width="217" height="20" />
+          </frame>
+        </frame>
+        <frame id="29:439" name="user-controls" x="980" y="42" width="156" height="18">
+          <text id="29:440" name="user-greeting" x="0" y="0" width="69" height="18" />
+          <frame id="29:441" name="logout-button" x="85" y="0" width="71" height="18">
+            <frame id="29:556" name="log-out" x="0" y="1" width="16" height="16" />
+            <text id="29:443" name="logout-text" x="22" y="0" width="49" height="18" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="29:444" name="tabs-row" x="0" y="102" width="1200" height="52">
+        <frame id="29:445" name="tab-Orders" x="64" y="0" width="49" height="52">
+          <text id="29:446" name="tab-label" x="0" y="16" width="49" height="20" />
+        </frame>
+        <frame id="29:447" name="tab-Addresses" x="145" y="0" width="75" height="52">
+          <text id="29:448" name="tab-label" x="0" y="16" width="75" height="20" />
+        </frame>
+        <frame id="29:449" name="tab-Reorder List" x="252" y="0" width="85" height="52">
+          <text id="29:450" name="tab-label" x="0" y="16" width="85" height="20" />
+        </frame>
+        <frame id="29:451" name="tab-Profile" x="369" y="0" width="46" height="52">
+          <text id="29:452" name="tab-label" x="0" y="16" width="46" height="20" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="29:453" name="content" x="0" y="154" width="1200" height="728">
+      <text id="29:454" name="title" x="64" y="64" width="173" height="32" />
+      <frame id="29:455" name="profile-grid" x="64" y="128" width="1072" height="440">
+        <frame id="29:456" name="personal-form" x="0" y="0" width="520" height="440">
+          <text id="29:457" name="Personal Information" x="32" y="32" width="456" height="23" />
+          <frame id="29:458" name="form-fields" x="32" y="79" width="456" height="329">
+            <frame id="29:459" name="field-name" x="0" y="0" width="456" height="67">
+              <text id="29:460" name="Full Name" x="0" y="0" width="62" height="17" />
+              <frame id="29:461" name="input" x="0" y="23" width="456" height="44">
+                <text id="29:462" name="Adaeze Okafor" x="14" y="13" width="95" height="18" />
+              </frame>
+            </frame>
+            <frame id="29:463" name="field-email" x="0" y="87" width="456" height="68">
+              <frame id="29:464" name="Frame" x="0" y="0" width="155" height="18">
+                <text id="29:465" name="Email Address" x="0" y="0.5" width="89" height="17" />
+                <frame id="29:466" name="verified-badge" x="97" y="0" width="58" height="18">
+                  <text id="29:467" name="Verified" x="8" y="2" width="42" height="14" />
+                </frame>
+              </frame>
+              <frame id="29:468" name="input" x="0" y="24" width="456" height="44">
+                <text id="29:469" name="adaeze@okaforfoods.ca" x="14" y="13" width="157" height="18" />
+              </frame>
+            </frame>
+            <frame id="29:470" name="field-phone" x="0" y="175" width="456" height="67">
+              <text id="29:471" name="Phone Number" x="0" y="0" width="93" height="17" />
+              <frame id="29:472" name="input" x="0" y="23" width="456" height="44">
+                <text id="29:473" name="+1 (416) 555-0192" x="14" y="13" width="115" height="18" />
+              </frame>
+            </frame>
+            <frame id="29:474" name="field-password" x="0" y="262" width="456" height="67">
+              <text id="29:475" name="Password" x="0" y="0" width="61" height="17" />
+              <frame id="29:476" name="input" x="0" y="23" width="456" height="44">
+                <text id="29:477" name="••••••••••••" x="14" y="13" width="61" height="18" />
+                <text id="29:478" name="Change" x="394" y="13.5" width="48" height="17" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="29:479" name="business-info" x="552" y="0" width="520" height="405">
+          <frame id="29:480" name="biz-header" x="32" y="32" width="456" height="24">
+            <text id="29:481" name="Wholesale Business Info" x="0" y="0.5" width="208" height="23" />
+            <frame id="29:482" name="approved-badge" x="379" y="0" width="77" height="24">
+              <text id="29:483" name="Approved" x="10" y="4" width="57" height="16" />
+            </frame>
+          </frame>
+          <frame id="29:484" name="biz-fields" x="32" y="80" width="456" height="293">
+            <frame id="29:485" name="field-bizname" x="0" y="0" width="456" height="41">
+              <text id="29:486" name="Business Name" x="0" y="0" width="91" height="16" />
+              <text id="29:487" name="Okafor Foods &amp; Catering" x="0" y="20" width="456" height="21" />
+            </frame>
+            <frame id="29:488" name="field-biztype" x="0" y="61" width="456" height="40">
+              <text id="29:489" name="Business Type" x="0" y="0" width="85" height="16" />
+              <text id="29:490" name="Restaurant / Catering" x="0" y="20" width="456" height="20" />
+            </frame>
+            <frame id="29:491" name="field-taxid" x="0" y="121" width="456" height="40">
+              <text id="29:492" name="Business Registration / Tax ID" x="0" y="0" width="185" height="16" />
+              <text id="29:493" name="ON-92841029-TX" x="0" y="20" width="456" height="20" />
+            </frame>
+            <frame id="29:494" name="manager-card" x="0" y="181" width="456" height="112">
+              <text id="29:495" name="Your Dedicated Account Manager" x="16" y="16" width="224" height="16" />
+              <frame id="29:496" name="manager-details" x="16" y="40" width="424" height="56">
+                <text id="29:497" name="Tunde Alabi" x="0" y="0" width="424" height="18" />
+                <text id="29:498" name="tunde.a@africanfoodwarehouse.ca" x="0" y="20" width="424" height="17" />
+                <text id="29:499" name="+1 (800) 555-0150 ext. 204" x="0" y="39" width="424" height="17" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="29:500" name="footer-actions" x="64" y="600" width="1072" height="64">
+        <frame id="29:501" name="save-btn" x="0" y="16" width="165" height="48">
+          <text id="29:502" name="Save Changes" x="32" y="14" width="101" height="20" />
+        </frame>
+        <text id="29:503" name="delete-account" x="878" y="31" width="194" height="18" />
+      </frame>
+    </frame>
+  </frame>

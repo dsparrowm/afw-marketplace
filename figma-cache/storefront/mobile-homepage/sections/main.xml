@@ -1,0 +1,337 @@
+<frame id="2:1931" name="Main" x="0" y="96" width="375" height="2917.5">
+      <frame id="2:1932" name="Section" x="16" y="16" width="343" height="520">
+        <frame id="2:1933" name="vibrant editorial close-up of fresh african vegetables, yams, habaneros, and organic greens, warm na" x="0" y="0" width="343" height="520" />
+        <rounded-rectangle id="2:1934" name="Gradient" x="0" y="0" width="343" height="520" />
+        <frame id="2:1935" name="Container" x="0" y="82.5" width="343" height="437.5">
+          <frame id="2:1936" name="Margin" x="32" y="32" width="153.3686981201172" height="41">
+            <frame id="2:1937" name="Overlay+Border+OverlayBlur" x="0" y="0" width="153.3686981201172" height="25">
+              <text id="2:1938" name="Direct From Source" x="13" y="5" width="127.36869812011719" height="15" />
+            </frame>
+          </frame>
+          <frame id="2:1939" name="Heading 1:margin" x="32" y="73" width="280.1099853515625" height="129">
+            <text id="2:1940" name="Heading 1 → Authentic African
+Food.
+Naturally Sourced." x="0" y="0" width="277" height="113" />
+          </frame>
+          <frame id="2:1941" name="Margin" x="32" y="202" width="279" height="77.5">
+            <text id="2:1942" name="100% organic products delivered fresh to
+your door in Canada." x="0" y="-1.125" width="264" height="46" />
+          </frame>
+          <frame id="2:1943" name="Container" x="32" y="279.5" width="279" height="126">
+            <frame id="2:1944" name="Button" x="0" y="0" width="279" height="56">
+              <rounded-rectangle id="2:1945" name="Button:shadow" x="0" y="0" width="279" height="56" />
+              <text id="2:1946" name="Shop Now" x="100.5" y="16" width="78" height="24" />
+            </frame>
+            <frame id="2:1947" name="Button" x="0" y="68" width="279" height="58">
+              <text id="2:1948" name="Shop Wholesale" x="76.5" y="17" width="126" height="24" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2:1949" name="Section" x="16" y="552" width="343" height="145">
+        <frame id="2:1950" name="Container" x="21" y="21" width="301" height="54">
+          <frame id="2:1951" name="Overlay" x="0" y="3" width="40.529998779296875" height="48">
+            <frame id="2:1952" name="Img" x="11.514999389648438" y="14" width="17.5" height="20" />
+          </frame>
+          <frame id="2:1954" name="Container" x="56.529998779296875" y="0" width="245" height="54">
+            <frame id="2:1955" name="Heading 3" x="0" y="0" width="245" height="24">
+              <text id="2:1956" name="Fresh Arrivals" x="0" y="0" width="106" height="24" />
+            </frame>
+            <frame id="2:1957" name="Container" x="0" y="24" width="245" height="30">
+              <text id="2:1958" name="New batch of yams and scotch bonnets just
+arrived!" x="0" y="0" width="245" height="30" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="2:1959" name="Button" x="21" y="91" width="301" height="33">
+          <text id="2:1960" name="View New Stock" x="87.75" y="13" width="107" height="20" />
+          <frame id="2:1961" name="Img" x="202.75" y="17" width="10.5" height="12" />
+        </frame>
+      </frame>
+      <frame id="2:1963" name="Section" x="0" y="713" width="375" height="455">
+        <frame id="2:1964" name="Container" x="16" y="16" width="343" height="28">
+          <frame id="2:1965" name="Heading 2" x="0" y="0" width="105" height="28">
+            <text id="2:1966" name="Categories" x="0" y="0" width="105" height="28" />
+          </frame>
+          <frame id="2:1967" name="Link" x="296" y="4" width="47" height="20">
+            <text id="2:1968" name="See All" x="0" y="0" width="47" height="20" />
+          </frame>
+        </frame>
+        <frame id="2:1969" name="Container" x="16" y="64" width="343" height="391">
+          <frame id="2:1970" name="Container" x="0" y="0" width="163.5" height="187.5">
+            <frame id="2:1971" name="Background+Border+Shadow" x="0" y="0" width="163.5" height="163.5">
+              <frame id="2:1972" name="fresh white yams and plantains arrangement on white background" x="17" y="17" width="129.5" height="129.5" />
+            </frame>
+            <frame id="2:1973" name="Container" x="0" y="171.5" width="163.5" height="16">
+              <text id="2:1974" name="Fresh Produce" x="39.75" y="0" width="84" height="16" />
+            </frame>
+          </frame>
+          <frame id="2:1975" name="Container" x="179.5" y="0" width="163.5" height="187.5">
+            <frame id="2:1976" name="Background+Border+Shadow" x="0" y="0" width="163.5" height="163.5">
+              <frame id="2:1977" name="bag of garri and african flour brands on white background" x="17" y="17" width="129.5" height="129.5" />
+            </frame>
+            <frame id="2:1978" name="Container" x="0" y="171.5" width="163.5" height="16">
+              <text id="2:1979" name="Grains &amp; Flour" x="41.25" y="0" width="81" height="16" />
+            </frame>
+          </frame>
+          <frame id="2:1980" name="Container" x="0" y="203.5" width="163.5" height="187.5">
+            <frame id="2:1981" name="Background+Border+Shadow" x="0" y="0" width="163.5" height="163.5">
+              <frame id="2:1982" name="assorted african dried fish and frozen meat on white background" x="17" y="17" width="129.5" height="129.5" />
+            </frame>
+            <frame id="2:1983" name="Container" x="0" y="171.5" width="163.5" height="16">
+              <text id="2:1984" name="Proteins" x="56.75" y="0" width="50" height="16" />
+            </frame>
+          </frame>
+          <frame id="2:1985" name="Container" x="179.5" y="203.5" width="163.5" height="187.5">
+            <frame id="2:1986" name="Background+Border+Shadow" x="0" y="0" width="163.5" height="163.5">
+              <frame id="2:1987" name="african snacks plantain chips and beverages on white background" x="17" y="17" width="129.5" height="129.5" />
+            </frame>
+            <frame id="2:1988" name="Container" x="0" y="171.5" width="163.5" height="16">
+              <text id="2:1989" name="Snacks &amp; Drinks" x="35.75" y="0" width="92" height="16" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2:1990" name="Section" x="0" y="1184" width="375" height="403">
+        <frame id="2:1991" name="Container" x="16" y="57" width="343" height="67">
+          <frame id="2:1992" name="Container" x="0" y="0" width="343" height="15">
+            <text id="2:1993" name="Limited Time" x="0" y="0" width="343" height="15" />
+          </frame>
+          <frame id="2:1994" name="Heading 2" x="0" y="15" width="343" height="36">
+            <text id="2:1995" name="Weekly Deals" x="0" y="4" width="343" height="32" />
+          </frame>
+          <frame id="2:1996" name="Container" x="0" y="51" width="343" height="16">
+            <text id="2:1997" name="Up to 30% off on pantry essentials" x="0" y="0" width="343" height="16" />
+          </frame>
+        </frame>
+        <frame id="2:1998" name="Container" x="0" y="148" width="375" height="222">
+          <frame id="2:1999" name="Background+Border+Shadow" x="16" y="0" width="200.9499969482422" height="206">
+            <frame id="2:2000" name="Container" x="17" y="17" width="166" height="112">
+              <frame id="2:2001" name="Container" x="0" y="0" width="166" height="112">
+                <frame id="2:2002" name="red palm oil bottle 1L isolated on white" x="27" y="0" width="112" height="112" />
+              </frame>
+              <frame id="2:2003" name="Background" x="0" y="0" width="58" height="18">
+                <text id="2:2004" name="SAVE 15%" x="8" y="2" width="42" height="14" />
+              </frame>
+            </frame>
+            <frame id="2:2005" name="Heading 4" x="17" y="133" width="166.86000061035156" height="28">
+              <text id="2:2006" name="Zomi Palm Oil 1L" x="0" y="8" width="109" height="20" />
+            </frame>
+            <frame id="2:2007" name="Container" x="17" y="165" width="166.9499969482422" height="24">
+              <frame id="2:2008" name="Container" x="0" y="0" width="53" height="24">
+                <text id="2:2009" name="$12.50" x="0" y="0" width="53" height="24" />
+              </frame>
+              <frame id="2:2010" name="Container" x="61" y="4" width="37" height="16">
+                <text id="2:2011" name="$14.99" x="0" y="0" width="37" height="16" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="2:2012" name="Background+Border+Shadow" x="232" y="0" width="201.29000854492188" height="206">
+            <frame id="2:2013" name="Container" x="17" y="17" width="166" height="112">
+              <frame id="2:2014" name="Container" x="0" y="0" width="166" height="112">
+                <frame id="2:2015" name="large bag of iyan yam flour isolated on white" x="27" y="0" width="112" height="112" />
+              </frame>
+              <frame id="2:2016" name="Background" x="0" y="0" width="60" height="18">
+                <text id="2:2017" name="SAVE 20%" x="8" y="2" width="44" height="14" />
+              </frame>
+            </frame>
+            <frame id="2:2018" name="Heading 4" x="17" y="133" width="166.75" height="28">
+              <text id="2:2019" name="Poundo Iyan (2kg)" x="0" y="8" width="124" height="20" />
+            </frame>
+            <frame id="2:2020" name="Container" x="17" y="165" width="167.29000854492188" height="24">
+              <frame id="2:2021" name="Container" x="0" y="0" width="53" height="24">
+                <text id="2:2022" name="$18.99" x="0" y="0" width="53" height="24" />
+              </frame>
+              <frame id="2:2023" name="Container" x="61" y="4" width="39" height="16">
+                <text id="2:2024" name="$24.00" x="0" y="0" width="39" height="16" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2:2025" name="Section" x="0" y="1603" width="375" height="355.5">
+        <frame id="2:2026" name="Container" x="16" y="24" width="343" height="43">
+          <frame id="2:2027" name="Container" x="0" y="0" width="127" height="43">
+            <frame id="2:2028" name="Heading 2" x="0" y="0" width="127" height="28">
+              <text id="2:2029" name="Best Sellers" x="0" y="0" width="112" height="28" />
+            </frame>
+            <frame id="2:2030" name="Container" x="0" y="28" width="127" height="15">
+              <text id="2:2031" name="Top Rated This Month" x="0" y="0" width="127" height="15" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="2:2032" name="Container" x="16" y="87" width="343" height="268.5">
+          <frame id="2:2033" name="Container" x="0" y="0" width="163.5" height="268.5">
+            <frame id="2:2034" name="Margin" x="0" y="0" width="163.5" height="175.5">
+              <frame id="2:2035" name="Background+Border+Shadow" x="0" y="0" width="163.5" height="163.5">
+                <frame id="2:2036" name="fresh scotch bonnet red peppers bowl on white background" x="17" y="17" width="129.5" height="129.5" />
+                <frame id="2:2037" name="Button" x="118.5" y="13" width="32" height="32">
+                  <frame id="2:2038" name="Img" x="8" y="8" width="16" height="16" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="2:2040" name="Container" x="0" y="175.5" width="163.5" height="93">
+              <frame id="2:2041" name="Margin" x="4" y="0" width="155.5" height="18">
+                <frame id="2:2042" name="Container" x="0" y="0" width="155.5" height="14">
+                  <text id="2:2043" name="Organic • 1lb" x="0" y="0" width="155.5" height="14" />
+                </frame>
+              </frame>
+              <frame id="2:2044" name="Heading 3:margin" x="4" y="18" width="155.5" height="43">
+                <frame id="2:2045" name="Heading 3" x="0" y="0" width="155.5" height="35">
+                  <text id="2:2046" name="Fresh Scotch Bonnet
+Peppers" x="0" y="0" width="155.5" height="35" />
+                </frame>
+              </frame>
+              <frame id="2:2047" name="Container" x="4" y="61" width="155.5" height="32">
+                <frame id="2:2048" name="Container" x="0" y="4" width="46" height="24">
+                  <text id="2:2049" name="$6.99" x="0" y="0" width="46" height="24" />
+                </frame>
+                <frame id="2:2050" name="Button" x="123.5" y="0" width="32" height="32">
+                  <frame id="2:2051" name="Img" x="10.75" y="10" width="10.5" height="12" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="2:2053" name="Container" x="179.5" y="0" width="163.5" height="268.5">
+            <frame id="2:2054" name="Margin" x="0" y="0" width="163.5" height="175.5">
+              <frame id="2:2055" name="Background+Border+Shadow" x="0" y="0" width="163.5" height="163.5">
+                <frame id="2:2056" name="premium large white yam tuber on white background" x="17" y="17" width="129.5" height="129.5" />
+                <frame id="2:2057" name="Button" x="118.5" y="13" width="32" height="32">
+                  <frame id="2:2058" name="Img" x="8" y="8" width="16" height="16" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="2:2060" name="Container" x="0" y="175.5" width="163.5" height="93">
+              <frame id="2:2061" name="Margin" x="4" y="0" width="155.5" height="18">
+                <frame id="2:2062" name="Container" x="0" y="0" width="155.5" height="14">
+                  <text id="2:2063" name="Authentic • Nigeria" x="0" y="0" width="155.5" height="14" />
+                </frame>
+              </frame>
+              <frame id="2:2064" name="Heading 3:margin" x="4" y="18" width="155.5" height="43">
+                <frame id="2:2065" name="Heading 3" x="0" y="0" width="155.5" height="35">
+                  <text id="2:2066" name="Premium White Puna
+Yam (Large)" x="0" y="0" width="155.5" height="35" />
+                </frame>
+              </frame>
+              <frame id="2:2067" name="Container" x="4" y="61" width="155.5" height="32">
+                <frame id="2:2068" name="Container" x="0" y="4" width="53" height="24">
+                  <text id="2:2069" name="$15.99" x="0" y="0" width="53" height="24" />
+                </frame>
+                <frame id="2:2070" name="Button" x="123.5" y="0" width="32" height="32">
+                  <frame id="2:2071" name="Img" x="10.75" y="10" width="10.5" height="12" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2:2073" name="Section" x="16" y="1974.5" width="343" height="278">
+        <frame id="2:2074" name="Container" x="25" y="49" width="293" height="52">
+          <frame id="2:2075" name="Overlay" x="0" y="0" width="40" height="40">
+            <frame id="2:2076" name="Img" x="11" y="11" width="18" height="18" />
+          </frame>
+          <frame id="2:2078" name="Container" x="56" y="0" width="237" height="52">
+            <frame id="2:2079" name="Heading 4" x="0" y="0" width="237" height="20">
+              <text id="2:2080" name="100% Organic" x="0" y="0" width="94" height="20" />
+            </frame>
+            <frame id="2:2081" name="Container" x="0" y="20" width="237" height="32">
+              <text id="2:2082" name="Sourced directly from certified organic
+farms." x="0" y="0" width="212" height="32" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="2:2083" name="Container" x="25" y="125" width="293" height="52">
+          <frame id="2:2084" name="Overlay" x="0" y="0" width="40" height="40">
+            <frame id="2:2085" name="Img" x="8.75" y="11" width="22.5" height="18" />
+          </frame>
+          <frame id="2:2087" name="Container" x="56" y="0" width="237" height="52">
+            <frame id="2:2088" name="Heading 4" x="0" y="0" width="237" height="20">
+              <text id="2:2089" name="Fast Canada Delivery" x="0" y="0" width="142" height="20" />
+            </frame>
+            <frame id="2:2090" name="Container" x="0" y="20" width="237" height="32">
+              <text id="2:2091" name="Fresh items delivered to your doorstep
+quickly." x="0" y="0" width="212" height="32" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="2:2092" name="Container" x="25" y="201" width="293" height="52">
+          <frame id="2:2093" name="Overlay" x="0" y="0" width="40" height="40">
+            <frame id="2:2094" name="Img" x="8.75" y="11" width="22.5" height="18" />
+          </frame>
+          <frame id="2:2096" name="Container" x="56" y="0" width="237" height="52">
+            <frame id="2:2097" name="Heading 4" x="0" y="0" width="237" height="20">
+              <text id="2:2098" name="Authenticity Guaranteed" x="0" y="0" width="169" height="20" />
+            </frame>
+            <frame id="2:2099" name="Container" x="0" y="20" width="237" height="32">
+              <text id="2:2100" name="Original brands from Nigeria and across
+Africa." x="0" y="0" width="216" height="32" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="2:2101" name="Footer" x="0" y="2268.5" width="375" height="649">
+        <frame id="2:2102" name="Container" x="16" y="72" width="343" height="152">
+          <frame id="2:2103" name="Margin" x="129.5" y="0" width="84" height="48">
+            <frame id="2:2104" name="Container" x="0" y="0" width="84" height="32">
+              <frame id="2:2105" name="Img" x="0" y="4" width="24" height="24" />
+              <text id="2:2107" name="AFW" x="32" y="0" width="52" height="32" />
+            </frame>
+          </frame>
+          <frame id="2:2108" name="Container" x="31.5" y="48" width="280" height="40">
+            <text id="2:2109" name="Bringing the true taste of home to your
+kitchen in Canada." x="15.5" y="0" width="249" height="40" />
+          </frame>
+          <frame id="2:2110" name="Margin" x="95.5" y="88" width="152" height="64">
+            <frame id="2:2111" name="Container" x="0" y="24" width="152" height="40">
+              <frame id="2:2112" name="Link" x="0" y="0" width="40" height="40">
+                <frame id="2:2113" name="Img" x="13" y="12" width="14" height="16" />
+              </frame>
+              <frame id="2:2115" name="Link" x="56" y="0" width="40" height="40">
+                <frame id="2:2116" name="Img" x="15" y="12" width="10" height="16" />
+              </frame>
+              <frame id="2:2118" name="Link" x="112" y="0" width="40" height="40">
+                <frame id="2:2119" name="Img" x="13" y="12" width="14" height="16" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="2:2121" name="HorizontalBorder" x="16" y="264" width="343" height="173">
+          <frame id="2:2122" name="Container" x="0" y="33" width="343" height="36">
+            <frame id="2:2123" name="Container" x="0" y="8" width="44.47856140136719" height="20">
+              <text id="2:2124" name="Shop" x="0" y="0" width="44.47856140136719" height="20" />
+            </frame>
+            <frame id="2:2125" name="Img" x="332.5" y="12" width="10.5" height="12" />
+          </frame>
+          <frame id="2:2127" name="Container" x="0" y="85" width="343" height="36">
+            <frame id="2:2128" name="Container" x="0" y="8" width="75.30748748779297" height="20">
+              <text id="2:2129" name="Support" x="0" y="0" width="75.30748748779297" height="20" />
+            </frame>
+            <frame id="2:2130" name="Img" x="332.5" y="12" width="10.5" height="12" />
+          </frame>
+          <frame id="2:2132" name="Container" x="0" y="137" width="343" height="36">
+            <frame id="2:2133" name="Container" x="0" y="8" width="92.78475189208984" height="20">
+              <text id="2:2134" name="About AFW" x="0" y="0" width="92.78475189208984" height="20" />
+            </frame>
+            <frame id="2:2135" name="Img" x="332.5" y="12" width="10.5" height="12" />
+          </frame>
+        </frame>
+        <frame id="2:2137" name="Container" x="16" y="477" width="343" height="140">
+          <frame id="2:2138" name="Container" x="0" y="8" width="343" height="15">
+            <text id="2:2139" name="Subscribe to our newsletter" x="76.9261703491211" y="0" width="189.1476593017578" height="15" />
+          </frame>
+          <frame id="2:2140" name="Container" x="11.5" y="39" width="320" height="46">
+            <frame id="2:2141" name="Input" x="0" y="0" width="320" height="46">
+              <frame id="2:2142" name="Container" x="17" y="13" width="286" height="19">
+                <text id="2:2143" name="Email Address" x="0" y="0" width="286" height="19" />
+              </frame>
+            </frame>
+            <frame id="2:2144" name="Button" x="257" y="6" width="57" height="28">
+              <text id="2:2145" name="Join" x="16" y="6" width="25" height="16" />
+            </frame>
+          </frame>
+          <frame id="2:2146" name="Container" x="0" y="101" width="343" height="39">
+            <text id="2:2147" name="© 2024 African Food Warehouse. All Rights Reserved." x="50" y="24" width="243" height="15" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>

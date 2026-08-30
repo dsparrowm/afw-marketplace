@@ -1,0 +1,13 @@
+<frame id="7:3466" name="Frame" x="113" y="2365" width="1236" height="93">
+      <frame id="7:3467" name="Frame" x="0" y="0" width="600" height="93">
+        <frame id="7:3468" name="section-badge" x="0" y="0" width="111" height="26">
+          <text id="7:3469" name="badge-text" x="12" y="6" width="87" height="14" />
+        </frame>
+        <text id="7:3470" name="Trending Products" x="0" y="38" width="600" height="55" />
+      </frame>
+      <frame id="7:3472" name="Frame" x="1070" y="51" width="166" height="42">
+        <frame id="7:3473" name="button" x="0" y="0" width="166" height="42">
+          <text id="7:3474" name="button-label" x="24" y="12" width="118" height="18" />
+        </frame>
+      </frame>
+    </frame>

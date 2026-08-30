@@ -1,0 +1,32 @@
+<frame id="2:8" name="Section" x="0" y="-17" width="1440" height="600">
+        <frame id="2:9" name="High quality editorial food photography of fresh vibrant African produce, yams, plantains, peppers, organic farm setting, natural sunlight, premium lighting, rich colors" x="0" y="0" width="1440" height="600" />
+        <rounded-rectangle id="2:10" name="Gradient" x="0" y="0" width="1372" height="600" />
+        <frame id="2:11" name="Container" x="0" y="0" width="1440" height="600">
+          <frame id="2:12" name="Margin" x="64" y="94" width="122" height="50" />
+          <frame id="2:13" name="Overlay+Border+OverlayBlur" x="672" y="95" width="122" height="26">
+            <text id="2:14" name="100% Organic" x="13" y="5" width="96" height="16" />
+          </frame>
+          <frame id="2:15" name="Heading 1:margin" x="64" y="144" width="1312" height="144">
+            <frame id="2:16" name="Heading 1" x="0" y="0" width="1312" height="120">
+              <text id="2:17" name="Authentic African
+Food.
+Naturally Sourced." x="0" y="0" width="1312" height="120" />
+            </frame>
+          </frame>
+          <frame id="2:18" name="Margin" x="371" y="318" width="672" height="96">
+            <frame id="2:19" name="Container" x="0" y="0" width="672" height="56">
+              <text id="2:20" name="100% organic products sourced directly from farms and producers
+across Nigeria and Africa, delivered fresh to your door in Canada." x="0" y="0" width="672" height="56" />
+            </frame>
+          </frame>
+          <frame id="2:21" name="Container" x="532" y="428" width="375" height="62">
+            <frame id="2:22" name="Button" x="0" y="1" width="152" height="60">
+              <rounded-rectangle id="2:23" name="Button:shadow" x="0" y="0" width="152" height="60" />
+              <text id="2:24" name="Shop Now" x="32" y="16" width="88" height="28" />
+            </frame>
+            <frame id="2:25" name="Button" x="168" y="0" width="207" height="62">
+              <text id="2:26" name="Shop Wholesale" x="33" y="17" width="141" height="28" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>

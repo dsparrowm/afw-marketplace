@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-brand-green: var(--brand-green);
+  --color-brand-green-foreground: var(--brand-green-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-announcement: var(--announcement);
+  --color-announcement-foreground: var(--announcement-foreground);
+  --color-header-category: var(--header-category);
+  --color-footer: var(--footer);
+  --color-footer-foreground: var(--footer-foreground);
+  --color-footer-muted: var(--footer-muted);
+  --color-hero-badge: var(--hero-badge);
+  --color-hero-badge-foreground: var(--hero-badge-foreground);
+  --color-trust-bar: var(--trust-bar);
+  --color-trust-bar-foreground: var(--trust-bar-foreground);
+  --color-trust-bar-muted: var(--trust-bar-muted);
+  --color-trust-bar-icon: var(--trust-bar-icon);
+  --color-product-badge-organic: var(--product-badge-organic);
+  --color-product-badge-organic-foreground: var(--product-badge-organic-foreground);
+  --color-product-badge-best-seller: var(--product-badge-best-seller);
+  --color-product-badge-best-seller-foreground: var(--product-badge-best-seller-foreground);
+  --color-product-badge-new: var(--product-badge-new);
+  --color-product-badge-new-foreground: var(--product-badge-new-foreground);
+  --color-section-badge: var(--section-badge);
+  --color-section-badge-foreground: var(--section-badge-foreground);
+  --color-stock-in: var(--stock-in);
+  --color-stock-low: var(--stock-low);
+  --color-promo-banner-amber: var(--promo-banner-amber);
+  --color-promo-banner-green: var(--promo-banner-green);
+  --color-promo-banner-orange: var(--promo-banner-orange);
+  --color-trending-panel: var(--trending-panel);
+  --color-testimonial-avatar: var(--testimonial-avatar);
+  --color-testimonial-avatar-foreground: var(--testimonial-avatar-foreground);
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --radius: 0.625rem;
+
+  /* AFW brand — aligned to Figma homepage screenshot (Aug 2026 visual QA) */
+  --brand-orange: oklch(62% 0.18 45);
+  --brand-orange-foreground: oklch(99% 0 0);
+  --brand-green: oklch(32% 0.09 145);
+  --brand-green-foreground: oklch(99% 0 0);
+  /* Hero badge pill — Figma `2:13` */
+  --hero-badge: #3f8f5b;
+  --hero-badge-foreground: oklch(99% 0 0);
+  /* Trust bar — Figma `6:2690` */
+  --trust-bar: #231f1e;
+  --trust-bar-foreground: oklch(99% 0 0);
+  --trust-bar-muted: oklch(72% 0.01 260);
+  --trust-bar-icon: #363130;
+  --product-badge-organic: var(--hero-badge);
+  --product-badge-organic-foreground: oklch(99% 0 0);
+  --product-badge-best-seller: oklch(88% 0.12 95);
+  --product-badge-best-seller-foreground: oklch(32% 0.06 75);
+  --product-badge-new: oklch(72% 0.12 250);
+  --product-badge-new-foreground: oklch(99% 0 0);
+  --section-badge: oklch(94% 0.04 145);
+  --section-badge-foreground: oklch(38% 0.08 145);
+  --stock-in: var(--hero-badge);
+  --stock-low: oklch(72% 0.16 65);
+  --promo-banner-amber: oklch(94% 0.06 95);
+  --promo-banner-green: oklch(93% 0.05 145);
+  --promo-banner-orange: oklch(93% 0.06 70);
+  --trending-panel: oklch(97% 0.02 145);
+  --testimonial-avatar: oklch(94% 0.04 55);
+  --testimonial-avatar-foreground: var(--brand-orange);
+  --brand-footer: oklch(28% 0.01 260);
+
+  --background: oklch(100% 0 0);
+  --foreground: oklch(22% 0.02 145);
+  --card: oklch(100% 0 0);
+  --card-foreground: oklch(22% 0.02 145);
+  --primary: var(--brand-orange);
+  --primary-foreground: var(--brand-orange-foreground);
+  --secondary: oklch(97% 0.01 145);
+  --secondary-foreground: oklch(25% 0.03 145);
+  --muted: oklch(96% 0.01 145);
+  --muted-foreground: oklch(48% 0.02 145);
+  --accent: oklch(94% 0.02 145);
+  --accent-foreground: oklch(25% 0.03 145);
+  --destructive: oklch(55% 0.2 25);
+  --border: oklch(90% 0.01 145);
+  --input: oklch(92% 0.01 145);
+  --ring: var(--brand-orange);
+  --announcement: var(--brand-green);
+  --announcement-foreground: oklch(98% 0.01 95);
+  --header-category: oklch(99% 0 0);
+  --footer: var(--brand-footer);
+  --footer-foreground: oklch(98% 0 0);
+  --footer-muted: oklch(72% 0.01 260);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}

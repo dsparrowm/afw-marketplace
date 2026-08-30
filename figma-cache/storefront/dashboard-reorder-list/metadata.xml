@@ -1,0 +1,154 @@
+<frame id="29:329" name="dashboard-reorder-list" x="7349" y="11430" width="1200" height="900">
+    <frame id="29:330" name="header-container" x="0" y="0" width="1200" height="154">
+      <frame id="29:331" name="brand-row" x="0" y="0" width="1200" height="102">
+        <frame id="29:332" name="brand" x="64" y="20" width="330" height="62">
+          <frame id="32:1296" name="brand" x="0" y="0" width="330" height="62">
+            <rounded-rectangle id="32:1297" name="image 2" x="0" y="0" width="105" height="62" />
+            <text id="32:1298" name="brand-text" x="113" y="21" width="217" height="20" />
+          </frame>
+        </frame>
+        <frame id="29:335" name="user-controls" x="980" y="42" width="156" height="18">
+          <text id="29:336" name="user-greeting" x="0" y="0" width="69" height="18" />
+          <frame id="29:337" name="logout-button" x="85" y="0" width="71" height="18">
+            <frame id="29:553" name="log-out" x="0" y="1" width="16" height="16" />
+            <text id="29:339" name="logout-text" x="22" y="0" width="49" height="18" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="29:340" name="tabs-row" x="0" y="102" width="1200" height="52">
+        <frame id="29:341" name="tab-Orders" x="64" y="0" width="49" height="52">
+          <text id="29:342" name="tab-label" x="0" y="16" width="49" height="20" />
+        </frame>
+        <frame id="29:345" name="tab-Reorder List" x="145" y="0" width="87" height="52">
+          <text id="29:346" name="tab-label" x="0" y="16" width="87" height="20" />
+        </frame>
+        <frame id="29:343" name="tab-Addresses" x="264" y="0" width="75" height="52">
+          <text id="29:344" name="tab-label" x="0" y="16" width="75" height="20" />
+        </frame>
+        <frame id="29:347" name="tab-Profile" x="371" y="0" width="45" height="52">
+          <text id="29:348" name="tab-label" x="0" y="16" width="45" height="20" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="29:349" name="content" x="0" y="154" width="1200" height="681">
+      <frame id="29:350" name="title-bar" x="64" y="64" width="1072" height="56">
+        <frame id="29:351" name="title-text" x="0" y="0" width="426" height="56">
+          <text id="29:352" name="title" x="0" y="0" width="336" height="32" />
+          <text id="29:353" name="Quickly restock your most frequently ordered wholesale products" x="0" y="38" width="426" height="18" />
+        </frame>
+        <frame id="29:354" name="bulk-add-btn" x="892" y="4" width="180" height="48">
+          <frame id="29:571" name="shopping-cart" x="24" y="15" width="18" height="18" />
+          <text id="29:356" name="Add All to Cart" x="50" y="14" width="106" height="20" />
+        </frame>
+      </frame>
+      <frame id="29:357" name="reorder-table" x="64" y="152" width="1072" height="465">
+        <frame id="29:358" name="th-row" x="24" y="24" width="1024" height="33">
+          <text id="29:359" name="Product Details" x="0" y="0" width="494" height="17" />
+          <text id="29:360" name="Last Ordered" x="494" y="0" width="150" height="17" />
+          <text id="29:361" name="Price" x="644" y="0" width="120" height="17" />
+          <text id="29:362" name="Quantity" x="764" y="0" width="120" height="17" />
+          <text id="29:363" name="Action" x="884" y="0" width="140" height="17" />
+        </frame>
+        <frame id="29:364" name="tr-0" x="24" y="57" width="1024" height="96">
+          <frame id="29:365" name="td-product" x="0" y="20" width="494" height="56">
+            <frame id="29:366" name="thumb" x="0" y="0" width="56" height="56">
+              <frame id="29:526" name="package" x="17" y="17" width="22" height="22" />
+            </frame>
+            <frame id="29:368" name="text-meta" x="72" y="7.5" width="340" height="41">
+              <text id="29:369" name="Premium Jollof Rice Spice Mix" x="0" y="0" width="340" height="20" />
+              <text id="29:370" name="Carton of 24 Packs" x="0" y="24" width="114" height="17" />
+            </frame>
+          </frame>
+          <text id="29:371" name="Oct 24, 2024" x="494" y="39" width="150" height="18" />
+          <text id="29:372" name="$144.00" x="644" y="38" width="120" height="20" />
+          <frame id="29:373" name="td-qty" x="764" y="33" width="120" height="30">
+            <frame id="29:374" name="qty-selector" x="0" y="0" width="61" height="30">
+              <text id="29:375" name="-" x="8" y="6" width="8" height="18" />
+              <text id="29:376" name="1" x="28" y="6" width="5" height="18" />
+              <text id="29:377" name="+" x="45" y="6" width="8" height="18" />
+            </frame>
+          </frame>
+          <frame id="29:378" name="td-action" x="884" y="31.5" width="140" height="33">
+            <frame id="29:379" name="add-cart-btn" x="39" y="0" width="101" height="33">
+              <text id="29:380" name="Add to Cart" x="14" y="8" width="73" height="17" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="29:381" name="tr-1" x="24" y="153" width="1024" height="96">
+          <frame id="29:382" name="td-product" x="0" y="20" width="494" height="56">
+            <frame id="29:383" name="thumb" x="0" y="0" width="56" height="56">
+              <frame id="29:529" name="package" x="17" y="17" width="22" height="22" />
+            </frame>
+            <frame id="29:385" name="text-meta" x="72" y="7.5" width="340" height="41">
+              <text id="29:386" name="Organic Cold-Pressed Palm Oil" x="0" y="0" width="340" height="20" />
+              <text id="29:387" name="Box of 12 Bottles (750ml)" x="0" y="24" width="150" height="17" />
+            </frame>
+          </frame>
+          <text id="29:388" name="Oct 12, 2024" x="494" y="39" width="150" height="18" />
+          <text id="29:389" name="$240.00" x="644" y="38" width="120" height="20" />
+          <frame id="29:390" name="td-qty" x="764" y="33" width="120" height="30">
+            <frame id="29:391" name="qty-selector" x="0" y="0" width="61" height="30">
+              <text id="29:392" name="-" x="8" y="6" width="8" height="18" />
+              <text id="29:393" name="1" x="28" y="6" width="5" height="18" />
+              <text id="29:394" name="+" x="45" y="6" width="8" height="18" />
+            </frame>
+          </frame>
+          <frame id="29:395" name="td-action" x="884" y="31.5" width="140" height="33">
+            <frame id="29:396" name="add-cart-btn" x="39" y="0" width="101" height="33">
+              <text id="29:397" name="Add to Cart" x="14" y="8" width="73" height="17" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="29:398" name="tr-2" x="24" y="249" width="1024" height="96">
+          <frame id="29:399" name="td-product" x="0" y="20" width="494" height="56">
+            <frame id="29:400" name="thumb" x="0" y="0" width="56" height="56">
+              <frame id="29:532" name="package" x="17" y="17" width="22" height="22" />
+            </frame>
+            <frame id="29:402" name="text-meta" x="72" y="7.5" width="340" height="41">
+              <text id="29:403" name="Premium Dried Stockfish Fillets" x="0" y="0" width="340" height="20" />
+              <text id="29:404" name="Bulk Wholesale Box (5kg)" x="0" y="24" width="151" height="17" />
+            </frame>
+          </frame>
+          <text id="29:405" name="Sept 28, 2024" x="494" y="39" width="150" height="18" />
+          <text id="29:406" name="$380.00" x="644" y="38" width="120" height="20" />
+          <frame id="29:407" name="td-qty" x="764" y="33" width="120" height="30">
+            <frame id="29:408" name="qty-selector" x="0" y="0" width="61" height="30">
+              <text id="29:409" name="-" x="8" y="6" width="8" height="18" />
+              <text id="29:410" name="1" x="28" y="6" width="5" height="18" />
+              <text id="29:411" name="+" x="45" y="6" width="8" height="18" />
+            </frame>
+          </frame>
+          <frame id="29:412" name="td-action" x="884" y="31.5" width="140" height="33">
+            <frame id="29:413" name="add-cart-btn" x="39" y="0" width="101" height="33">
+              <text id="29:414" name="Add to Cart" x="14" y="8" width="73" height="17" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="29:415" name="tr-3" x="24" y="345" width="1024" height="96">
+          <frame id="29:416" name="td-product" x="0" y="20" width="494" height="56">
+            <frame id="29:417" name="thumb" x="0" y="0" width="56" height="56">
+              <frame id="29:535" name="package" x="17" y="17" width="22" height="22" />
+            </frame>
+            <frame id="29:419" name="text-meta" x="72" y="7.5" width="340" height="41">
+              <text id="29:420" name="Organic Yam Flour (Elubo)" x="0" y="0" width="340" height="20" />
+              <text id="29:421" name="Carton of 10 Bags (1kg)" x="0" y="24" width="137" height="17" />
+            </frame>
+          </frame>
+          <text id="29:422" name="Sept 04, 2024" x="494" y="39" width="150" height="18" />
+          <text id="29:423" name="$95.00" x="644" y="38" width="120" height="20" />
+          <frame id="29:424" name="td-qty" x="764" y="33" width="120" height="30">
+            <frame id="29:425" name="qty-selector" x="0" y="0" width="61" height="30">
+              <text id="29:426" name="-" x="8" y="6" width="8" height="18" />
+              <text id="29:427" name="1" x="28" y="6" width="5" height="18" />
+              <text id="29:428" name="+" x="45" y="6" width="8" height="18" />
+            </frame>
+          </frame>
+          <frame id="29:429" name="td-action" x="884" y="31.5" width="140" height="33">
+            <frame id="29:430" name="add-cart-btn" x="39" y="0" width="101" height="33">
+              <text id="29:431" name="Add to Cart" x="14" y="8" width="73" height="17" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>

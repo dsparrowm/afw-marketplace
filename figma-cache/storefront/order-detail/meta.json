@@ -1,0 +1,9 @@
+{
+  "nodeId": "29:192",
+  "name": "order-detail",
+  "platform": "account",
+  "width": 1200,
+  "height": 900,
+  "status": "metadata-only",
+  "slug": "order-detail"
+}

@@ -1,0 +1,19 @@
+<frame id="2:2165" name="Nav" x="0" y="3017" width="375" height="76">
+      <frame id="2:2166" name="Button" x="24" y="20" width="29" height="37">
+        <frame id="2:2167" name="Img" x="4.375" y="0" width="20.25" height="18" />
+        <text id="2:2169" name="i class=&quot;fa-solid fa-house text-lg&quot;&gt;&lt;/i&gt; Font Awesome fontawesome.com → Home" x="0" y="22" width="29" height="15" />
+      </frame>
+      <frame id="2:2170" name="Button" x="107" y="9" width="54" height="59">
+        <frame id="2:2171" name="Img" x="18" y="0" width="18" height="18" />
+        <frame id="2:2176" name="Img - i class=&quot;fa-solid fa-grid-2 text-lg&quot;&gt;&lt;/i&gt; Font Awesome fontawesome.com" x="21.375" y="22" width="11.25" height="18" />
+        <text id="2:2178" name="i class=&quot;fa-solid fa-grip-vertical text-lg&quot;&gt;&lt;/i&gt; Font Awesome fontawesome.com → Categories" x="0" y="44" width="54" height="15" />
+      </frame>
+      <frame id="2:2179" name="Button" x="215" y="20" width="40" height="37">
+        <frame id="2:2180" name="Img" x="11" y="0" width="18" height="18" />
+        <text id="2:2182" name="i class=&quot;fa-solid fa-heart text-lg&quot;&gt;&lt;/i&gt; Font Awesome fontawesome.com → Wishlist" x="0" y="22" width="40" height="15" />
+      </frame>
+      <frame id="2:2183" name="Button" x="309" y="20" width="42" height="37">
+        <frame id="2:2184" name="Img" x="13.125" y="0" width="15.75" height="18" />
+        <text id="2:2186" name="i class=&quot;fa-solid fa-user text-lg&quot;&gt;&lt;/i&gt; Font Awesome fontawesome.com → Account" x="0" y="22" width="42" height="15" />
+      </frame>
+    </frame>

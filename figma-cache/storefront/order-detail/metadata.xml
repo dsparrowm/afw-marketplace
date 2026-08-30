@@ -1,0 +1,133 @@
+<frame id="29:192" name="order-detail" x="4389" y="11430" width="1200" height="900">
+    <frame id="29:193" name="header-container" x="0" y="0" width="1200" height="154">
+      <frame id="29:194" name="brand-row" x="0" y="0" width="1200" height="102">
+        <frame id="29:195" name="brand" x="64" y="20" width="330" height="62">
+          <frame id="32:1288" name="brand" x="0" y="0" width="330" height="62">
+            <rounded-rectangle id="32:1289" name="image 2" x="0" y="0" width="105" height="62" />
+            <text id="32:1290" name="brand-text" x="113" y="21" width="217" height="20" />
+          </frame>
+        </frame>
+        <frame id="29:198" name="user-controls" x="980" y="42" width="156" height="18">
+          <text id="29:199" name="user-greeting" x="0" y="0" width="69" height="18" />
+          <frame id="29:200" name="logout-button" x="85" y="0" width="71" height="18">
+            <frame id="29:547" name="log-out" x="0" y="1" width="16" height="16" />
+            <text id="29:202" name="logout-text" x="22" y="0" width="49" height="18" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="29:203" name="tabs-row" x="0" y="102" width="1200" height="52">
+        <frame id="29:204" name="tab-Orders" x="64" y="0" width="50" height="52">
+          <text id="29:205" name="tab-label" x="0" y="16" width="50" height="20" />
+        </frame>
+        <frame id="29:206" name="tab-Addresses" x="146" y="0" width="85" height="52">
+          <text id="29:207" name="tab-label" x="0" y="16" width="85" height="20" />
+        </frame>
+        <frame id="31:1279" name="tab-Addresses" x="263" y="0" width="75" height="52">
+          <text id="31:1280" name="tab-label" x="0" y="16" width="75" height="20" />
+        </frame>
+        <frame id="29:208" name="tab-Profile" x="370" y="0" width="45" height="52">
+          <text id="29:209" name="tab-label" x="0" y="16" width="45" height="20" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="29:210" name="content" x="0" y="154" width="1200" height="726">
+      <frame id="29:211" name="back-row" x="64" y="64" width="125" height="18">
+        <frame id="29:559" name="arrow-left" x="0" y="0" width="18" height="18" />
+        <text id="29:213" name="Back to Orders" x="26" y="0" width="99" height="18" />
+      </frame>
+      <frame id="29:214" name="order-summary-header" x="64" y="114" width="1072" height="118">
+        <frame id="29:215" name="summary-meta" x="32" y="32" width="435" height="54">
+          <text id="29:216" name="Order #AFW-20248" x="0" y="0" width="262" height="28" />
+          <text id="29:217" name="Placed on October 24, 2024 • Estimated Delivery: October 27, 2024" x="0" y="36" width="435" height="18" />
+        </frame>
+        <frame id="29:218" name="status-pill" x="972" y="47" width="68" height="24">
+          <text id="29:219" name="status-text" x="10" y="4" width="48" height="16" />
+        </frame>
+      </frame>
+      <frame id="29:220" name="detail-grid" x="64" y="264" width="1072" height="398">
+        <frame id="29:221" name="items-section" x="0" y="0" width="708" height="383">
+          <text id="29:222" name="Order Items" x="32" y="32" width="644" height="23" />
+          <frame id="29:223" name="items-list" x="32" y="79" width="644" height="272">
+            <frame id="29:224" name="item-0" x="0" y="0" width="644" height="80">
+              <frame id="29:225" name="item-info" x="0" y="0" width="460" height="64">
+                <frame id="29:226" name="thumb" x="0" y="0" width="64" height="64">
+                  <frame id="29:562" name="shopping-basket" x="20" y="20" width="24" height="24" />
+                </frame>
+                <frame id="29:228" name="item-desc" x="80" y="11.5" width="380" height="41">
+                  <text id="29:229" name="Premium Jollof Rice Spice Mix" x="0" y="0" width="380" height="20" />
+                  <text id="29:230" name="100% Organic, Locally Sourced" x="0" y="24" width="380" height="17" />
+                </frame>
+              </frame>
+              <frame id="29:231" name="item-pricing" x="519" y="22" width="125" height="20">
+                <text id="29:232" name="Qty: 2" x="0" y="1" width="39" height="18" />
+                <text id="29:233" name="$14.98" x="79" y="0" width="46" height="20" />
+              </frame>
+            </frame>
+            <frame id="29:234" name="item-1" x="0" y="96" width="644" height="80">
+              <frame id="29:235" name="item-info" x="0" y="0" width="460" height="64">
+                <frame id="29:236" name="thumb" x="0" y="0" width="64" height="64">
+                  <frame id="29:565" name="shopping-basket" x="20" y="20" width="24" height="24" />
+                </frame>
+                <frame id="29:238" name="item-desc" x="80" y="11.5" width="380" height="41">
+                  <text id="29:239" name="Organic Cold-Pressed Palm Oil" x="0" y="0" width="380" height="20" />
+                  <text id="29:240" name="750ml, Sourced from Nigeria" x="0" y="24" width="380" height="17" />
+                </frame>
+              </frame>
+              <frame id="29:241" name="item-pricing" x="517" y="22" width="127" height="20">
+                <text id="29:242" name="Qty: 1" x="0" y="1" width="36" height="18" />
+                <text id="29:243" name="$24.50" x="76" y="0" width="51" height="20" />
+              </frame>
+            </frame>
+            <frame id="29:244" name="item-2" x="0" y="192" width="644" height="80">
+              <frame id="29:245" name="item-info" x="0" y="0" width="460" height="64">
+                <frame id="29:246" name="thumb" x="0" y="0" width="64" height="64">
+                  <frame id="29:568" name="shopping-basket" x="20" y="20" width="24" height="24" />
+                </frame>
+                <frame id="29:248" name="item-desc" x="80" y="11.5" width="380" height="41">
+                  <text id="29:249" name="Dried Stockfish Fillets (Premium Quality)" x="0" y="0" width="380" height="20" />
+                  <text id="29:250" name="250g Pack" x="0" y="24" width="380" height="17" />
+                </frame>
+              </frame>
+              <frame id="29:251" name="item-pricing" x="516" y="22" width="128" height="20">
+                <text id="29:252" name="Qty: 1" x="0" y="1" width="36" height="18" />
+                <text id="29:253" name="$42.00" x="76" y="0" width="52" height="20" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="29:254" name="sidebar" x="740" y="0" width="332" height="398">
+          <frame id="29:255" name="shipping-card" x="0" y="0" width="332" height="165">
+            <text id="29:256" name="Delivery Address" x="24" y="24" width="284" height="21" />
+            <frame id="29:257" name="address-details" x="24" y="57" width="284" height="84">
+              <text id="29:258" name="Adaeze Okafor" x="0" y="0" width="284" height="18" />
+              <text id="29:259" name="458 Spadina Ave, Apt 302" x="0" y="22" width="284" height="18" />
+              <text id="29:260" name="Toronto, ON M5S 2G8" x="0" y="44" width="284" height="18" />
+              <text id="29:261" name="Canada" x="0" y="66" width="284" height="18" />
+            </frame>
+          </frame>
+          <frame id="29:262" name="totals-card" x="0" y="189" width="332" height="209">
+            <text id="29:263" name="Payment Summary" x="24" y="24" width="284" height="21" />
+            <frame id="29:264" name="totals-rows" x="24" y="61" width="284" height="124">
+              <frame id="29:265" name="row-subtotal" x="0" y="0" width="284" height="18">
+                <text id="29:266" name="Subtotal" x="0" y="0" width="55" height="18" />
+                <text id="29:267" name="$81.48" x="243" y="0" width="41" height="18" />
+              </frame>
+              <frame id="29:268" name="row-shipping" x="0" y="30" width="284" height="18">
+                <text id="29:269" name="Shipping" x="0" y="0" width="57" height="18" />
+                <text id="29:270" name="$12.50" x="242" y="0" width="42" height="18" />
+              </frame>
+              <frame id="29:271" name="row-tax" x="0" y="60" width="284" height="18">
+                <text id="29:272" name="Estimated Tax" x="0" y="0" width="91" height="18" />
+                <text id="29:273" name="$5.20" x="247" y="0" width="37" height="18" />
+              </frame>
+              <line id="29:274" name="totals-divider" x="0" y="90" width="284" height="0" />
+              <frame id="29:275" name="row-total" x="0" y="102" width="284" height="22">
+                <text id="29:276" name="Total" x="0" y="1" width="35" height="20" />
+                <text id="29:277" name="$99.18" x="210" y="0" width="74" height="22" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>
