@@ -1,18 +1,17 @@
 import Link from "next/link";
 import { AfwFooterLogoLink } from "@/components/storefront/AfwLogo";
-import { FigmaImage } from "@/components/storefront/FigmaImage";
-import { socialIcons } from "@/lib/brand/assets";
+import { SocialIcon, type SocialNetwork } from "@/components/icons/SocialIcon";
 import {
   footerColumns,
   footerLegalLinks,
   siteConfig,
 } from "@/lib/storefront/site";
 
-const socialLinks = [
-  { label: "Facebook", href: "#", icon: socialIcons.facebook, width: 10, height: 16 },
-  { label: "Instagram", href: "#", icon: socialIcons.instagram, width: 14, height: 16 },
-  { label: "Twitter", href: "#", icon: socialIcons.twitter, width: 16, height: 16 },
-] as const;
+const socialLinks: { label: string; href: string; network: SocialNetwork }[] = [
+  { label: "Facebook", href: "#", network: "facebook" },
+  { label: "Instagram", href: "#", network: "instagram" },
+  { label: "Twitter", href: "#", network: "twitter" },
+];
 
 export function StorefrontFooter() {
   return (
@@ -25,14 +24,14 @@ export function StorefrontFooter() {
               {siteConfig.description}
             </p>
             <div className="flex items-center gap-3">
-              {socialLinks.map(({ label, href, icon, width, height }) => (
+              {socialLinks.map(({ label, href, network }) => (
                 <Link
                   key={label}
                   href={href}
                   aria-label={label}
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-footer-foreground transition-colors hover:bg-white/10"
                 >
-                  <FigmaImage src={icon} alt="" width={width} height={height} />
+                  <SocialIcon network={network} size={16} />
                 </Link>
               ))}
             </div>

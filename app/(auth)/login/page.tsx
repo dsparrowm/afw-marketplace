@@ -1,0 +1,13 @@
+import { Suspense } from "react";
+import { AuthLayout } from "@/components/account/AuthLayout";
+import { LoginForm } from "@/components/account/LoginForm";
+
+export default function LoginPage() {
+  return (
+    <AuthLayout>
+      <Suspense fallback={null}>
+        <LoginForm />
+      </Suspense>
+    </AuthLayout>
+  );
+}

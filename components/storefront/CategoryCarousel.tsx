@@ -7,15 +7,18 @@ import { Button } from "@/components/ui/button";
 import {
   CATEGORY_TILE_SCROLL_STEP,
   homepageCategories,
+  type HomepageCategory,
 } from "@/lib/storefront/categories";
 import { cn } from "@/lib/utils";
 
 export type CategoryCarouselProps = {
   className?: string;
+  categories?: HomepageCategory[];
 };
 
 /** Homepage shop-by-category — Figma node `2:41`, `shop-by-category.xml` */
-export function CategoryCarousel({ className }: CategoryCarouselProps) {
+export function CategoryCarousel({ className, categories }: CategoryCarouselProps) {
+  const items = categories ?? homepageCategories;
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const scroll = useCallback((direction: "prev" | "next") => {
@@ -68,7 +71,7 @@ export function CategoryCarousel({ className }: CategoryCarouselProps) {
           ref={scrollRef}
           className="flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
         >
-          {homepageCategories.map((category) => (
+          {items.map((category) => (
             <CategoryTile key={category.slug} category={category} />
           ))}
         </div>

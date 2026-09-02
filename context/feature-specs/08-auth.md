@@ -75,9 +75,9 @@ components/account/
 
 ## Acceptance Criteria
 
-- [ ] Login form validates email and password
-- [ ] Signup shows/hides business fields based on account type toggle
-- [ ] Tab switch between login and signup works
-- [ ] Social auth buttons render per Figma (functional wiring deferred)
-- [ ] Successful login creates session and redirects
-- [ ] Layout matches Figma auth card at 1200px viewport
+- [x] Login form validates email and password
+- [x] Signup shows/hides business fields based on account type toggle
+- [x] Tab switch between login and signup works
+- [x] Social auth buttons render per Figma (functional wiring deferred)
+- [x] Successful login creates session and redirects
+- [x] Layout matches Figma auth card at 1200px viewport

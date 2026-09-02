@@ -14,7 +14,7 @@ export const mockProducts: Record<string, Product> = {
     bulkLabel: "Bulk (10+)",
     badges: ["organic"],
     stockStatus: "in-stock",
-    category: "beans",
+    category: "grains-flour",
   },
   "yellow-garri": {
     id: "yellow-garri",

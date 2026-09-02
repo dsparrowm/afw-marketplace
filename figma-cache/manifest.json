@@ -108,7 +108,7 @@
       "platform": "desktop",
       "width": 1440,
       "height": 1704,
-      "status": "metadata-only",
+      "status": "partial",
       "sections": [
         { "slug": "announcement-bar", "nodeId": "18:440", "name": "Background" },
         { "slug": "header", "nodeId": "18:442", "name": "Header" },

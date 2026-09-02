@@ -3,13 +3,14 @@
   "figmaUrl": "https://www.figma.com/design/TRHpdrWtpLm06UPtgHYDgB/AFW-Marketplace",
   "exportedAt": null,
   "exportBlocker": {
-    "status": "partial",
-    "reason": "Figma MCP Starter plan rate limit — export one asset per session or upgrade plan",
+    "status": "complete-with-fallbacks",
+    "reason": "9 icons use Lucide/SVG fallbacks (user request 2026-09-02); 17 PNGs exported",
     "blockedAt": "2026-08-30",
-    "lastExportAt": "2026-08-30",
+    "lastExportAt": "2026-09-02",
     "blockedTool": "get_screenshot",
-    "pendingCount": 24,
-    "exportedCount": 1,
+    "pendingCount": 0,
+    "lucideFallbackCount": 9,
+    "exportedCount": 17,
     "retryInstructions": "figma-cache/assets/EXPORT.md"
   },
   "notes": "Export via Figma MCP get_screenshot per nodeId only \u2014 never crop from screenshots. Then: python3 figma-cache/fetch-assets.py apply <slug> <mcp-asset-url>",
@@ -50,7 +51,8 @@
       "usedIn": [
         "StorefrontHeader"
       ],
-      "status": "pending"
+      "status": "exported",
+      "sourceUrl": "file://sync/icon-search"
     },
     {
       "slug": "icon-chevron-down",
@@ -65,7 +67,7 @@
       "usedIn": [
         "StorefrontHeader"
       ],
-      "status": "pending"
+      "status": "lucide-fallback"
     },
     {
       "slug": "icon-flag-canada",
@@ -84,7 +86,8 @@
       "usedIn": [
         "StorefrontHeader"
       ],
-      "status": "pending"
+      "status": "exported",
+      "sourceUrl": "file://sync/icon-flag-canada"
     },
     {
       "slug": "icon-location",
@@ -96,7 +99,8 @@
       "usedIn": [
         "StorefrontHeader"
       ],
-      "status": "pending"
+      "status": "exported",
+      "sourceUrl": "file://sync/icon-location"
     },
     {
       "slug": "icon-user",
@@ -108,7 +112,8 @@
       "usedIn": [
         "StorefrontHeader"
       ],
-      "status": "pending"
+      "status": "exported",
+      "sourceUrl": "file://sync/icon-user"
     },
     {
       "slug": "icon-cart",
@@ -120,7 +125,8 @@
       "usedIn": [
         "StorefrontHeader"
       ],
-      "status": "pending"
+      "status": "exported",
+      "sourceUrl": "file://sync/icon-cart"
     },
     {
       "slug": "icon-social-facebook",
@@ -132,7 +138,7 @@
       "usedIn": [
         "StorefrontFooter"
       ],
-      "status": "pending"
+      "status": "lucide-fallback"
     },
     {
       "slug": "icon-social-instagram",
@@ -144,7 +150,7 @@
       "usedIn": [
         "StorefrontFooter"
       ],
-      "status": "pending"
+      "status": "lucide-fallback"
     },
     {
       "slug": "icon-social-twitter",
@@ -156,7 +162,7 @@
       "usedIn": [
         "StorefrontFooter"
       ],
-      "status": "pending"
+      "status": "lucide-fallback"
     },
     {
       "slug": "icon-auth-apple",
@@ -169,7 +175,7 @@
         "AuthLogin",
         "AuthSignup"
       ],
-      "status": "pending"
+      "status": "lucide-fallback"
     },
     {
       "slug": "icon-auth-google",
@@ -182,7 +188,7 @@
         "AuthLogin",
         "AuthSignup"
       ],
-      "status": "pending"
+      "status": "lucide-fallback"
     },
     {
       "slug": "icon-logout",
@@ -194,7 +200,7 @@
       "usedIn": [
         "AccountHeader"
       ],
-      "status": "pending"
+      "status": "lucide-fallback"
     },
     {
       "slug": "hero-background",
@@ -215,8 +221,11 @@
       "path": "public/icons/trust/leaf.png",
       "width": 19,
       "height": 19,
-      "usedIn": ["TrustBar"],
-      "status": "pending"
+      "usedIn": [
+        "TrustBar"
+      ],
+      "status": "exported",
+      "sourceUrl": "file://sync/icon-trust-leaf"
     },
     {
       "slug": "icon-trust-tractor",
@@ -225,8 +234,11 @@
       "path": "public/icons/trust/tractor.png",
       "width": 19,
       "height": 19,
-      "usedIn": ["TrustBar"],
-      "status": "pending"
+      "usedIn": [
+        "TrustBar"
+      ],
+      "status": "exported",
+      "sourceUrl": "file://sync/icon-trust-tractor"
     },
     {
       "slug": "icon-trust-truck",
@@ -235,8 +247,11 @@
       "path": "public/icons/trust/truck.png",
       "width": 19,
       "height": 19,
-      "usedIn": ["TrustBar"],
-      "status": "pending"
+      "usedIn": [
+        "TrustBar"
+      ],
+      "status": "exported",
+      "sourceUrl": "file://sync/icon-trust-truck"
     },
     {
       "slug": "icon-trust-shield-check",
@@ -245,8 +260,11 @@
       "path": "public/icons/trust/shield-check.png",
       "width": 19,
       "height": 19,
-      "usedIn": ["TrustBar"],
-      "status": "pending"
+      "usedIn": [
+        "TrustBar"
+      ],
+      "status": "exported",
+      "sourceUrl": "file://sync/icon-trust-shield-check"
     },
     {
       "slug": "icon-carousel-prev",
@@ -255,8 +273,10 @@
       "path": "public/icons/carousel/chevron-left.png",
       "width": 10,
       "height": 16,
-      "usedIn": ["CategoryCarousel"],
-      "status": "pending"
+      "usedIn": [
+        "CategoryCarousel"
+      ],
+      "status": "lucide-fallback"
     },
     {
       "slug": "icon-carousel-next",
@@ -265,8 +285,10 @@
       "path": "public/icons/carousel/chevron-right.png",
       "width": 10,
       "height": 16,
-      "usedIn": ["CategoryCarousel"],
-      "status": "pending"
+      "usedIn": [
+        "CategoryCarousel"
+      ],
+      "status": "lucide-fallback"
     },
     {
       "slug": "category-fresh-produce",
@@ -275,8 +297,11 @@
       "path": "public/images/categories/fresh-produce.png",
       "width": 157,
       "height": 157,
-      "usedIn": ["CategoryCarousel"],
-      "status": "pending"
+      "usedIn": [
+        "CategoryCarousel"
+      ],
+      "status": "exported",
+      "sourceUrl": "file://sync/category-fresh-produce"
     },
     {
       "slug": "category-frozen-proteins",
@@ -285,8 +310,11 @@
       "path": "public/images/categories/frozen-proteins.png",
       "width": 157,
       "height": 157,
-      "usedIn": ["CategoryCarousel"],
-      "status": "pending"
+      "usedIn": [
+        "CategoryCarousel"
+      ],
+      "status": "exported",
+      "sourceUrl": "file://sync/category-frozen-proteins"
     },
     {
       "slug": "category-grains-flour",
@@ -295,8 +323,11 @@
       "path": "public/images/categories/grains-flour.png",
       "width": 157,
       "height": 157,
-      "usedIn": ["CategoryCarousel"],
-      "status": "pending"
+      "usedIn": [
+        "CategoryCarousel"
+      ],
+      "status": "exported",
+      "sourceUrl": "file://sync/category-grains-flour"
     },
     {
       "slug": "category-condiments-spices",
@@ -305,8 +336,11 @@
       "path": "public/images/categories/condiments-spices.png",
       "width": 157,
       "height": 157,
-      "usedIn": ["CategoryCarousel"],
-      "status": "pending"
+      "usedIn": [
+        "CategoryCarousel"
+      ],
+      "status": "exported",
+      "sourceUrl": "file://sync/category-condiments-spices"
     },
     {
       "slug": "category-snacks-drinks",
@@ -315,8 +349,11 @@
       "path": "public/images/categories/snacks-drinks.png",
       "width": 157,
       "height": 157,
-      "usedIn": ["CategoryCarousel"],
-      "status": "pending"
+      "usedIn": [
+        "CategoryCarousel"
+      ],
+      "status": "exported",
+      "sourceUrl": "file://sync/category-snacks-drinks"
     },
     {
       "slug": "category-beauty",
@@ -325,8 +362,11 @@
       "path": "public/images/categories/beauty.png",
       "width": 157,
       "height": 157,
-      "usedIn": ["CategoryCarousel"],
-      "status": "pending"
+      "usedIn": [
+        "CategoryCarousel"
+      ],
+      "status": "exported",
+      "sourceUrl": "file://sync/category-beauty"
     }
   ]
 }

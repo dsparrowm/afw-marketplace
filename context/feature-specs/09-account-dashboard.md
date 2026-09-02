@@ -112,12 +112,12 @@ type Address = {
 
 ## Acceptance Criteria
 
-- [ ] Unauthenticated users redirected from `/account/*`
-- [ ] Tab nav switches between account pages with active state
-- [ ] Orders list shows mock orders with link to detail
-- [ ] Order detail shows line items and totals
-- [ ] Addresses page supports add/edit/delete (mock)
-- [ ] Reorder list adds items to cart
-- [ ] Profile displays user info
-- [ ] Logout clears session and redirects to `/`
-- [ ] Layout matches Figma dashboard frames
+- [x] Unauthenticated users redirected from `/account/*`
+- [x] Tab nav switches between account pages with active state
+- [x] Orders list shows mock orders with link to detail
+- [x] Order detail shows line items and totals
+- [x] Addresses page supports add/edit/delete (mock)
+- [x] Reorder list adds items to cart
+- [x] Profile displays user info
+- [x] Logout clears session and redirects to `/`
+- [x] Layout matches Figma dashboard frames

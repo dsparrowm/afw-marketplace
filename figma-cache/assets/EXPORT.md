@@ -11,16 +11,9 @@ logo and icon files for this project.
 
 Every asset must be exported from its Figma node via MCP `get_screenshot`.
 
-## Blocker (2026-08-30)
+## Blocker (2026-09-02)
 
-Export was **not completed** this session. Figma MCP returned:
-
-> You've reached the Figma MCP tool call limit on the Starter plan.
-
-All 13 shell assets remain `pending` in `manifest.json`. Components already reference the
-target paths under `public/` — they will show broken images until export completes.
-
-**Resolution:** Retry in a new session (daily limit reset) or upgrade the Figma MCP plan.
+Export was **partially completed** — 17/26 assets on disk and synced in manifest. Figma MCP still returns rate limit on Starter plan for remaining 9 icons.
 
 ## Quick start (next session)
 

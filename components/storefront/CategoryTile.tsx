@@ -29,7 +29,7 @@ export function CategoryTile({ category, className }: CategoryTileProps) {
           className="h-auto max-h-[157px] w-full object-contain"
         />
       </div>
-      <h3 className="mt-4 text-center text-base font-medium leading-6 text-foreground">
+      <h3 className="mt-3 text-center text-sm font-medium leading-5 text-foreground sm:mt-4 sm:text-base sm:leading-6">
         {category.label}
       </h3>
     </Link>

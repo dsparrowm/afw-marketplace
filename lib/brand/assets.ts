@@ -38,32 +38,37 @@ export const productImages = {
 } as const;
 
 export const carouselIcons = {
-  prev: "/icons/carousel/chevron-left.png",
-  next: "/icons/carousel/chevron-right.png",
+  /** Lucide `ChevronLeft` / `ChevronRight` in `CategoryCarousel` */
+  prev: null,
+  next: null,
 } as const;
 
 export const headerIcons = {
   search: "/icons/header/search.png",
-  chevronDown: "/icons/header/chevron-down.png",
+  /** Lucide `ChevronDown` in `StorefrontHeader` */
+  chevronDown: null,
   flagCanada: "/icons/header/flag-canada.png",
   location: "/icons/header/location.png",
   user: "/icons/header/user.png",
   cart: "/icons/header/cart.png",
 } as const;
 
+/** Footer social — `SocialIcon` SVG component (Figma `18:80`–`18:86`) */
 export const socialIcons = {
-  facebook: "/icons/social/facebook.png",
-  instagram: "/icons/social/instagram.png",
-  twitter: "/icons/social/twitter.png",
+  facebook: null,
+  instagram: null,
+  twitter: null,
 } as const;
 
+/** Auth — `AuthProviderIcon` SVG component (Figma `31:1250` / `31:1255`) */
 export const authIcons = {
-  apple: "/icons/auth/apple.png",
-  google: "/icons/auth/google.png",
+  apple: null,
+  google: null,
 } as const;
 
 export const accountIcons = {
-  logout: "/icons/account/logout.png",
+  /** Lucide `LogOut` in `AccountHeader` */
+  logout: null,
 } as const;
 
 export type FigmaAssetPath =
@@ -72,8 +77,8 @@ export type FigmaAssetPath =
   | (typeof trustIcons)[keyof typeof trustIcons]
   | (typeof categoryImages)[keyof typeof categoryImages]
   | (typeof productImages)[keyof typeof productImages]
-  | (typeof carouselIcons)[keyof typeof carouselIcons]
-  | (typeof headerIcons)[keyof typeof headerIcons]
-  | (typeof socialIcons)[keyof typeof socialIcons]
-  | (typeof authIcons)[keyof typeof authIcons]
-  | (typeof accountIcons)[keyof typeof accountIcons];
+  | "/icons/header/search.png"
+  | "/icons/header/flag-canada.png"
+  | "/icons/header/location.png"
+  | "/icons/header/user.png"
+  | "/icons/header/cart.png";

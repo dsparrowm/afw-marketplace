@@ -14,10 +14,11 @@ Before implementing or making architectural decisions, read the following files 
 
 1. `context/project-overview.md` — product goals, route map, and scope
 2. `context/architecture.md` — stack, folder structure, boundaries, and invariants
-3. `context/ui-context.md` — brand, tokens, typography, and layout conventions
-4. `context/design-assets.md` — Figma logos and icons (node IDs, paths, export workflow)
-5. `context/code-standards.md` — implementation rules and naming conventions
-6. `context/progress-tracker.md` — current phase, completed work, open questions, and next steps
+3. `context/backend-api.md` — staging API base URL, credentials (`.env.local`), endpoint map (read before API wiring)
+4. `context/ui-context.md` — brand, tokens, typography, and layout conventions
+5. `context/design-assets.md` — Figma logos and icons (node IDs, paths, export workflow)
+6. `context/code-standards.md` — implementation rules and naming conventions
+7. `context/progress-tracker.md` — current phase, completed work, open questions, and next steps
 
 Update `context/progress-tracker.md` after each meaningful implementation change.
 

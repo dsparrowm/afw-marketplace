@@ -53,14 +53,17 @@ specs are implemented. Do not scaffold the full tree upfront.
 
 ## Backend Integration
 
-The marketplace backend (Rokswood marketplace module) provides public catalog, cart,
-checkout, and customer account APIs. Exact endpoint contracts must be confirmed from
-the backend docs or `rokswood-hive-web` marketplace integration before wiring live data.
+Staging API docs: **`context/backend-api.md`** (Swagger at `http://104.251.212.74:3000/docs`).
+Credentials for dev testing live in **`.env.local`** (see `.env.example` for variable names).
+OpenAPI snapshot: `context/backend-openapi.json`.
 
-Until backend contracts are confirmed:
+The current backend exposes **staff/admin** routes (`/admin/*`) only. Public storefront
+catalog, cart, checkout, and customer auth endpoints are not yet in the OpenAPI spec.
+Until those ship:
 
 - Use typed mock data in `lib/mocks/` or inline fixtures per feature spec
 - Keep API wrapper signatures stable so mocks can be swapped for real calls
+- Use server-side route handlers to proxy admin reads if needed for staging — never expose staff tokens to the browser
 - Record endpoint gaps in `context/progress-tracker.md`
 
 ## Shared Shell Components
@@ -72,7 +75,8 @@ These appear on nearly every storefront page and should be built once, then comp
 | `AnnouncementBar` | `2:5` (homepage) | "FREE SHIPPING ON ORDERS OVER $150" |
 | `StorefrontHeader` | `2:185` | Logo, nav, search, currency, location, account, cart |
 | `StorefrontFooter` | `18:70` | Brand, link columns, social, newsletter |
-| `MobileBottomNav` | `2:2165` | Mobile homepage/catalog only |
+| `MobileBottomNav` | `2:2165` | Home · Categories · Cart · Account (mobile `< lg`) |
+| `MobileHeader` | `2:2148` | Compact header + hamburger drawer (mobile `< lg`) |
 
 Header nav items from design: Shop, Categories, Deals, New Arrivals, Wholesale.
 
