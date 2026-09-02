@@ -20,7 +20,7 @@ export function MobileHomepage({
   bestSellers,
 }: MobileHomepageProps) {
   return (
-    <div className="lg:hidden" data-figma-node="2:1928">
+    <div className="overflow-x-hidden lg:hidden" data-figma-node="2:1928">
       <MobileHeroSection />
       <FreshArrivalsAlert />
       <MobileCategoryGrid categories={categories} />

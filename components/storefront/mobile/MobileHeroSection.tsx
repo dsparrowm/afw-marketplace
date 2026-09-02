@@ -9,22 +9,25 @@ export type MobileHeroSectionProps = {
   className?: string;
 };
 
-/** Mobile homepage hero — Figma `2:1932`; badge unified to desktop copy */
+/** Mobile homepage hero — Figma `2:1932`; full-bleed image edge-to-edge below header */
 export function MobileHeroSection({ className }: MobileHeroSectionProps) {
   return (
     <section
-      className={cn("px-4 pt-4", className)}
+      className={cn(
+        "relative left-1/2 w-screen max-w-[100vw] -translate-x-1/2",
+        className,
+      )}
       aria-labelledby="mobile-hero-heading"
       data-figma-node="2:1932"
     >
-      <div className="relative h-[520px] overflow-hidden rounded-2xl">
+      <div className="relative h-[520px] w-full overflow-hidden">
         <Image
           src={homepageAssets.heroBackground}
           alt=""
           fill
           priority
-          sizes="(max-width: 1024px) 100vw, 0px"
-          className="object-cover object-left"
+          sizes="100vw"
+          className="object-cover object-center"
         />
         <div
           className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/35 to-black/25"
