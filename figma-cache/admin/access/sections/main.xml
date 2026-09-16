@@ -1,0 +1,120 @@
+<frame id="72:1647" name="Frame" x="260" y="0" width="1180" height="710">
+      <frame id="72:1648" name="page-header" x="32" y="32" width="1116" height="70">
+        <frame id="72:1649" name="Frame" x="0" y="0" width="594" height="50">
+          <text id="72:1650" name="Team &amp; Access" x="0" y="0" width="594" height="29" />
+          <text id="72:1651" name="Configure role-based access control rules, invite warehouse staff, and check system logs." x="0" y="33" width="594" height="17" />
+        </frame>
+        <frame id="72:1652" name="Frame" x="973" y="9" width="143" height="32">
+          <frame id="72:1653" name="Frame" x="0" y="0" width="143" height="32">
+            <frame id="72:1654" name="Frame" x="14" y="8" width="16" height="16" />
+            <text id="72:1656" name="Invite Member" x="38" y="8" width="91" height="16" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:1657" name="Frame" x="32" y="126" width="1116" height="323">
+        <frame id="72:1658" name="Frame" x="0" y="0" width="1116" height="48">
+          <text id="72:1659" name="Team Member" x="16" y="16" width="264" height="16" />
+          <text id="72:1660" name="Email Address" x="280" y="16" width="280" height="16" />
+          <text id="72:1661" name="Role" x="560" y="16" width="140" height="16" />
+          <text id="72:1662" name="Last Active" x="700" y="16" width="160" height="16" />
+          <text id="72:1663" name="Status" x="860" y="16" width="120" height="16" />
+          <text id="72:1664" name="Actions" x="980" y="16" width="120" height="16" />
+        </frame>
+        <frame id="72:1665" name="Frame" x="0" y="48" width="1116" height="55">
+          <text id="72:1666" name="Adaeze Okafor" x="16" y="19" width="264" height="17" />
+          <text id="72:1667" name="adaeze@africanfoodwarehouse.ca" x="280" y="19.5" width="280" height="16" />
+          <text id="72:1668" name="Owner" x="560" y="19.5" width="140" height="16" />
+          <text id="72:1669" name="Active now" x="700" y="19.5" width="160" height="16" />
+          <frame id="72:1670" name="Frame" x="860" y="16" width="120" height="23">
+            <frame id="72:1671" name="Frame" x="31.5" y="0" width="57" height="23">
+              <text id="72:1672" name="Active" x="10" y="4" width="37" height="15" />
+            </frame>
+          </frame>
+          <frame id="72:1673" name="Frame" x="980" y="19.5" width="120" height="16">
+            <text id="72:1674" name="Edit Role" x="65" y="0" width="55" height="16" />
+          </frame>
+        </frame>
+        <frame id="72:1675" name="Frame" x="0" y="103" width="1116" height="55">
+          <text id="72:1676" name="Tariq Diallo" x="16" y="19" width="264" height="17" />
+          <text id="72:1677" name="tariq@africanfoodwarehouse.ca" x="280" y="19.5" width="280" height="16" />
+          <text id="72:1678" name="Admin" x="560" y="19.5" width="140" height="16" />
+          <text id="72:1679" name="15 mins ago" x="700" y="19.5" width="160" height="16" />
+          <frame id="72:1680" name="Frame" x="860" y="16" width="120" height="23">
+            <frame id="72:1681" name="Frame" x="31.5" y="0" width="57" height="23">
+              <text id="72:1682" name="Active" x="10" y="4" width="37" height="15" />
+            </frame>
+          </frame>
+          <frame id="72:1683" name="Frame" x="980" y="19.5" width="120" height="16">
+            <text id="72:1684" name="Edit Role" x="65" y="0" width="55" height="16" />
+          </frame>
+        </frame>
+        <frame id="72:1685" name="Frame" x="0" y="158" width="1116" height="55">
+          <text id="72:1686" name="Chioma Nwachukwu" x="16" y="19" width="264" height="17" />
+          <text id="72:1687" name="chioma@africanfoodwarehouse.ca" x="280" y="19.5" width="280" height="16" />
+          <text id="72:1688" name="Manager" x="560" y="19.5" width="140" height="16" />
+          <text id="72:1689" name="2 hours ago" x="700" y="19.5" width="160" height="16" />
+          <frame id="72:1690" name="Frame" x="860" y="16" width="120" height="23">
+            <frame id="72:1691" name="Frame" x="31.5" y="0" width="57" height="23">
+              <text id="72:1692" name="Active" x="10" y="4" width="37" height="15" />
+            </frame>
+          </frame>
+          <frame id="72:1693" name="Frame" x="980" y="19.5" width="120" height="16">
+            <text id="72:1694" name="Edit Role" x="65" y="0" width="55" height="16" />
+          </frame>
+        </frame>
+        <frame id="72:1695" name="Frame" x="0" y="213" width="1116" height="55">
+          <text id="72:1696" name="Babajide Sowande" x="16" y="19" width="264" height="17" />
+          <text id="72:1697" name="babajide@africanfoodwarehouse.ca" x="280" y="19.5" width="280" height="16" />
+          <text id="72:1698" name="Staff" x="560" y="19.5" width="140" height="16" />
+          <text id="72:1699" name="Yesterday" x="700" y="19.5" width="160" height="16" />
+          <frame id="72:1700" name="Frame" x="860" y="16" width="120" height="23">
+            <frame id="72:1701" name="Frame" x="31.5" y="0" width="57" height="23">
+              <text id="72:1702" name="Active" x="10" y="4" width="37" height="15" />
+            </frame>
+          </frame>
+          <frame id="72:1703" name="Frame" x="980" y="19.5" width="120" height="16">
+            <text id="72:1704" name="Edit Role" x="65" y="0" width="55" height="16" />
+          </frame>
+        </frame>
+        <frame id="72:1705" name="Frame" x="0" y="268" width="1116" height="55">
+          <text id="72:1706" name="Eshun Selassie" x="16" y="19" width="264" height="17" />
+          <text id="72:1707" name="eshun@africanfoodwarehouse.ca" x="280" y="19.5" width="280" height="16" />
+          <text id="72:1708" name="Staff" x="560" y="19.5" width="140" height="16" />
+          <text id="72:1709" name="Never logged in" x="700" y="19.5" width="160" height="16" />
+          <frame id="72:1710" name="Frame" x="860" y="16" width="120" height="23">
+            <frame id="72:1711" name="Frame" x="30" y="0" width="60" height="23">
+              <text id="72:1712" name="Invited" x="10" y="4" width="40" height="15" />
+            </frame>
+          </frame>
+          <frame id="72:1713" name="Frame" x="980" y="19.5" width="120" height="16">
+            <text id="72:1714" name="Revoke" x="74" y="0" width="46" height="16" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:1715" name="Frame" x="32" y="473" width="1116" height="205">
+        <text id="72:1716" name="Access Roles Definition" x="20" y="20" width="1076" height="19" />
+        <frame id="72:1717" name="Frame" x="20" y="55" width="1076" height="130">
+          <frame id="72:1718" name="Frame" x="0" y="0" width="1076" height="53">
+            <frame id="72:1719" name="Frame" x="0" y="0" width="530" height="53">
+              <text id="72:1720" name="Owner" x="0" y="0" width="530" height="17" />
+              <text id="72:1721" name="Full root control including global financial balance parameters and warehouse locations creation." x="0" y="21" width="530" height="32" />
+            </frame>
+            <frame id="72:1722" name="Frame" x="546" y="0" width="530" height="53">
+              <text id="72:1723" name="Admin" x="0" y="0" width="530" height="17" />
+              <text id="72:1724" name="Complete management access, customer listing, configuration details editing, except owner billing settings." x="0" y="21" width="530" height="32" />
+            </frame>
+          </frame>
+          <line id="72:1725" name="Line" x="0" y="65" width="1076" height="0" />
+          <frame id="72:1726" name="Frame" x="0" y="77" width="1076" height="53">
+            <frame id="72:1727" name="Frame" x="0" y="0" width="530" height="53">
+              <text id="72:1728" name="Manager" x="0" y="0" width="530" height="17" />
+              <text id="72:1729" name="Can coordinate products, physical items inventory stock levels, order logistics, and pricing adjustments." x="0" y="21" width="530" height="32" />
+            </frame>
+            <frame id="72:1730" name="Frame" x="546" y="0" width="530" height="53">
+              <text id="72:1731" name="Staff" x="0" y="0" width="530" height="17" />
+              <text id="72:1732" name="Restricted access to fulfill current orders, update warehouse stock, and check dispatch status." x="0" y="21" width="530" height="32" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>

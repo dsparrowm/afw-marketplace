@@ -12,8 +12,8 @@ export function AccountHeader() {
 
   const firstName = customer.fullName.split(" ")[0] ?? customer.fullName;
 
-  function handleLogout() {
-    logout();
+  async function handleLogout() {
+    await logout();
     window.location.assign("/");
   }
 

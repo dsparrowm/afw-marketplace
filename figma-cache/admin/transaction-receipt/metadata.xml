@@ -1,0 +1,198 @@
+<frame id="79:482" name="transaction-receipt" x="7036" y="-450" width="1440" height="1024">
+    <frame id="78:303" name="sidebar" x="0" y="0" width="260" height="1024">
+      <frame id="78:304" name="sidebar-top" x="16" y="24" width="228" height="428">
+        <frame id="78:305" name="logo-area" x="0" y="0" width="228" height="62">
+          <rounded-rectangle id="78:306" name="image 2" x="8" y="0" width="105" height="62" />
+        </frame>
+        <frame id="78:307" name="nav-rack" x="0" y="90" width="228" height="338">
+          <frame id="78:308" name="nav-item-Overview" x="0" y="0" width="228" height="34">
+            <frame id="78:309" name="layout-grid" x="12" y="8" width="18" height="18" />
+            <text id="78:311" name="Overview" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:312" name="nav-item-Products" x="0" y="38" width="228" height="34">
+            <frame id="78:313" name="archive" x="12" y="8" width="18" height="18" />
+            <text id="78:315" name="Products" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:316" name="nav-item-Inventory" x="0" y="76" width="228" height="34">
+            <frame id="78:317" name="warehouse" x="12" y="8" width="18" height="18" />
+            <text id="78:319" name="Inventory" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:320" name="nav-item-Orders &amp; Delivery" x="0" y="114" width="228" height="34">
+            <frame id="78:321" name="truck-electric" x="12" y="8" width="18" height="18" />
+            <text id="78:323" name="Orders &amp; Delivery" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:324" name="nav-item-Financials" x="0" y="152" width="228" height="34">
+            <frame id="78:325" name="receipt-text" x="12" y="8" width="18" height="18" />
+            <text id="78:327" name="Financials" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:328" name="nav-item-Promotions" x="0" y="190" width="228" height="34">
+            <frame id="78:329" name="percent-square" x="12" y="8" width="18" height="18" />
+            <text id="78:331" name="Promotions" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:332" name="nav-item-Customers" x="0" y="228" width="228" height="34">
+            <frame id="78:333" name="users-2" x="12" y="8" width="18" height="18" />
+            <text id="78:335" name="Customers" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:336" name="nav-item-Access" x="0" y="266" width="228" height="34">
+            <frame id="78:337" name="key-square" x="12" y="8" width="18" height="18" />
+            <text id="78:339" name="Access" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:340" name="nav-item-Settings" x="0" y="304" width="228" height="34">
+            <frame id="78:341" name="settings" x="12" y="8" width="18" height="18" />
+            <text id="78:343" name="Settings" x="42" y="8.5" width="174" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="78:344" name="sidebar-bottom" x="16" y="898" width="228" height="102">
+        <frame id="78:345" name="help-item" x="0" y="0" width="228" height="34">
+          <frame id="78:346" name="circle-question-mark" x="12" y="8" width="18" height="18" />
+          <text id="78:348" name="Help &amp; Support" x="42" y="8.5" width="174" height="17" />
+        </frame>
+        <line id="78:349" name="Line" x="0" y="42" width="228" height="0" />
+        <frame id="78:350" name="admin-profile" x="0" y="50" width="228" height="52">
+          <rounded-rectangle id="78:351" name="Rectangle" x="8" y="8" width="36" height="36" />
+          <frame id="78:352" name="Frame" x="56" y="10.5" width="136" height="31">
+            <text id="78:353" name="Adaeze Okafor" x="0" y="0" width="136" height="16" />
+            <text id="78:354" name="Super Admin" x="0" y="18" width="136" height="13" />
+          </frame>
+          <frame id="78:355" name="log-out" x="204" y="18" width="16" height="16" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="79:514" name="Frame" x="260" y="0" width="1180" height="1024">
+      <frame id="79:515" name="Frame" x="0" y="0" width="1180" height="72">
+        <frame id="79:516" name="Frame" x="32" y="27.5" width="180" height="17">
+          <frame id="79:517" name="Frame" x="0" y="0" width="82" height="17">
+            <text id="79:518" name="Transactions" x="0" y="0" width="82" height="17" />
+          </frame>
+          <frame id="79:519" name="Frame" x="90" y="0" width="90" height="17">
+            <text id="79:520" name="/" x="0" y="0" width="7" height="17" />
+            <text id="79:521" name="TXN-10482" x="15" y="0" width="75" height="17" />
+          </frame>
+        </frame>
+        <frame id="79:522" name="Frame" x="808" y="18" width="340" height="36">
+          <frame id="79:523" name="Frame" x="0" y="0" width="240" height="36">
+            <frame id="79:726" name="search" x="12" y="10" width="16" height="16" />
+            <text id="79:525" name="Search inventory, shipments..." x="36" y="10" width="177" height="16" />
+          </frame>
+          <frame id="79:526" name="Frame" x="256" y="0" width="36" height="36">
+            <frame id="79:738" name="bell" x="9" y="9" width="18" height="18" />
+          </frame>
+          <rounded-rectangle id="79:528" name="Rectangle" x="308" y="2" width="32" height="32" />
+        </frame>
+      </frame>
+      <frame id="79:529" name="Frame" x="0" y="72" width="1180" height="762">
+        <frame id="79:530" name="Frame" x="32" y="32" width="1116" height="55">
+          <frame id="79:531" name="Frame" x="0" y="0" width="329" height="55">
+            <text id="79:532" name="Transaction #TXN-10482" x="0" y="0" width="329" height="34" />
+            <text id="79:533" name="Settled successfully on Sep 5, 2026" x="0" y="38" width="225" height="17" />
+          </frame>
+          <frame id="79:534" name="Frame" x="808" y="9" width="308" height="37">
+            <frame id="79:535" name="Frame" x="0" y="0" width="142" height="37">
+              <frame id="79:624" name="printer" x="16" y="10.5" width="16" height="16" />
+              <text id="79:537" name="Print Receipt" x="40" y="10" width="86" height="17" />
+            </frame>
+            <frame id="79:538" name="Frame" x="154" y="0" width="154" height="37">
+              <frame id="79:747" name="download" x="16" y="10.5" width="16" height="16" />
+              <text id="79:540" name="Download PDF" x="40" y="10" width="98" height="17" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="79:541" name="Frame" x="32" y="111" width="800" height="554">
+          <frame id="79:542" name="Frame" x="32" y="32" width="736" height="28">
+            <frame id="79:543" name="Frame" x="0" y="0" width="252" height="28">
+              <frame id="79:544" name="Frame" x="0" y="0" width="28" height="28">
+                <frame id="79:750" name="leaf" x="7" y="7" width="14" height="14" />
+              </frame>
+              <text id="79:546" name="African Food Warehouse" x="36" y="3" width="216" height="22" />
+            </frame>
+            <frame id="79:547" name="Frame" x="691" y="2.5" width="45" height="23">
+              <text id="79:548" name="Paid" x="10" y="4" width="25" height="15" />
+            </frame>
+          </frame>
+          <line id="79:549" name="Line" x="32" y="84" width="736" height="0" />
+          <frame id="79:550" name="Frame" x="32" y="108" width="736" height="54">
+            <frame id="79:551" name="Frame" x="0" y="0" width="240" height="54">
+              <text id="79:552" name="Billed To" x="0" y="0" width="43" height="13" />
+              <text id="79:553" name="Amara Osei" x="0" y="17" width="77" height="17" />
+              <text id="79:554" name="14 Independence Ave, Accra, Ghana" x="0" y="38" width="212" height="16" />
+            </frame>
+            <frame id="79:555" name="Frame" x="278" y="0" width="240" height="54">
+              <text id="79:556" name="Payment Details" x="0" y="0" width="83" height="13" />
+              <text id="79:557" name="Visa •••• 4821" x="0" y="17" width="84" height="17" />
+              <text id="79:558" name="REF: PAY-REF-20260905-4821" x="0" y="38" width="188" height="16" />
+            </frame>
+            <frame id="79:559" name="Frame" x="556" y="0" width="180" height="54">
+              <text id="79:560" name="Order Number" x="0" y="0" width="74" height="13" />
+              <text id="79:561" name="#AFW-10482" x="0" y="17" width="84" height="18" />
+              <text id="79:562" name="Sep 5, 2026 at 4:30 PM" x="0" y="39" width="126" height="15" />
+            </frame>
+          </frame>
+          <frame id="79:563" name="Frame" x="32" y="186" width="736" height="162">
+            <frame id="79:564" name="Frame" x="0" y="0" width="736" height="39">
+              <text id="79:565" name="Product Item" x="12" y="12" width="412" height="15" />
+              <text id="79:566" name="Qty" x="424" y="12" width="60" height="15" />
+              <text id="79:567" name="Unit Price" x="484" y="12" width="120" height="15" />
+              <text id="79:568" name="Total" x="604" y="12" width="120" height="15" />
+            </frame>
+            <frame id="79:569" name="Frame" x="0" y="39" width="736" height="41">
+              <text id="79:570" name="Nigerian Jollof Rice Mix (1.2kg)" x="12" y="12" width="412" height="16" />
+              <text id="79:571" name="3" x="424" y="12" width="60" height="17" />
+              <text id="79:572" name="$12.99" x="484" y="12" width="120" height="17" />
+              <text id="79:573" name="$38.97" x="604" y="12" width="120" height="17" />
+            </frame>
+            <frame id="79:574" name="Frame" x="0" y="80" width="736" height="41">
+              <text id="79:575" name="Ghanaian Shito Pepper Sauce (350ml)" x="12" y="12" width="412" height="16" />
+              <text id="79:576" name="2" x="424" y="12" width="60" height="17" />
+              <text id="79:577" name="$8.49" x="484" y="12" width="120" height="17" />
+              <text id="79:578" name="$16.98" x="604" y="12" width="120" height="17" />
+            </frame>
+            <frame id="79:579" name="Frame" x="0" y="121" width="736" height="41">
+              <text id="79:580" name="Organic Cassava Flour (2kg)" x="12" y="12" width="412" height="16" />
+              <text id="79:581" name="1" x="424" y="12" width="60" height="17" />
+              <text id="79:582" name="$15.99" x="484" y="12" width="120" height="17" />
+              <text id="79:583" name="$15.99" x="604" y="12" width="120" height="17" />
+            </frame>
+          </frame>
+          <frame id="79:584" name="Frame" x="32" y="372" width="736" height="150">
+            <frame id="79:585" name="Frame" x="0" y="12" width="240" height="100" />
+            <frame id="79:586" name="Frame" x="416" y="12" width="320" height="138">
+              <frame id="79:587" name="Frame" x="0" y="0" width="320" height="17">
+                <text id="79:588" name="Subtotal" x="0" y="0" width="51" height="16" />
+                <text id="79:589" name="$71.94" x="273" y="0" width="47" height="17" />
+              </frame>
+              <frame id="79:590" name="Frame" x="0" y="25" width="320" height="17">
+                <text id="79:591" name="Discount (10% loyalty)" x="0" y="0" width="131" height="16" />
+                <text id="79:592" name="-$7.19" x="273" y="0" width="47" height="17" />
+              </frame>
+              <frame id="79:593" name="Frame" x="0" y="50" width="320" height="17">
+                <text id="79:594" name="Shipping" x="0" y="0" width="54" height="16" />
+                <text id="79:595" name="$5.99" x="281" y="0" width="39" height="17" />
+              </frame>
+              <frame id="79:596" name="Frame" x="0" y="75" width="320" height="17">
+                <text id="79:597" name="Tax (VAT 12.5%)" x="0" y="0" width="93" height="16" />
+                <text id="79:598" name="$8.84" x="281" y="0" width="39" height="17" />
+              </frame>
+              <line id="79:599" name="Line" x="0" y="100" width="320" height="0" />
+              <frame id="79:600" name="Frame" x="0" y="108" width="320" height="30">
+                <text id="79:601" name="Total Paid" x="0" y="4" width="76" height="19" />
+                <text id="79:602" name="$79.58" x="248" y="4" width="72" height="26" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="79:603" name="Frame" x="32" y="689" width="800" height="41">
+          <frame id="79:604" name="Frame" x="0" y="0" width="192" height="41">
+            <frame id="79:765" name="mail" x="24" y="12.5" width="16" height="16" />
+            <text id="79:606" name="Send to Customer" x="48" y="12" width="120" height="17" />
+          </frame>
+          <frame id="79:607" name="Frame" x="204" y="0" width="171" height="41">
+            <text id="79:608" name="Export Receipt CSV" x="20" y="12" width="131" height="17" />
+          </frame>
+          <frame id="79:609" name="Frame" x="387" y="0" width="161" height="41">
+            <text id="79:610" name="Refund Transaction" x="16" y="12" width="129" height="17" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>

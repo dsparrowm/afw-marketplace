@@ -1,0 +1,188 @@
+<frame id="72:446" name="Frame" x="260" y="0" width="1180" height="786">
+      <frame id="72:447" name="page-header" x="32" y="32" width="1116" height="70">
+        <frame id="72:448" name="Frame" x="0" y="0" width="485" height="50">
+          <text id="72:449" name="Inventory" x="0" y="0" width="113" height="29" />
+          <text id="72:450" name="Track stock levels, configure low-stock triggers, and coordinate reorders." x="0" y="33" width="485" height="17" />
+        </frame>
+        <frame id="72:451" name="Frame" x="750" y="9" width="366" height="32">
+          <frame id="72:452" name="Frame" x="0" y="0" width="220" height="32">
+            <frame id="72:1024" name="search" x="12" y="8" width="16" height="16" />
+            <text id="72:454" name="Search SKU or product..." x="36" y="8" width="172" height="16" />
+          </frame>
+          <frame id="72:455" name="Frame" x="228" y="0" width="138" height="32">
+            <frame id="72:1135" name="refresh-cw" x="14" y="8" width="16" height="16" />
+            <text id="72:457" name="Update Stock" x="38" y="8" width="86" height="16" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:458" name="Frame" x="32" y="122" width="1116" height="33">
+        <frame id="72:459" name="Frame" x="0" y="0" width="151" height="33">
+          <text id="72:460" name="All Products" x="16" y="8.5" width="77" height="16" />
+          <frame id="72:461" name="Frame" x="101" y="8" width="34" height="17">
+            <text id="72:462" name="284" x="6" y="2" width="22" height="13" />
+          </frame>
+        </frame>
+        <frame id="72:463" name="Frame" x="163" y="0" width="124" height="33">
+          <text id="72:464" name="In Stock" x="16" y="8.5" width="51" height="16" />
+          <frame id="72:465" name="Frame" x="75" y="8" width="33" height="17">
+            <text id="72:466" name="247" x="6" y="2" width="21" height="13" />
+          </frame>
+        </frame>
+        <frame id="72:467" name="Frame" x="299" y="0" width="133" height="33">
+          <text id="72:468" name="Low Stock" x="16" y="8.5" width="66" height="16" />
+          <frame id="72:469" name="Frame" x="90" y="8" width="27" height="17">
+            <text id="72:470" name="25" x="6" y="2" width="15" height="13" />
+          </frame>
+        </frame>
+        <frame id="72:471" name="Frame" x="444" y="0" width="144" height="33">
+          <text id="72:472" name="Out of Stock" x="16" y="8.5" width="79" height="16" />
+          <frame id="72:473" name="Frame" x="103" y="8" width="25" height="17">
+            <text id="72:474" name="12" x="6" y="2" width="13" height="13" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:475" name="Frame" x="32" y="175" width="1116" height="495">
+        <frame id="72:476" name="Frame" x="0" y="0" width="1116" height="47">
+          <text id="72:477" name="Product Name" x="16" y="16" width="364" height="15" />
+          <text id="72:478" name="SKU" x="380" y="16" width="120" height="15" />
+          <text id="72:479" name="Current Stock" x="500" y="16" width="110" height="15" />
+          <text id="72:480" name="Reorder Level" x="610" y="16" width="110" height="15" />
+          <text id="72:481" name="Status" x="720" y="16" width="140" height="15" />
+          <text id="72:482" name="Last Updated" x="860" y="16" width="120" height="15" />
+          <text id="72:483" name="Action" x="980" y="16" width="120" height="15" />
+        </frame>
+        <frame id="72:484" name="Frame" x="0" y="47" width="1116" height="64">
+          <text id="72:485" name="Jollof Rice Spice Mix" x="16" y="23.5" width="364" height="17" />
+          <text id="72:486" name="AFW-SP-001" x="380" y="24" width="120" height="16" />
+          <text id="72:487" name="142" x="500" y="23.5" width="110" height="17" />
+          <text id="72:488" name="30" x="610" y="24" width="110" height="16" />
+          <frame id="72:489" name="Frame" x="720" y="20.5" width="140" height="23">
+            <frame id="72:490" name="Frame" x="36.5" y="0" width="67" height="23">
+              <text id="72:491" name="In Stock" x="10" y="4" width="47" height="15" />
+            </frame>
+          </frame>
+          <text id="72:492" name="2 hours ago" x="860" y="24" width="120" height="16" />
+          <frame id="72:493" name="Frame" x="980" y="16" width="120" height="32">
+            <frame id="72:494" name="Frame" x="41" y="0" width="79" height="32">
+              <text id="72:495" name="Restock" x="14" y="8" width="51" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:496" name="Frame" x="0" y="111" width="1116" height="64">
+          <text id="72:497" name="Organic Palm Oil (1L)" x="16" y="23.5" width="364" height="17" />
+          <text id="72:498" name="AFW-OL-004" x="380" y="24" width="120" height="16" />
+          <text id="72:499" name="4" x="500" y="23.5" width="110" height="17" />
+          <text id="72:500" name="15" x="610" y="24" width="110" height="16" />
+          <frame id="72:501" name="Frame" x="720" y="20.5" width="140" height="23">
+            <frame id="72:502" name="Frame" x="29.5" y="0" width="81" height="23">
+              <text id="72:503" name="Low Stock" x="10" y="4" width="61" height="15" />
+            </frame>
+          </frame>
+          <text id="72:504" name="1 day ago" x="860" y="24" width="120" height="16" />
+          <frame id="72:505" name="Frame" x="980" y="16" width="120" height="32">
+            <frame id="72:506" name="Frame" x="41" y="0" width="79" height="32">
+              <text id="72:507" name="Restock" x="14" y="8" width="51" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:508" name="Frame" x="0" y="175" width="1116" height="64">
+          <text id="72:509" name="Dried Ogbono Seeds (500g)" x="16" y="23.5" width="364" height="17" />
+          <text id="72:510" name="AFW-SD-012" x="380" y="24" width="120" height="16" />
+          <text id="72:511" name="2" x="500" y="23.5" width="110" height="17" />
+          <text id="72:512" name="10" x="610" y="24" width="110" height="16" />
+          <frame id="72:513" name="Frame" x="720" y="20.5" width="140" height="23">
+            <frame id="72:514" name="Frame" x="29.5" y="0" width="81" height="23">
+              <text id="72:515" name="Low Stock" x="10" y="4" width="61" height="15" />
+            </frame>
+          </frame>
+          <text id="72:516" name="3 hours ago" x="860" y="24" width="120" height="16" />
+          <frame id="72:517" name="Frame" x="980" y="16" width="120" height="32">
+            <frame id="72:518" name="Frame" x="41" y="0" width="79" height="32">
+              <text id="72:519" name="Restock" x="14" y="8" width="51" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:520" name="Frame" x="0" y="239" width="1116" height="64">
+          <text id="72:521" name="Suya Spice Blend (100g)" x="16" y="23.5" width="364" height="17" />
+          <text id="72:522" name="AFW-SP-002" x="380" y="24" width="120" height="16" />
+          <text id="72:523" name="0" x="500" y="23.5" width="110" height="17" />
+          <text id="72:524" name="25" x="610" y="24" width="110" height="16" />
+          <frame id="72:525" name="Frame" x="720" y="20.5" width="140" height="23">
+            <frame id="72:526" name="Frame" x="23.5" y="0" width="93" height="23">
+              <text id="72:527" name="Out of Stock" x="10" y="4" width="73" height="15" />
+            </frame>
+          </frame>
+          <text id="72:528" name="3 days ago" x="860" y="24" width="120" height="16" />
+          <frame id="72:529" name="Frame" x="980" y="16" width="120" height="32">
+            <frame id="72:530" name="Frame" x="41" y="0" width="79" height="32">
+              <text id="72:531" name="Restock" x="14" y="8" width="51" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:532" name="Frame" x="0" y="303" width="1116" height="64">
+          <text id="72:533" name="Cassava Flour (Gari) 2kg" x="16" y="23.5" width="364" height="17" />
+          <text id="72:534" name="AFW-TB-089" x="380" y="24" width="120" height="16" />
+          <text id="72:535" name="89" x="500" y="23.5" width="110" height="17" />
+          <text id="72:536" name="20" x="610" y="24" width="110" height="16" />
+          <frame id="72:537" name="Frame" x="720" y="20.5" width="140" height="23">
+            <frame id="72:538" name="Frame" x="36.5" y="0" width="67" height="23">
+              <text id="72:539" name="In Stock" x="10" y="4" width="47" height="15" />
+            </frame>
+          </frame>
+          <text id="72:540" name="Yesterday" x="860" y="24" width="120" height="16" />
+          <frame id="72:541" name="Frame" x="980" y="16" width="120" height="32">
+            <frame id="72:542" name="Frame" x="41" y="0" width="79" height="32">
+              <text id="72:543" name="Restock" x="14" y="8" width="51" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:544" name="Frame" x="0" y="367" width="1116" height="64">
+          <text id="72:545" name="Egusi Seeds (500g)" x="16" y="23.5" width="364" height="17" />
+          <text id="72:546" name="AFW-SD-005" x="380" y="24" width="120" height="16" />
+          <text id="72:547" name="63" x="500" y="23.5" width="110" height="17" />
+          <text id="72:548" name="15" x="610" y="24" width="110" height="16" />
+          <frame id="72:549" name="Frame" x="720" y="20.5" width="140" height="23">
+            <frame id="72:550" name="Frame" x="36.5" y="0" width="67" height="23">
+              <text id="72:551" name="In Stock" x="10" y="4" width="47" height="15" />
+            </frame>
+          </frame>
+          <text id="72:552" name="4 hours ago" x="860" y="24" width="120" height="16" />
+          <frame id="72:553" name="Frame" x="980" y="16" width="120" height="32">
+            <frame id="72:554" name="Frame" x="41" y="0" width="79" height="32">
+              <text id="72:555" name="Restock" x="14" y="8" width="51" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:556" name="Frame" x="0" y="431" width="1116" height="64">
+          <text id="72:557" name="Dried Crayfish (Large Bag)" x="16" y="23.5" width="364" height="17" />
+          <text id="72:558" name="AFW-SF-019" x="380" y="24" width="120" height="16" />
+          <text id="72:559" name="19" x="500" y="23.5" width="110" height="17" />
+          <text id="72:560" name="10" x="610" y="24" width="110" height="16" />
+          <frame id="72:561" name="Frame" x="720" y="20.5" width="140" height="23">
+            <frame id="72:562" name="Frame" x="36.5" y="0" width="67" height="23">
+              <text id="72:563" name="In Stock" x="10" y="4" width="47" height="15" />
+            </frame>
+          </frame>
+          <text id="72:564" name="2 days ago" x="860" y="24" width="120" height="16" />
+          <frame id="72:565" name="Frame" x="980" y="16" width="120" height="32">
+            <frame id="72:566" name="Frame" x="41" y="0" width="79" height="32">
+              <text id="72:567" name="Restock" x="14" y="8" width="51" height="16" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:568" name="Frame" x="32" y="690" width="1116" height="64">
+        <frame id="72:569" name="Frame" x="16" y="23" width="502" height="18">
+          <frame id="72:1216" name="circle-help" x="0" y="0" width="18" height="18" />
+          <text id="72:571" name="Bulk Import pending from Lagos Port shipment: 4,500 kgs of various grains." x="30" y="1" width="472" height="16" />
+        </frame>
+        <frame id="72:572" name="Frame" x="871" y="16" width="229" height="32">
+          <frame id="72:573" name="Frame" x="0" y="0" width="78" height="32">
+            <text id="72:574" name="Dismiss" x="14" y="8" width="50" height="16" />
+          </frame>
+          <frame id="72:575" name="Frame" x="86" y="0" width="143" height="32">
+            <text id="72:576" name="Process Shipment" x="14" y="8" width="115" height="16" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>

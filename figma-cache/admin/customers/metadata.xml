@@ -1,0 +1,225 @@
+<frame id="72:1408" name="customers" x="11067" y="-450" width="1440" height="960">
+    <frame id="72:1409" name="sidebar" x="0" y="0" width="260" height="960">
+      <frame id="72:1410" name="sidebar-top" x="16" y="24" width="228" height="428">
+        <frame id="72:1411" name="logo-area" x="0" y="0" width="228" height="62">
+          <rounded-rectangle id="78:132" name="image 2" x="8" y="0" width="105" height="62" />
+        </frame>
+        <frame id="72:1416" name="nav-rack" x="0" y="90" width="228" height="338">
+          <frame id="72:1417" name="nav-item-Overview" x="0" y="0" width="228" height="34">
+            <frame id="72:1418" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1420" name="Overview" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1421" name="nav-item-Products" x="0" y="38" width="228" height="34">
+            <frame id="72:1422" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1424" name="Products" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1425" name="nav-item-Inventory" x="0" y="76" width="228" height="34">
+            <frame id="72:1426" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1428" name="Inventory" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1429" name="nav-item-Orders &amp; Delivery" x="0" y="114" width="228" height="34">
+            <frame id="72:1430" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1432" name="Orders &amp; Delivery" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1433" name="nav-item-Financials" x="0" y="152" width="228" height="34">
+            <frame id="72:1434" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1436" name="Financials" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1437" name="nav-item-Promotions" x="0" y="190" width="228" height="34">
+            <frame id="72:1438" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1440" name="Promotions" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1441" name="nav-item-Customers" x="0" y="228" width="228" height="34">
+            <frame id="72:1442" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1444" name="Customers" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1445" name="nav-item-Access" x="0" y="266" width="228" height="34">
+            <frame id="72:1446" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1448" name="Access" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1449" name="nav-item-Settings" x="0" y="304" width="228" height="34">
+            <frame id="72:1450" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1452" name="Settings" x="42" y="8.5" width="174" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:1453" name="sidebar-bottom" x="16" y="834" width="228" height="102">
+        <frame id="72:1454" name="help-item" x="0" y="0" width="228" height="34">
+          <frame id="72:1455" name="Frame" x="12" y="8" width="18" height="18" />
+          <text id="72:1457" name="Help &amp; Support" x="42" y="8.5" width="174" height="17" />
+        </frame>
+        <line id="72:1458" name="Line" x="0" y="42" width="228" height="0" />
+        <frame id="72:1459" name="admin-profile" x="0" y="50" width="228" height="52">
+          <rounded-rectangle id="72:1460" name="Rectangle" x="8" y="8" width="36" height="36" />
+          <frame id="72:1461" name="Frame" x="56" y="10.5" width="136" height="31">
+            <text id="72:1462" name="Adaeze Okafor" x="0" y="0" width="136" height="16" />
+            <text id="72:1463" name="Super Admin" x="0" y="18" width="136" height="13" />
+          </frame>
+          <frame id="72:1464" name="log-out" x="204" y="18" width="16" height="16" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="72:1466" name="Frame" x="260" y="0" width="1180" height="795">
+      <frame id="72:1467" name="page-header" x="32" y="32" width="1116" height="70">
+        <frame id="72:1468" name="Frame" x="0" y="0" width="524" height="50">
+          <text id="72:1469" name="Customers" x="0" y="0" width="524" height="29" />
+          <text id="72:1470" name="View client order history, active retention rates, and local demographic metrics." x="0" y="33" width="524" height="17" />
+        </frame>
+        <frame id="72:1471" name="Frame" x="792" y="8" width="324" height="34">
+          <frame id="72:1472" name="Frame" x="0" y="0" width="324" height="34">
+            <frame id="72:1473" name="Frame" x="0" y="0" width="220" height="34">
+              <frame id="72:1474" name="Frame" x="12" y="8" width="18" height="18" />
+              <text id="72:1476" name="Search customers..." x="38" y="9" width="170" height="16" />
+            </frame>
+            <frame id="72:1477" name="Frame" x="228" y="0" width="96" height="32">
+              <text id="72:1478" name="Export List" x="14" y="8" width="68" height="16" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:1479" name="Frame" x="32" y="126" width="1116" height="116">
+        <frame id="72:1480" name="metric-card" x="0" y="0" width="267" height="116">
+          <text id="72:1481" name="Total Customers" x="18" y="18" width="231" height="15" />
+          <text id="72:1482" name="1,842" x="18" y="41" width="231" height="34" />
+          <text id="72:1483" name="+12% from last quarter" x="18" y="83" width="231" height="15" />
+        </frame>
+        <frame id="72:1484" name="metric-card" x="283" y="0" width="267" height="116">
+          <text id="72:1485" name="New This Month" x="18" y="18" width="231" height="15" />
+          <text id="72:1486" name="67 Users" x="18" y="41" width="231" height="34" />
+          <text id="72:1487" name="First-time registrations" x="18" y="83" width="231" height="15" />
+        </frame>
+        <frame id="72:1488" name="metric-card" x="566" y="0" width="267" height="116">
+          <text id="72:1489" name="Repeat Customers" x="18" y="18" width="231" height="15" />
+          <text id="72:1490" name="58%" x="18" y="41" width="231" height="34" />
+          <text id="72:1491" name="High customer retention rate" x="18" y="83" width="231" height="15" />
+        </frame>
+        <frame id="72:1492" name="metric-card" x="849" y="0" width="267" height="116">
+          <text id="72:1493" name="Avg Order Value" x="18" y="18" width="231" height="15" />
+          <text id="72:1494" name="$64.20 CAD" x="18" y="41" width="231" height="34" />
+          <text id="72:1495" name="Average cart size" x="18" y="83" width="231" height="15" />
+        </frame>
+      </frame>
+      <frame id="72:1496" name="Frame" x="32" y="266" width="1116" height="433">
+        <frame id="72:1497" name="Frame" x="0" y="0" width="1116" height="48">
+          <text id="72:1498" name="Customer Name" x="16" y="16" width="254" height="16" />
+          <text id="72:1499" name="Email Address" x="270" y="16" width="220" height="16" />
+          <text id="72:1500" name="Orders" x="490" y="16" width="90" height="16" />
+          <text id="72:1501" name="Total Spent" x="580" y="16" width="120" height="16" />
+          <text id="72:1502" name="Last Order Date" x="700" y="16" width="160" height="16" />
+          <text id="72:1503" name="Location" x="860" y="16" width="140" height="16" />
+          <text id="72:1504" name="Status" x="1000" y="16" width="100" height="16" />
+        </frame>
+        <frame id="72:1505" name="Frame" x="0" y="48" width="1116" height="55">
+          <text id="72:1506" name="Yusuf Bello" x="16" y="19" width="254" height="17" />
+          <text id="72:1507" name="yusuf.b@gmail.com" x="270" y="19.5" width="220" height="16" />
+          <text id="72:1508" name="18" x="490" y="19" width="90" height="17" />
+          <text id="72:1509" name="$1,240.50" x="580" y="19" width="120" height="17" />
+          <text id="72:1510" name="Today, 2:15 PM" x="700" y="19.5" width="160" height="16" />
+          <text id="72:1511" name="Toronto, ON" x="860" y="19.5" width="140" height="16" />
+          <frame id="72:1512" name="Frame" x="1000" y="16" width="100" height="23">
+            <frame id="72:1513" name="Frame" x="21.5" y="0" width="57" height="23">
+              <text id="72:1514" name="Active" x="10" y="4" width="37" height="15" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:1515" name="Frame" x="0" y="103" width="1116" height="55">
+          <text id="72:1516" name="Amina Diop" x="16" y="19" width="254" height="17" />
+          <text id="72:1517" name="amina.diop@uwaterloo.ca" x="270" y="19.5" width="220" height="16" />
+          <text id="72:1518" name="12" x="490" y="19" width="90" height="17" />
+          <text id="72:1519" name="$845.00" x="580" y="19" width="120" height="17" />
+          <text id="72:1520" name="Yesterday, 9:30 AM" x="700" y="19.5" width="160" height="16" />
+          <text id="72:1521" name="Waterloo, ON" x="860" y="19.5" width="140" height="16" />
+          <frame id="72:1522" name="Frame" x="1000" y="16" width="100" height="23">
+            <frame id="72:1523" name="Frame" x="21.5" y="0" width="57" height="23">
+              <text id="72:1524" name="Active" x="10" y="4" width="37" height="15" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:1525" name="Frame" x="0" y="158" width="1116" height="55">
+          <text id="72:1526" name="Kofi Mensah" x="16" y="19" width="254" height="17" />
+          <text id="72:1527" name="kofi.mensah@rogers.com" x="270" y="19.5" width="220" height="16" />
+          <text id="72:1528" name="31" x="490" y="19" width="90" height="17" />
+          <text id="72:1529" name="$2,105.20" x="580" y="19" width="120" height="17" />
+          <text id="72:1530" name="Nov 12, 2026" x="700" y="19.5" width="160" height="16" />
+          <text id="72:1531" name="Montreal, QC" x="860" y="19.5" width="140" height="16" />
+          <frame id="72:1532" name="Frame" x="1000" y="16" width="100" height="23">
+            <frame id="72:1533" name="Frame" x="21.5" y="0" width="57" height="23">
+              <text id="72:1534" name="Active" x="10" y="4" width="37" height="15" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:1535" name="Frame" x="0" y="213" width="1116" height="55">
+          <text id="72:1536" name="Chinedu Okafor" x="16" y="19" width="254" height="17" />
+          <text id="72:1537" name="c.okafor@outlook.com" x="270" y="19.5" width="220" height="16" />
+          <text id="72:1538" name="5" x="490" y="19" width="90" height="17" />
+          <text id="72:1539" name="$320.40" x="580" y="19" width="120" height="17" />
+          <text id="72:1540" name="Nov 10, 2026" x="700" y="19.5" width="160" height="16" />
+          <text id="72:1541" name="Calgary, AB" x="860" y="19.5" width="140" height="16" />
+          <frame id="72:1542" name="Frame" x="1000" y="16" width="100" height="23">
+            <frame id="72:1543" name="Frame" x="21.5" y="0" width="57" height="23">
+              <text id="72:1544" name="Active" x="10" y="4" width="37" height="15" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:1545" name="Frame" x="0" y="268" width="1116" height="55">
+          <text id="72:1546" name="Fatoumata Camara" x="16" y="19" width="254" height="17" />
+          <text id="72:1547" name="fatou.camara@bell.net" x="270" y="19.5" width="220" height="16" />
+          <text id="72:1548" name="2" x="490" y="19" width="90" height="17" />
+          <text id="72:1549" name="$110.50" x="580" y="19" width="120" height="17" />
+          <text id="72:1550" name="Oct 28, 2026" x="700" y="19.5" width="160" height="16" />
+          <text id="72:1551" name="Ottawa, ON" x="860" y="19.5" width="140" height="16" />
+          <frame id="72:1552" name="Frame" x="1000" y="16" width="100" height="23">
+            <frame id="72:1553" name="Frame" x="21.5" y="0" width="57" height="23">
+              <text id="72:1554" name="Active" x="10" y="4" width="37" height="15" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:1555" name="Frame" x="0" y="323" width="1116" height="55">
+          <text id="72:1556" name="Kwame Boateng" x="16" y="19" width="254" height="17" />
+          <text id="72:1557" name="k_boateng@gmail.com" x="270" y="19.5" width="220" height="16" />
+          <text id="72:1558" name="0" x="490" y="19" width="90" height="17" />
+          <text id="72:1559" name="$0.00" x="580" y="19" width="120" height="17" />
+          <text id="72:1560" name="No purchase history" x="700" y="19.5" width="160" height="16" />
+          <text id="72:1561" name="Vancouver, BC" x="860" y="19.5" width="140" height="16" />
+          <frame id="72:1562" name="Frame" x="1000" y="16" width="100" height="23">
+            <frame id="72:1563" name="Frame" x="17" y="0" width="66" height="23">
+              <text id="72:1564" name="Inactive" x="10" y="4" width="46" height="15" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:1565" name="Frame" x="0" y="378" width="1116" height="55">
+          <text id="72:1566" name="Zainab Alabi" x="16" y="19" width="254" height="17" />
+          <text id="72:1567" name="zainab@alabifoods.com" x="270" y="19.5" width="220" height="16" />
+          <text id="72:1568" name="45" x="490" y="19" width="90" height="17" />
+          <text id="72:1569" name="$4,320.00" x="580" y="19" width="120" height="17" />
+          <text id="72:1570" name="Oct 20, 2026" x="700" y="19.5" width="160" height="16" />
+          <text id="72:1571" name="Toronto, ON" x="860" y="19.5" width="140" height="16" />
+          <frame id="72:1572" name="Frame" x="1000" y="16" width="100" height="23">
+            <frame id="72:1573" name="Frame" x="21.5" y="0" width="57" height="23">
+              <text id="72:1574" name="Active" x="10" y="4" width="37" height="15" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:1575" name="Frame" x="32" y="723" width="1116" height="40">
+        <text id="72:1576" name="Showing 1-7 of 1,842 clients" x="0" y="16" width="300" height="16" />
+        <frame id="72:1577" name="Frame" x="863" y="8" width="253" height="32">
+          <frame id="72:1578" name="Frame" x="0" y="0" width="83" height="32">
+            <text id="72:1579" name="Previous" x="14" y="8" width="55" height="16" />
+          </frame>
+          <frame id="72:1580" name="Frame" x="87" y="0" width="31" height="32">
+            <text id="72:1581" name="1" x="12" y="8" width="7" height="16" />
+          </frame>
+          <frame id="72:1582" name="Frame" x="122" y="0" width="32" height="32">
+            <text id="72:1583" name="2" x="12" y="8" width="8" height="16" />
+          </frame>
+          <frame id="72:1584" name="Frame" x="158" y="0" width="33" height="32">
+            <text id="72:1585" name="3" x="12" y="8" width="9" height="16" />
+          </frame>
+          <frame id="72:1586" name="Frame" x="195" y="0" width="58" height="32">
+            <text id="72:1587" name="Next" x="14" y="8" width="30" height="16" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>

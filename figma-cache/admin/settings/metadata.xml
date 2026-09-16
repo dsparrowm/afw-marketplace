@@ -1,0 +1,152 @@
+<frame id="72:1734" name="settings" x="14519" y="-450" width="1440" height="960">
+    <frame id="72:1735" name="sidebar" x="0" y="0" width="260" height="960">
+      <frame id="72:1736" name="sidebar-top" x="16" y="24" width="228" height="428">
+        <frame id="72:1737" name="logo-area" x="0" y="0" width="228" height="62">
+          <rounded-rectangle id="78:136" name="image 2" x="8" y="0" width="105" height="62" />
+        </frame>
+        <frame id="72:1742" name="nav-rack" x="0" y="90" width="228" height="338">
+          <frame id="72:1743" name="nav-item-Overview" x="0" y="0" width="228" height="34">
+            <frame id="72:1744" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1746" name="Overview" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1747" name="nav-item-Products" x="0" y="38" width="228" height="34">
+            <frame id="72:1748" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1750" name="Products" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1751" name="nav-item-Inventory" x="0" y="76" width="228" height="34">
+            <frame id="72:1752" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1754" name="Inventory" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1755" name="nav-item-Orders &amp; Delivery" x="0" y="114" width="228" height="34">
+            <frame id="72:1756" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1758" name="Orders &amp; Delivery" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1759" name="nav-item-Financials" x="0" y="152" width="228" height="34">
+            <frame id="72:1760" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1762" name="Financials" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1763" name="nav-item-Promotions" x="0" y="190" width="228" height="34">
+            <frame id="72:1764" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1766" name="Promotions" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1767" name="nav-item-Customers" x="0" y="228" width="228" height="34">
+            <frame id="72:1768" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1770" name="Customers" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1771" name="nav-item-Access" x="0" y="266" width="228" height="34">
+            <frame id="72:1772" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1774" name="Access" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1775" name="nav-item-Settings" x="0" y="304" width="228" height="34">
+            <frame id="72:1776" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1778" name="Settings" x="42" y="8.5" width="174" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:1779" name="sidebar-bottom" x="16" y="834" width="228" height="102">
+        <frame id="72:1780" name="help-item" x="0" y="0" width="228" height="34">
+          <frame id="72:1781" name="Frame" x="12" y="8" width="18" height="18" />
+          <text id="72:1783" name="Help &amp; Support" x="42" y="8.5" width="174" height="17" />
+        </frame>
+        <line id="72:1784" name="Line" x="0" y="42" width="228" height="0" />
+        <frame id="72:1785" name="admin-profile" x="0" y="50" width="228" height="52">
+          <rounded-rectangle id="72:1786" name="Rectangle" x="8" y="8" width="36" height="36" />
+          <frame id="72:1787" name="Frame" x="56" y="10.5" width="136" height="31">
+            <text id="72:1788" name="Adaeze Okafor" x="0" y="0" width="136" height="16" />
+            <text id="72:1789" name="Super Admin" x="0" y="18" width="136" height="13" />
+          </frame>
+          <frame id="72:1790" name="log-out" x="204" y="18" width="16" height="16" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="72:1792" name="Frame" x="260" y="0" width="1180" height="605">
+      <frame id="72:1793" name="page-header" x="32" y="32" width="1116" height="70">
+        <frame id="72:1794" name="Frame" x="0" y="0" width="666" height="50">
+          <text id="72:1795" name="Settings" x="0" y="0" width="666" height="29" />
+          <text id="72:1796" name="Configure digital storefront specifications, legal details, notification channels, and tax configurations." x="0" y="33" width="666" height="17" />
+        </frame>
+      </frame>
+      <frame id="72:1797" name="Frame" x="32" y="126" width="1116" height="447">
+        <frame id="72:1798" name="Frame" x="0" y="0" width="240" height="218">
+          <frame id="72:1799" name="Frame" x="0" y="0" width="240" height="33">
+            <text id="72:1800" name="Store Details" x="16" y="8" width="208" height="17" />
+          </frame>
+          <frame id="72:1801" name="Frame" x="0" y="37" width="240" height="33">
+            <text id="72:1802" name="Payments" x="16" y="8" width="208" height="17" />
+          </frame>
+          <frame id="72:1803" name="Frame" x="0" y="74" width="240" height="33">
+            <text id="72:1804" name="Shipping" x="16" y="8" width="208" height="17" />
+          </frame>
+          <frame id="72:1805" name="Frame" x="0" y="111" width="240" height="33">
+            <text id="72:1806" name="Taxes" x="16" y="8" width="208" height="17" />
+          </frame>
+          <frame id="72:1807" name="Frame" x="0" y="148" width="240" height="33">
+            <text id="72:1808" name="Notifications" x="16" y="8" width="208" height="17" />
+          </frame>
+          <frame id="72:1809" name="Frame" x="0" y="185" width="240" height="33">
+            <text id="72:1810" name="Legal" x="16" y="8" width="208" height="17" />
+          </frame>
+        </frame>
+        <frame id="72:1811" name="Frame" x="264" y="0" width="852" height="447">
+          <text id="72:1812" name="Store Details" x="24" y="24" width="804" height="22" />
+          <frame id="72:1813" name="Frame" x="24" y="70" width="804" height="281">
+            <frame id="72:1814" name="Frame" x="0" y="0" width="804" height="58">
+              <frame id="72:1815" name="Frame" x="0" y="0" width="394" height="58">
+                <text id="72:1816" name="Store Name" x="0" y="0" width="394" height="15" />
+                <frame id="72:1817" name="Frame" x="0" y="21" width="394" height="37">
+                  <text id="72:1818" name="African Food Warehouse" x="14" y="10" width="366" height="17" />
+                </frame>
+              </frame>
+              <frame id="72:1819" name="Frame" x="410" y="0" width="394" height="58">
+                <text id="72:1820" name="Store URL" x="0" y="0" width="394" height="15" />
+                <frame id="72:1821" name="Frame" x="0" y="21" width="394" height="37">
+                  <text id="72:1822" name="africanfoodwarehouse.ca" x="14" y="10" width="366" height="17" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="72:1823" name="Frame" x="0" y="74" width="804" height="58">
+              <frame id="72:1824" name="Frame" x="0" y="0" width="394" height="58">
+                <text id="72:1825" name="Contact Email" x="0" y="0" width="394" height="15" />
+                <frame id="72:1826" name="Frame" x="0" y="21" width="394" height="37">
+                  <text id="72:1827" name="operations@africanfoodwarehouse.ca" x="14" y="10" width="366" height="17" />
+                </frame>
+              </frame>
+              <frame id="72:1828" name="Frame" x="410" y="0" width="394" height="58">
+                <text id="72:1829" name="Phone Number" x="0" y="0" width="394" height="15" />
+                <frame id="72:1830" name="Frame" x="0" y="21" width="394" height="37">
+                  <text id="72:1831" name="+1 (416) 555-0192" x="14" y="10" width="366" height="17" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="72:1832" name="Frame" x="0" y="148" width="804" height="58">
+              <text id="72:1833" name="Business Address" x="0" y="0" width="804" height="15" />
+              <frame id="72:1834" name="Frame" x="0" y="21" width="804" height="37">
+                <text id="72:1835" name="Unit 4, 1200 Finch Ave West, Toronto, ON M3J 2E5" x="14" y="10" width="776" height="17" />
+              </frame>
+            </frame>
+            <frame id="72:1836" name="Frame" x="0" y="222" width="804" height="59">
+              <frame id="72:1837" name="Frame" x="0" y="0" width="394" height="59">
+                <text id="72:1838" name="Store Currency" x="0" y="0" width="394" height="15" />
+                <frame id="72:1839" name="Frame" x="0" y="21" width="394" height="38">
+                  <text id="72:1840" name="CAD ($) - Canadian Dollar" x="14" y="10.5" width="172" height="17" />
+                  <frame id="72:1841" name="Frame" x="362" y="10" width="18" height="18" />
+                </frame>
+              </frame>
+              <frame id="72:1843" name="Frame" x="410" y="0" width="394" height="59">
+                <text id="72:1844" name="Store Timezone" x="0" y="0" width="394" height="15" />
+                <frame id="72:1845" name="Frame" x="0" y="21" width="394" height="38">
+                  <text id="72:1846" name="Eastern Time (ET) - Toronto" x="14" y="10.5" width="184" height="17" />
+                  <frame id="72:1847" name="Frame" x="362" y="10" width="18" height="18" />
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="72:1849" name="Frame" x="24" y="375" width="804" height="48">
+            <frame id="72:1850" name="Frame" x="0" y="12" width="138" height="36">
+              <text id="72:1851" name="Save Changes" x="24" y="10" width="90" height="16" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>

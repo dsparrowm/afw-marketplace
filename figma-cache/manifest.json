@@ -36,15 +36,51 @@
       "screenshot": "storefront/homepage/screenshot.png",
       "shellStatus": "complete",
       "sections": [
-        { "slug": "announcement-bar", "nodeId": "2:5", "name": "Background" },
-        { "slug": "header", "nodeId": "2:185", "name": "Header" },
-        { "slug": "hero", "nodeId": "2:8", "name": "Hero Section" },
-        { "slug": "trust-bar", "nodeId": "6:2690", "name": "Trust Bar" },
-        { "slug": "shop-by-category", "nodeId": "2:41", "name": "Shop by Category" },
-        { "slug": "featured-products", "nodeId": "6:3169", "name": "Featured Products Header" },
-        { "slug": "trending-products", "nodeId": "7:3466", "name": "Trending Products" },
-        { "slug": "recently-added", "nodeId": "7:3954", "name": "Recently Added" },
-        { "slug": "main-content", "nodeId": "2:7", "name": "Main" }
+        {
+          "slug": "announcement-bar",
+          "nodeId": "2:5",
+          "name": "Background"
+        },
+        {
+          "slug": "header",
+          "nodeId": "2:185",
+          "name": "Header"
+        },
+        {
+          "slug": "hero",
+          "nodeId": "2:8",
+          "name": "Hero Section"
+        },
+        {
+          "slug": "trust-bar",
+          "nodeId": "6:2690",
+          "name": "Trust Bar"
+        },
+        {
+          "slug": "shop-by-category",
+          "nodeId": "2:41",
+          "name": "Shop by Category"
+        },
+        {
+          "slug": "featured-products",
+          "nodeId": "6:3169",
+          "name": "Featured Products Header"
+        },
+        {
+          "slug": "trending-products",
+          "nodeId": "7:3466",
+          "name": "Trending Products"
+        },
+        {
+          "slug": "recently-added",
+          "nodeId": "7:3954",
+          "name": "Recently Added"
+        },
+        {
+          "slug": "main-content",
+          "nodeId": "2:7",
+          "name": "Main"
+        }
       ]
     },
     "shop-catalog": {
@@ -55,9 +91,21 @@
       "height": 2462,
       "status": "metadata-only",
       "sections": [
-        { "slug": "header", "nodeId": "2:833", "name": "Header" },
-        { "slug": "main", "nodeId": "2:242", "name": "Main" },
-        { "slug": "footer", "nodeId": "18:7", "name": "Footer" }
+        {
+          "slug": "header",
+          "nodeId": "2:833",
+          "name": "Header"
+        },
+        {
+          "slug": "main",
+          "nodeId": "2:242",
+          "name": "Main"
+        },
+        {
+          "slug": "footer",
+          "nodeId": "18:7",
+          "name": "Footer"
+        }
       ]
     },
     "product-detail": {
@@ -69,9 +117,21 @@
       "status": "partial",
       "screenshot": "storefront/product-detail/screenshot.png",
       "sections": [
-        { "slug": "announcement-bar", "nodeId": "18:257", "name": "Background" },
-        { "slug": "header", "nodeId": "18:259", "name": "Header" },
-        { "slug": "main", "nodeId": "2:873", "name": "Main" }
+        {
+          "slug": "announcement-bar",
+          "nodeId": "18:257",
+          "name": "Background"
+        },
+        {
+          "slug": "header",
+          "nodeId": "18:259",
+          "name": "Header"
+        },
+        {
+          "slug": "main",
+          "nodeId": "2:873",
+          "name": "Main"
+        }
       ]
     },
     "cart-page": {
@@ -82,10 +142,26 @@
       "height": 1895,
       "status": "metadata-only",
       "sections": [
-        { "slug": "announcement-bar", "nodeId": "18:318", "name": "Background" },
-        { "slug": "header", "nodeId": "18:320", "name": "Header" },
-        { "slug": "main", "nodeId": "2:1187", "name": "Main" },
-        { "slug": "footer", "nodeId": "18:133", "name": "Footer" }
+        {
+          "slug": "announcement-bar",
+          "nodeId": "18:318",
+          "name": "Background"
+        },
+        {
+          "slug": "header",
+          "nodeId": "18:320",
+          "name": "Header"
+        },
+        {
+          "slug": "main",
+          "nodeId": "2:1187",
+          "name": "Main"
+        },
+        {
+          "slug": "footer",
+          "nodeId": "18:133",
+          "name": "Footer"
+        }
       ]
     },
     "checkout-page": {
@@ -96,10 +172,26 @@
       "height": 1683,
       "status": "metadata-only",
       "sections": [
-        { "slug": "announcement-bar", "nodeId": "18:379", "name": "Background" },
-        { "slug": "header", "nodeId": "18:381", "name": "Header" },
-        { "slug": "main", "nodeId": "2:1527", "name": "Main" },
-        { "slug": "footer", "nodeId": "2:1721", "name": "Footer" }
+        {
+          "slug": "announcement-bar",
+          "nodeId": "18:379",
+          "name": "Background"
+        },
+        {
+          "slug": "header",
+          "nodeId": "18:381",
+          "name": "Header"
+        },
+        {
+          "slug": "main",
+          "nodeId": "2:1527",
+          "name": "Main"
+        },
+        {
+          "slug": "footer",
+          "nodeId": "2:1721",
+          "name": "Footer"
+        }
       ]
     },
     "order-confirmation": {
@@ -110,10 +202,26 @@
       "height": 1704,
       "status": "partial",
       "sections": [
-        { "slug": "announcement-bar", "nodeId": "18:440", "name": "Background" },
-        { "slug": "header", "nodeId": "18:442", "name": "Header" },
-        { "slug": "main", "nodeId": "2:1748", "name": "Main" },
-        { "slug": "footer", "nodeId": "2:1910", "name": "Footer" }
+        {
+          "slug": "announcement-bar",
+          "nodeId": "18:440",
+          "name": "Background"
+        },
+        {
+          "slug": "header",
+          "nodeId": "18:442",
+          "name": "Header"
+        },
+        {
+          "slug": "main",
+          "nodeId": "2:1748",
+          "name": "Main"
+        },
+        {
+          "slug": "footer",
+          "nodeId": "2:1910",
+          "name": "Footer"
+        }
       ]
     },
     "mobile-homepage": {
@@ -124,10 +232,26 @@
       "height": 3093,
       "status": "metadata-only",
       "sections": [
-        { "slug": "announcement-bar", "nodeId": "2:1929", "name": "Background" },
-        { "slug": "header", "nodeId": "2:2148", "name": "Header" },
-        { "slug": "main", "nodeId": "2:1931", "name": "Main" },
-        { "slug": "bottom-nav", "nodeId": "2:2165", "name": "Nav" }
+        {
+          "slug": "announcement-bar",
+          "nodeId": "2:1929",
+          "name": "Background"
+        },
+        {
+          "slug": "header",
+          "nodeId": "2:2148",
+          "name": "Header"
+        },
+        {
+          "slug": "main",
+          "nodeId": "2:1931",
+          "name": "Main"
+        },
+        {
+          "slug": "bottom-nav",
+          "nodeId": "2:2165",
+          "name": "Nav"
+        }
       ]
     },
     "mobile-shop-catalog": {
@@ -138,10 +262,26 @@
       "height": 1960,
       "status": "metadata-only",
       "sections": [
-        { "slug": "announcement-bar", "nodeId": "3:2190", "name": "Background" },
-        { "slug": "header", "nodeId": "3:2362", "name": "Header" },
-        { "slug": "main", "nodeId": "3:2192", "name": "Main" },
-        { "slug": "bottom-nav", "nodeId": "3:2376", "name": "Nav" }
+        {
+          "slug": "announcement-bar",
+          "nodeId": "3:2190",
+          "name": "Background"
+        },
+        {
+          "slug": "header",
+          "nodeId": "3:2362",
+          "name": "Header"
+        },
+        {
+          "slug": "main",
+          "nodeId": "3:2192",
+          "name": "Main"
+        },
+        {
+          "slug": "bottom-nav",
+          "nodeId": "3:2376",
+          "name": "Nav"
+        }
       ]
     },
     "footer": {
@@ -209,6 +349,321 @@
       "width": 1200,
       "height": 900,
       "status": "metadata-only"
+    }
+  },
+  "canvases": {
+    "storefront": {
+      "nodeId": "0:1",
+      "name": "Storefront"
+    },
+    "admin": {
+      "nodeId": "71:2",
+      "name": "Admin",
+      "figmaUrl": "https://www.figma.com/design/TRHpdrWtpLm06UPtgHYDgB/AFW-Marketplace?node-id=71-2"
+    }
+  },
+  "adminCachedAt": "2026-09-10",
+  "adminBuildOrder": [
+    "overview",
+    "products",
+    "inventory",
+    "orders-and-delivery",
+    "financials",
+    "promotions",
+    "customers",
+    "access",
+    "settings",
+    "product-detail-admin",
+    "add-edit-product-form",
+    "delivery-tracking",
+    "transaction-receipt"
+  ],
+  "adminFrames": {
+    "overview": {
+      "nodeId": "72:8",
+      "name": "overview",
+      "platform": "admin-desktop",
+      "width": 1440,
+      "height": 960,
+      "status": "partial",
+      "sections": [
+        {
+          "slug": "sidebar",
+          "nodeId": "72:9",
+          "name": "sidebar"
+        },
+        {
+          "slug": "main",
+          "nodeId": "72:54",
+          "name": "Frame"
+        }
+      ],
+      "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+      "screenshot": "admin/overview/screenshot.png"
+    },
+    "products": {
+      "nodeId": "72:203",
+      "name": "products",
+      "platform": "admin-desktop",
+      "width": 1440,
+      "height": 960,
+      "status": "partial",
+      "sections": [
+        {
+          "slug": "sidebar",
+          "nodeId": "72:204",
+          "name": "sidebar"
+        },
+        {
+          "slug": "main",
+          "nodeId": "72:249",
+          "name": "Frame"
+        }
+      ],
+      "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+      "screenshot": "admin/products/screenshot.png"
+    },
+    "inventory": {
+      "nodeId": "72:400",
+      "name": "inventory",
+      "platform": "admin-desktop",
+      "width": 1440,
+      "height": 960,
+      "status": "partial",
+      "sections": [
+        {
+          "slug": "sidebar",
+          "nodeId": "72:401",
+          "name": "sidebar"
+        },
+        {
+          "slug": "main",
+          "nodeId": "72:446",
+          "name": "Frame"
+        }
+      ],
+      "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+      "screenshot": "admin/inventory/screenshot.png"
+    },
+    "orders-and-delivery": {
+      "nodeId": "72:578",
+      "name": "orders-and-delivery",
+      "platform": "admin-desktop",
+      "width": 1440,
+      "height": 960,
+      "status": "partial",
+      "sections": [
+        {
+          "slug": "sidebar",
+          "nodeId": "72:579",
+          "name": "sidebar"
+        },
+        {
+          "slug": "main",
+          "nodeId": "72:624",
+          "name": "Frame"
+        }
+      ],
+      "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+      "screenshot": "admin/orders-and-delivery/screenshot.png"
+    },
+    "financials": {
+      "nodeId": "72:789",
+      "name": "financials",
+      "platform": "admin-desktop",
+      "width": 1440,
+      "height": 960,
+      "status": "partial",
+      "sections": [
+        {
+          "slug": "sidebar",
+          "nodeId": "72:790",
+          "name": "sidebar"
+        },
+        {
+          "slug": "main",
+          "nodeId": "72:835",
+          "name": "Frame"
+        }
+      ],
+      "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+      "screenshot": "admin/financials/screenshot.png"
+    },
+    "promotions": {
+      "nodeId": "72:1238",
+      "name": "promotions",
+      "platform": "admin-desktop",
+      "width": 1440,
+      "height": 960,
+      "status": "partial",
+      "sections": [
+        {
+          "slug": "sidebar",
+          "nodeId": "72:1239",
+          "name": "sidebar"
+        },
+        {
+          "slug": "main",
+          "nodeId": "72:1296",
+          "name": "Frame"
+        }
+      ],
+      "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+      "screenshot": "admin/promotions/screenshot.png"
+    },
+    "customers": {
+      "nodeId": "72:1408",
+      "name": "customers",
+      "platform": "admin-desktop",
+      "width": 1440,
+      "height": 960,
+      "status": "partial",
+      "sections": [
+        {
+          "slug": "sidebar",
+          "nodeId": "72:1409",
+          "name": "sidebar"
+        },
+        {
+          "slug": "main",
+          "nodeId": "72:1466",
+          "name": "Frame"
+        }
+      ],
+      "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+      "screenshot": "admin/customers/screenshot.png"
+    },
+    "access": {
+      "nodeId": "72:1589",
+      "name": "access",
+      "platform": "admin-desktop",
+      "width": 1440,
+      "height": 960,
+      "status": "partial",
+      "sections": [
+        {
+          "slug": "sidebar",
+          "nodeId": "72:1590",
+          "name": "sidebar"
+        },
+        {
+          "slug": "main",
+          "nodeId": "72:1647",
+          "name": "Frame"
+        }
+      ],
+      "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+      "screenshot": "admin/access/screenshot.png"
+    },
+    "settings": {
+      "nodeId": "72:1734",
+      "name": "settings",
+      "platform": "admin-desktop",
+      "width": 1440,
+      "height": 960,
+      "status": "partial",
+      "sections": [
+        {
+          "slug": "sidebar",
+          "nodeId": "72:1735",
+          "name": "sidebar"
+        },
+        {
+          "slug": "main",
+          "nodeId": "72:1792",
+          "name": "Frame"
+        }
+      ],
+      "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+      "screenshot": "admin/settings/screenshot.png"
+    },
+    "product-detail-admin": {
+      "nodeId": "79:7",
+      "name": "product-detail-admin",
+      "platform": "admin-desktop",
+      "width": 1440,
+      "height": 1024,
+      "status": "partial",
+      "sections": [
+        {
+          "slug": "sidebar",
+          "nodeId": "78:60",
+          "name": "sidebar"
+        },
+        {
+          "slug": "main",
+          "nodeId": "79:39",
+          "name": "Frame"
+        }
+      ],
+      "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+      "screenshot": "admin/product-detail-admin/screenshot.png"
+    },
+    "add-edit-product-form": {
+      "nodeId": "79:146",
+      "name": "add-edit-product-form",
+      "platform": "admin-desktop",
+      "width": 1440,
+      "height": 1429,
+      "status": "partial",
+      "sections": [
+        {
+          "slug": "sidebar",
+          "nodeId": "78:138",
+          "name": "sidebar"
+        },
+        {
+          "slug": "main",
+          "nodeId": "79:178",
+          "name": "Frame"
+        }
+      ],
+      "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+      "screenshot": "admin/add-edit-product-form/screenshot.png"
+    },
+    "delivery-tracking": {
+      "nodeId": "79:348",
+      "name": "delivery-tracking",
+      "platform": "admin-desktop",
+      "width": 1440,
+      "height": 1024,
+      "status": "partial",
+      "sections": [
+        {
+          "slug": "sidebar",
+          "nodeId": "78:248",
+          "name": "sidebar"
+        },
+        {
+          "slug": "main",
+          "nodeId": "79:380",
+          "name": "Frame"
+        }
+      ],
+      "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+      "screenshot": "admin/delivery-tracking/screenshot.png"
+    },
+    "transaction-receipt": {
+      "nodeId": "79:482",
+      "name": "transaction-receipt",
+      "platform": "admin-desktop",
+      "width": 1440,
+      "height": 1024,
+      "status": "partial",
+      "sections": [
+        {
+          "slug": "sidebar",
+          "nodeId": "78:303",
+          "name": "sidebar"
+        },
+        {
+          "slug": "main",
+          "nodeId": "79:514",
+          "name": "Frame"
+        }
+      ],
+      "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+      "screenshot": "admin/transaction-receipt/screenshot.png"
     }
   }
 }

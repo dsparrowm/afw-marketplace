@@ -1,0 +1,12 @@
+{
+  "nodeId": "79:348",
+  "name": "delivery-tracking",
+  "platform": "admin-desktop",
+  "width": 1440,
+  "height": 1024,
+  "status": "partial",
+  "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+  "screenshot": "admin/delivery-tracking/screenshot.png",
+  "slug": "delivery-tracking",
+  "canvas": "admin"
+}

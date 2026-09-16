@@ -22,7 +22,7 @@ function pickDefaultVariant(variants: ApiProductVariant[] | undefined): ApiProdu
 
 function variantBulkPrice(variant: ApiProductVariant, retailPrice: number): number {
   const tier = variant.priceTiers?.[0];
-  if (tier) return parseMoney(tier.unitPrice);
+  if (tier) return parseMoney(tier.price ?? tier.unitPrice);
   return Math.round(retailPrice * 0.85 * 100) / 100;
 }
 

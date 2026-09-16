@@ -1,29 +1,57 @@
-# Figma Storefront Cache
+# Figma Design Cache
 
-Cached design assets from the **AFW Marketplace** Figma file for incremental storefront implementation.
+Cached design assets from the **AFW Marketplace** Figma file for incremental implementation.
 
-**Source:** [AFW-Marketplace (Storefront canvas)](https://www.figma.com/design/TRHpdrWtpLm06UPtgHYDgB/AFW-Marketplace?node-id=0-1)
+**Source:** [AFW-Marketplace](https://www.figma.com/design/TRHpdrWtpLm06UPtgHYDgB/AFW-Marketplace)
+
+| Canvas | Page node | Path |
+|--------|-----------|------|
+| Storefront | `0:1` | `figma-cache/storefront/` |
+| Admin | `71:2` | `figma-cache/admin/` — see [admin/PENDING.md](admin/PENDING.md) |
 
 ## Structure
 
 ```
 figma-cache/
-├── manifest.json          # Master index of all frames, node IDs, build order
+├── manifest.json          # Storefront + Admin frame indexes, node IDs, build order
 ├── cache.py               # Extract metadata & track pending fetches
 ├── storefront/
 │   ├── metadata.xml       # Full Storefront canvas XML from Figma
 │   ├── screenshot-overview.png
 │   └── <frame-slug>/
-│       ├── meta.json          # Frame metadata (nodeId, dimensions, status)
-│       ├── metadata.xml       # Frame subtree extracted from canvas XML
-│       ├── screenshot.png     # Visual reference (when fetched)
-│       ├── design-context.tsx # React+Tailwind reference code (when fetched)
+│       ├── meta.json
+│       ├── metadata.xml
+│       ├── screenshot.png
+│       ├── design-context.tsx
 │       └── sections/
-│           ├── <section>.json # Section node metadata
-│           └── <section>.xml  # Section subtree XML
+└── admin/
+    ├── PENDING.md         # Fetch runbook (MCP rate-limit resume)
+    ├── metadata.xml       # (pending) Admin page XML
+    └── <frame-slug>/
+        └── meta.json      # Indexed 2026-09-07; screenshot/xml pending
 ```
 
-## Frames (16 total)
+## Admin frames (13) — indexed 2026-09-07
+
+| Slug | Node ID | Size | Status |
+|------|---------|------|--------|
+| `overview` | `72:8` | 1440×960 | indexed |
+| `products` | `72:203` | 1440×960 | indexed |
+| `inventory` | `72:400` | 1440×960 | indexed |
+| `orders-and-delivery` | `72:578` | 1440×960 | indexed |
+| `financials` | `72:789` | 1440×960 | indexed |
+| `promotions` | `72:1238` | 1440×960 | indexed |
+| `customers` | `72:1408` | 1440×960 | indexed |
+| `access` | `72:1589` | 1440×960 | indexed |
+| `settings` | `72:1734` | 1440×960 | indexed |
+| `product-detail-admin` | `79:7` | 1440×1024 | indexed |
+| `add-edit-product-form` | `79:146` | 1440×1429 | indexed |
+| `delivery-tracking` | `79:348` | 1440×1024 | indexed |
+| `transaction-receipt` | `79:482` | 1440×1024 | indexed |
+
+Screenshots + page `metadata.xml` blocked by Figma MCP rate limit — resume with `admin/PENDING.md`.
+
+## Storefront frames (16 total)
 
 ### Shopping flow (desktop)
 | Slug | Node ID | Size | Status |
@@ -59,55 +87,37 @@ figma-cache/
 
 ## Recommended build order
 
-See `manifest.json` → `buildOrder`. Start with **homepage** sections (hero, header, categories), then shop flow, then account pages.
+See `manifest.json` → `buildOrder` (storefront) and `adminBuildOrder` (admin).
 
 ## Usage
 
 ```bash
 # Extract per-frame metadata XML from the cached canvas
-python3 figma-cache/cache.py extract
+python3 figma-cache/cache.py extract              # storefront + admin
+python3 figma-cache/cache.py extract admin
 
-# List frames/sections still needing design-context fetch
+# List pending fetches
 python3 figma-cache/cache.py pending
+python3 figma-cache/cache.py pending admin
 
 # Show the next item to fetch from Figma MCP
-python3 figma-cache/cache.py next
+python3 figma-cache/cache.py next admin
 
 # List icons/logos pending export to public/
 python3 figma-cache/fetch-assets.py pending
-
-# After get_screenshot returns an asset URL:
-python3 figma-cache/fetch-assets.py apply logo "https://www.figma.com/api/mcp/asset/....png"
 ```
-
-## Icons and logos
-
-Brand assets are tracked in `assets/manifest.json` (13 shell icons + logo). Human-readable
-reference: `context/design-assets.md`. Code paths: `lib/brand/assets.ts`.
-
-Export each node via Figma MCP `get_screenshot` (`fileKey` + `nodeId` from manifest), then
-run `fetch-assets.py apply` to download into `public/brand/` and `public/icons/`.
-
-**Blocked?** See `assets/EXPORT.md` for the full runbook (rate limit hit 2026-08-30).
-Never crop icons from frame screenshots.
 
 ## Fetching design context
 
-Large frames (e.g. Homepage at 5423px) exceed Figma MCP context limits. Fetch **sections** individually using node IDs from `manifest.json` or each frame's `sections/` folder.
+Large frames exceed Figma MCP context limits. Fetch **sections** individually using node IDs from `manifest.json`.
 
-For each fetch via Figma MCP `get_design_context`:
 - `fileKey`: `TRHpdrWtpLm06UPtgHYDgB`
-- `nodeId`: from `meta.json` or section JSON
-- `skillNames`: `figma-design-to-code`
+- Storefront: `storefront/<slug>/`
+- Admin: `admin/<slug>/`
 
-Save results to:
-- Frame: `storefront/<slug>/design-context.tsx`
-- Section: `storefront/<slug>/sections/<section-slug>.tsx`
-
-Then update `status` in `manifest.json` (`metadata-only` → `partial` → `complete`).
+Then update `status` in `manifest.json` (`indexed` → `metadata-only` → `partial` → `complete`).
 
 ## Notes
 
 - Figma asset URLs expire in ~7 days — download images/icons into the project when implementing.
-- Screenshots are visual references only; use `design-context.tsx` for implementation.
-- The Homepage `Main` section (`2:7`) is very large — prefer fetching its child sections listed in the manifest.
+- Admin page must be loaded with `await figma.setCurrentPageAsync(adminPage)` before plugin enumeration (empty until activated).

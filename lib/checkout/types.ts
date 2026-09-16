@@ -18,6 +18,8 @@ export type CheckoutStep = "delivery" | "payment" | "confirm";
 
 export type PlacedOrder = {
   id: string;
+  /** Backend display number when placed via live checkout */
+  orderNumber?: number;
   createdAt: string;
   items: CartLine[];
   summary: OrderSummary;
@@ -25,6 +27,7 @@ export type PlacedOrder = {
   address: CheckoutAddress;
   paymentMethod: string;
   cardLast4?: string;
+  paymentStatus?: "pending" | "paid";
 };
 
 export const CANADIAN_PROVINCES = [

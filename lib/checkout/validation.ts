@@ -4,7 +4,9 @@ export type CheckoutFieldErrors = Partial<Record<keyof CheckoutAddress, string>>
 
 export function validateCheckoutAddress(
   address: CheckoutAddress,
+  options: { requireStreet?: boolean } = {},
 ): CheckoutFieldErrors {
+  const requireStreet = options.requireStreet ?? true;
   const errors: CheckoutFieldErrors = {};
 
   if (!address.firstName.trim()) errors.firstName = "First name is required";
@@ -18,18 +20,23 @@ export function validateCheckoutAddress(
   }
 
   if (!address.phone.trim()) errors.phone = "Phone number is required";
-  if (!address.streetAddress.trim()) errors.streetAddress = "Street address is required";
-  if (!address.city.trim()) errors.city = "City is required";
-  if (!address.province.trim()) errors.province = "Province is required";
 
-  const postal = address.postalCode.trim();
-  if (!postal) {
-    errors.postalCode = "Postal code is required";
-  } else if (!/^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$/.test(postal)) {
-    errors.postalCode = "Enter a valid Canadian postal code";
+  if (requireStreet) {
+    if (!address.streetAddress.trim()) {
+      errors.streetAddress = "Street address is required";
+    }
+    if (!address.city.trim()) errors.city = "City is required";
+    if (!address.province.trim()) errors.province = "Province is required";
+
+    const postal = address.postalCode.trim();
+    if (!postal) {
+      errors.postalCode = "Postal code is required";
+    } else if (!/^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$/.test(postal)) {
+      errors.postalCode = "Enter a valid Canadian postal code";
+    }
+
+    if (!address.country.trim()) errors.country = "Country is required";
   }
-
-  if (!address.country.trim()) errors.country = "Country is required";
 
   return errors;
 }

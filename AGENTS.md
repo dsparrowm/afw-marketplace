@@ -27,13 +27,16 @@ files, update the relevant file before continuing.
 
 ## Design Reference
 
-- Figma file: [AFW-Marketplace (Storefront canvas)](https://www.figma.com/design/TRHpdrWtpLm06UPtgHYDgB/AFW-Marketplace?node-id=0-1)
-- Local cache: `figma-cache/manifest.json` — frame node IDs, build order, section breakdown
-- Per-frame assets: `figma-cache/storefront/<slug>/` — `meta.json`, `metadata.xml`, screenshots
+- Figma file: [AFW-Marketplace](https://www.figma.com/design/TRHpdrWtpLm06UPtgHYDgB/AFW-Marketplace)
+  - Storefront canvas: `0:1` — [open](https://www.figma.com/design/TRHpdrWtpLm06UPtgHYDgB/AFW-Marketplace?node-id=0-1)
+  - Admin canvas: `71:2` — [open](https://www.figma.com/design/TRHpdrWtpLm06UPtgHYDgB/AFW-Marketplace?node-id=71-2)
+- Local cache: `figma-cache/manifest.json` — frame node IDs, build order (`buildOrder` + `adminBuildOrder`)
+- Per-frame assets: `figma-cache/storefront/<slug>/` and `figma-cache/admin/<slug>/`
 - Icons and logos manifest: `figma-cache/assets/manifest.json` — export to `public/` via `fetch-assets.py`
 - **Asset export runbook (read when MCP limit resets):** `figma-cache/assets/EXPORT.md`
+- **Admin cache resume:** `figma-cache/admin/PENDING.md`
 - Design asset reference: `context/design-assets.md`
-- Fetch pending design context: `python3 figma-cache/cache.py pending`
+- Fetch pending design context: `python3 figma-cache/cache.py pending` / `pending admin`
 - Fetch pending icon/logo exports: `python3 figma-cache/fetch-assets.py pending`
 
 When implementing a screen, read the matching feature spec in `context/feature-specs/`

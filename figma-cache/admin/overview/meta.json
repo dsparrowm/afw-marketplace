@@ -1,0 +1,12 @@
+{
+  "nodeId": "72:8",
+  "name": "overview",
+  "platform": "admin-desktop",
+  "width": 1440,
+  "height": 960,
+  "status": "partial",
+  "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+  "screenshot": "admin/overview/screenshot.png",
+  "slug": "overview",
+  "canvas": "admin"
+}

@@ -2,8 +2,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Heart, Plus } from "lucide-react";
+import { Plus } from "lucide-react";
+import { motion, useReducedMotion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { WishlistButton } from "@/components/storefront/WishlistButton";
 import { useCart } from "@/lib/cart/cart-context";
 import type { Product } from "@/types/product";
 import { cn, formatCad } from "@/lib/utils";
@@ -22,23 +24,28 @@ export function MobileProductCard({
   variant = "home",
 }: MobileProductCardProps) {
   const { addItem } = useCart();
+  const reduceMotion = useReducedMotion();
   const isCatalog = variant === "catalog";
   const showOrganicBadge = product.badges?.includes("organic");
 
   return (
-    <article
+    <motion.article
       className={cn(
         "flex min-w-0 flex-col",
         isCatalog && "rounded-2xl border border-border bg-card p-3 shadow-sm",
         className,
       )}
+      whileTap={reduceMotion ? undefined : { scale: 0.98 }}
+      transition={{ duration: 0.15 }}
     >
       <div className="relative">
         <Link
           href={`/shop/${product.slug}`}
           className={cn(
             "relative block aspect-square overflow-hidden",
-            isCatalog ? "rounded-xl bg-muted/30 p-3" : "rounded-2xl border border-border bg-card p-4 shadow-sm",
+            isCatalog
+              ? "rounded-xl bg-muted/30 p-3"
+              : "rounded-2xl border border-border bg-card p-4 shadow-sm",
           )}
         >
           <Image
@@ -54,18 +61,15 @@ export function MobileProductCard({
             </span>
           ) : null}
         </Link>
-        <Button
-          type="button"
-          variant="outline"
-          size="icon"
+        <WishlistButton
+          slug={product.slug}
+          label={product.name}
           className={cn(
-            "absolute rounded-full border-border bg-card",
+            "absolute rounded-full border-border bg-card transition-colors hover:border-brand-green/40 hover:text-brand-green",
             isCatalog ? "right-1 top-1 h-7 w-7" : "right-3 top-3 h-8 w-8",
           )}
-          aria-label={`Save ${product.name}`}
-        >
-          <Heart className="h-3.5 w-3.5 text-muted-foreground" aria-hidden />
-        </Button>
+          iconClassName="h-3.5 w-3.5 text-muted-foreground"
+        />
       </div>
 
       <div className={cn("mt-3", isCatalog ? "px-1" : "mt-4 px-1")}>
@@ -82,7 +86,10 @@ export function MobileProductCard({
             isCatalog ? "min-h-[42px] text-sm" : "mt-1 min-h-[42px] text-sm",
           )}
         >
-          <Link href={`/shop/${product.slug}`} className="hover:text-brand-green">
+          <Link
+            href={`/shop/${product.slug}`}
+            className="hover:text-brand-green"
+          >
             {product.name}
           </Link>
         </h3>
@@ -96,7 +103,7 @@ export function MobileProductCard({
             className="h-11 w-11 shrink-0 rounded-xl bg-brand-green text-brand-green-foreground hover:bg-brand-green/90"
             aria-label={`Add ${product.name} to cart`}
             onClick={() =>
-              addItem({
+              void addItem({
                 productId: product.id,
                 slug: product.slug,
                 name: product.name,
@@ -113,6 +120,6 @@ export function MobileProductCard({
           </Button>
         </div>
       </div>
-    </article>
+    </motion.article>
   );
 }

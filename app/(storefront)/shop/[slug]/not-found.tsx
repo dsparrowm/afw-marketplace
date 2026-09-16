@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { StorefrontCartShell } from "@/components/storefront/StorefrontCartShell";
 import { Button } from "@/components/ui/button";
 
 export default function NotFound() {

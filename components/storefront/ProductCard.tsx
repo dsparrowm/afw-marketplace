@@ -1,7 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-import { Heart, Leaf, Plus } from "lucide-react";
+import { Leaf, Plus } from "lucide-react";
+import { motion, useReducedMotion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import { WishlistButton } from "@/components/storefront/WishlistButton";
 import type { Product, ProductBadgeKind } from "@/types/product";
 import { cn, formatCadParts } from "@/lib/utils";
 
@@ -52,6 +56,7 @@ function ProductBadge({ kind }: { kind: ProductBadgeKind }) {
 
 /** Homepage / catalog product card — Figma `6:3223` */
 export function ProductCard({ product, className }: ProductCardProps) {
+  const reduceMotion = useReducedMotion();
   const retail = formatCadParts(product.retailPrice);
   const bulk = formatCadParts(product.bulkPrice);
   const stockLabel =
@@ -61,11 +66,29 @@ export function ProductCard({ product, className }: ProductCardProps) {
   const stockIsLow = product.stockStatus === "low-stock";
 
   return (
-    <article
+    <motion.article
       className={cn(
-        "relative flex w-[240px] shrink-0 flex-col rounded-xl border border-border bg-card p-[21px] shadow-sm lg:w-full lg:shrink",
+        "group relative flex w-[240px] shrink-0 flex-col rounded-xl border border-border bg-card p-[21px] shadow-sm lg:w-full lg:shrink",
         className,
       )}
+      initial="rest"
+      whileHover={reduceMotion ? undefined : "hover"}
+      whileTap={reduceMotion ? undefined : { scale: 0.99 }}
+      variants={{
+        rest: {
+          y: 0,
+          boxShadow: "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+          borderColor: "var(--color-border)",
+        },
+        hover: {
+          y: -4,
+          boxShadow:
+            "0 12px 28px -12px rgb(0 0 0 / 0.18), 0 4px 10px -4px rgb(0 0 0 / 0.08)",
+          borderColor:
+            "color-mix(in oklab, var(--brand-green) 30%, var(--color-border))",
+        },
+      }}
+      transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
     >
       {product.badges && product.badges.length > 0 && (
         <div className="absolute left-[17px] top-[17px] z-10 flex flex-col gap-2">
@@ -75,28 +98,34 @@ export function ProductCard({ product, className }: ProductCardProps) {
         </div>
       )}
 
-      <Button
-        type="button"
-        variant="outline"
-        size="icon"
-        className="absolute right-[17px] top-[17px] z-10 h-8 w-8 rounded-full border-border bg-card text-muted-foreground shadow-none"
-        aria-label={`Save ${product.name}`}
-      >
-        <Heart className="h-4 w-4" aria-hidden />
-      </Button>
+      <WishlistButton
+        slug={product.slug}
+        label={product.name}
+        className="absolute right-[17px] top-[17px] z-10 h-8 w-8 rounded-full border-border bg-card text-muted-foreground shadow-none transition-colors hover:border-brand-green/40 hover:bg-brand-green/5 hover:text-brand-green"
+        iconClassName="h-4 w-4"
+      />
 
-      <div className="mb-6">
+      <div className="mb-6 overflow-hidden">
         <Link
           href={`/shop/${product.slug}`}
           className="block aspect-square overflow-hidden"
         >
-          <Image
-            src={product.imageUrl}
-            alt={product.name}
-            width={198}
-            height={192}
-            className="h-full w-full object-contain"
-          />
+          <motion.div
+            className="h-full w-full"
+            variants={{
+              rest: { scale: 1 },
+              hover: { scale: reduceMotion ? 1 : 1.05 },
+            }}
+            transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+          >
+            <Image
+              src={product.imageUrl}
+              alt={product.name}
+              width={198}
+              height={192}
+              className="h-full w-full object-contain"
+            />
+          </motion.div>
         </Link>
       </div>
 
@@ -108,7 +137,7 @@ export function ProductCard({ product, className }: ProductCardProps) {
         </p>
 
         <h3 className="mt-1 text-base font-semibold leading-snug text-foreground">
-          <Link href={`/shop/${product.slug}`} className="hover:text-brand-green">
+          <Link href={`/shop/${product.slug}`} className="transition-colors hover:text-brand-green">
             {product.name}
           </Link>
         </h3>
@@ -151,14 +180,19 @@ export function ProductCard({ product, className }: ProductCardProps) {
           </div>
         </div>
 
-        <Button
-          type="button"
-          className="mt-4 h-12 w-full gap-2 rounded-xl bg-brand-green text-brand-green-foreground hover:bg-brand-green/90"
+        <motion.div
+          className="mt-4"
+          whileTap={reduceMotion ? undefined : { scale: 0.98 }}
         >
-          <Plus className="h-4 w-4" aria-hidden />
-          Add to Cart
-        </Button>
+          <Button
+            type="button"
+            className="h-12 w-full gap-2 rounded-xl bg-brand-green text-brand-green-foreground hover:bg-brand-green/90"
+          >
+            <Plus className="h-4 w-4" aria-hidden />
+            Add to Cart
+          </Button>
+        </motion.div>
       </div>
-    </article>
+    </motion.article>
   );
 }

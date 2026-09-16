@@ -1,9 +1,20 @@
 import { marketplaceFetch } from "@/lib/api/client";
 import type {
+  AdjustStockDto,
   ApiPaginatedResponse,
+  ApiPriceTier,
   ApiProduct,
+  ApiProductVariant,
+  CreatePriceTierDto,
+  CreateProductDto,
+  CreateVariantDto,
   ListProductsParams,
+  UpdateProductDto,
+  UpdateProductStatusDto,
+  UpdateVariantDto,
 } from "@/types/api";
+
+type AuthOptions = { auth?: boolean | "session" | "machine" };
 
 function toQueryString(params: ListProductsParams): string {
   const search = new URLSearchParams();
@@ -21,14 +32,123 @@ function toQueryString(params: ListProductsParams): string {
 
 export async function listProducts(
   params: ListProductsParams = {},
+  options?: AuthOptions,
 ): Promise<ApiPaginatedResponse<ApiProduct>> {
   return marketplaceFetch<ApiPaginatedResponse<ApiProduct>>(
     `/admin/products${toQueryString(params)}`,
+    { auth: options?.auth ?? true },
   );
 }
 
-export async function getProductById(id: string): Promise<ApiProduct> {
-  return marketplaceFetch<ApiProduct>(`/admin/products/${id}`);
+export async function getProductById(
+  id: string,
+  options?: AuthOptions,
+): Promise<ApiProduct> {
+  return marketplaceFetch<ApiProduct>(`/admin/products/${id}`, {
+    auth: options?.auth ?? true,
+  });
+}
+
+export async function createProduct(
+  body: CreateProductDto,
+  options?: AuthOptions,
+): Promise<ApiProduct> {
+  return marketplaceFetch<ApiProduct>("/admin/products", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+    auth: options?.auth ?? "session",
+  });
+}
+
+export async function updateProduct(
+  id: string,
+  body: UpdateProductDto,
+  options?: AuthOptions,
+): Promise<ApiProduct> {
+  return marketplaceFetch<ApiProduct>(`/admin/products/${id}`, {
+    method: "PATCH",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+    auth: options?.auth ?? "session",
+  });
+}
+
+export async function updateProductStatus(
+  id: string,
+  body: UpdateProductStatusDto,
+  options?: AuthOptions,
+): Promise<ApiProduct> {
+  return marketplaceFetch<ApiProduct>(`/admin/products/${id}/status`, {
+    method: "PATCH",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+    auth: options?.auth ?? "session",
+  });
+}
+
+export async function createProductVariant(
+  productId: string,
+  body: CreateVariantDto,
+  options?: AuthOptions,
+): Promise<ApiProductVariant> {
+  return marketplaceFetch<ApiProductVariant>(
+    `/admin/products/${productId}/variants`,
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+      auth: options?.auth ?? "session",
+    },
+  );
+}
+
+export async function updateProductVariant(
+  variantId: string,
+  body: UpdateVariantDto,
+  options?: AuthOptions,
+): Promise<ApiProductVariant> {
+  return marketplaceFetch<ApiProductVariant>(
+    `/admin/products/variants/${variantId}`,
+    {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+      auth: options?.auth ?? "session",
+    },
+  );
+}
+
+export async function adjustVariantStock(
+  variantId: string,
+  body: AdjustStockDto,
+  options?: AuthOptions,
+): Promise<ApiProductVariant> {
+  return marketplaceFetch<ApiProductVariant>(
+    `/admin/products/variants/${variantId}/stock`,
+    {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+      auth: options?.auth ?? "session",
+    },
+  );
+}
+
+export async function createVariantPriceTier(
+  variantId: string,
+  body: CreatePriceTierDto,
+  options?: AuthOptions,
+): Promise<ApiPriceTier> {
+  return marketplaceFetch<ApiPriceTier>(
+    `/admin/products/variants/${variantId}/price-tiers`,
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+      auth: options?.auth ?? "session",
+    },
+  );
 }
 
 /** Fetches all active products across paginated admin list. */

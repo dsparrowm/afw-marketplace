@@ -90,24 +90,56 @@ Use the returned `accessToken` as `Authorization: Bearer <token>` on admin reque
 
 ## Public vs admin endpoints
 
-**Important:** The current OpenAPI spec (53 paths) exposes **staff/admin APIs only**.
-There are no documented public storefront routes yet for:
+Live OpenAPI (refreshed 2026-09-11, **117 paths**) exposes both **staff/admin** and
+**customer/public** surfaces. Local snapshot: `context/backend-openapi.json`.
 
-- Anonymous catalog browse
-- Customer registration / login
-- Session cart
-- Customer checkout
-- Customer order history
+### Customer auth
 
-Storefront-relevant data today lives under `/admin/*` and requires staff auth. Options
-for Phase 2 integration:
+| Method | Path | Auth | Notes |
+| --- | --- | --- | --- |
+| POST | `/auth/customer/signup` | No | Creates account; returns access + refresh tokens |
+| POST | `/auth/customer/login` | No | Customer login |
+| POST | `/auth/customer/refresh` | No | Token rotation |
+| POST | `/auth/customer/logout` | No | Revoke refresh token |
+| POST | `/auth/customer/password-reset/request` | No | Always generic response |
+| POST | `/auth/customer/password-reset/confirm` | No | Returns new token pair |
+| GET | `/auth/customer/google/init` | No | OAuth start |
+| GET | `/auth/customer/google/callback` | No | OAuth redirect target |
+| POST | `/auth/customer/google/exchange` | No | Exchange one-time code for tokens |
 
-1. **Wait for public customer API** — preferred for production storefront
-2. **Next.js route handlers** (`app/api/`) proxy admin reads with a server-side staff
-   token for dev/staging catalog seeding — never expose staff tokens to the browser
-3. **Keep mocks** in `lib/mocks/` until public endpoints ship
+Signup body uses `accountType: "retail" | "wholesale"` (map UI personal→retail,
+business→wholesale). JWT access claims are `{ sub, iat, exp }` only — store display
+profile separately (cookie) until a customer profile endpoint exists.
 
-Record new public routes here when the backend adds them.
+### Public storefront (no auth)
+
+| Method | Path | Notes |
+| --- | --- | --- |
+| GET | `/public/products` | Browse; `page`, `limit`, `categorySlug`, `search` |
+| GET | `/public/products/{slug}` | Product detail |
+| GET | `/public/categories` | Nested active tree |
+| GET | `/public/announcement` | Banner text (`{ text }`) |
+| GET | `/public/hero-slides` | Homepage hero carousel |
+| GET | `/public/weekly-deals` | Curated deals |
+| POST | `/public/quotes` | Bulk quote request |
+| GET | `/health` | Liveness + DB |
+
+### Customer session (`Authorization: Bearer` customer JWT)
+
+| Method | Path | Notes |
+| --- | --- | --- |
+| GET/POST/PATCH/DELETE | `/public/cart…` | Cart + promo + checkout (Stripe client secret) |
+| GET/POST/PATCH/DELETE | `/public/addresses…` | Saved addresses |
+| GET/POST/DELETE | `/public/wishlist…` | Wishlist |
+| POST | `/public/orders/{orderId}/payment/retry` | Retry unpaid order payment |
+
+**Gap:** no `GET /public/orders` (or `/me/orders`) for purchase history yet.
+Staging checkout currently returns `clientSecret: null` (Stripe not issuing
+PaymentIntents); storefront still places the order and confirms when a secret +
+`NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` are present.
+
+Catalog SSR may still use staff `/admin/products` via machine token until the
+storefront is fully switched to `/public/products`.
 
 ## Endpoint map (storefront-relevant)
 
@@ -117,7 +149,7 @@ Record new public routes here when the backend adds them.
 | --- | --- | --- | --- |
 | GET | `/health` | No | Liveness + DB connectivity |
 
-### Auth
+### Auth (staff)
 
 | Method | Path | Auth | Notes |
 | --- | --- | --- | --- |
@@ -139,6 +171,7 @@ Record new public routes here when the backend adds them.
 | PATCH | `/admin/products/variants/{id}/stock` | Bearer | Adjust stock |
 | GET | `/admin/products/variants/{variantId}/price-tiers` | Bearer | Wholesale tiers |
 | GET | `/admin/categories` | Bearer | `page`, `limit`, `parentId`, `rootOnly`, `isActive`, `search` |
+| POST | `/admin/categories` | Bearer | Create category |
 | GET | `/admin/categories/tree` | Bearer | Nested category tree |
 | GET | `/admin/categories/{id}` | Bearer | Single category |
 
@@ -180,7 +213,8 @@ Catalog list responses use a paginated envelope — **confirmed 2026-09-02** fro
 }
 ```
 
-Staging currently returns empty product lists (`total: 0`) — seed data may be needed before storefront wiring.
+Staging currently has seeded AFW catalog data (2026-09-10) via `pnpm seed:catalog`
+(homepage category slugs + featured products). Re-run is idempotent for known slugs.
 
 ### Customers (admin)
 
@@ -224,7 +258,9 @@ See `context/backend-openapi.json` for full paths:
 - `/admin/delivery/zones`, `/admin/delivery/shipments`
 - `/admin/promotions`
 - `/admin/wholesale/accounts`, `/admin/wholesale/quotes`
-- `/admin/reports/*`
+- `/admin/reports/*` — used: `GET /admin/reports/sales` (`groupBy=day|week|month`),
+  `GET /admin/reports/sales/export` (CSV ledger via `/admin/financials/export` proxy).
+  No transaction list, expenses, or payout history endpoints yet.
 - `/admin/settings`, `/admin/settings/tax-rates`, `/admin/settings/payment`
 
 ## Storefront mapping (planned)
@@ -256,12 +292,22 @@ Follow `context/architecture.md`:
 
 | Route | Source |
 | --- | --- |
-| `/` homepage sections | `fetchStorefrontProductPool()` → `GET /admin/products` |
-| `/` category carousel | `fetchStorefrontCategories()` → `GET /admin/categories/tree` |
-| `/shop` | `queryCatalogAsync()` |
-| `/shop/[slug]` | `getStorefrontProductDetail()` → `GET /admin/products/{id}` |
+| `/` homepage sections | `fetchStorefrontProductPool()` → `GET /public/products` |
+| `/` category carousel | `fetchStorefrontCategories()` → `GET /public/categories` |
+| `/shop` | `queryCatalogAsync()` ← public product pool |
+| `/shop/[slug]` | `getStorefrontProductDetail()` → `GET /public/products/{slug}` |
 
-Cart, checkout, customer auth, and account orders remain on mocks until public customer APIs ship.
+Cart, checkout, addresses, wishlist, and order history remain partially mocked —
+customer **auth** is live (`/auth/customer/*`); order list API is still missing.
+
+Password reset is wired: `/forgot-password` calls
+`POST /auth/customer/password-reset/request` and always shows the same confirmation.
+`/reset-password?token=` calls confirm, then asks the customer to sign in. The
+confirm response is a token pair with no email, and there is no profile endpoint,
+so those tokens are not stored.
+
+Checkout reuses `GET /public/addresses` and creates an address only when the
+entered street and postal code are not already saved.
 
 ## Refreshing the OpenAPI snapshot
 

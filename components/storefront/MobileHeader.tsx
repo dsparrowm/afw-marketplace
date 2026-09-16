@@ -105,16 +105,6 @@ export function MobileHeader({ isAuthenticated: isAuthenticatedProp = false }: M
               />
               {siteConfig.currency}
             </span>
-            <span className="inline-flex h-9 items-center gap-2 rounded-lg border border-border px-3 text-sm text-muted-foreground">
-              <FigmaImage
-                src={headerIcons.location}
-                alt=""
-                width={11}
-                height={14}
-                className="opacity-60"
-              />
-              {siteConfig.location}
-            </span>
           </div>
 
           <nav className="flex flex-col gap-1" aria-label="Mobile main">

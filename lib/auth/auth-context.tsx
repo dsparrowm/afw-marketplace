@@ -10,11 +10,13 @@ import {
   type ReactNode,
 } from "react";
 import {
-  createMockCustomer,
-  readStoredSession,
-  writeStoredSession,
-} from "@/lib/auth/session";
-import type { AccountType, AuthSession, Customer, OrderVolume } from "@/types/customer";
+  customerLoginAction,
+  customerLogoutAction,
+  customerSignupAction,
+  getCustomerSessionAction,
+  updateCustomerProfileAction,
+} from "@/lib/auth/customer-auth-actions";
+import type { AccountType, Customer, OrderVolume } from "@/types/customer";
 
 type LoginInput = {
   email: string;
@@ -37,30 +39,32 @@ type AuthContextValue = {
   isHydrated: boolean;
   login: (input: LoginInput) => Promise<{ ok: true } | { ok: false; error: string }>;
   signup: (input: SignupInput) => Promise<{ ok: true } | { ok: false; error: string }>;
-  logout: () => void;
+  logout: () => Promise<void>;
   updateProfile: (updates: Pick<Customer, "fullName" | "email" | "phone">) => void;
 };
 
 const AuthContext = createContext<AuthContextValue | null>(null);
 
-function persistSession(customer: Customer): AuthSession {
-  const session: AuthSession = {
-    customer,
-    createdAt: new Date().toISOString(),
-  };
-  writeStoredSession(session);
-  return session;
-}
-
-/** Mock auth until marketplace customer API is wired */
+/** Live customer auth via HTTP-only cookies + staging `/auth/customer/*`. */
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [customer, setCustomer] = useState<Customer | null>(null);
   const [isHydrated, setIsHydrated] = useState(false);
 
   useEffect(() => {
-    const session = readStoredSession();
-    if (session) setCustomer(session.customer);
-    setIsHydrated(true);
+    let cancelled = false;
+    void (async () => {
+      try {
+        const session = await getCustomerSessionAction();
+        if (!cancelled) setCustomer(session.customer);
+      } catch {
+        if (!cancelled) setCustomer(null);
+      } finally {
+        if (!cancelled) setIsHydrated(true);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   const login = useCallback(async ({ email, password }: LoginInput) => {
@@ -78,18 +82,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       return { ok: false as const, error: "Password must be at least 8 characters." };
     }
 
-    const existing = readStoredSession();
-    const nextCustomer =
-      existing?.customer.email === normalizedEmail
-        ? existing.customer
-        : createMockCustomer({
-            fullName: normalizedEmail.split("@")[0] ?? "Customer",
-            email: normalizedEmail,
-            accountType: "personal",
-          });
-
-    const session = persistSession(nextCustomer);
-    setCustomer(session.customer);
+    const result = await customerLoginAction({
+      email: normalizedEmail,
+      password,
+    });
+    if (!result.ok) return result;
+    setCustomer(result.customer);
     return { ok: true as const };
   }, []);
 
@@ -121,36 +119,39 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       }
     }
 
-    const nextCustomer = createMockCustomer({
+    const result = await customerSignupAction({
       fullName,
       email: normalizedEmail,
+      password: input.password,
       accountType: input.accountType,
       businessName: input.businessName?.trim(),
       businessType: input.businessType,
       orderVolume: input.orderVolume,
     });
-
-    const session = persistSession(nextCustomer);
-    setCustomer(session.customer);
+    if (!result.ok) return result;
+    setCustomer(result.customer);
     return { ok: true as const };
   }, []);
 
-  const logout = useCallback(() => {
-    writeStoredSession(null);
+  const logout = useCallback(async () => {
+    await customerLogoutAction();
     setCustomer(null);
   }, []);
 
-  const updateProfile = useCallback((updates: Pick<Customer, "fullName" | "email" | "phone">) => {
-    setCustomer((current) => {
-      if (!current) return current;
-      const nextCustomer: Customer = {
-        ...current,
-        ...updates,
-      };
-      persistSession(nextCustomer);
-      return nextCustomer;
-    });
-  }, []);
+  const updateProfile = useCallback(
+    (updates: Pick<Customer, "fullName" | "email" | "phone">) => {
+      setCustomer((current) => {
+        if (!current) return current;
+        const nextCustomer: Customer = {
+          ...current,
+          ...updates,
+        };
+        void updateCustomerProfileAction(updates);
+        return nextCustomer;
+      });
+    },
+    [],
+  );
 
   const value = useMemo(
     () => ({

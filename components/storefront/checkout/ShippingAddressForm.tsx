@@ -8,6 +8,8 @@ export type ShippingAddressFormProps = {
   address: CheckoutAddress;
   errors: Partial<Record<keyof CheckoutAddress, string>>;
   onChange: (field: keyof CheckoutAddress, value: string) => void;
+  /** When false (pickup), street/city/province/postal/country are hidden */
+  requireStreet?: boolean;
 };
 
 function FieldLabel({ children }: { children: React.ReactNode }) {
@@ -23,6 +25,7 @@ export function ShippingAddressForm({
   address,
   errors,
   onChange,
+  requireStreet = true,
 }: ShippingAddressFormProps) {
   const inputClass = "h-[54px] rounded-xl";
 
@@ -71,70 +74,88 @@ export function ShippingAddressForm({
         />
         <FieldError message={errors.phone} />
       </div>
-      <div className="sm:col-span-2">
-        <FieldLabel>Street Address</FieldLabel>
-        <Input
-          className={cn(inputClass, "mt-2")}
-          value={address.streetAddress}
-          onChange={(event) => onChange("streetAddress", event.target.value)}
-          autoComplete="street-address"
-        />
-        <FieldError message={errors.streetAddress} />
-      </div>
-      <div>
-        <FieldLabel>City</FieldLabel>
-        <Input
-          className={cn(inputClass, "mt-2")}
-          value={address.city}
-          onChange={(event) => onChange("city", event.target.value)}
-          autoComplete="address-level2"
-        />
-        <FieldError message={errors.city} />
-      </div>
-      <div>
-        <FieldLabel>Province</FieldLabel>
-        <select
-          className={cn(
-            inputClass,
-            "mt-2 flex w-full border border-input bg-background px-4 text-sm text-foreground shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
-          )}
-          value={address.province}
-          onChange={(event) => onChange("province", event.target.value)}
-          autoComplete="address-level1"
-        >
-          {CANADIAN_PROVINCES.map((province) => (
-            <option key={province} value={province}>{province}</option>
-          ))}
-        </select>
-        <FieldError message={errors.province} />
-      </div>
-      <div>
-        <FieldLabel>Postal Code</FieldLabel>
-        <Input
-          className={cn(inputClass, "mt-2")}
-          value={address.postalCode}
-          onChange={(event) => onChange("postalCode", event.target.value)}
-          autoComplete="postal-code"
-          placeholder="M5V 2L7"
-        />
-        <FieldError message={errors.postalCode} />
-      </div>
-      <div>
-        <FieldLabel>Country</FieldLabel>
-        <Input
-          className={cn(inputClass, "mt-2")}
-          value={address.country}
-          onChange={(event) => onChange("country", event.target.value)}
-          autoComplete="country-name"
-          readOnly
-        />
-        <FieldError message={errors.country} />
-      </div>
+      {requireStreet ? (
+        <>
+          <div className="sm:col-span-2">
+            <FieldLabel>Street Address</FieldLabel>
+            <Input
+              className={cn(inputClass, "mt-2")}
+              value={address.streetAddress}
+              onChange={(event) => onChange("streetAddress", event.target.value)}
+              autoComplete="street-address"
+            />
+            <FieldError message={errors.streetAddress} />
+          </div>
+          <div>
+            <FieldLabel>City</FieldLabel>
+            <Input
+              className={cn(inputClass, "mt-2")}
+              value={address.city}
+              onChange={(event) => onChange("city", event.target.value)}
+              autoComplete="address-level2"
+            />
+            <FieldError message={errors.city} />
+          </div>
+          <div>
+            <FieldLabel>Province</FieldLabel>
+            <select
+              className={cn(
+                inputClass,
+                "mt-2 flex w-full border border-input bg-background px-4 text-sm text-foreground shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
+              )}
+              value={address.province}
+              onChange={(event) => onChange("province", event.target.value)}
+              autoComplete="address-level1"
+            >
+              {CANADIAN_PROVINCES.map((province) => (
+                <option key={province} value={province}>
+                  {province}
+                </option>
+              ))}
+            </select>
+            <FieldError message={errors.province} />
+          </div>
+          <div>
+            <FieldLabel>Postal Code</FieldLabel>
+            <Input
+              className={cn(inputClass, "mt-2")}
+              value={address.postalCode}
+              onChange={(event) => onChange("postalCode", event.target.value)}
+              autoComplete="postal-code"
+              placeholder="M5V 2L7"
+            />
+            <FieldError message={errors.postalCode} />
+          </div>
+          <div>
+            <FieldLabel>Country</FieldLabel>
+            <Input
+              className={cn(inputClass, "mt-2")}
+              value={address.country}
+              onChange={(event) => onChange("country", event.target.value)}
+              autoComplete="country-name"
+              readOnly
+            />
+            <FieldError message={errors.country} />
+          </div>
+        </>
+      ) : null}
     </div>
   );
 }
 
-export function CheckoutGuestBanner() {
+export function CheckoutGuestBanner({
+  signedIn = false,
+}: {
+  signedIn?: boolean;
+}) {
+  if (signedIn) {
+    return (
+      <p className="text-sm text-muted-foreground">
+        Checking out with your AFW account.
+      </p>
+    );
+  }
+
   return (
     <p className="text-sm text-muted-foreground">
       Already have an account?{" "}

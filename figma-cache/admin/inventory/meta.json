@@ -1,0 +1,12 @@
+{
+  "nodeId": "72:400",
+  "name": "inventory",
+  "platform": "admin-desktop",
+  "width": 1440,
+  "height": 960,
+  "status": "partial",
+  "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+  "screenshot": "admin/inventory/screenshot.png",
+  "slug": "inventory",
+  "canvas": "admin"
+}

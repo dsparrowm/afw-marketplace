@@ -1,0 +1,60 @@
+<frame id="72:1735" name="sidebar" x="0" y="0" width="260" height="960">
+      <frame id="72:1736" name="sidebar-top" x="16" y="24" width="228" height="428">
+        <frame id="72:1737" name="logo-area" x="0" y="0" width="228" height="62">
+          <rounded-rectangle id="78:136" name="image 2" x="8" y="0" width="105" height="62" />
+        </frame>
+        <frame id="72:1742" name="nav-rack" x="0" y="90" width="228" height="338">
+          <frame id="72:1743" name="nav-item-Overview" x="0" y="0" width="228" height="34">
+            <frame id="72:1744" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1746" name="Overview" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1747" name="nav-item-Products" x="0" y="38" width="228" height="34">
+            <frame id="72:1748" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1750" name="Products" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1751" name="nav-item-Inventory" x="0" y="76" width="228" height="34">
+            <frame id="72:1752" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1754" name="Inventory" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1755" name="nav-item-Orders &amp; Delivery" x="0" y="114" width="228" height="34">
+            <frame id="72:1756" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1758" name="Orders &amp; Delivery" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1759" name="nav-item-Financials" x="0" y="152" width="228" height="34">
+            <frame id="72:1760" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1762" name="Financials" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1763" name="nav-item-Promotions" x="0" y="190" width="228" height="34">
+            <frame id="72:1764" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1766" name="Promotions" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1767" name="nav-item-Customers" x="0" y="228" width="228" height="34">
+            <frame id="72:1768" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1770" name="Customers" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1771" name="nav-item-Access" x="0" y="266" width="228" height="34">
+            <frame id="72:1772" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1774" name="Access" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:1775" name="nav-item-Settings" x="0" y="304" width="228" height="34">
+            <frame id="72:1776" name="Frame" x="12" y="8" width="18" height="18" />
+            <text id="72:1778" name="Settings" x="42" y="8.5" width="174" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:1779" name="sidebar-bottom" x="16" y="834" width="228" height="102">
+        <frame id="72:1780" name="help-item" x="0" y="0" width="228" height="34">
+          <frame id="72:1781" name="Frame" x="12" y="8" width="18" height="18" />
+          <text id="72:1783" name="Help &amp; Support" x="42" y="8.5" width="174" height="17" />
+        </frame>
+        <line id="72:1784" name="Line" x="0" y="42" width="228" height="0" />
+        <frame id="72:1785" name="admin-profile" x="0" y="50" width="228" height="52">
+          <rounded-rectangle id="72:1786" name="Rectangle" x="8" y="8" width="36" height="36" />
+          <frame id="72:1787" name="Frame" x="56" y="10.5" width="136" height="31">
+            <text id="72:1788" name="Adaeze Okafor" x="0" y="0" width="136" height="16" />
+            <text id="72:1789" name="Super Admin" x="0" y="18" width="136" height="13" />
+          </frame>
+          <frame id="72:1790" name="log-out" x="204" y="18" width="16" height="16" />
+        </frame>
+      </frame>
+    </frame>

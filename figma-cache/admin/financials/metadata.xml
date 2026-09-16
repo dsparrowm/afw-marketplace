@@ -1,0 +1,243 @@
+<frame id="72:789" name="financials" x="5384" y="-450" width="1440" height="960">
+    <frame id="72:790" name="sidebar" x="0" y="0" width="260" height="960">
+      <frame id="72:791" name="sidebar-top" x="16" y="24" width="228" height="428">
+        <frame id="72:792" name="logo-area" x="0" y="0" width="228" height="62">
+          <rounded-rectangle id="78:128" name="image 2" x="8" y="0" width="105" height="62" />
+        </frame>
+        <frame id="72:796" name="nav-rack" x="0" y="90" width="228" height="338">
+          <frame id="72:797" name="nav-item-Overview" x="0" y="0" width="228" height="34">
+            <frame id="72:1051" name="layout-grid" x="12" y="8" width="18" height="18" />
+            <text id="72:799" name="Overview" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:800" name="nav-item-Products" x="0" y="38" width="228" height="34">
+            <frame id="72:1231" name="archive" x="12" y="8" width="18" height="18" />
+            <text id="72:802" name="Products" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:803" name="nav-item-Inventory" x="0" y="76" width="228" height="34">
+            <frame id="72:1054" name="warehouse" x="12" y="8" width="18" height="18" />
+            <text id="72:805" name="Inventory" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:806" name="nav-item-Orders &amp; Delivery" x="0" y="114" width="228" height="34">
+            <frame id="72:1180" name="truck-electric" x="12" y="8" width="18" height="18" />
+            <text id="72:808" name="Orders &amp; Delivery" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:809" name="nav-item-Financials" x="0" y="152" width="228" height="34">
+            <frame id="72:1210" name="receipt-text" x="12" y="8" width="18" height="18" />
+            <text id="72:811" name="Financials" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:812" name="nav-item-Promotions" x="0" y="190" width="228" height="34">
+            <frame id="72:1195" name="percent-square" x="12" y="8" width="18" height="18" />
+            <text id="72:814" name="Promotions" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:815" name="nav-item-Customers" x="0" y="228" width="228" height="34">
+            <frame id="72:1069" name="users-2" x="12" y="8" width="18" height="18" />
+            <text id="72:817" name="Customers" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:818" name="nav-item-Access" x="0" y="266" width="228" height="34">
+            <frame id="72:1084" name="key-square" x="12" y="8" width="18" height="18" />
+            <text id="72:820" name="Access" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:821" name="nav-item-Settings" x="0" y="304" width="228" height="34">
+            <frame id="72:1108" name="settings" x="12" y="8" width="18" height="18" />
+            <text id="72:823" name="Settings" x="42" y="8.5" width="174" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:824" name="sidebar-bottom" x="16" y="834" width="228" height="102">
+        <frame id="72:825" name="help-item" x="0" y="0" width="228" height="34">
+          <frame id="72:1150" name="circle-question-mark" x="12" y="8" width="18" height="18" />
+          <text id="72:827" name="Help &amp; Support" x="42" y="8.5" width="174" height="17" />
+        </frame>
+        <line id="72:828" name="Line" x="0" y="42" width="228" height="0" />
+        <frame id="72:829" name="admin-profile" x="0" y="50" width="228" height="52">
+          <rounded-rectangle id="72:830" name="Rectangle" x="8" y="8" width="36" height="36" />
+          <frame id="72:831" name="Frame" x="56" y="10.5" width="136" height="31">
+            <text id="72:832" name="Adaeze Okafor" x="0" y="0" width="136" height="16" />
+            <text id="72:833" name="Super Admin" x="0" y="18" width="136" height="13" />
+          </frame>
+          <frame id="72:1087" name="log-out" x="204" y="18" width="16" height="16" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="72:835" name="Frame" x="260" y="0" width="1180" height="805">
+      <frame id="72:836" name="page-header" x="32" y="32" width="1116" height="70">
+        <frame id="72:837" name="Frame" x="0" y="0" width="446" height="50">
+          <text id="72:838" name="Financials" x="0" y="0" width="119" height="29" />
+          <text id="72:839" name="Track revenue, platform payouts, and marketplace operational fees." x="0" y="33" width="446" height="17" />
+        </frame>
+        <frame id="72:840" name="Frame" x="787" y="9" width="329" height="32">
+          <frame id="72:841" name="Frame" x="0" y="0" width="158" height="32">
+            <frame id="72:1090" name="calendar" x="14" y="8" width="16" height="16" />
+            <text id="72:843" name="September 2025" x="38" y="8" width="106" height="16" />
+          </frame>
+          <frame id="72:844" name="Frame" x="166" y="0" width="163" height="32">
+            <frame id="72:1093" name="download" x="14" y="8" width="16" height="16" />
+            <text id="72:846" name="Download Ledger" x="38" y="8" width="111" height="16" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:847" name="Frame" x="32" y="126" width="1116" height="116">
+        <frame id="72:848" name="metric-card" x="0" y="0" width="267" height="116">
+          <text id="72:849" name="Total Revenue" x="18" y="18" width="98" height="15" />
+          <text id="72:850" name="$48,320" x="18" y="41" width="119" height="34" />
+          <text id="72:851" name="+8.2% from last month" x="18" y="83" width="129" height="15" />
+        </frame>
+        <frame id="72:852" name="metric-card" x="283" y="0" width="267" height="116">
+          <text id="72:853" name="Expenses" x="18" y="18" width="63" height="15" />
+          <text id="72:854" name="$12,150" x="18" y="41" width="107" height="34" />
+          <text id="72:855" name="Logistics, warehousing, customs" x="18" y="83" width="185" height="15" />
+        </frame>
+        <frame id="72:856" name="metric-card" x="566" y="0" width="267" height="116">
+          <text id="72:857" name="Net Profit" x="18" y="18" width="71" height="15" />
+          <text id="72:858" name="$36,170" x="18" y="41" width="110" height="34" />
+          <text id="72:859" name="74.8% profit margin" x="18" y="83" width="110" height="15" />
+        </frame>
+        <frame id="72:860" name="metric-card" x="849" y="0" width="267" height="116">
+          <text id="72:861" name="Pending Payouts" x="18" y="18" width="114" height="15" />
+          <text id="72:862" name="$8,400" x="18" y="41" width="103" height="34" />
+          <text id="72:863" name="Scheduled for Sept 19" x="18" y="83" width="126" height="15" />
+        </frame>
+      </frame>
+      <frame id="72:864" name="Frame" x="32" y="266" width="1116" height="507">
+        <frame id="72:865" name="Frame" x="0" y="0" width="676" height="507">
+          <frame id="72:866" name="Frame" x="0" y="0" width="676" height="175">
+            <frame id="72:867" name="Frame" x="20" y="20" width="636" height="19">
+              <text id="72:868" name="Monthly Revenue Trend ($K)" x="0" y="0" width="224" height="19" />
+              <text id="72:869" name="Jan - Aug 2025" x="548" y="2" width="88" height="15" />
+            </frame>
+            <frame id="72:870" name="Frame" x="20" y="55" width="636" height="100">
+              <frame id="72:871" name="Frame" x="0" y="38.79999923706055" width="69" height="61.20000076293945">
+                <rounded-rectangle id="72:872" name="Rectangle" x="0" y="0" width="69" height="43.20000076293945" />
+                <text id="72:873" name="J" x="31.5" y="49.20000076293945" width="6" height="12" />
+              </frame>
+              <frame id="72:874" name="Frame" x="81" y="31.599998474121094" width="69" height="68.4000015258789">
+                <rounded-rectangle id="72:875" name="Rectangle" x="0" y="0" width="69" height="50.400001525878906" />
+                <text id="72:876" name="F" x="31.5" y="56.400001525878906" width="6" height="12" />
+              </frame>
+              <frame id="72:877" name="Frame" x="162" y="24.400001525878906" width="69" height="75.5999984741211">
+                <rounded-rectangle id="72:878" name="Rectangle" x="0" y="0" width="69" height="57.599998474121094" />
+                <text id="72:879" name="M" x="29.5" y="63.599998474121094" width="10" height="12" />
+              </frame>
+              <frame id="72:880" name="Frame" x="243" y="35.19999694824219" width="69" height="64.80000305175781">
+                <rounded-rectangle id="72:881" name="Rectangle" x="0" y="0" width="69" height="46.79999923706055" />
+                <text id="72:882" name="A" x="30.5" y="52.79999923706055" width="8" height="12" />
+              </frame>
+              <frame id="72:883" name="Frame" x="324" y="13.599998474121094" width="69" height="86.4000015258789">
+                <rounded-rectangle id="72:884" name="Rectangle" x="0" y="0" width="69" height="68.4000015258789" />
+                <text id="72:885" name="M" x="29.5" y="74.4000015258789" width="10" height="12" />
+              </frame>
+              <frame id="72:886" name="Frame" x="405" y="8.199996948242188" width="69" height="91.80000305175781">
+                <rounded-rectangle id="72:887" name="Rectangle" x="0" y="0" width="69" height="73.80000305175781" />
+                <text id="72:888" name="J" x="31.5" y="79.80000305175781" width="6" height="12" />
+              </frame>
+              <frame id="72:889" name="Frame" x="486" y="2.8000030517578125" width="69" height="97.19999694824219">
+                <rounded-rectangle id="72:890" name="Rectangle" x="0" y="0" width="69" height="79.19999694824219" />
+                <text id="72:891" name="J" x="31.5" y="85.19999694824219" width="6" height="12" />
+              </frame>
+              <frame id="72:892" name="Frame" x="567" y="-4.400001525878906" width="69" height="104.4000015258789">
+                <rounded-rectangle id="72:893" name="Rectangle" x="0" y="0" width="69" height="86.4000015258789" />
+                <text id="72:894" name="A" x="30.5" y="92.4000015258789" width="8" height="12" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="72:895" name="Frame" x="0" y="195" width="676" height="312">
+            <text id="72:896" name="Recent transactions" x="20" y="20" width="158" height="19" />
+            <frame id="72:897" name="Frame" x="20" y="55" width="636" height="237">
+              <frame id="72:898" name="Frame" x="0" y="0" width="636" height="31">
+                <text id="72:899" name="Date" x="0" y="8" width="120" height="15" />
+                <text id="72:900" name="Description" x="120" y="8" width="196" height="15" />
+                <text id="72:901" name="Type" x="316" y="8" width="100" height="15" />
+                <text id="72:902" name="Amount" x="416" y="8" width="110" height="15" />
+                <text id="72:903" name="Status" x="526" y="8" width="110" height="15" />
+              </frame>
+              <frame id="72:904" name="Frame" x="0" y="31" width="636" height="47">
+                <text id="72:905" name="Sept 15, 2025" x="0" y="15.5" width="120" height="16" />
+                <text id="72:906" name="Order #AFW-8192 payment" x="120" y="15.5" width="196" height="16" />
+                <text id="72:907" name="Sale" x="316" y="15.5" width="100" height="16" />
+                <text id="72:908" name="+$63.00" x="416" y="15" width="110" height="17" />
+                <frame id="72:909" name="Frame" x="526" y="12" width="110" height="23">
+                  <frame id="72:910" name="Frame" x="24" y="0" width="62" height="23">
+                    <text id="72:911" name="Settled" x="10" y="4" width="42" height="15" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="72:912" name="Frame" x="0" y="78" width="636" height="47">
+                <text id="72:913" name="Sept 14, 2025" x="0" y="15.5" width="120" height="16" />
+                <text id="72:914" name="Refund for Order #AFW-8180" x="120" y="15.5" width="196" height="16" />
+                <text id="72:915" name="Refund" x="316" y="15.5" width="100" height="16" />
+                <text id="72:916" name="-$32.00" x="416" y="15" width="110" height="17" />
+                <frame id="72:917" name="Frame" x="526" y="12" width="110" height="23">
+                  <frame id="72:918" name="Frame" x="24" y="0" width="62" height="23">
+                    <text id="72:919" name="Settled" x="10" y="4" width="42" height="15" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="72:920" name="Frame" x="0" y="125" width="636" height="56">
+                <text id="72:921" name="Sept 12, 2025" x="0" y="20" width="120" height="16" />
+                <text id="72:922" name="Weekly automatic bank transfer" x="120" y="12" width="196" height="32" />
+                <text id="72:923" name="Payout" x="316" y="20" width="100" height="16" />
+                <text id="72:924" name="-$12,450.00" x="416" y="19.5" width="110" height="17" />
+                <frame id="72:925" name="Frame" x="526" y="16.5" width="110" height="23">
+                  <frame id="72:926" name="Frame" x="13" y="0" width="84" height="23">
+                    <text id="72:927" name="Completed" x="10" y="4" width="64" height="15" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="72:928" name="Frame" x="0" y="181" width="636" height="56">
+                <text id="72:929" name="Sept 10, 2025" x="0" y="20" width="120" height="16" />
+                <text id="72:930" name="Monthly shipping carrier adjustment" x="120" y="12" width="196" height="32" />
+                <text id="72:931" name="Fee" x="316" y="20" width="100" height="16" />
+                <text id="72:932" name="-$145.00" x="416" y="19.5" width="110" height="17" />
+                <frame id="72:933" name="Frame" x="526" y="16.5" width="110" height="23">
+                  <frame id="72:934" name="Frame" x="24" y="0" width="62" height="23">
+                    <text id="72:935" name="Settled" x="10" y="4" width="42" height="15" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:936" name="Frame" x="696" y="0" width="420" height="507">
+          <text id="72:937" name="Payout history" x="20" y="20" width="114" height="19" />
+          <frame id="72:938" name="Frame" x="20" y="55" width="380" height="214">
+            <frame id="72:939" name="Frame" x="0" y="0" width="380" height="66">
+              <frame id="72:940" name="Frame" x="0" y="0" width="380" height="23">
+                <text id="72:941" name="$12,450.00" x="0" y="0" width="79" height="17" />
+                <frame id="72:942" name="Frame" x="296" y="0" width="84" height="23">
+                  <text id="72:943" name="Completed" x="10" y="4" width="64" height="15" />
+                </frame>
+              </frame>
+              <frame id="72:944" name="Frame" x="0" y="35" width="380" height="15">
+                <text id="72:945" name="Sept 12, 2025" x="0" y="0" width="79" height="15" />
+                <text id="72:946" name="TXN-8849-AFW" x="288" y="0" width="92" height="15" />
+              </frame>
+            </frame>
+            <frame id="72:947" name="Frame" x="0" y="82" width="380" height="66">
+              <frame id="72:948" name="Frame" x="0" y="0" width="380" height="23">
+                <text id="72:949" name="$14,890.00" x="0" y="0" width="78" height="17" />
+                <frame id="72:950" name="Frame" x="296" y="0" width="84" height="23">
+                  <text id="72:951" name="Completed" x="10" y="4" width="64" height="15" />
+                </frame>
+              </frame>
+              <frame id="72:952" name="Frame" x="0" y="35" width="380" height="15">
+                <text id="72:953" name="Sept 05, 2025" x="0" y="0" width="81" height="15" />
+                <text id="72:954" name="TXN-8711-AFW" x="292" y="0" width="88" height="15" />
+              </frame>
+            </frame>
+            <frame id="72:955" name="Frame" x="0" y="164" width="380" height="50">
+              <frame id="72:956" name="Frame" x="0" y="0" width="380" height="23">
+                <text id="72:957" name="$11,210.00" x="0" y="0" width="73" height="17" />
+                <frame id="72:958" name="Frame" x="296" y="0" width="84" height="23">
+                  <text id="72:959" name="Completed" x="10" y="4" width="64" height="15" />
+                </frame>
+              </frame>
+              <frame id="72:960" name="Frame" x="0" y="35" width="380" height="15">
+                <text id="72:961" name="Aug 29, 2025" x="0" y="0" width="77" height="15" />
+                <text id="72:962" name="TXN-8542-AFW" x="288" y="0" width="92" height="15" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>

@@ -46,6 +46,14 @@ design context is cached.
 | Muted foreground | `--color-muted-foreground` | Secondary text, placeholders |
 | Border | `--color-border` | Card borders, input borders |
 | Destructive | `--color-destructive` | Errors, remove actions |
+| Admin sidebar | `--admin-sidebar` | Staff sidebar background |
+| Admin nav active | `--admin-nav-active` | Active sidebar item fill |
+| Admin status pending | `--admin-status-pending` | Pending payment / low stock soft fill |
+| Admin status packaging | `--admin-status-packaging` | Needs packaging soft fill |
+| Admin status delayed | `--admin-status-delayed` | Delayed / out of stock soft fill |
+| Admin status positive | `--admin-status-positive` | Positive metric delta text |
+| Admin status active | `--admin-status-active` | Active product status chip |
+| Admin banner | `--admin-banner` | Inventory shipment callout fill |
 
 Do not hardcode hex in components. Define tokens in `app/globals.css` and reference
 via Tailwind utilities (`bg-primary`, `text-muted-foreground`, etc.).
@@ -64,9 +72,8 @@ via Tailwind utilities (`bg-primary`, `text-muted-foreground`, etc.).
 
 ### Desktop storefront
 
-- **Announcement bar** — full-width, fixed height ~40px, centered promo text
-- **Header** — sticky; logo left, nav (Shop, Categories, Deals orange, separator, Wholesale text link), search 65×307, CAD/location chips, account icon, green pill cart
-  (currency, location, account, cart)
+- **Announcement bar** — full-width, ~40px; GSAP looping multi-message marquee (pause on hover; static under reduced motion)
+- **Header** — sticky; logo left, nav (Shop, Categories, Deals orange, separator, Wholesale text link); right actions: CAD chip, account icon, green pill cart. Desktop search lives in the **category secondary bar** (compact ~44px field, max ~400px) beside category quick links — not in the primary row. Location chip removed from chrome until backend-backed switching exists.
 - **Hero** — full-width 600px; light left-to-right scrim; stack from Figma y-offsets
   (badge y=95, heading y=144, subtext y=318, CTAs y=428). Green uppercase badge, two-line
   headline, pill CTAs (orange Shop Now, frosted Shop Wholesale)
@@ -93,6 +100,31 @@ via Tailwind utilities (`bg-primary`, `text-muted-foreground`, etc.).
 - Social auth buttons (Apple, Google) above email form
 - Business signup: account type toggle, business fields, volume selector, info box
 - Dashboard: brand header row, tab nav (Orders, Addresses, Reorder, Profile), content area
+
+### Admin (staff)
+
+- Desktop **1440×960** frames; fixed **260px** left sidebar + main content
+- Sidebar: light muted surface, active nav pill (light green), Lucide icons until Figma exports
+- Main: white background, 32px padding, card panels with soft border + light radius
+- Metric cards in a 4-column row; tables left (~676px) + recent sales right (~420px)
+- Status badges: soft pastel fills (pending / packaging / delayed / low / out)
+- Brand green accents for active nav and positive deltas — not storefront orange CTAs
+
+## Motion
+
+| Library | Use |
+| --- | --- |
+| Framer Motion | Simple interactions: card/tile hover lift, tap scale, section fade-up (`MotionReveal`) |
+| GSAP + `@gsap/react` | Complex continuous motion: announcement marquee loop (pause/resume, `matchMedia` reduced motion) |
+
+Tokens:
+
+- Interactive hover/tap: ~150–200ms, ease `[0.22, 1, 0.36, 1]`
+- Section reveal: ~400–500ms fade + `y: 24`
+- Marquee: linear, ~55px/s; pause on hover/focus
+- `prefers-reduced-motion`: disable transforms and marquee; keep color hovers
+
+Helpers: `components/storefront/motion/MotionReveal.tsx`, `lib/motion/gsap-setup.ts`.
 
 ## Components
 

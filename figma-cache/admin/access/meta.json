@@ -1,0 +1,12 @@
+{
+  "nodeId": "72:1589",
+  "name": "access",
+  "platform": "admin-desktop",
+  "width": 1440,
+  "height": 960,
+  "status": "partial",
+  "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+  "screenshot": "admin/access/screenshot.png",
+  "slug": "access",
+  "canvas": "admin"
+}

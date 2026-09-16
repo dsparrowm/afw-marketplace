@@ -1,0 +1,60 @@
+<frame id="78:303" name="sidebar" x="0" y="0" width="260" height="1024">
+      <frame id="78:304" name="sidebar-top" x="16" y="24" width="228" height="428">
+        <frame id="78:305" name="logo-area" x="0" y="0" width="228" height="62">
+          <rounded-rectangle id="78:306" name="image 2" x="8" y="0" width="105" height="62" />
+        </frame>
+        <frame id="78:307" name="nav-rack" x="0" y="90" width="228" height="338">
+          <frame id="78:308" name="nav-item-Overview" x="0" y="0" width="228" height="34">
+            <frame id="78:309" name="layout-grid" x="12" y="8" width="18" height="18" />
+            <text id="78:311" name="Overview" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:312" name="nav-item-Products" x="0" y="38" width="228" height="34">
+            <frame id="78:313" name="archive" x="12" y="8" width="18" height="18" />
+            <text id="78:315" name="Products" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:316" name="nav-item-Inventory" x="0" y="76" width="228" height="34">
+            <frame id="78:317" name="warehouse" x="12" y="8" width="18" height="18" />
+            <text id="78:319" name="Inventory" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:320" name="nav-item-Orders &amp; Delivery" x="0" y="114" width="228" height="34">
+            <frame id="78:321" name="truck-electric" x="12" y="8" width="18" height="18" />
+            <text id="78:323" name="Orders &amp; Delivery" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:324" name="nav-item-Financials" x="0" y="152" width="228" height="34">
+            <frame id="78:325" name="receipt-text" x="12" y="8" width="18" height="18" />
+            <text id="78:327" name="Financials" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:328" name="nav-item-Promotions" x="0" y="190" width="228" height="34">
+            <frame id="78:329" name="percent-square" x="12" y="8" width="18" height="18" />
+            <text id="78:331" name="Promotions" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:332" name="nav-item-Customers" x="0" y="228" width="228" height="34">
+            <frame id="78:333" name="users-2" x="12" y="8" width="18" height="18" />
+            <text id="78:335" name="Customers" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:336" name="nav-item-Access" x="0" y="266" width="228" height="34">
+            <frame id="78:337" name="key-square" x="12" y="8" width="18" height="18" />
+            <text id="78:339" name="Access" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:340" name="nav-item-Settings" x="0" y="304" width="228" height="34">
+            <frame id="78:341" name="settings" x="12" y="8" width="18" height="18" />
+            <text id="78:343" name="Settings" x="42" y="8.5" width="174" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="78:344" name="sidebar-bottom" x="16" y="898" width="228" height="102">
+        <frame id="78:345" name="help-item" x="0" y="0" width="228" height="34">
+          <frame id="78:346" name="circle-question-mark" x="12" y="8" width="18" height="18" />
+          <text id="78:348" name="Help &amp; Support" x="42" y="8.5" width="174" height="17" />
+        </frame>
+        <line id="78:349" name="Line" x="0" y="42" width="228" height="0" />
+        <frame id="78:350" name="admin-profile" x="0" y="50" width="228" height="52">
+          <rounded-rectangle id="78:351" name="Rectangle" x="8" y="8" width="36" height="36" />
+          <frame id="78:352" name="Frame" x="56" y="10.5" width="136" height="31">
+            <text id="78:353" name="Adaeze Okafor" x="0" y="0" width="136" height="16" />
+            <text id="78:354" name="Super Admin" x="0" y="18" width="136" height="13" />
+          </frame>
+          <frame id="78:355" name="log-out" x="204" y="18" width="16" height="16" />
+        </frame>
+      </frame>
+    </frame>

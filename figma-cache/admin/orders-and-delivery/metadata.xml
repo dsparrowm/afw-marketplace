@@ -1,0 +1,295 @@
+<frame id="72:578" name="orders-and-delivery" x="2295" y="-450" width="1440" height="960">
+    <frame id="72:579" name="sidebar" x="0" y="0" width="260" height="960">
+      <frame id="72:580" name="sidebar-top" x="16" y="24" width="228" height="428">
+        <frame id="72:581" name="logo-area" x="0" y="0" width="228" height="62">
+          <rounded-rectangle id="78:126" name="image 2" x="8" y="0" width="105" height="62" />
+        </frame>
+        <frame id="72:585" name="nav-rack" x="0" y="90" width="228" height="338">
+          <frame id="72:586" name="nav-item-Overview" x="0" y="0" width="228" height="34">
+            <frame id="72:1039" name="layout-grid" x="12" y="8" width="18" height="18" />
+            <text id="72:588" name="Overview" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:589" name="nav-item-Products" x="0" y="38" width="228" height="34">
+            <frame id="72:1228" name="archive" x="12" y="8" width="18" height="18" />
+            <text id="72:591" name="Products" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:592" name="nav-item-Inventory" x="0" y="76" width="228" height="34">
+            <frame id="72:1027" name="warehouse" x="12" y="8" width="18" height="18" />
+            <text id="72:594" name="Inventory" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:595" name="nav-item-Orders &amp; Delivery" x="0" y="114" width="228" height="34">
+            <frame id="72:1177" name="truck-electric" x="12" y="8" width="18" height="18" />
+            <text id="72:597" name="Orders &amp; Delivery" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:598" name="nav-item-Financials" x="0" y="152" width="228" height="34">
+            <frame id="72:1207" name="receipt-text" x="12" y="8" width="18" height="18" />
+            <text id="72:600" name="Financials" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:601" name="nav-item-Promotions" x="0" y="190" width="228" height="34">
+            <frame id="72:1192" name="percent-square" x="12" y="8" width="18" height="18" />
+            <text id="72:603" name="Promotions" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:604" name="nav-item-Customers" x="0" y="228" width="228" height="34">
+            <frame id="72:1066" name="users-2" x="12" y="8" width="18" height="18" />
+            <text id="72:606" name="Customers" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:607" name="nav-item-Access" x="0" y="266" width="228" height="34">
+            <frame id="72:1081" name="key-square" x="12" y="8" width="18" height="18" />
+            <text id="72:609" name="Access" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="72:610" name="nav-item-Settings" x="0" y="304" width="228" height="34">
+            <frame id="72:1105" name="settings" x="12" y="8" width="18" height="18" />
+            <text id="72:612" name="Settings" x="42" y="8.5" width="174" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:613" name="sidebar-bottom" x="16" y="834" width="228" height="102">
+        <frame id="72:614" name="help-item" x="0" y="0" width="228" height="34">
+          <frame id="72:1147" name="circle-question-mark" x="12" y="8" width="18" height="18" />
+          <text id="72:616" name="Help &amp; Support" x="42" y="8.5" width="174" height="17" />
+        </frame>
+        <line id="72:617" name="Line" x="0" y="42" width="228" height="0" />
+        <frame id="72:618" name="admin-profile" x="0" y="50" width="228" height="52">
+          <rounded-rectangle id="72:619" name="Rectangle" x="8" y="8" width="36" height="36" />
+          <frame id="72:620" name="Frame" x="56" y="10.5" width="136" height="31">
+            <text id="72:621" name="Adaeze Okafor" x="0" y="0" width="136" height="16" />
+            <text id="72:622" name="Super Admin" x="0" y="18" width="136" height="13" />
+          </frame>
+          <frame id="72:1042" name="log-out" x="204" y="18" width="16" height="16" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="72:624" name="Frame" x="260" y="0" width="1180" height="901">
+      <frame id="72:625" name="page-header" x="32" y="32" width="1116" height="70">
+        <frame id="72:626" name="Frame" x="0" y="0" width="479" height="50">
+          <text id="72:627" name="Orders &amp; Delivery" x="0" y="0" width="206" height="29" />
+          <text id="72:628" name="Fulfill customer orders, print shipping labels, and track delivery partners." x="0" y="33" width="479" height="17" />
+        </frame>
+        <frame id="72:629" name="Frame" x="735" y="1" width="381" height="48">
+          <frame id="72:630" name="Frame" x="0" y="0" width="220" height="48">
+            <frame id="72:1045" name="search" x="12" y="16" width="16" height="16" />
+            <text id="72:632" name="Search Order # or customer..." x="36" y="8" width="172" height="32" />
+          </frame>
+          <frame id="72:633" name="Frame" x="228" y="0" width="153" height="32">
+            <frame id="72:1048" name="calendar" x="14" y="8" width="16" height="16" />
+            <text id="72:635" name="Sept 1 - Sept 30" x="38" y="8" width="101" height="16" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:636" name="Frame" x="32" y="122" width="1116" height="29">
+        <frame id="72:637" name="Frame" x="0" y="0" width="97" height="29">
+          <frame id="72:638" name="Frame" x="0" y="0" width="97" height="17">
+            <text id="72:639" name="All Orders" x="0" y="0" width="67" height="17" />
+            <text id="72:640" name="(48)" x="73" y="2" width="24" height="13" />
+          </frame>
+        </frame>
+        <frame id="72:641" name="Frame" x="121" y="0" width="79" height="29">
+          <frame id="72:642" name="Frame" x="0" y="0" width="79" height="17">
+            <text id="72:643" name="Pending" x="0" y="0" width="57" height="17" />
+            <text id="72:644" name="(8)" x="63" y="2" width="16" height="13" />
+          </frame>
+        </frame>
+        <frame id="72:645" name="Frame" x="224" y="0" width="102" height="29">
+          <frame id="72:646" name="Frame" x="0" y="0" width="102" height="17">
+            <text id="72:647" name="Processing" x="0" y="0" width="75" height="17" />
+            <text id="72:648" name="(12)" x="81" y="2" width="21" height="13" />
+          </frame>
+        </frame>
+        <frame id="72:649" name="Frame" x="350" y="0" width="84" height="29">
+          <frame id="72:650" name="Frame" x="0" y="0" width="84" height="17">
+            <text id="72:651" name="Shipped" x="0" y="0" width="56" height="17" />
+            <text id="72:652" name="(14)" x="62" y="2" width="22" height="13" />
+          </frame>
+        </frame>
+        <frame id="72:653" name="Frame" x="458" y="0" width="91" height="29">
+          <frame id="72:654" name="Frame" x="0" y="0" width="91" height="17">
+            <text id="72:655" name="Delivered" x="0" y="0" width="64" height="17" />
+            <text id="72:656" name="(12)" x="70" y="2" width="21" height="13" />
+          </frame>
+        </frame>
+        <frame id="72:657" name="Frame" x="573" y="0" width="89" height="29">
+          <frame id="72:658" name="Frame" x="0" y="0" width="89" height="17">
+            <text id="72:659" name="Cancelled" x="0" y="0" width="67" height="17" />
+            <text id="72:660" name="(2)" x="73" y="2" width="16" height="13" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:661" name="Frame" x="32" y="171" width="1116" height="431">
+        <frame id="72:662" name="Frame" x="0" y="0" width="1116" height="47">
+          <text id="72:663" name="Order #" x="16" y="16" width="90" height="15" />
+          <text id="72:664" name="Customer" x="106" y="16" width="284" height="15" />
+          <text id="72:665" name="Items" x="390" y="16" width="180" height="15" />
+          <text id="72:666" name="Total" x="570" y="16" width="80" height="15" />
+          <text id="72:667" name="Payment" x="650" y="16" width="120" height="15" />
+          <text id="72:668" name="Fulfillment" x="770" y="16" width="120" height="15" />
+          <text id="72:669" name="Date" x="890" y="16" width="130" height="15" />
+          <text id="72:670" name="Action" x="1020" y="16" width="80" height="15" />
+        </frame>
+        <frame id="72:671" name="Frame" x="0" y="47" width="1116" height="64">
+          <text id="72:672" name="#AFW-8192" x="16" y="23.5" width="90" height="17" />
+          <text id="72:673" name="Chidi Egwu" x="106" y="23.5" width="284" height="17" />
+          <text id="72:674" name="Palm Oil (1L) × 2, Egusi × 1" x="390" y="24" width="180" height="16" />
+          <text id="72:675" name="$63.00" x="570" y="23.5" width="80" height="17" />
+          <frame id="72:676" name="Frame" x="650" y="24" width="120" height="16">
+            <text id="72:677" name="Paid" x="46.5" y="0" width="27" height="16" />
+          </frame>
+          <frame id="72:678" name="Frame" x="770" y="20.5" width="120" height="23">
+            <frame id="72:679" name="Frame" x="17.5" y="0" width="85" height="23">
+              <text id="72:680" name="Processing" x="10" y="4" width="65" height="15" />
+            </frame>
+          </frame>
+          <text id="72:681" name="Today, 10:14 AM" x="890" y="24" width="130" height="16" />
+          <frame id="72:682" name="Frame" x="1020" y="16" width="80" height="32">
+            <frame id="72:683" name="Frame" x="1" y="0" width="79" height="32">
+              <text id="72:684" name="Manage" x="14" y="8" width="51" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:685" name="Frame" x="0" y="111" width="1116" height="64">
+          <text id="72:686" name="#AFW-8191" x="16" y="23.5" width="90" height="17" />
+          <text id="72:687" name="Yinka Davies" x="106" y="23.5" width="284" height="17" />
+          <text id="72:688" name="Jollof Rice Spice Mix × 5" x="390" y="24" width="180" height="16" />
+          <text id="72:689" name="$64.00" x="570" y="23.5" width="80" height="17" />
+          <frame id="72:690" name="Frame" x="650" y="24" width="120" height="16">
+            <text id="72:691" name="Paid" x="46.5" y="0" width="27" height="16" />
+          </frame>
+          <frame id="72:692" name="Frame" x="770" y="20.5" width="120" height="23">
+            <frame id="72:693" name="Frame" x="26" y="0" width="68" height="23">
+              <text id="72:694" name="Pending" x="10" y="4" width="48" height="15" />
+            </frame>
+          </frame>
+          <text id="72:695" name="Today, 9:30 AM" x="890" y="24" width="130" height="16" />
+          <frame id="72:696" name="Frame" x="1020" y="16" width="80" height="32">
+            <frame id="72:697" name="Frame" x="1" y="0" width="79" height="32">
+              <text id="72:698" name="Manage" x="14" y="8" width="51" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:699" name="Frame" x="0" y="175" width="1116" height="64">
+          <text id="72:700" name="#AFW-8189" x="16" y="23.5" width="90" height="17" />
+          <text id="72:701" name="Chioma Nze" x="106" y="23.5" width="284" height="17" />
+          <text id="72:702" name="Dried Crayfish × 1" x="390" y="24" width="180" height="16" />
+          <text id="72:703" name="$45.00" x="570" y="23.5" width="80" height="17" />
+          <frame id="72:704" name="Frame" x="650" y="24" width="120" height="16">
+            <text id="72:705" name="Paid" x="46.5" y="0" width="27" height="16" />
+          </frame>
+          <frame id="72:706" name="Frame" x="770" y="20.5" width="120" height="23">
+            <frame id="72:707" name="Frame" x="26" y="0" width="68" height="23">
+              <text id="72:708" name="Shipped" x="10" y="4" width="48" height="15" />
+            </frame>
+          </frame>
+          <text id="72:709" name="Yesterday" x="890" y="24" width="130" height="16" />
+          <frame id="72:710" name="Frame" x="1020" y="16" width="80" height="32">
+            <frame id="72:711" name="Frame" x="1" y="0" width="79" height="32">
+              <text id="72:712" name="Manage" x="14" y="8" width="51" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:713" name="Frame" x="0" y="239" width="1116" height="64">
+          <text id="72:714" name="#AFW-8188" x="16" y="23.5" width="90" height="17" />
+          <text id="72:715" name="Babajide Williams" x="106" y="23.5" width="284" height="17" />
+          <text id="72:716" name="Cassava Flour 2kg × 3" x="390" y="24" width="180" height="16" />
+          <text id="72:717" name="$43.50" x="570" y="23.5" width="80" height="17" />
+          <frame id="72:718" name="Frame" x="650" y="24" width="120" height="16">
+            <text id="72:719" name="Paid" x="46.5" y="0" width="27" height="16" />
+          </frame>
+          <frame id="72:720" name="Frame" x="770" y="20.5" width="120" height="23">
+            <frame id="72:721" name="Frame" x="22" y="0" width="76" height="23">
+              <text id="72:722" name="Delivered" x="10" y="4" width="56" height="15" />
+            </frame>
+          </frame>
+          <text id="72:723" name="Yesterday" x="890" y="24" width="130" height="16" />
+          <frame id="72:724" name="Frame" x="1020" y="16" width="80" height="32">
+            <frame id="72:725" name="Frame" x="1" y="0" width="79" height="32">
+              <text id="72:726" name="Manage" x="14" y="8" width="51" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:727" name="Frame" x="0" y="303" width="1116" height="64">
+          <text id="72:728" name="#AFW-8185" x="16" y="23.5" width="90" height="17" />
+          <text id="72:729" name="Oluwaseun Alabi" x="106" y="23.5" width="284" height="17" />
+          <text id="72:730" name="Plantain Chips Box × 1" x="390" y="24" width="180" height="16" />
+          <text id="72:731" name="$30.00" x="570" y="23.5" width="80" height="17" />
+          <frame id="72:732" name="Frame" x="650" y="24" width="120" height="16">
+            <text id="72:733" name="Failed" x="41.5" y="0" width="37" height="16" />
+          </frame>
+          <frame id="72:734" name="Frame" x="770" y="20.5" width="120" height="23">
+            <frame id="72:735" name="Frame" x="20.5" y="0" width="79" height="23">
+              <text id="72:736" name="Cancelled" x="10" y="4" width="59" height="15" />
+            </frame>
+          </frame>
+          <text id="72:737" name="2 days ago" x="890" y="24" width="130" height="16" />
+          <frame id="72:738" name="Frame" x="1020" y="16" width="80" height="32">
+            <frame id="72:739" name="Frame" x="1" y="0" width="79" height="32">
+              <text id="72:740" name="Manage" x="14" y="8" width="51" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:741" name="Frame" x="0" y="367" width="1116" height="64">
+          <text id="72:742" name="#AFW-8182" x="16" y="23.5" width="90" height="17" />
+          <text id="72:743" name="Ibrahim Bello" x="106" y="23.5" width="284" height="17" />
+          <text id="72:744" name="Ogbono Seeds × 2" x="390" y="24" width="180" height="16" />
+          <text id="72:745" name="$48.00" x="570" y="23.5" width="80" height="17" />
+          <frame id="72:746" name="Frame" x="650" y="24" width="120" height="16">
+            <text id="72:747" name="Paid" x="46.5" y="0" width="27" height="16" />
+          </frame>
+          <frame id="72:748" name="Frame" x="770" y="20.5" width="120" height="23">
+            <frame id="72:749" name="Frame" x="22" y="0" width="76" height="23">
+              <text id="72:750" name="Delivered" x="10" y="4" width="56" height="15" />
+            </frame>
+          </frame>
+          <text id="72:751" name="3 days ago" x="890" y="24" width="130" height="16" />
+          <frame id="72:752" name="Frame" x="1020" y="16" width="80" height="32">
+            <frame id="72:753" name="Frame" x="1" y="0" width="79" height="32">
+              <text id="72:754" name="Manage" x="14" y="8" width="51" height="16" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:755" name="Frame" x="32" y="622" width="1116" height="247">
+        <text id="72:756" name="Active Delivery Shipments" x="20" y="20" width="207" height="19" />
+        <frame id="72:757" name="Frame" x="20" y="55" width="1076" height="172">
+          <frame id="72:758" name="Frame" x="0" y="0" width="1076" height="31">
+            <text id="72:759" name="Carrier" x="0" y="8" width="120" height="15" />
+            <text id="72:760" name="Tracking Number" x="120" y="8" width="180" height="15" />
+            <text id="72:761" name="Destination" x="300" y="8" width="506" height="15" />
+            <text id="72:762" name="Est. Delivery" x="806" y="8" width="150" height="15" />
+            <text id="72:763" name="Status" x="956" y="8" width="120" height="15" />
+          </frame>
+          <frame id="72:764" name="Frame" x="0" y="31" width="1076" height="47">
+            <text id="72:765" name="Canada Post" x="0" y="15.5" width="120" height="16" />
+            <text id="72:766" name="CA-992-041-AF" x="120" y="15.5" width="180" height="16" />
+            <text id="72:767" name="Toronto, ON (M5V 2L7)" x="300" y="15.5" width="506" height="16" />
+            <text id="72:768" name="Today, by 4:00 PM" x="806" y="15.5" width="150" height="16" />
+            <frame id="72:769" name="Frame" x="956" y="12" width="120" height="23">
+              <frame id="72:770" name="Frame" x="4" y="0" width="112" height="23">
+                <text id="72:771" name="Out for Delivery" x="10" y="4" width="92" height="15" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="72:772" name="Frame" x="0" y="78" width="1076" height="47">
+            <text id="72:773" name="FedEx Ground" x="0" y="15.5" width="120" height="16" />
+            <text id="72:774" name="FE-829-105-AF" x="120" y="15.5" width="180" height="16" />
+            <text id="72:775" name="Vancouver, BC (V6B 3H6)" x="300" y="15.5" width="506" height="16" />
+            <text id="72:776" name="Tomorrow, 2:00 PM" x="806" y="15.5" width="150" height="16" />
+            <frame id="72:777" name="Frame" x="956" y="12" width="120" height="23">
+              <frame id="72:778" name="Frame" x="23" y="0" width="74" height="23">
+                <text id="72:779" name="In Transit" x="10" y="4" width="54" height="15" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="72:780" name="Frame" x="0" y="125" width="1076" height="47">
+            <text id="72:781" name="DHL Express" x="0" y="15.5" width="120" height="16" />
+            <text id="72:782" name="DH-103-884-AF" x="120" y="15.5" width="180" height="16" />
+            <text id="72:783" name="Montreal, QC (H3B 1A2)" x="300" y="15.5" width="506" height="16" />
+            <text id="72:784" name="Sept 18, 2025" x="806" y="15.5" width="150" height="16" />
+            <frame id="72:785" name="Frame" x="956" y="12" width="120" height="23">
+              <frame id="72:786" name="Frame" x="16" y="0" width="88" height="23">
+                <text id="72:787" name="Origin Scan" x="10" y="4" width="68" height="15" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>

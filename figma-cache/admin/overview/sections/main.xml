@@ -1,0 +1,213 @@
+<frame id="72:54" name="Frame" x="260" y="0" width="1180" height="866">
+      <frame id="72:55" name="page-header" x="32" y="32" width="1116" height="70">
+        <frame id="72:56" name="Frame" x="0" y="0" width="311" height="50">
+          <text id="72:57" name="Good morning, Adaeze" x="0" y="0" width="268" height="29" />
+          <text id="72:58" name="Here&#39;s what&#39;s happening with your store today." x="0" y="33" width="311" height="17" />
+        </frame>
+        <frame id="72:59" name="Frame" x="770" y="9" width="346" height="32">
+          <frame id="72:60" name="Frame" x="0" y="0" width="146" height="32">
+            <frame id="72:970" name="external-link" x="14" y="8" width="16" height="16" />
+            <text id="72:62" name="Live Storefront" x="38" y="8" width="94" height="16" />
+          </frame>
+          <frame id="72:63" name="Frame" x="154" y="0" width="192" height="32">
+            <frame id="72:1213" name="file-chart-column" x="14" y="8" width="16" height="16" />
+            <text id="72:65" name="Export Daily Summary" x="38" y="8" width="140" height="16" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="72:66" name="Frame" x="32" y="126" width="1116" height="116">
+        <frame id="72:67" name="metric-card" x="0" y="0" width="267" height="116">
+          <text id="72:68" name="Today&#39;s Sales" x="18" y="18" width="93" height="15" />
+          <text id="72:69" name="$12,480" x="18" y="41" width="115" height="34" />
+          <text id="72:70" name="+14% from yesterday" x="18" y="83" width="120" height="15" />
+        </frame>
+        <frame id="72:71" name="metric-card" x="283" y="0" width="267" height="116">
+          <text id="72:72" name="Today&#39;s Orders" x="18" y="18" width="104" height="15" />
+          <text id="72:73" name="47" x="18" y="41" width="36" height="34" />
+          <text id="72:74" name="8 pending fulfillment" x="18" y="83" width="116" height="15" />
+        </frame>
+        <frame id="72:75" name="metric-card" x="566" y="0" width="267" height="116">
+          <text id="72:76" name="Active Products" x="18" y="18" width="115" height="15" />
+          <text id="72:77" name="284" x="18" y="41" width="56" height="34" />
+          <text id="72:78" name="Sourced from 14 farms" x="18" y="83" width="129" height="15" />
+        </frame>
+        <frame id="72:79" name="metric-card" x="849" y="0" width="267" height="116">
+          <text id="72:80" name="Low Stock Alerts" x="18" y="18" width="122" height="15" />
+          <text id="72:81" name="12 items" x="18" y="41" width="115" height="34" />
+          <text id="72:82" name="Action required" x="18" y="83" width="87" height="15" />
+        </frame>
+      </frame>
+      <frame id="72:83" name="Frame" x="32" y="266" width="1116" height="568">
+        <frame id="72:84" name="Frame" x="0" y="0" width="676" height="568">
+          <frame id="72:85" name="Frame" x="0" y="0" width="676" height="274">
+            <frame id="72:86" name="Frame" x="20" y="20" width="636" height="19">
+              <text id="72:87" name="Orders needing attention" x="0" y="0" width="197" height="19" />
+              <text id="72:88" name="View all orders" x="543" y="1.5" width="93" height="16" />
+            </frame>
+            <frame id="72:89" name="Frame" x="20" y="55" width="636" height="199">
+              <frame id="72:90" name="Frame" x="0" y="0" width="636" height="31">
+                <text id="72:91" name="Order #" x="0" y="8" width="80" height="15" />
+                <text id="72:92" name="Customer" x="80" y="8" width="246" height="15" />
+                <text id="72:93" name="Amount" x="326" y="8" width="100" height="15" />
+                <text id="72:94" name="Status" x="426" y="8" width="110" height="15" />
+                <text id="72:95" name="Action" x="536" y="8" width="100" height="15" />
+              </frame>
+              <frame id="72:96" name="Frame" x="0" y="31" width="636" height="56">
+                <text id="72:97" name="#AFW-4921" x="0" y="20" width="80" height="16" />
+                <text id="72:98" name="Chinedu Alabi" x="80" y="20" width="246" height="16" />
+                <text id="72:99" name="$142.50" x="326" y="20" width="100" height="16" />
+                <frame id="72:100" name="Frame" x="426" y="16.5" width="110" height="23">
+                  <frame id="72:101" name="Frame" x="-6" y="0" width="122" height="23">
+                    <text id="72:102" name="Pending Payment" x="10" y="4" width="102" height="15" />
+                  </frame>
+                </frame>
+                <frame id="72:103" name="Frame" x="536" y="12" width="100" height="32">
+                  <frame id="72:104" name="Frame" x="21" y="0" width="79" height="32">
+                    <text id="72:105" name="Manage" x="14" y="8" width="51" height="16" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="72:106" name="Frame" x="0" y="87" width="636" height="56">
+                <text id="72:107" name="#AFW-4920" x="0" y="20" width="80" height="16" />
+                <text id="72:108" name="Folake Balogun" x="80" y="20" width="246" height="16" />
+                <text id="72:109" name="$89.10" x="326" y="20" width="100" height="16" />
+                <frame id="72:110" name="Frame" x="426" y="16.5" width="110" height="23">
+                  <frame id="72:111" name="Frame" x="-5.5" y="0" width="121" height="23">
+                    <text id="72:112" name="Needs Packaging" x="10" y="4" width="101" height="15" />
+                  </frame>
+                </frame>
+                <frame id="72:113" name="Frame" x="536" y="12" width="100" height="32">
+                  <frame id="72:114" name="Frame" x="21" y="0" width="79" height="32">
+                    <text id="72:115" name="Manage" x="14" y="8" width="51" height="16" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="72:116" name="Frame" x="0" y="143" width="636" height="56">
+                <text id="72:117" name="#AFW-4918" x="0" y="20" width="80" height="16" />
+                <text id="72:118" name="Amara Diallo" x="80" y="20" width="246" height="16" />
+                <text id="72:119" name="$210.00" x="326" y="20" width="100" height="16" />
+                <frame id="72:120" name="Frame" x="426" y="16.5" width="110" height="23">
+                  <frame id="72:121" name="Frame" x="-8" y="0" width="126" height="23">
+                    <text id="72:122" name="Delayed Shipment" x="10" y="4" width="106" height="15" />
+                  </frame>
+                </frame>
+                <frame id="72:123" name="Frame" x="536" y="12" width="100" height="32">
+                  <frame id="72:124" name="Frame" x="21" y="0" width="79" height="32">
+                    <text id="72:125" name="Manage" x="14" y="8" width="51" height="16" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+          <frame id="72:126" name="Frame" x="0" y="294" width="676" height="274">
+            <frame id="72:127" name="Frame" x="20" y="20" width="636" height="19">
+              <text id="72:128" name="Low stock alerts" x="0" y="0" width="129" height="19" />
+              <text id="72:129" name="Manage inventory" x="522" y="1.5" width="114" height="16" />
+            </frame>
+            <frame id="72:130" name="Frame" x="20" y="55" width="636" height="199">
+              <frame id="72:131" name="Frame" x="0" y="0" width="636" height="31">
+                <text id="72:132" name="Product" x="0" y="8" width="306" height="15" />
+                <text id="72:133" name="Current Stock" x="306" y="8" width="100" height="15" />
+                <text id="72:134" name="Status" x="406" y="8" width="110" height="15" />
+                <text id="72:135" name="Action" x="516" y="8" width="120" height="15" />
+              </frame>
+              <frame id="72:136" name="Frame" x="0" y="31" width="636" height="56">
+                <text id="72:137" name="Organic Palm Oil (1L)" x="0" y="20" width="306" height="16" />
+                <text id="72:138" name="4 left" x="306" y="20" width="100" height="16" />
+                <frame id="72:139" name="Frame" x="406" y="16.5" width="110" height="23">
+                  <frame id="72:140" name="Frame" x="14.5" y="0" width="81" height="23">
+                    <text id="72:141" name="Low Stock" x="10" y="4" width="61" height="15" />
+                  </frame>
+                </frame>
+                <frame id="72:142" name="Frame" x="516" y="12" width="120" height="32">
+                  <frame id="72:143" name="Frame" x="6" y="0" width="114" height="32">
+                    <text id="72:144" name="Update Stock" x="14" y="8" width="86" height="16" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="72:145" name="Frame" x="0" y="87" width="636" height="56">
+                <text id="72:146" name="Suya Spice Blend (100g)" x="0" y="20" width="306" height="16" />
+                <text id="72:147" name="0 left" x="306" y="20" width="100" height="16" />
+                <frame id="72:148" name="Frame" x="406" y="16.5" width="110" height="23">
+                  <frame id="72:149" name="Frame" x="8.5" y="0" width="93" height="23">
+                    <text id="72:150" name="Out of Stock" x="10" y="4" width="73" height="15" />
+                  </frame>
+                </frame>
+                <frame id="72:151" name="Frame" x="516" y="12" width="120" height="32">
+                  <frame id="72:152" name="Frame" x="6" y="0" width="114" height="32">
+                    <text id="72:153" name="Update Stock" x="14" y="8" width="86" height="16" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="72:154" name="Frame" x="0" y="143" width="636" height="56">
+                <text id="72:155" name="Dried Ogbono Seeds" x="0" y="20" width="306" height="16" />
+                <text id="72:156" name="2 left" x="306" y="20" width="100" height="16" />
+                <frame id="72:157" name="Frame" x="406" y="16.5" width="110" height="23">
+                  <frame id="72:158" name="Frame" x="14.5" y="0" width="81" height="23">
+                    <text id="72:159" name="Low Stock" x="10" y="4" width="61" height="15" />
+                  </frame>
+                </frame>
+                <frame id="72:160" name="Frame" x="516" y="12" width="120" height="32">
+                  <frame id="72:161" name="Frame" x="6" y="0" width="114" height="32">
+                    <text id="72:162" name="Update Stock" x="14" y="8" width="86" height="16" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="72:163" name="Frame" x="696" y="0" width="420" height="568">
+          <text id="72:164" name="Recent sales" x="20" y="20" width="100" height="19" />
+          <frame id="72:165" name="Frame" x="20" y="55" width="380" height="392">
+            <frame id="72:166" name="Frame" x="0" y="0" width="380" height="52">
+              <frame id="72:167" name="Frame" x="0" y="0" width="329" height="52">
+                <text id="72:168" name="Tunde Oyelowo" x="0" y="0" width="329" height="16" />
+                <text id="72:169" name="Jollof Rice Spice Mix × 3" x="0" y="20" width="329" height="15" />
+                <text id="72:170" name="10 mins ago" x="0" y="39" width="329" height="13" />
+              </frame>
+              <text id="72:171" name="$38.40" x="329" y="17.5" width="51" height="17" />
+            </frame>
+            <frame id="72:172" name="Frame" x="0" y="68" width="380" height="52">
+              <frame id="72:173" name="Frame" x="0" y="0" width="329" height="52">
+                <text id="72:174" name="Ngozi Obi" x="0" y="0" width="329" height="16" />
+                <text id="72:175" name="Organic Palm Oil × 2, Cassava Flour × 1" x="0" y="20" width="329" height="15" />
+                <text id="72:176" name="25 mins ago" x="0" y="39" width="329" height="13" />
+              </frame>
+              <text id="72:177" name="$64.50" x="329" y="17.5" width="51" height="17" />
+            </frame>
+            <frame id="72:178" name="Frame" x="0" y="136" width="380" height="52">
+              <frame id="72:179" name="Frame" x="0" y="0" width="329" height="52">
+                <text id="72:180" name="Efe Johnson" x="0" y="0" width="329" height="16" />
+                <text id="72:181" name="Dried Crayfish (Large Bag)" x="0" y="20" width="329" height="15" />
+                <text id="72:182" name="1 hour ago" x="0" y="39" width="329" height="13" />
+              </frame>
+              <text id="72:183" name="$45.00" x="329" y="17.5" width="51" height="17" />
+            </frame>
+            <frame id="72:184" name="Frame" x="0" y="204" width="380" height="52">
+              <frame id="72:185" name="Frame" x="0" y="0" width="329" height="52">
+                <text id="72:186" name="Kofi Mensah" x="0" y="0" width="329" height="16" />
+                <text id="72:187" name="Plantain Chips (Sweet) × 10" x="0" y="20" width="329" height="15" />
+                <text id="72:188" name="2 hours ago" x="0" y="39" width="329" height="13" />
+              </frame>
+              <text id="72:189" name="$30.00" x="329" y="17.5" width="51" height="17" />
+            </frame>
+            <frame id="72:190" name="Frame" x="0" y="272" width="380" height="52">
+              <frame id="72:191" name="Frame" x="0" y="0" width="329" height="52">
+                <text id="72:192" name="Yejide Adebayo" x="0" y="0" width="329" height="16" />
+                <text id="72:193" name="Egusi Seeds (500g) × 2" x="0" y="20" width="329" height="15" />
+                <text id="72:194" name="4 hours ago" x="0" y="39" width="329" height="13" />
+              </frame>
+              <text id="72:195" name="$52.00" x="329" y="17.5" width="51" height="17" />
+            </frame>
+            <frame id="72:196" name="Frame" x="0" y="340" width="380" height="52">
+              <frame id="72:197" name="Frame" x="0" y="0" width="329" height="52">
+                <text id="72:198" name="Zainab Musa" x="0" y="0" width="329" height="16" />
+                <text id="72:199" name="Suya Spice Blend × 4" x="0" y="20" width="329" height="15" />
+                <text id="72:200" name="5 hours ago" x="0" y="39" width="329" height="13" />
+              </frame>
+              <text id="72:201" name="$32.00" x="329" y="17.5" width="51" height="17" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>

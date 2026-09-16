@@ -27,6 +27,7 @@ export function OrderDeliveryCard({ order }: OrderDeliveryCardProps) {
     "Ship (Courier)";
   const shippingSubLabel = getShippingSubLabel(order.shippingMethodId);
   const estimatedArrival = formatEstimatedArrival(order.createdAt);
+  const isPickup = order.shippingMethodId === "pickup";
 
   return (
     <div className="rounded-2xl border border-border bg-card p-8 shadow-sm">
@@ -40,18 +41,30 @@ export function OrderDeliveryCard({ order }: OrderDeliveryCardProps) {
       <div className="mt-8 grid gap-8 sm:grid-cols-2">
         <div>
           <p className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
-            Shipping Address
+            {isPickup ? "Contact" : "Shipping Address"}
           </p>
           <p className="mt-3 text-base font-semibold text-foreground">
             {order.address.firstName} {order.address.lastName}
           </p>
-          <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-            {order.address.streetAddress}
-            <br />
-            {order.address.city}, {order.address.province} {order.address.postalCode}
-            <br />
-            {order.address.country}
-          </p>
+          {isPickup ? (
+            <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+              {order.address.email}
+              {order.address.phone ? (
+                <>
+                  <br />
+                  {order.address.phone}
+                </>
+              ) : null}
+            </p>
+          ) : (
+            <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+              {order.address.streetAddress}
+              <br />
+              {order.address.city}, {order.address.province} {order.address.postalCode}
+              <br />
+              {order.address.country}
+            </p>
+          )}
         </div>
         <div>
           <p className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground">
@@ -77,6 +90,7 @@ export type OrderPaymentCardProps = {
 };
 
 export function OrderPaymentCard({ order }: OrderPaymentCardProps) {
+  const isPending = order.paymentStatus === "pending" || !order.cardLast4;
   const cardLast4 = order.cardLast4 ?? "····";
 
   return (
@@ -92,14 +106,18 @@ export function OrderPaymentCard({ order }: OrderPaymentCardProps) {
         <div
           className="flex h-11 min-w-[52px] items-center justify-center rounded-md border border-border bg-muted/30 px-2 text-xs font-bold tracking-wider text-foreground"
         >
-          VISA
+          {isPending ? "PAY" : "VISA"}
         </div>
         <div>
           <p className="text-sm font-semibold uppercase tracking-wide text-foreground">
-            Visa ending in {cardLast4}
+            {isPending
+              ? order.paymentMethod || "Payment pending"
+              : `Visa ending in ${cardLast4}`}
           </p>
           <p className="mt-1 text-sm text-muted-foreground">
-            Billing matches shipping address
+            {isPending
+              ? "We will confirm payment status once processing completes."
+              : "Billing matches shipping address"}
           </p>
         </div>
       </div>
@@ -108,6 +126,8 @@ export function OrderPaymentCard({ order }: OrderPaymentCardProps) {
 }
 
 export function OrderConfirmationHero({ order }: { order: PlacedOrder }) {
+  const displayNumber = order.orderNumber != null ? String(order.orderNumber) : order.id;
+
   return (
     <div className="text-center">
       <div
@@ -118,10 +138,12 @@ export function OrderConfirmationHero({ order }: { order: PlacedOrder }) {
       <h1 className="mt-6 text-4xl font-bold tracking-tight text-foreground">
         Order Confirmed!
       </h1>
-      <p className="mt-3 text-xl font-semibold text-brand-green">Order #{order.id}</p>
+      <p className="mt-3 text-xl font-semibold text-brand-green">
+        Order #{displayNumber}
+      </p>
       <p className="mx-auto mt-4 max-w-lg text-sm leading-relaxed text-muted-foreground">
-        Thank you for your order! We&apos;ve sent a confirmation email to{" "}
-        {order.address.email}. We&apos;ll let you know once your items are on their way.
+        Thank you for your order. This page is your confirmation — keep your order
+        number if you need to follow up.
       </p>
     </div>
   );

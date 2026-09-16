@@ -89,9 +89,8 @@ export function LoginForm() {
 
         <div className="pt-1">
           <Link
-            href="#"
+            href={authContent.login.forgotPasswordHref}
             className="text-sm font-medium text-brand-green hover:text-brand-green/90"
-            onClick={(event) => event.preventDefault()}
           >
             {authContent.login.forgotPassword}
           </Link>

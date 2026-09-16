@@ -1,12 +1,15 @@
 export const siteConfig = {
   name: "African Food Warehouse",
   shortName: "AFW",
-  announcement: "FREE SHIPPING ON ORDERS OVER $150",
+  announcements: [
+    "FREE SHIPPING ON ORDERS OVER $150",
+    "100% ORGANIC PRODUCTS SOURCED FROM AFRICAN FARMS",
+    "NEW ARRIVALS WEEKLY — SHOP FRESH STOCK",
+  ],
   description:
     "Bringing the authentic taste of Africa to your kitchen. We source 100% organic products directly from local farmers across the continent.",
   copyright: "© 2024 African Food Warehouse. All rights reserved.",
   currency: "CAD",
-  location: "Toronto, ON",
 } as const;
 
 export type NavLink = {
@@ -64,15 +67,15 @@ export const footerColumns: FooterColumn[] = [
   {
     title: "Support",
     links: [
-      { label: "Shipping Policy", href: "#" },
-      { label: "Returns", href: "#" },
-      { label: "FAQs", href: "#" },
+      { label: "Shipping Policy", href: "/shipping" },
+      { label: "Returns", href: "/returns" },
+      { label: "FAQs", href: "/faq" },
       { label: "Store Locator", href: "#" },
     ],
   },
 ];
 
 export const footerLegalLinks = [
-  { label: "Privacy Policy", href: "#" },
-  { label: "Terms of Service", href: "#" },
+  { label: "Privacy Policy", href: "/privacy" },
+  { label: "Terms of Service", href: "/terms" },
 ] as const;

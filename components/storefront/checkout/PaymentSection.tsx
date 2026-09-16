@@ -12,6 +12,8 @@ export type PaymentSectionProps = {
   fields: PaymentFields;
   errors: Partial<Record<keyof PaymentFields, string>>;
   onChange: (field: keyof PaymentFields, value: string) => void;
+  /** Live checkout without a Stripe client secret yet */
+  mode?: "card" | "deferred";
 };
 
 function FieldLabel({ children }: { children: React.ReactNode }) {
@@ -23,8 +25,33 @@ function FieldError({ message }: { message?: string }) {
   return <p className="mt-1 text-xs text-primary">{message}</p>;
 }
 
-export function PaymentSection({ fields, errors, onChange }: PaymentSectionProps) {
+export function PaymentSection({
+  fields,
+  errors,
+  onChange,
+  mode = "card",
+}: PaymentSectionProps) {
   const inputClass = "h-[54px] rounded-xl";
+
+  if (mode === "deferred") {
+    return (
+      <div className="space-y-6">
+        <div>
+          <h2 className="text-2xl font-bold text-foreground">Payment Details</h2>
+          <p className="mt-2 text-sm text-muted-foreground">
+            All transactions are secure and encrypted.
+          </p>
+        </div>
+        <div className="rounded-2xl border border-border bg-muted/30 p-6">
+          <p className="text-sm leading-relaxed text-foreground">
+            Review your order on the next step. If online card payment is available,
+            you&apos;ll complete it securely with Stripe after placing the order.
+            Otherwise your order is submitted and payment status will show as pending.
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6">

@@ -1,0 +1,12 @@
+{
+  "nodeId": "72:578",
+  "name": "orders-and-delivery",
+  "platform": "admin-desktop",
+  "width": 1440,
+  "height": 960,
+  "status": "partial",
+  "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+  "screenshot": "admin/orders-and-delivery/screenshot.png",
+  "slug": "orders-and-delivery",
+  "canvas": "admin"
+}

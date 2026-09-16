@@ -10,8 +10,10 @@ The storefront covers product discovery, catalog browsing, cart management, chec
 order confirmation, and a signed-in customer account area (orders, addresses, reorders,
 profile).
 
-Internal admin operations (catalog management, order fulfillment) live in separate
-systems (e.g. RokswoodHive marketplace admin) and are out of scope for this repo.
+Staff **admin** UI (overview dashboard, catalog ops, orders, financials) is also in
+scope for this repo, under `/admin/*`, matching the Figma Admin canvas (`71:2`). It
+wires to staging `/admin/*` APIs via server-side proxies — never expose staff tokens to
+the browser.
 
 ## Goals
 
@@ -43,6 +45,7 @@ systems (e.g. RokswoodHive marketplace admin) and are out of scope for this repo
 | Mobile storefront | Mobile homepage and shop catalog with bottom nav |
 | Auth | Login and signup (personal + business/wholesale) |
 | Account dashboard | Orders, order detail, addresses, reorder list, profile |
+| Admin (staff) | Sidebar shell, overview metrics, catalog/orders ops (Figma Admin canvas) |
 
 ## Planned Route Map
 
@@ -57,11 +60,14 @@ feature spec is being implemented.
 - `/cart` — Cart page
 - `/checkout` — Checkout page
 - `/order/[id]/confirmation` — Order confirmation
+- `/privacy`, `/terms`, `/shipping`, `/returns`, `/faq` — operational policy pages (legal review still required)
 
 ### Auth
 
 - `/login` — Login (tab on auth card)
 - `/signup` — Signup with personal / business toggle
+- `/forgot-password` — Password reset request (generic success, no account enumeration)
+- `/reset-password` — Password reset confirm (`?token=`)
 
 ### Account (authenticated)
 
@@ -71,6 +77,21 @@ feature spec is being implemented.
 - `/account/addresses` — Saved addresses
 - `/account/reorder` — Reorder list
 - `/account/profile` — Profile settings
+
+### Admin (staff)
+
+- `/admin` — Overview dashboard
+- `/admin/login` — Staff sign in (HTTP-only session cookies)
+- `/admin/products` — Products list
+- `/admin/inventory` — Inventory
+- `/admin/orders` — Orders & delivery
+- `/admin/financials` — Financials
+- `/admin/promotions` — Promotions
+- `/admin/customers` — Customers
+- `/admin/access` — Access / roles
+- `/admin/settings` — Settings
+- Additional detail routes (product form, delivery tracking, receipts) per
+  `figma-cache/manifest.json` → `adminBuildOrder` when those specs are built
 
 ## Figma Frame Map
 

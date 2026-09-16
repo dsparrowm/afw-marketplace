@@ -1,4 +1,4 @@
-import type { CartLine } from "@/lib/cart/cart-context";
+import type { CartLine } from "@/lib/cart/types";
 
 export const FREE_SHIPPING_THRESHOLD = 150;
 export const ESTIMATED_TAX_RATE = 0.043;

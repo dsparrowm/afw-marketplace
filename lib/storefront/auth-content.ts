@@ -16,6 +16,7 @@ export const authContent = {
     emailPlaceholder: "adaeze@okaforfoods.ca",
     passwordLabel: "Password",
     forgotPassword: "Forgot password?",
+    forgotPasswordHref: "/forgot-password",
     submit: "Login",
     bottomPrompt: "Don't have an account?",
     bottomLink: "Sign Up",

@@ -1,14 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import { Heart, Leaf, Star, Truck } from "lucide-react";
+import { Leaf, Star, Truck } from "lucide-react";
 import type { ProductDetail } from "@/types/product-detail";
 import { useCart } from "@/lib/cart/cart-context";
 import { parseBulkMinQuantity } from "@/lib/cart/parse-bulk";
 import { cn, formatCadParts } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
 import { AddToCartButton } from "@/components/storefront/product-detail/AddToCartButton";
 import { QuantitySelector } from "@/components/storefront/product-detail/QuantitySelector";
+import { WishlistButton } from "@/components/storefront/WishlistButton";
 
 export type ProductInfoProps = {
   product: ProductDetail;
@@ -33,7 +33,7 @@ export function ProductInfo({ product }: ProductInfoProps) {
   const stockIsLow = product.stockStatus === "low-stock";
 
   function handleAddToCart() {
-    addItem({
+    void addItem({
       productId: product.id,
       slug: product.slug,
       name: title,
@@ -44,6 +44,8 @@ export function ProductInfo({ product }: ProductInfoProps) {
       origin: product.origin,
       bulkPrice: selectedSize.bulkPrice,
       bulkMinQuantity: parseBulkMinQuantity(selectedSize.bulkLabel),
+      variantId:
+        selectedSize.id !== "default" ? selectedSize.id : undefined,
     });
   }
 
@@ -155,15 +157,15 @@ export function ProductInfo({ product }: ProductInfoProps) {
           className="w-full sm:w-[146px]"
         />
         <AddToCartButton onClick={handleAddToCart} className="w-full sm:flex-1" />
-        <Button
-          type="button"
-          variant="outline"
-          size="icon"
-          className="hidden h-16 w-16 shrink-0 rounded-xl sm:inline-flex"
-          aria-label="Add to wishlist"
-        >
-          <Heart className="h-6 w-6" aria-hidden />
-        </Button>
+        <WishlistButton
+          variantId={
+            selectedSize.id !== "default" ? selectedSize.id : undefined
+          }
+          slug={product.slug}
+          label={title}
+          className="inline-flex h-16 w-16 shrink-0 rounded-xl"
+          iconClassName="h-6 w-6"
+        />
       </div>
     </div>
   );

@@ -22,7 +22,7 @@
 - Add `"use client"` only for interactivity, forms, or client hooks
 - Keep route handlers in `app/api/` and service wrappers in `lib/api/`
 - Use React Query hooks in `lib/hooks/` instead of scattered `useEffect` fetches
-- Use route groups `(storefront)`, `(auth)`, `(account)` for layout boundaries
+- Use route groups `(storefront)`, `(auth)`, `(account)`, `(admin)` for layout boundaries
 
 ## Styling
 
@@ -37,7 +37,10 @@
 - Page routes or container wrappers own data loading
 - Shared storefront shell lives in `components/storefront/`
 - Account UI lives in `components/account/`
+- Admin UI lives in `components/admin/`
 - Extract reusable pieces only when the pattern appears on 2+ pages
+- Admin sidebar icons may use Lucide until matching Figma icon exports exist (unlike
+  storefront brand chrome, which must use Figma assets)
 
 ## Figma Implementation
 
@@ -57,11 +60,13 @@ app/
   (storefront)/           ← Public shopping routes
   (auth)/                 ← Login, signup
   (account)/              ← Customer dashboard
+  (admin)/                ← Staff admin
   api/                    ← Backend proxies
 
 components/
   storefront/             ← Header, footer, product cards, cart UI
   account/                ← Auth forms, dashboard shell, order tables
+  admin/                  ← Admin sidebar shell and screens
   ui/                     ← shadcn primitives (do not edit)
 
 lib/

@@ -162,7 +162,16 @@ export function SignupForm() {
               "mt-0.5 h-[18px] w-[18px] rounded border-border accent-brand-green",
             )}
           />
-          <span className="text-sm text-foreground/85">{authContent.signup.consent}</span>
+          <span className="text-sm text-foreground/85">
+            I agree to the{" "}
+            <Link href="/terms" className="font-medium text-brand-green hover:underline">
+              Terms
+            </Link>{" "}
+            &{" "}
+            <Link href="/privacy" className="font-medium text-brand-green hover:underline">
+              Privacy Policy
+            </Link>
+          </span>
         </label>
         {errors.consent ? <p className="text-xs text-destructive">{errors.consent}</p> : null}
 

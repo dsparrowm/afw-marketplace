@@ -8,12 +8,15 @@ import { CartSummary } from "@/components/storefront/cart/CartSummary";
 import { EmptyCart } from "@/components/storefront/cart/EmptyCart";
 import { MobileCartLineItem } from "@/components/storefront/mobile/MobileCartLineItem";
 import { Button } from "@/components/ui/button";
-import { computeOrderSummary } from "@/lib/cart/calculations";
+import {
+  computeOrderSummary,
+  ESTIMATED_TAX_RATE,
+} from "@/lib/cart/calculations";
 import { formatCadParts } from "@/lib/utils";
 
 /** Mobile cart page — compact layout with sticky checkout bar */
 export function MobileCartPageContent() {
-  const { items, itemCount, isHydrated } = useCart();
+  const { items, itemCount, isHydrated, isLive, discountTotal } = useCart();
 
   if (!isHydrated) {
     return (
@@ -24,7 +27,11 @@ export function MobileCartPageContent() {
   }
 
   const summary = computeOrderSummary(items, "courier");
-  const totalParts = formatCadParts(summary.total);
+  const liveDiscount = isLive ? discountTotal : summary.bulkDiscount;
+  const discountedSubtotal = Math.max(0, summary.subtotal - liveDiscount);
+  const tax = (discountedSubtotal + summary.shipping) * ESTIMATED_TAX_RATE;
+  const stickyTotal = discountedSubtotal + summary.shipping + tax;
+  const totalParts = formatCadParts(stickyTotal);
 
   return (
     <div className="lg:hidden">
@@ -70,8 +77,8 @@ export function MobileCartPageContent() {
             asChild
             className="h-12 w-full rounded-xl bg-brand-green text-base font-semibold text-brand-green-foreground"
           >
-            <Link href="/checkout">
-              Proceed to Checkout · {totalParts.amount}
+            <Link href={isLive ? "/checkout" : "/login?returnUrl=/checkout"}>
+              {isLive ? "Proceed to Checkout" : "Sign in to check out"} · {totalParts.amount}
               <ArrowRight className="h-5 w-5" aria-hidden />
             </Link>
           </Button>

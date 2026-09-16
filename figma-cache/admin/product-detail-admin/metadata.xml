@@ -1,0 +1,218 @@
+<frame id="79:7" name="product-detail-admin" x="-2650" y="-450" width="1440" height="1024">
+    <frame id="78:60" name="sidebar" x="0" y="0" width="260" height="960">
+      <frame id="78:61" name="sidebar-top" x="16" y="24" width="228" height="428">
+        <frame id="78:62" name="logo-area" x="0" y="0" width="228" height="62">
+          <rounded-rectangle id="78:122" name="image 2" x="8" y="0" width="105" height="62" />
+        </frame>
+        <frame id="78:67" name="nav-rack" x="0" y="90" width="228" height="338">
+          <frame id="78:68" name="nav-item-Overview" x="0" y="0" width="228" height="34">
+            <frame id="78:69" name="layout-grid" x="12" y="8" width="18" height="18" />
+            <text id="78:71" name="Overview" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:72" name="nav-item-Products" x="0" y="38" width="228" height="34">
+            <frame id="78:73" name="archive" x="12" y="8" width="18" height="18" />
+            <text id="78:75" name="Products" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:76" name="nav-item-Inventory" x="0" y="76" width="228" height="34">
+            <frame id="78:77" name="warehouse" x="12" y="8" width="18" height="18" />
+            <text id="78:79" name="Inventory" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:80" name="nav-item-Orders &amp; Delivery" x="0" y="114" width="228" height="34">
+            <frame id="78:81" name="truck-electric" x="12" y="8" width="18" height="18" />
+            <text id="78:83" name="Orders &amp; Delivery" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:84" name="nav-item-Financials" x="0" y="152" width="228" height="34">
+            <frame id="78:85" name="receipt-text" x="12" y="8" width="18" height="18" />
+            <text id="78:87" name="Financials" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:88" name="nav-item-Promotions" x="0" y="190" width="228" height="34">
+            <frame id="78:89" name="percent-square" x="12" y="8" width="18" height="18" />
+            <text id="78:91" name="Promotions" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:92" name="nav-item-Customers" x="0" y="228" width="228" height="34">
+            <frame id="78:93" name="users-2" x="12" y="8" width="18" height="18" />
+            <text id="78:95" name="Customers" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:96" name="nav-item-Access" x="0" y="266" width="228" height="34">
+            <frame id="78:97" name="key-square" x="12" y="8" width="18" height="18" />
+            <text id="78:99" name="Access" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:100" name="nav-item-Settings" x="0" y="304" width="228" height="34">
+            <frame id="78:101" name="settings" x="12" y="8" width="18" height="18" />
+            <text id="78:103" name="Settings" x="42" y="8.5" width="174" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="78:104" name="sidebar-bottom" x="16" y="834" width="228" height="102">
+        <frame id="78:105" name="help-item" x="0" y="0" width="228" height="34">
+          <frame id="78:106" name="circle-question-mark" x="12" y="8" width="18" height="18" />
+          <text id="78:108" name="Help &amp; Support" x="42" y="8.5" width="174" height="17" />
+        </frame>
+        <line id="78:109" name="Line" x="0" y="42" width="228" height="0" />
+        <frame id="78:110" name="admin-profile" x="0" y="50" width="228" height="52">
+          <rounded-rectangle id="78:111" name="Rectangle" x="8" y="8" width="36" height="36" />
+          <frame id="78:112" name="Frame" x="56" y="10.5" width="136" height="31">
+            <text id="78:113" name="Adaeze Okafor" x="0" y="0" width="136" height="16" />
+            <text id="78:114" name="Super Admin" x="0" y="18" width="136" height="13" />
+          </frame>
+          <frame id="78:115" name="log-out" x="204" y="18" width="16" height="16" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="79:39" name="Frame" x="260" y="0" width="1180" height="1024">
+      <frame id="79:40" name="Frame" x="0" y="0" width="1180" height="72">
+        <frame id="79:41" name="Frame" x="32" y="27.5" width="319" height="17">
+          <frame id="79:42" name="Frame" x="0" y="0" width="59" height="17">
+            <text id="79:43" name="Products" x="0" y="0" width="59" height="17" />
+          </frame>
+          <frame id="79:44" name="Frame" x="67" y="0" width="77" height="17">
+            <text id="79:45" name="/" x="0" y="0" width="7" height="17" />
+            <text id="79:46" name="All Grains" x="15" y="0" width="62" height="17" />
+          </frame>
+          <frame id="79:47" name="Frame" x="152" y="0" width="167" height="17">
+            <text id="79:48" name="/" x="0" y="0" width="7" height="17" />
+            <text id="79:49" name="Nigerian Jollof Rice Mix" x="15" y="0" width="152" height="17" />
+          </frame>
+        </frame>
+        <frame id="79:50" name="Frame" x="808" y="18" width="340" height="36">
+          <frame id="79:51" name="Frame" x="0" y="0" width="240" height="36">
+            <frame id="79:717" name="search" x="12" y="10" width="16" height="16" />
+            <text id="79:53" name="Search inventory, shipments..." x="36" y="10" width="177" height="16" />
+          </frame>
+          <frame id="79:54" name="Frame" x="256" y="0" width="36" height="36">
+            <frame id="79:729" name="bell" x="9" y="9" width="18" height="18" />
+          </frame>
+          <rounded-rectangle id="79:56" name="Rectangle" x="308" y="2" width="32" height="32" />
+        </frame>
+      </frame>
+      <frame id="79:57" name="Frame" x="0" y="72" width="1180" height="934">
+        <frame id="79:58" name="Frame" x="32" y="32" width="1116" height="55">
+          <frame id="79:59" name="Frame" x="0" y="0" width="296" height="55">
+            <frame id="79:60" name="Frame" x="0" y="0" width="296" height="34">
+              <text id="79:61" name="Product Details" x="0" y="0" width="207" height="34" />
+              <frame id="79:62" name="Frame" x="219" y="5.5" width="77" height="23">
+                <text id="79:63" name="Published" x="10" y="4" width="57" height="15" />
+              </frame>
+            </frame>
+            <text id="79:64" name="Last Updated: Sep 4, 2026 at 2:14 PM" x="0" y="38" width="235" height="17" />
+          </frame>
+          <frame id="79:65" name="Frame" x="977" y="9" width="139" height="37">
+            <frame id="79:693" name="pen-square" x="16" y="10.5" width="16" height="16" />
+            <text id="79:67" name="Edit Product" x="40" y="10" width="83" height="17" />
+          </frame>
+        </frame>
+        <frame id="79:68" name="Frame" x="32" y="111" width="1116" height="791">
+          <frame id="79:69" name="Frame" x="0" y="0" width="440" height="472">
+            <rounded-rectangle id="79:70" name="hero-product-image" x="0" y="0" width="440" height="360" />
+            <frame id="79:71" name="Frame" x="0" y="376" width="440" height="96">
+              <rounded-rectangle id="79:72" name="Rectangle" x="0" y="0" width="138" height="96" />
+              <rounded-rectangle id="79:73" name="Rectangle" x="150" y="0" width="138" height="96" />
+              <rounded-rectangle id="79:74" name="Rectangle" x="300" y="0" width="138" height="96" />
+            </frame>
+          </frame>
+          <frame id="79:75" name="Frame" x="464" y="0" width="652" height="791">
+            <frame id="79:76" name="Frame" x="0" y="0" width="652" height="249">
+              <frame id="79:77" name="Frame" x="24" y="24" width="604" height="54">
+                <frame id="79:78" name="Frame" x="0" y="0" width="604" height="29">
+                  <text id="79:79" name="Nigerian Jollof Rice Mix" x="0" y="0" width="267" height="29" />
+                  <frame id="79:80" name="Frame" x="506" y="3" width="98" height="23">
+                    <text id="79:81" name="100% Organic" x="10" y="4" width="78" height="15" />
+                  </frame>
+                </frame>
+                <text id="79:82" name="SKU: AFW-PRD-1048" x="0" y="37" width="133" height="17" />
+              </frame>
+              <line id="79:83" name="Line" x="24" y="94" width="604" height="0" />
+              <frame id="79:84" name="Frame" x="24" y="110" width="604" height="36">
+                <frame id="79:85" name="Frame" x="0" y="0" width="88" height="36">
+                  <text id="79:86" name="Category" x="0" y="0" width="52" height="15" />
+                  <text id="79:87" name="Rice &amp; Grains" x="0" y="19" width="88" height="17" />
+                </frame>
+                <frame id="79:88" name="Frame" x="128" y="0" width="48" height="36">
+                  <text id="79:89" name="Origin" x="0" y="0" width="35" height="15" />
+                  <text id="79:90" name="Nigeria" x="0" y="19" width="48" height="17" />
+                </frame>
+                <frame id="79:91" name="Frame" x="216" y="0" width="150" height="36">
+                  <text id="79:92" name="Warehouse Location" x="0" y="0" width="114" height="15" />
+                  <text id="79:93" name="Warehouse A — Aisle 3" x="0" y="19" width="150" height="17" />
+                </frame>
+              </frame>
+              <text id="79:94" name="Authentic single-origin Nigerian Jollof Rice seasoning blend, crafted carefully with sun-dried red bell peppers, local onions, garlic, thyme, and hand-milled long grain parboiled rice. Guarantees the rich smoky flavor of traditional party Jollof. Just add stock and stew base." x="24" y="162" width="604" height="63" />
+            </frame>
+            <frame id="79:95" name="Frame" x="0" y="273" width="652" height="309">
+              <text id="79:96" name="Pricing &amp; Wholesale Tiers" x="24" y="24" width="222" height="22" />
+              <frame id="79:97" name="Frame" x="24" y="62" width="604" height="45">
+                <frame id="79:98" name="Frame" x="0" y="0" width="131" height="45">
+                  <text id="79:99" name="Retail Price" x="0" y="0" width="62" height="15" />
+                  <text id="79:100" name="$12.99 / unit" x="0" y="19" width="131" height="26" />
+                </frame>
+                <frame id="79:101" name="Frame" x="171" y="0" width="189" height="45">
+                  <text id="79:102" name="Wholesale Base Price" x="0" y="0" width="119" height="15" />
+                  <text id="79:103" name="$9.49 (Min. 24 units)" x="0" y="19" width="189" height="26" />
+                </frame>
+              </frame>
+              <frame id="79:104" name="Frame" x="24" y="123" width="604" height="162">
+                <frame id="79:105" name="Frame" x="0" y="0" width="604" height="39">
+                  <text id="79:106" name="Tier Minimum Quantity" x="12" y="12" width="420" height="15" />
+                  <text id="79:107" name="Price Per Unit" x="432" y="12" width="160" height="15" />
+                </frame>
+                <frame id="79:108" name="Frame" x="0" y="39" width="604" height="41">
+                  <text id="79:109" name="24+ units (Base Wholesale)" x="12" y="12" width="420" height="16" />
+                  <text id="79:110" name="$9.49" x="432" y="12" width="160" height="17" />
+                </frame>
+                <frame id="79:111" name="Frame" x="0" y="80" width="604" height="41">
+                  <text id="79:112" name="48+ units" x="12" y="12" width="420" height="16" />
+                  <text id="79:113" name="$8.99" x="432" y="12" width="160" height="17" />
+                </frame>
+                <frame id="79:114" name="Frame" x="0" y="121" width="604" height="41">
+                  <text id="79:115" name="100+ units" x="12" y="12" width="420" height="16" />
+                  <text id="79:116" name="$7.99" x="432" y="12" width="160" height="17" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="79:117" name="Frame" x="0" y="606" width="652" height="120">
+              <frame id="79:118" name="Frame" x="0" y="0" width="318" height="120">
+                <text id="79:119" name="Inventory Status" x="20" y="20" width="131" height="19" />
+                <frame id="79:120" name="Frame" x="20" y="51" width="278" height="49">
+                  <frame id="79:121" name="Frame" x="0" y="0" width="97" height="49">
+                    <text id="79:122" name="342 units" x="0" y="0" width="97" height="32" />
+                    <text id="79:123" name="In Stock / Safe" x="0" y="34" width="79" height="15" />
+                  </frame>
+                  <frame id="79:124" name="Frame" x="212" y="13" width="66" height="23">
+                    <text id="79:125" name="In Stock" x="10" y="4" width="46" height="15" />
+                  </frame>
+                </frame>
+              </frame>
+              <frame id="79:126" name="Frame" x="334" y="0" width="318" height="104">
+                <text id="79:127" name="Shipping Logistics" x="20" y="20" width="143" height="19" />
+                <frame id="79:128" name="Frame" x="20" y="51" width="278" height="33">
+                  <frame id="79:129" name="Frame" x="0" y="0" width="51" height="33">
+                    <text id="79:130" name="Weight" x="0" y="0" width="38" height="13" />
+                    <text id="79:131" name="1.2 kg" x="0" y="15" width="51" height="18" />
+                  </frame>
+                  <frame id="79:132" name="Frame" x="91.5" y="0" width="84" height="33">
+                    <text id="79:133" name="Dimensions" x="0" y="0" width="60" height="13" />
+                    <text id="79:134" name="15×10×8 cm" x="0" y="15" width="84" height="18" />
+                  </frame>
+                  <frame id="79:135" name="Frame" x="216" y="0" width="62" height="32">
+                    <text id="79:136" name="Class" x="0" y="0" width="28" height="13" />
+                    <text id="79:137" name="Standard" x="0" y="15" width="62" height="17" />
+                  </frame>
+                </frame>
+              </frame>
+            </frame>
+            <frame id="79:138" name="Frame" x="0" y="750" width="652" height="41">
+              <frame id="79:139" name="Frame" x="0" y="0" width="121" height="41">
+                <text id="79:140" name="Edit details" x="24" y="12" width="73" height="17" />
+              </frame>
+              <frame id="79:141" name="Frame" x="133" y="0" width="130" height="41">
+                <text id="79:142" name="Update Stock" x="20" y="12" width="90" height="17" />
+              </frame>
+              <frame id="79:143" name="Frame" x="275" y="0" width="139" height="41">
+                <text id="79:144" name="Archive Product" x="16" y="12" width="107" height="17" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>

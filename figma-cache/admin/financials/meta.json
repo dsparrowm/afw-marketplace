@@ -1,0 +1,12 @@
+{
+  "nodeId": "72:789",
+  "name": "financials",
+  "platform": "admin-desktop",
+  "width": 1440,
+  "height": 960,
+  "status": "partial",
+  "notes": "Screenshot + frame/section metadata.xml cached 2026-09-10. Design-context pending.",
+  "screenshot": "admin/financials/screenshot.png",
+  "slug": "financials",
+  "canvas": "admin"
+}

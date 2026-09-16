@@ -1,12 +1,29 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ArrowRight } from "lucide-react";
+import { useAuth } from "@/lib/auth/auth-context";
 import { useCart } from "@/lib/cart/cart-context";
-import { computeOrderSummary, type ShippingMethodId } from "@/lib/cart/calculations";
+import {
+  computeOrderSummary,
+  ESTIMATED_TAX_RATE,
+  shippingMethods,
+  type ShippingMethodId,
+} from "@/lib/cart/calculations";
+import {
+  checkoutCartAction,
+  createCustomerAddressAction,
+  listCustomerAddressesAction,
+} from "@/lib/checkout/checkout-actions";
+import { fromCountryCode, fromProvinceCode } from "@/lib/checkout/province";
+import {
+  deliveryRequiresAddress,
+  toApiDeliveryMethod,
+} from "@/lib/checkout/delivery-method";
 import { createPlacedOrder, savePlacedOrder } from "@/lib/checkout/orders";
-import type { CheckoutAddress, CheckoutStep } from "@/lib/checkout/types";
+import type { CheckoutAddress, CheckoutStep, PlacedOrder } from "@/lib/checkout/types";
 import {
   validateCheckoutAddress,
   validatePaymentFields,
@@ -16,6 +33,10 @@ import { CheckoutStepIndicator } from "@/components/storefront/checkout/Checkout
 import { MobileStickyCheckoutBar } from "@/components/storefront/mobile/MobileStickyCheckoutBar";
 import { DeliveryMethodSelect } from "@/components/storefront/checkout/DeliveryMethodSelect";
 import {
+  NEW_SAVED_ADDRESS,
+  SavedAddressPicker,
+} from "@/components/storefront/checkout/SavedAddressPicker";
+import {
   CheckoutGuestBanner,
   ShippingAddressForm,
 } from "@/components/storefront/checkout/ShippingAddressForm";
@@ -23,9 +44,13 @@ import {
   PaymentSection,
   type PaymentFields,
 } from "@/components/storefront/checkout/PaymentSection";
+import {
+  getStripePublishableKey,
+  StripePaymentForm,
+} from "@/components/storefront/checkout/StripePaymentForm";
 import { Button } from "@/components/ui/button";
-import { shippingMethods } from "@/lib/cart/calculations";
 import { formatCad } from "@/lib/utils";
+import type { ApiPublicAddress } from "@/types/api";
 
 const defaultAddress: CheckoutAddress = {
   firstName: "",
@@ -46,12 +71,54 @@ const defaultPayment: PaymentFields = {
   cvc: "",
 };
 
+function postalKey(value: string) {
+  return value.trim().toUpperCase().replace(/\s+/g, "");
+}
+
+function applySavedAddress(
+  current: CheckoutAddress,
+  saved: ApiPublicAddress,
+): CheckoutAddress {
+  return {
+    ...current,
+    streetAddress: saved.line1,
+    city: saved.city,
+    province: fromProvinceCode(saved.province),
+    postalCode: saved.postalCode,
+    country: fromCountryCode(saved.country),
+  };
+}
+
+function matchingSavedAddress(
+  addresses: ApiPublicAddress[],
+  address: CheckoutAddress,
+) {
+  const line1 = address.streetAddress.trim().toLowerCase();
+  const postal = postalKey(address.postalCode);
+  if (!line1 || !postal) return undefined;
+  return addresses.find(
+    (saved) =>
+      saved.line1.trim().toLowerCase() === line1 &&
+      postalKey(saved.postalCode) === postal,
+  );
+}
+
+type PendingStripeCheckout = {
+  orderId: string;
+  orderNumber: number;
+  total: number;
+  clientSecret: string;
+  draft: PlacedOrder;
+};
+
 /** Checkout wizard — Figma `2:1527` */
 export function CheckoutPageContent() {
   const router = useRouter();
-  const { items, isHydrated, clearCart } = useCart();
+  const { customer, isAuthenticated, isHydrated: authHydrated } = useAuth();
+  const { items, isHydrated, isLive, clearCart, discountTotal } = useCart();
   const [step, setStep] = useState<CheckoutStep>("delivery");
-  const [shippingMethodId, setShippingMethodId] = useState<ShippingMethodId>("courier");
+  const [shippingMethodId, setShippingMethodId] =
+    useState<ShippingMethodId>("courier");
   const [address, setAddress] = useState<CheckoutAddress>(defaultAddress);
   const [addressErrors, setAddressErrors] = useState<
     Partial<Record<keyof CheckoutAddress, string>>
@@ -60,21 +127,101 @@ export function CheckoutPageContent() {
   const [paymentErrors, setPaymentErrors] = useState<
     Partial<Record<keyof PaymentFields, string>>
   >({});
+  const [placeError, setPlaceError] = useState<string | null>(null);
+  const [isPlacing, setIsPlacing] = useState(false);
+  const [pendingStripe, setPendingStripe] = useState<PendingStripeCheckout | null>(
+    null,
+  );
   const placingOrderRef = useRef(false);
+  const stripeKey = getStripePublishableKey();
+  const [savedAddresses, setSavedAddresses] = useState<ApiPublicAddress[]>([]);
+  const [addressChoice, setAddressChoice] = useState(NEW_SAVED_ADDRESS);
+  const [addressLoadError, setAddressLoadError] = useState<string | null>(null);
 
-  const summary = computeOrderSummary(items, shippingMethodId);
+  const baseSummary = computeOrderSummary(items, shippingMethodId);
+  const liveDiscount = isLive ? discountTotal : baseSummary.bulkDiscount;
+  const discountedSubtotal = Math.max(0, baseSummary.subtotal - liveDiscount);
+  const tax = (discountedSubtotal + baseSummary.shipping) * ESTIMATED_TAX_RATE;
+  const summary = {
+    ...baseSummary,
+    bulkDiscount: liveDiscount,
+    tax,
+    total: discountedSubtotal + baseSummary.shipping + tax,
+  };
   const shippingLabel =
-    shippingMethods.find((method) => method.id === shippingMethodId)?.label ?? "Courier";
+    shippingMethods.find((method) => method.id === shippingMethodId)?.label ??
+    "Courier";
 
   useEffect(() => {
-    if (!isHydrated) return;
-    if (placingOrderRef.current) return;
+    if (!authHydrated) return;
+    if (!isAuthenticated) {
+      router.replace("/login?returnUrl=/checkout");
+    }
+  }, [authHydrated, isAuthenticated, router]);
+
+  useEffect(() => {
+    if (!customer) return;
+    const parts = customer.fullName.trim().split(/\s+/);
+    setAddress((current) => ({
+      ...current,
+      firstName: current.firstName || parts[0] || "",
+      lastName: current.lastName || parts.slice(1).join(" ") || "",
+      email: current.email || customer.email || "",
+      phone: current.phone || customer.phone || "",
+    }));
+  }, [customer]);
+
+  useEffect(() => {
+    if (!isAuthenticated) return;
+    let cancelled = false;
+    void (async () => {
+      const result = await listCustomerAddressesAction();
+      if (cancelled) return;
+      if (!result.ok) {
+        setAddressLoadError(result.error);
+        setAddressChoice(NEW_SAVED_ADDRESS);
+        return;
+      }
+      setSavedAddresses(result.addresses);
+      const preferred =
+        result.addresses.find((item) => item.isDefault) ?? result.addresses[0];
+      if (!preferred) {
+        setAddressChoice(NEW_SAVED_ADDRESS);
+        return;
+      }
+      setAddressChoice(preferred.id);
+      setAddress((current) => applySavedAddress(current, preferred));
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [isAuthenticated]);
+
+  useEffect(() => {
+    if (!isHydrated || !authHydrated) return;
+    if (placingOrderRef.current || pendingStripe) return;
+    if (!isAuthenticated) return;
     if (items.length === 0) {
       router.replace("/cart");
     }
-  }, [isHydrated, items.length, router]);
+  }, [
+    isHydrated,
+    authHydrated,
+    isAuthenticated,
+    items.length,
+    router,
+    pendingStripe,
+  ]);
 
-  if (!isHydrated || items.length === 0) {
+  if (!authHydrated || !isAuthenticated || !isHydrated) {
+    return (
+      <div className="mx-auto max-w-[1200px] px-4 py-6 lg:px-6 lg:py-10">
+        <div className="h-96 rounded-2xl border border-border bg-card" />
+      </div>
+    );
+  }
+
+  if (items.length === 0 && !pendingStripe) {
     return (
       <div className="mx-auto max-w-[1200px] px-4 py-6 lg:px-6 lg:py-10">
         <div className="h-96 rounded-2xl border border-border bg-card" />
@@ -93,59 +240,157 @@ export function CheckoutPageContent() {
   }
 
   function handleContinueToPayment() {
-    const errors = validateCheckoutAddress(address);
+    const errors = validateCheckoutAddress(address, {
+      requireStreet:
+        deliveryRequiresAddress(shippingMethodId) &&
+        addressChoice === NEW_SAVED_ADDRESS,
+    });
     if (Object.keys(errors).length > 0) {
       setAddressErrors(errors);
       return;
     }
+    setPlaceError(null);
     setStep("payment");
   }
 
   function handleContinueToConfirm() {
-    const errors = validatePaymentFields({
-      cardName: payment.cardName,
-      cardNumber: payment.cardNumber.replace(/\s/g, ""),
-      expiry: payment.expiry,
-      cvc: payment.cvc,
-    });
-    if (Object.keys(errors).length > 0) {
-      setPaymentErrors(errors);
-      return;
+    if (!isLive) {
+      const errors = validatePaymentFields({
+        cardName: payment.cardName,
+        cardNumber: payment.cardNumber.replace(/\s/g, ""),
+        expiry: payment.expiry,
+        cvc: payment.cvc,
+      });
+      if (Object.keys(errors).length > 0) {
+        setPaymentErrors(errors);
+        return;
+      }
     }
+    setPlaceError(null);
     setStep("confirm");
   }
 
-  function handlePlaceOrder() {
-    const cardDigits = payment.cardNumber.replace(/\s/g, "");
-    const order = createPlacedOrder({
-      items,
-      summary,
-      address,
-      shippingMethodId,
-      paymentMethod: "Visa",
-      cardLast4: cardDigits.slice(-4),
-    });
+  function finishPlacedOrder(order: PlacedOrder) {
     placingOrderRef.current = true;
     savePlacedOrder(order);
     clearCart();
+    setPendingStripe(null);
     router.push(`/order/${order.id}/confirmation`);
   }
 
-  const primaryAction =
-    step === "delivery"
-      ? {
-          label: "Continue to Payment",
-          onClick: handleContinueToPayment,
+  async function handlePlaceOrder() {
+    if (isPlacing) return;
+    setPlaceError(null);
+
+    if (!isLive) {
+      const cardDigits = payment.cardNumber.replace(/\s/g, "");
+      const order = createPlacedOrder({
+        items,
+        summary,
+        address,
+        shippingMethodId,
+        paymentMethod: "Visa",
+        cardLast4: cardDigits.slice(-4),
+      });
+      finishPlacedOrder({ ...order, paymentStatus: "paid" });
+      return;
+    }
+
+    setIsPlacing(true);
+
+    let deliveryAddressId: string | undefined;
+    if (deliveryRequiresAddress(shippingMethodId)) {
+      const selected =
+        addressChoice === NEW_SAVED_ADDRESS
+          ? matchingSavedAddress(savedAddresses, address)
+          : savedAddresses.find((item) => item.id === addressChoice);
+      if (selected) {
+        deliveryAddressId = selected.id;
+      } else {
+        const addressResult = await createCustomerAddressAction({
+          label: "Delivery",
+          line1: address.streetAddress,
+          city: address.city,
+          province: address.province,
+          postalCode: address.postalCode,
+          country: address.country,
+          isDefault: savedAddresses.length === 0,
+        });
+        if (!addressResult.ok) {
+          setPlaceError(addressResult.error);
+          setIsPlacing(false);
+          return;
         }
-      : step === "payment"
+        deliveryAddressId = addressResult.address.id;
+      }
+    }
+
+    const checkoutResult = await checkoutCartAction({
+      deliveryMethod: toApiDeliveryMethod(shippingMethodId),
+      deliveryAddressId,
+    });
+
+    if (!checkoutResult.ok) {
+      setPlaceError(checkoutResult.error);
+      setIsPlacing(false);
+      return;
+    }
+
+    const draft: PlacedOrder = {
+      id: checkoutResult.orderId,
+      orderNumber: checkoutResult.orderNumber,
+      createdAt: new Date().toISOString(),
+      items,
+      summary: {
+        ...summary,
+        total: checkoutResult.total || summary.total,
+      },
+      shippingMethodId,
+      address,
+      paymentMethod: "Payment pending",
+      paymentStatus: "pending",
+    };
+
+    if (checkoutResult.clientSecret && stripeKey) {
+      setPendingStripe({
+        orderId: checkoutResult.orderId,
+        orderNumber: checkoutResult.orderNumber,
+        total: checkoutResult.total,
+        clientSecret: checkoutResult.clientSecret,
+        draft,
+      });
+      clearCart();
+      setStep("payment");
+      setIsPlacing(false);
+      return;
+    }
+
+    finishPlacedOrder(draft);
+    setIsPlacing(false);
+  }
+
+  const primaryAction =
+    pendingStripe
+      ? null
+      : step === "delivery"
         ? {
-            label: "Continue to Confirm",
-            onClick: handleContinueToConfirm,
+            label: "Continue to Payment",
+            onClick: handleContinueToPayment,
+            disabled: false,
           }
-        : {
-            label: "Place Order",
-            onClick: handlePlaceOrder,
-          };
+        : step === "payment"
+          ? {
+              label: "Continue to Confirm",
+              onClick: handleContinueToConfirm,
+              disabled: false,
+            }
+          : {
+              label: isPlacing ? "Placing…" : "Place Order",
+              onClick: () => {
+                void handlePlaceOrder();
+              },
+              disabled: isPlacing,
+            };
 
   return (
     <div className="mx-auto max-w-[1200px] px-4 py-6 pb-28 lg:px-6 lg:py-10 lg:pb-10">
@@ -153,20 +398,39 @@ export function CheckoutPageContent() {
 
       <div className="mt-8 grid gap-8 lg:mt-12 lg:grid-cols-[minmax(0,1fr)_400px] lg:items-start lg:gap-10">
         <div className="min-w-0">
-          {step === "delivery" ? (
+          {step === "delivery" && !pendingStripe ? (
             <div className="space-y-8 lg:space-y-10">
               <header>
                 <h1 className="text-2xl font-bold tracking-tight text-foreground lg:text-3xl">
                   Where should we deliver your order?
                 </h1>
                 <div className="mt-4">
-                  <CheckoutGuestBanner />
-                </div>
+              <CheckoutGuestBanner signedIn />
+              </div>
               </header>
+              {deliveryRequiresAddress(shippingMethodId) ? (
+                <SavedAddressPicker
+                  addresses={savedAddresses}
+                  value={addressChoice}
+                  error={addressLoadError}
+                  onChange={(choice) => {
+                    setAddressChoice(choice);
+                    const selected = savedAddresses.find((item) => item.id === choice);
+                    if (selected) {
+                      setAddress((current) => applySavedAddress(current, selected));
+                      setAddressErrors({});
+                    }
+                  }}
+                />
+              ) : null}
               <ShippingAddressForm
                 address={address}
                 errors={addressErrors}
                 onChange={updateAddress}
+                requireStreet={
+                  deliveryRequiresAddress(shippingMethodId) &&
+                  addressChoice === NEW_SAVED_ADDRESS
+                }
               />
               <DeliveryMethodSelect
                 value={shippingMethodId}
@@ -176,14 +440,45 @@ export function CheckoutPageContent() {
           ) : null}
 
           {step === "payment" ? (
-            <PaymentSection
-              fields={payment}
-              errors={paymentErrors}
-              onChange={updatePayment}
-            />
+            pendingStripe && stripeKey ? (
+              <div className="space-y-6">
+                <div>
+                  <h2 className="text-2xl font-bold text-foreground">
+                    Complete payment
+                  </h2>
+                  <p className="mt-2 text-sm text-muted-foreground">
+                    Order #{pendingStripe.orderNumber} ·{" "}
+                    {formatCad(pendingStripe.total)}
+                  </p>
+                </div>
+                {placeError ? (
+                  <p className="text-sm text-primary">{placeError}</p>
+                ) : null}
+                <StripePaymentForm
+                  clientSecret={pendingStripe.clientSecret}
+                  publishableKey={stripeKey}
+                  onSuccess={(cardLast4) => {
+                    finishPlacedOrder({
+                      ...pendingStripe.draft,
+                      paymentMethod: "Card",
+                      cardLast4,
+                      paymentStatus: "paid",
+                    });
+                  }}
+                  onError={(message) => setPlaceError(message)}
+                />
+              </div>
+            ) : (
+              <PaymentSection
+                fields={payment}
+                errors={paymentErrors}
+                onChange={updatePayment}
+                mode={isLive ? "deferred" : "card"}
+              />
+            )
           ) : null}
 
-          {step === "confirm" ? (
+          {step === "confirm" && !pendingStripe ? (
             <div className="space-y-6 lg:space-y-8">
               <header>
                 <h1 className="text-2xl font-bold tracking-tight text-foreground lg:text-3xl">
@@ -201,10 +496,14 @@ export function CheckoutPageContent() {
                   <p className="mt-2 text-foreground">
                     {address.firstName} {address.lastName}
                   </p>
-                  <p className="text-sm text-muted-foreground">
-                    {address.streetAddress}, {address.city}, {address.province}{" "}
-                    {address.postalCode}
-                  </p>
+                  {deliveryRequiresAddress(shippingMethodId) ? (
+                    <p className="text-sm text-muted-foreground">
+                      {address.streetAddress}, {address.city}, {address.province}{" "}
+                      {address.postalCode}
+                    </p>
+                  ) : (
+                    <p className="text-sm text-muted-foreground">Store pickup</p>
+                  )}
                   <p className="text-sm text-muted-foreground">{address.email}</p>
                 </div>
                 <div>
@@ -218,15 +517,31 @@ export function CheckoutPageContent() {
                     Payment
                   </h2>
                   <p className="mt-2 text-foreground">
-                    Credit Card ending in{" "}
-                    {payment.cardNumber.replace(/\s/g, "").slice(-4) || "····"}
+                    {isLive
+                      ? "Secure checkout — card entry appears if Stripe returns a payment intent"
+                      : `Credit Card ending in ${
+                          payment.cardNumber.replace(/\s/g, "").slice(-4) || "····"
+                        }`}
                   </p>
                 </div>
+                {placeError ? (
+                  <p className="text-sm text-primary">{placeError}</p>
+                ) : null}
                 <div className="flex flex-wrap gap-3">
-                  <Button type="button" variant="outline" onClick={() => setStep("delivery")}>
+                  <Button
+                    type="button"
+                    variant="outline"
+                    onClick={() => setStep("delivery")}
+                    disabled={isPlacing}
+                  >
                     Edit Delivery
                   </Button>
-                  <Button type="button" variant="outline" onClick={() => setStep("payment")}>
+                  <Button
+                    type="button"
+                    variant="outline"
+                    onClick={() => setStep("payment")}
+                    disabled={isPlacing}
+                  >
                     Edit Payment
                   </Button>
                 </div>
@@ -236,33 +551,57 @@ export function CheckoutPageContent() {
         </div>
 
         <CheckoutOrderSummary
-          items={items}
-          summary={summary}
+          items={items.length > 0 ? items : pendingStripe?.draft.items ?? []}
+          summary={
+            items.length > 0
+              ? summary
+              : pendingStripe?.draft.summary ?? summary
+          }
           compact
           hideActionOnMobile
           action={
-            <Button
-              type="button"
-              onClick={primaryAction.onClick}
-              className="h-[68px] w-full rounded-xl bg-brand-green text-base font-semibold text-brand-green-foreground hover:bg-brand-green/90"
-            >
-              {primaryAction.label}
-              <ArrowRight className="h-5 w-5" aria-hidden />
-            </Button>
+            primaryAction ? (
+              <Button
+                type="button"
+                onClick={primaryAction.onClick}
+                disabled={primaryAction.disabled}
+                className="h-[68px] w-full rounded-xl bg-brand-green text-base font-semibold text-brand-green-foreground hover:bg-brand-green/90"
+              >
+                {primaryAction.label}
+                <ArrowRight className="h-5 w-5" aria-hidden />
+              </Button>
+            ) : null
           }
           footerNote={
-            step !== "confirm"
-              ? "By proceeding, you agree to our Terms of Service and Privacy Policy. All transactions are secure and encrypted."
-              : `Order total ${formatCad(summary.total)} CAD will be charged to your card.`
+            step !== "confirm" ? (
+              <>
+                By proceeding, you agree to our{" "}
+                <Link href="/terms" className="font-medium text-brand-green hover:underline">
+                  Terms of Service
+                </Link>{" "}
+                and{" "}
+                <Link href="/privacy" className="font-medium text-brand-green hover:underline">
+                  Privacy Policy
+                </Link>
+                . A signed-in account is required to place an order.
+              </>
+            ) : (
+              `Order total ${formatCad(
+                pendingStripe?.total ?? summary.total,
+              )} CAD will be charged when payment is confirmed.`
+            )
           }
         />
       </div>
 
-      <MobileStickyCheckoutBar
-        label={primaryAction.label}
-        total={summary.total}
-        onClick={primaryAction.onClick}
-      />
+      {primaryAction ? (
+        <MobileStickyCheckoutBar
+          label={primaryAction.label}
+          total={summary.total}
+          onClick={primaryAction.onClick}
+          disabled={primaryAction.disabled}
+        />
+      ) : null}
     </div>
   );
 }

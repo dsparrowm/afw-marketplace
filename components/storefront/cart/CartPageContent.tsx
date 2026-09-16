@@ -11,7 +11,7 @@ import { MobileCartPageContent } from "@/components/storefront/mobile/MobileCart
 
 /** Cart page content — Figma `2:1187` */
 export function CartPageContent() {
-  const { items, itemCount, isHydrated } = useCart();
+  const { items, itemCount, isHydrated, cartError } = useCart();
 
   if (!isHydrated) {
     return (
@@ -42,6 +42,12 @@ export function CartPageContent() {
           </span>
         ) : null}
       </header>
+
+      {cartError ? (
+        <p className="mt-4 text-sm text-destructive" role="alert">
+          {cartError}
+        </p>
+      ) : null}
 
       {items.length === 0 ? (
         <div className="mt-10">

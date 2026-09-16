@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { motion, useReducedMotion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { homepageAssets } from "@/lib/brand/assets";
 import { heroContent } from "@/lib/storefront/hero";
@@ -11,6 +14,8 @@ export type HeroSectionProps = {
 
 /** Homepage hero — Figma node `2:8`, 1440×600. Vertical offsets from `hero.xml`. */
 export function HeroSection({ className }: HeroSectionProps) {
+  const reduceMotion = useReducedMotion();
+
   return (
     <section
       className={cn("relative h-[600px] w-full overflow-hidden", className)}
@@ -50,25 +55,44 @@ export function HeroSection({ className }: HeroSectionProps) {
         </p>
 
         <div className="mt-[54px] flex flex-wrap items-center justify-center gap-4">
-          <Button
-            asChild
-            size="lg"
-            className="h-[60px] min-w-[152px] rounded-full px-8 text-base shadow-md shadow-black/25"
+          <motion.div
+            whileHover={
+              reduceMotion
+                ? undefined
+                : { y: -2, boxShadow: "0 12px 24px -8px rgb(0 0 0 / 0.35)" }
+            }
+            whileTap={reduceMotion ? undefined : { scale: 0.98 }}
+            transition={{ duration: 0.18, ease: [0.22, 1, 0.36, 1] }}
           >
-            <Link href={heroContent.primaryCta.href}>
-              {heroContent.primaryCta.label}
-            </Link>
-          </Button>
-          <Button
-            asChild
-            variant="ghost"
-            size="lg"
-            className="h-[62px] min-w-[207px] rounded-full border-0 bg-white/20 px-8 text-base text-white backdrop-blur-md hover:bg-white/30 hover:text-white"
+            <Button
+              asChild
+              size="lg"
+              className="h-[60px] min-w-[152px] rounded-full px-8 text-base shadow-md shadow-black/25"
+            >
+              <Link href={heroContent.primaryCta.href}>
+                {heroContent.primaryCta.label}
+              </Link>
+            </Button>
+          </motion.div>
+          <motion.div
+            whileHover={
+              reduceMotion ? undefined : { y: -2, backgroundColor: "rgba(255,255,255,0.28)" }
+            }
+            whileTap={reduceMotion ? undefined : { scale: 0.98 }}
+            transition={{ duration: 0.18, ease: [0.22, 1, 0.36, 1] }}
+            className="rounded-full"
           >
-            <Link href={heroContent.secondaryCta.href}>
-              {heroContent.secondaryCta.label}
-            </Link>
-          </Button>
+            <Button
+              asChild
+              variant="ghost"
+              size="lg"
+              className="h-[62px] min-w-[207px] rounded-full border-0 bg-white/20 px-8 text-base text-white backdrop-blur-md hover:bg-white/30 hover:text-white"
+            >
+              <Link href={heroContent.secondaryCta.href}>
+                {heroContent.secondaryCta.label}
+              </Link>
+            </Button>
+          </motion.div>
         </div>
       </div>
     </section>

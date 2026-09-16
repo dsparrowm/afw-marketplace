@@ -1,8 +1,16 @@
 import { marketplaceFetch } from "@/lib/api/client";
-import type { ApiCategory, ApiPaginatedResponse } from "@/types/api";
+import type {
+  ApiCategory,
+  ApiPaginatedResponse,
+  CreateCategoryDto,
+} from "@/types/api";
 
-export async function getCategoryTree(): Promise<ApiCategory[]> {
-  return marketplaceFetch<ApiCategory[]>("/admin/categories/tree");
+export async function getCategoryTree(options?: {
+  auth?: boolean | "session" | "machine";
+}): Promise<ApiCategory[]> {
+  return marketplaceFetch<ApiCategory[]>("/admin/categories/tree", {
+    auth: options?.auth ?? true,
+  });
 }
 
 export async function listCategories(params: {
@@ -22,4 +30,14 @@ export async function listCategories(params: {
   return marketplaceFetch<ApiPaginatedResponse<ApiCategory>>(
     `/admin/categories${qs ? `?${qs}` : ""}`,
   );
+}
+
+export async function createCategory(
+  body: CreateCategoryDto,
+): Promise<ApiCategory> {
+  return marketplaceFetch<ApiCategory>("/admin/categories", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
 }

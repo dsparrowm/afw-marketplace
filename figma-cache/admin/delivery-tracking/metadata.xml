@@ -1,0 +1,210 @@
+<frame id="79:348" name="delivery-tracking" x="3866" y="-450" width="1440" height="1024">
+    <frame id="78:248" name="sidebar" x="0" y="0" width="260" height="960">
+      <frame id="78:249" name="sidebar-top" x="16" y="24" width="228" height="428">
+        <frame id="78:250" name="logo-area" x="0" y="0" width="228" height="62">
+          <rounded-rectangle id="78:251" name="image 2" x="8" y="0" width="105" height="62" />
+        </frame>
+        <frame id="78:252" name="nav-rack" x="0" y="90" width="228" height="338">
+          <frame id="78:253" name="nav-item-Overview" x="0" y="0" width="228" height="34">
+            <frame id="78:254" name="layout-grid" x="12" y="8" width="18" height="18" />
+            <text id="78:256" name="Overview" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:257" name="nav-item-Products" x="0" y="38" width="228" height="34">
+            <frame id="78:258" name="archive" x="12" y="8" width="18" height="18" />
+            <text id="78:260" name="Products" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:261" name="nav-item-Inventory" x="0" y="76" width="228" height="34">
+            <frame id="78:262" name="warehouse" x="12" y="8" width="18" height="18" />
+            <text id="78:264" name="Inventory" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:265" name="nav-item-Orders &amp; Delivery" x="0" y="114" width="228" height="34">
+            <frame id="78:266" name="truck-electric" x="12" y="8" width="18" height="18" />
+            <text id="78:268" name="Orders &amp; Delivery" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:269" name="nav-item-Financials" x="0" y="152" width="228" height="34">
+            <frame id="78:270" name="receipt-text" x="12" y="8" width="18" height="18" />
+            <text id="78:272" name="Financials" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:273" name="nav-item-Promotions" x="0" y="190" width="228" height="34">
+            <frame id="78:274" name="percent-square" x="12" y="8" width="18" height="18" />
+            <text id="78:276" name="Promotions" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:277" name="nav-item-Customers" x="0" y="228" width="228" height="34">
+            <frame id="78:278" name="users-2" x="12" y="8" width="18" height="18" />
+            <text id="78:280" name="Customers" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:281" name="nav-item-Access" x="0" y="266" width="228" height="34">
+            <frame id="78:282" name="key-square" x="12" y="8" width="18" height="18" />
+            <text id="78:284" name="Access" x="42" y="8.5" width="174" height="17" />
+          </frame>
+          <frame id="78:285" name="nav-item-Settings" x="0" y="304" width="228" height="34">
+            <frame id="78:286" name="settings" x="12" y="8" width="18" height="18" />
+            <text id="78:288" name="Settings" x="42" y="8.5" width="174" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="78:289" name="sidebar-bottom" x="16" y="834" width="228" height="102">
+        <frame id="78:290" name="help-item" x="0" y="0" width="228" height="34">
+          <frame id="78:291" name="circle-question-mark" x="12" y="8" width="18" height="18" />
+          <text id="78:293" name="Help &amp; Support" x="42" y="8.5" width="174" height="17" />
+        </frame>
+        <line id="78:294" name="Line" x="0" y="42" width="228" height="0" />
+        <frame id="78:295" name="admin-profile" x="0" y="50" width="228" height="52">
+          <rounded-rectangle id="78:296" name="Rectangle" x="8" y="8" width="36" height="36" />
+          <frame id="78:297" name="Frame" x="56" y="10.5" width="136" height="31">
+            <text id="78:298" name="Adaeze Okafor" x="0" y="0" width="136" height="16" />
+            <text id="78:299" name="Super Admin" x="0" y="18" width="136" height="13" />
+          </frame>
+          <frame id="78:300" name="log-out" x="204" y="18" width="16" height="16" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="79:380" name="Frame" x="260" y="0" width="1180" height="1024">
+      <frame id="79:381" name="Frame" x="0" y="0" width="1180" height="72">
+        <frame id="79:382" name="Frame" x="32" y="27.5" width="223" height="17">
+          <frame id="79:383" name="Frame" x="0" y="0" width="45" height="17">
+            <text id="79:384" name="Orders" x="0" y="0" width="45" height="17" />
+          </frame>
+          <frame id="79:385" name="Frame" x="53" y="0" width="92" height="17">
+            <text id="79:386" name="/" x="0" y="0" width="7" height="17" />
+            <text id="79:387" name="AFW-10482" x="15" y="0" width="77" height="17" />
+          </frame>
+          <frame id="79:388" name="Frame" x="153" y="0" width="70" height="17">
+            <text id="79:389" name="/" x="0" y="0" width="7" height="17" />
+            <text id="79:390" name="Delivery" x="15" y="0" width="55" height="17" />
+          </frame>
+        </frame>
+        <frame id="79:391" name="Frame" x="808" y="18" width="340" height="36">
+          <frame id="79:392" name="Frame" x="0" y="0" width="240" height="36">
+            <frame id="79:723" name="search" x="12" y="10" width="16" height="16" />
+            <text id="79:394" name="Search inventory, shipments..." x="36" y="10" width="177" height="16" />
+          </frame>
+          <frame id="79:395" name="Frame" x="256" y="0" width="36" height="36">
+            <frame id="79:735" name="bell" x="9" y="9" width="18" height="18" />
+          </frame>
+          <rounded-rectangle id="79:397" name="Rectangle" x="308" y="2" width="32" height="32" />
+        </frame>
+      </frame>
+      <frame id="79:398" name="Frame" x="0" y="72" width="1180" height="658">
+        <frame id="79:399" name="Frame" x="32" y="32" width="1116" height="55">
+          <frame id="79:400" name="Frame" x="0" y="0" width="397" height="55">
+            <text id="79:401" name="Order #AFW-10482 — Delivery" x="0" y="0" width="397" height="34" />
+            <text id="79:402" name="Fulfillment status and logistics tracking timeline." x="0" y="38" width="308" height="17" />
+          </frame>
+          <frame id="79:403" name="Frame" x="956" y="9" width="160" height="37">
+            <frame id="79:651" name="package" x="16" y="10.5" width="16" height="16" />
+            <text id="79:405" name="Track Shipment" x="40" y="10" width="104" height="17" />
+          </frame>
+        </frame>
+        <frame id="79:406" name="Frame" x="32" y="111" width="1116" height="128">
+          <frame id="79:407" name="Frame" x="0" y="0" width="361.3333435058594" height="128">
+            <text id="79:408" name="Customer Details" x="20" y="20" width="120" height="15" />
+            <frame id="79:409" name="Frame" x="20" y="47" width="321.3333435058594" height="61">
+              <text id="79:410" name="Amara Osei" x="0" y="0" width="90" height="19" />
+              <text id="79:411" name="amara.osei@email.com" x="0" y="23" width="148" height="17" />
+              <text id="79:412" name="+233 24 555 0199" x="0" y="44" width="125" height="17" />
+            </frame>
+          </frame>
+          <frame id="79:413" name="Frame" x="377.3333435058594" y="0" width="361.33331298828125" height="127">
+            <text id="79:414" name="Delivery Method" x="20" y="20" width="115" height="15" />
+            <frame id="79:415" name="Frame" x="20" y="47" width="321.33331298828125" height="60">
+              <text id="79:416" name="DHL Express" x="0" y="0" width="98" height="19" />
+              <text id="79:417" name="International Priority Air" x="0" y="23" width="153" height="17" />
+              <text id="79:418" name="Est. Delivery: Sep 8, 2026" x="0" y="44" width="149" height="16" />
+            </frame>
+          </frame>
+          <frame id="79:419" name="Frame" x="754.6666259765625" y="0" width="361.33331298828125" height="126">
+            <text id="79:420" name="Shipping Address" x="20" y="20" width="116" height="15" />
+            <frame id="79:421" name="Frame" x="20" y="47" width="321.33331298828125" height="59">
+              <text id="79:422" name="14 Independence Ave" x="0" y="0" width="140" height="17" />
+              <text id="79:423" name="Accra, Greater Accra" x="0" y="21" width="133" height="17" />
+              <text id="79:424" name="Ghana" x="0" y="42" width="43" height="17" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="79:425" name="Frame" x="32" y="263" width="1116" height="298">
+          <frame id="79:426" name="Frame" x="24" y="24" width="1068" height="43">
+            <frame id="79:427" name="Frame" x="0" y="0" width="369" height="43">
+              <text id="79:428" name="Courier Dispatch &amp; Live Tracking" x="0" y="0" width="283" height="22" />
+              <text id="79:429" name="Consignment is currently in transit with DHL regional hub." x="0" y="26" width="369" height="17" />
+            </frame>
+            <frame id="79:430" name="Frame" x="1000" y="10" width="68" height="23">
+              <text id="79:431" name="Shipped" x="10" y="4" width="48" height="15" />
+            </frame>
+          </frame>
+          <frame id="79:432" name="Frame" x="24" y="87" width="1068" height="69">
+            <frame id="79:433" name="Frame" x="16" y="16" width="85" height="36">
+              <text id="79:434" name="Carrier" x="0" y="0" width="39" height="15" />
+              <text id="79:435" name="DHL Express" x="0" y="19" width="85" height="17" />
+            </frame>
+            <frame id="79:436" name="Frame" x="141" y="16" width="140" height="37">
+              <text id="79:437" name="Waybill Tracking Number" x="0" y="0" width="139" height="15" />
+              <frame id="79:438" name="Frame" x="0" y="19" width="140" height="18">
+                <text id="79:439" name="DHL-7829301845" x="0" y="0" width="118" height="18" />
+                <frame id="79:678" name="copy" x="126" y="2" width="14" height="14" />
+              </frame>
+            </frame>
+            <frame id="79:441" name="Frame" x="321" y="16" width="149" height="36">
+              <text id="79:442" name="Dispatched At" x="0" y="0" width="79" height="15" />
+              <text id="79:443" name="Sep 5, 2026 at 4:30 PM" x="0" y="19" width="149" height="17" />
+            </frame>
+          </frame>
+          <frame id="79:444" name="Frame" x="24" y="176" width="1068" height="98">
+            <frame id="79:445" name="Frame" x="0" y="12" width="1068" height="28">
+              <frame id="79:446" name="Frame" x="0" y="0" width="346.6666564941406" height="28">
+                <frame id="79:447" name="Frame" x="0" y="0" width="28" height="28">
+                  <frame id="79:645" name="check-circle" x="7" y="7" width="14" height="14" />
+                </frame>
+                <rounded-rectangle id="79:449" name="Rectangle" x="40" y="12" width="306.6666564941406" height="4" />
+              </frame>
+              <frame id="79:450" name="Frame" x="346.6666564941406" y="0" width="346.66668701171875" height="28">
+                <frame id="79:451" name="Frame" x="0" y="0" width="28" height="28">
+                  <frame id="79:648" name="check-circle" x="7" y="7" width="14" height="14" />
+                </frame>
+                <rounded-rectangle id="79:453" name="Rectangle" x="40" y="12" width="306.66668701171875" height="4" />
+              </frame>
+              <frame id="79:454" name="Frame" x="693.3333740234375" y="0" width="346.66668701171875" height="28">
+                <frame id="79:455" name="Frame" x="0" y="0" width="28" height="28">
+                  <ellipse id="79:456" name="Ellipse" x="10" y="10" width="8" height="8" />
+                </frame>
+                <rounded-rectangle id="79:457" name="Rectangle" x="40" y="12" width="306.66668701171875" height="4" />
+              </frame>
+              <frame id="79:458" name="Frame" x="1040" y="0" width="28" height="28">
+                <ellipse id="79:459" name="Ellipse" x="10" y="10" width="8" height="8" />
+              </frame>
+            </frame>
+            <frame id="79:460" name="Frame" x="0" y="52" width="1068" height="34">
+              <frame id="79:461" name="Frame" x="2" y="0" width="180" height="34">
+                <text id="79:462" name="Pending" x="0" y="0" width="56" height="17" />
+                <text id="79:463" name="Sep 4, 10:14 AM" x="0" y="19" width="85" height="15" />
+              </frame>
+              <frame id="79:464" name="Frame" x="297.3333435058594" y="0" width="180" height="34">
+                <text id="79:465" name="Processing" x="0" y="0" width="74" height="17" />
+                <text id="79:466" name="Sep 4, 3:22 PM" x="0" y="19" width="80" height="15" />
+              </frame>
+              <frame id="79:467" name="Frame" x="592.6666870117188" y="0" width="180" height="34">
+                <text id="79:468" name="Shipped" x="0" y="0" width="56" height="17" />
+                <text id="79:469" name="Sep 5, 4:30 PM" x="0" y="19" width="82" height="15" />
+              </frame>
+              <frame id="79:470" name="Frame" x="888" y="0" width="180" height="34">
+                <text id="79:471" name="Delivered" x="0" y="0" width="64" height="17" />
+                <text id="79:472" name="Estimated Sep 8" x="0" y="19" width="90" height="15" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="79:473" name="Frame" x="32" y="585" width="1116" height="41">
+          <frame id="79:474" name="Frame" x="0" y="0" width="164" height="41">
+            <text id="79:475" name="Update Status" x="24" y="12" width="94" height="17" />
+            <frame id="79:642" name="chevron-down" x="126" y="13.5" width="14" height="14" />
+          </frame>
+          <frame id="79:477" name="Frame" x="176" y="0" width="127" height="41">
+            <text id="79:478" name="Add Tracking" x="20" y="12" width="87" height="17" />
+          </frame>
+          <frame id="79:479" name="Frame" x="315" y="0" width="177" height="41">
+            <text id="79:480" name="Save Delivery Details" x="20" y="12" width="137" height="17" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+  </frame>

@@ -9,6 +9,7 @@ import { StorefrontFooter } from "@/components/storefront/StorefrontFooter";
 
 export type StorefrontShellProps = StorefrontHeaderProps & {
   children: React.ReactNode;
+  announcementMessages: string[];
 };
 
 export function StorefrontShell({
@@ -16,10 +17,11 @@ export function StorefrontShell({
   cartItemCount,
   cartTotal,
   isAuthenticated,
+  announcementMessages,
 }: StorefrontShellProps) {
   return (
     <div className="flex min-h-screen flex-col">
-      <AnnouncementBar />
+      <AnnouncementBar messages={announcementMessages} />
       <div className="hidden lg:block">
         <StorefrontHeader
           cartItemCount={cartItemCount}
